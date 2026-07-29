@@ -1,0 +1,168 @@
+#!/usr/bin/env python3
+"""Build VBench-2.0 T2V cases and a reduced standard-evaluation metadata file."""
+
+from __future__ import annotations
+
+import argparse
+import json
+from pathlib import Path
+from typing import Any
+
+
+DEFAULT_DIMENSIONS = [
+    "Human_Anatomy",
+    "Human_Identity",
+    "Mechanics",
+    "Motion_Order_Understanding",
+    "Motion_Rationality",
+    "Multi-View_Consistency",
+    "Complex_Plot",
+]
+REPO_ROOT = Path(__file__).resolve().parents[1]
+DEFAULT_BENCHMARK_ROOT = REPO_ROOT / "benchmarks/vbench2_t2v"
+
+
+def nonempty_lines(path: Path) -> list[str]:
+    return [line.strip() for line in path.read_text(encoding="utf-8").splitlines() if line.strip()]
+
+
+def load_info(path: Path) -> list[dict[str, Any]]:
+    raw = json.loads(path.read_text(encoding="utf-8"))
+    if isinstance(raw, list):
+        return raw
+    if isinstance(raw, dict):
+        return [{"prompt_en": key, **value} for key, value in raw.items()]
+    raise ValueError(f"不支持的 full_info 格式: {path}")
+
+
+def load_manifest(path: Path) -> dict[str, Any]:
+    raw = json.loads(path.read_text(encoding="utf-8"))
+    if not isinstance(raw, dict):
+        raise ValueError(f"benchmark manifest 必须是 JSON 对象: {path}")
+    supported = raw.get("supported_dimensions")
+    if not isinstance(supported, list) or not all(isinstance(item, str) for item in supported):
+        raise ValueError(f"manifest 缺少有效的 supported_dimensions: {path}")
+    return raw
+
+
+def build_cases(args: argparse.Namespace) -> tuple[list[dict[str, Any]], list[dict[str, Any]]]:
+    prompt_root = args.prompt_root.resolve()
+    chinese_root = args.chinese_root.resolve()
+    info = load_info(args.full_info.resolve())
+    dimensions = args.dimensions or DEFAULT_DIMENSIONS
+    cases: list[dict[str, Any]] = []
+    eval_items: list[dict[str, Any]] = []
+    case_number = 1
+
+    for dimension in dimensions:
+        selected = nonempty_lines(args.selected_root / f"{dimension}.txt")
+        all_chinese = nonempty_lines(chinese_root / f"{dimension}.txt")
+        all_english = nonempty_lines(prompt_root / f"{dimension}.txt")
+        if len(all_chinese) != len(all_english):
+            raise ValueError(f"{dimension}: 中英文 prompt 数量不一致")
+        count = args.diversity_samples_per_prompt if dimension == "Diversity" else args.samples_per_prompt
+        seen: set[str] = set()
+        for display_prompt in selected:
+            if display_prompt not in all_chinese:
+                raise ValueError(f"{dimension}: selected prompt 不在官方中文 prompt 中: {display_prompt}")
+            index = all_chinese.index(display_prompt)
+            prompt_en = all_english[index]
+            if prompt_en in seen:
+                raise ValueError(f"{dimension}: prompt 重复: {prompt_en}")
+            seen.add(prompt_en)
+            info_item = next(
+                (item for item in info if item.get("prompt_en") == prompt_en and dimension in item.get("dimension", [])),
+                None,
+            )
+            if info_item is None:
+                raise ValueError(f"找不到 full_info 对应英文 prompt: {prompt_en}")
+            video_paths: list[str] = []
+            for sample_index in range(count):
+                seed = args.seed_base + case_number
+                case_id = f"t2v-{case_number:04d}"
+                case = {
+                    "case_id": case_id,
+                    "dimension": [dimension],
+                    "prompt_input": args.input_language == "en" and prompt_en or display_prompt,
+                    "prompt_eval_en": prompt_en,
+                    "prompt_display": display_prompt,
+                    "sample_index": sample_index,
+                    "seed": seed,
+                    "duration": args.duration,
+                    "fps": args.fps,
+                    "num_frames": args.num_frames or args.duration * args.fps,
+                    "width": args.width,
+                    "height": args.height,
+                }
+                cases.append(case)
+                filename = f"{prompt_en[:180]}-{sample_index}.mp4"
+                video_paths.append(str(Path(args.video_root) / dimension / filename))
+                case_number += 1
+            eval_item = dict(info_item)
+            eval_item["video_list"] = video_paths
+            eval_items.append(eval_item)
+    return cases, eval_items
+
+
+def parse_args() -> argparse.Namespace:
+    benchmark_root = DEFAULT_BENCHMARK_ROOT
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--selected-root", type=Path, default=benchmark_root / "prompts/selected_7x5")
+    parser.add_argument("--prompt-root", type=Path, default=benchmark_root / "prompts/prompt")
+    parser.add_argument("--chinese-root", type=Path, default=benchmark_root / "prompts/prompt_ch/VBench2_ch_prompt")
+    parser.add_argument("--full-info", type=Path, default=benchmark_root / "full_info.json")
+    parser.add_argument("--manifest", type=Path, default=benchmark_root / "manifest.json")
+    parser.add_argument("--output-dir", type=Path, required=True)
+    parser.add_argument("--video-root", type=Path, default=Path("videos"))
+    parser.add_argument("--dimensions", nargs="+")
+    parser.add_argument("--all-dimensions", action="store_true", help="使用 manifest 中的全部官方维度")
+    parser.add_argument("--samples-per-prompt", type=int)
+    parser.add_argument("--diversity-samples-per-prompt", type=int)
+    parser.add_argument("--seed-base", type=int, default=2100000)
+    parser.add_argument("--duration", type=int, default=5)
+    parser.add_argument("--fps", type=int, default=25)
+    parser.add_argument("--num-frames", type=int)
+    parser.add_argument("--width", type=int, default=1280)
+    parser.add_argument("--height", type=int, default=720)
+    parser.add_argument("--input-language", choices=["zh", "en"], default="zh")
+    return parser.parse_args()
+
+
+def main() -> None:
+    args = parse_args()
+    args.selected_root = args.selected_root.resolve()
+    args.prompt_root = args.prompt_root.resolve()
+    args.chinese_root = args.chinese_root.resolve()
+    args.full_info = args.full_info.resolve()
+    args.manifest = args.manifest.resolve()
+    manifest = load_manifest(args.manifest)
+    supported_dimensions = manifest["supported_dimensions"]
+    if args.all_dimensions:
+        if args.dimensions:
+            raise ValueError("--all-dimensions 不能与 --dimensions 同时使用")
+        args.dimensions = supported_dimensions
+        args.selected_root = args.chinese_root
+    selected_dimensions = args.dimensions or DEFAULT_DIMENSIONS
+    unknown_dimensions = sorted(set(selected_dimensions) - set(supported_dimensions))
+    if unknown_dimensions:
+        raise ValueError(f"维度不在 benchmark manifest 中: {unknown_dimensions}")
+    args.dimensions = selected_dimensions
+    if args.samples_per_prompt is None:
+        args.samples_per_prompt = int(manifest.get("samples_per_prompt", 3))
+    if args.diversity_samples_per_prompt is None:
+        args.diversity_samples_per_prompt = int(manifest.get("diversity_samples_per_prompt", 20))
+    if args.samples_per_prompt < 1:
+        raise ValueError("--samples-per-prompt 必须大于 0")
+    if args.diversity_samples_per_prompt < 1:
+        raise ValueError("--diversity-samples-per-prompt 必须大于 0")
+    if args.duration <= 0 or args.fps <= 0 or args.width <= 0 or args.height <= 0:
+        raise ValueError("视频参数必须为正数")
+    cases, eval_items = build_cases(args)
+    args.output_dir.mkdir(parents=True, exist_ok=True)
+    (args.output_dir / "cases.json").write_text(json.dumps(cases, ensure_ascii=False, indent=2), encoding="utf-8")
+    (args.output_dir / "selected_full_info.json").write_text(json.dumps(eval_items, ensure_ascii=False, indent=2), encoding="utf-8")
+    print(f"已生成 {len(cases)} 个 cases、{len(eval_items)} 个 prompt metadata")
+
+
+if __name__ == "__main__":
+    main()

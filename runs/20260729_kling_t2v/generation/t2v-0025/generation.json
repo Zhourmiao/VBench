@@ -1,0 +1,26 @@
+{
+  "case_id": "t2v-0025",
+  "dimension": [
+    "Multi-View_Consistency"
+  ],
+  "prompt_input": "霸王龙，相机环绕镜头",
+  "prompt_eval_en": "The camera orbits around. Trex, the camera circles around.",
+  "prompt_display": "霸王龙，相机环绕镜头",
+  "sample_index": 0,
+  "seed": 2100025,
+  "duration": 10,
+  "fps": 25,
+  "num_frames": 250,
+  "width": 1280,
+  "height": 720,
+  "provider": "kling",
+  "mode": "t2v",
+  "model": "kling-3.0-turbo",
+  "status": "success",
+  "started_at": 1785297651.1504781,
+  "output_video": "/Users/zhouruomiao/Documents/VBench/runs/20260729_kling_t2v/generation/t2v-0025/t2v-0025.mp4",
+  "task_id": "911292791962636321",
+  "video_url": "https://v4-fdl.kechuangai.com/ksc2/3-c8K0k6kjJYUsFTy51J6FdBbJ0ceExsXzlACo5S-HawrVvXhcOkTnDso-ygsf81I5PWjXoUJD9EilbGQkDG1giv4C2dphVsV-5jonH4T055wQ_7t2R2fKTqMrvtJKlktny6uC_tIc7idqBrOx2uKqFV7_-l0SxXC0E7RgYLZy9fDg9D_gUPsIQG_R8OfiDOaPur9qwhaeLJaznFJXKfOQ.mp4?cacheKey=ChtzZWN1cml0eS5rbGluZy5tZXRhX2VuY3J5cHQSsAGXAo1YVue-zb5LuzDj8G7f14mOXqKFhT1ODjvhj_iZ60F0pkLusIPxjNeTfey5fJbQynKM40rCZufcPp7w-phIZoOUNHZc9oVxxMsKdZ4JFuVuQ6jkBPtXnv_X3mXj2i3V8uwnM83F1W2l7dTaCVdbSG8Pm2GoRiSCaZHMCS9DEVBz8C_QnXY6nXp03HTVWDMR-RG0HFUvxxkLaXSnIgJgrgU6f9zKTI8m1cHyQP8G5BoSf6vJMx190TgGD4GP2nZFxCPDIiCyMABMk8rUCq7hBkP0KiCQ39CulgEOGubFBPzmtix1lCgFMAE&x-kcdn-pid=112757&pkey=AAUC5gDz6H4pfnpP64oxEkJiBLAGaTHQSdDUE0HZzO2CgbeJjAnDMrdOSJddnRO9KBFr2tjdWQNJ87USzcMoW7x1XAvajjGmvctFd2-Ak39IMLEiGbhgeeGpUyT4e_Qzrvc",
+  "finished_at": 1785297688.53069,
+  "case_json": "/Users/zhouruomiao/Documents/VBench/runs/20260729_kling_t2v/generation/t2v-0025/case.json"
+}

@@ -1,0 +1,16 @@
+{
+  "case_id": "t2v-0005",
+  "dimension": [
+    "Human_Identity"
+  ],
+  "prompt_input": "一个男人正在打篮球",
+  "prompt_eval_en": "A man is playing basketball.",
+  "prompt_display": "一个男人正在打篮球",
+  "sample_index": 1,
+  "seed": 2100005,
+  "duration": 10,
+  "fps": 16,
+  "num_frames": 250,
+  "width": 640,
+  "height": 640
+}

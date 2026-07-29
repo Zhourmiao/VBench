@@ -1,0 +1,26 @@
+{
+  "case_id": "t2v-0009",
+  "dimension": [
+    "Mechanics"
+  ],
+  "prompt_input": "一个弹力橡胶球被用力滚向墙壁，碰撞后反弹",
+  "prompt_eval_en": "A bouncing rubber ball is rolled forcefully towards a wall, with its dynamic bounce captured as it rebounds off the surface.",
+  "prompt_display": "一个弹力橡胶球被用力滚向墙壁，碰撞后反弹",
+  "sample_index": 0,
+  "seed": 2100009,
+  "duration": 10,
+  "fps": 25,
+  "num_frames": 250,
+  "width": 1280,
+  "height": 720,
+  "provider": "kling",
+  "mode": "t2v",
+  "model": "kling-3.0-turbo",
+  "status": "success",
+  "started_at": 1785296741.315874,
+  "output_video": "/Users/zhouruomiao/Documents/VBench/runs/20260729_kling_t2v/generation/t2v-0009/t2v-0009.mp4",
+  "task_id": "911288975938707459",
+  "video_url": "https://v2-fdl.kechuangai.com/ksc2/hyh79xRmeRVFluK-paLdIaJCr6GFl_Y6LAeSQjaAu6D4y_s_IyAPQJJpcgqQbz0-lbVxlgchiJJtEwFnd55mK1bxqua9Nj8VO4F5whU26Itoi4MBN9HB36_g1Y0BLCqAT8GxwfScYB-iQ7dCbKhlBXAISIRYJGaUZY2Jr4vG721DktJjgo0ZyyBffdeWchewZMPK_3WA70_GGaWgHacTtw.mp4?cacheKey=ChtzZWN1cml0eS5rbGluZy5tZXRhX2VuY3J5cHQSsAG0gGgILahe-DgcldDIU44-jvbasX3y1cHWv3Dyqn_CYWGfYFZQmFSOQDaMYjCzY5kXZbvQbS6Q0toCNqZXTMHz1m6cUU4o08cAA6nIrB4NQfnUVmMxMWVbt1yyuWdd7P15-DwSO9DTOh2Hg9JJRDax98D3PDD5D2mzCqw8p9i_NImdUc96otFqG7W8BAJ6NVwNmxQscZPZ5F6tXOUPPKkxAggrhU6IVhLuk8wxXQn2XBoSqwnSbF-azU9cbKSOb8doGVG2IiD8yhCpxYZZDBWknvERj-ah2Fc9g1mg5VTNI8sujXi1UygFMAE&x-kcdn-pid=112757&pkey=AAVxd3xmkD5hW5mVcCaJj-rpZfLssp8zBPMcr2oZ_Yd2BGOSXoo9ABw7dBu8GeBLQX4gnahfsEuXk7e9TKy5A1n1F1gp80ye9qZ4IFy9mxJF03KmMQ9Y5rfLLRgmyoAeTeU",
+  "finished_at": 1785296773.350403,
+  "case_json": "/Users/zhouruomiao/Documents/VBench/runs/20260729_kling_t2v/generation/t2v-0009/case.json"
+}

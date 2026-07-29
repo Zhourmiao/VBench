@@ -1,0 +1,26 @@
+{
+  "case_id": "t2v-0021",
+  "dimension": [
+    "Multi-View_Consistency"
+  ],
+  "prompt_input": "城堡，相机环绕镜头",
+  "prompt_eval_en": "The camera orbits around. Castle, the camera circles around.",
+  "prompt_display": "城堡，相机环绕镜头",
+  "sample_index": 0,
+  "seed": 2100021,
+  "duration": 10,
+  "fps": 25,
+  "num_frames": 250,
+  "width": 1280,
+  "height": 720,
+  "provider": "kling",
+  "mode": "t2v",
+  "model": "kling-3.0-turbo",
+  "status": "success",
+  "started_at": 1785297440.678881,
+  "output_video": "/Users/zhouruomiao/Documents/VBench/runs/20260729_kling_t2v/generation/t2v-0021/t2v-0021.mp4",
+  "task_id": "911291909199908946",
+  "video_url": "https://v2-fdl.kechuangai.com/ksc2/WrLgmLD72N2DnLhwiktHh7Z9hGfusIzAHiYBYumVAbB4Uf7c671K5AKbT_Xtw4jCZUWUUiga9ag3CMa4f68BPvsOvWYYrC1Aiz5xn44L_2AqmLXonbGJpyQfspyY6vmWX2qobJTLudsYlbkYiPgidpSAc9SdtG_MPf1oGSUN4oJUmIr9WV2ugP6UTEWFR2uTHkehFdHwekvOgHmoh_37PQ.mp4?cacheKey=ChtzZWN1cml0eS5rbGluZy5tZXRhX2VuY3J5cHQSsAE7jqlF8GUhrl3VCEcRTn3fgpPwV99x6U7q-4FUNtenNpDo01rk-BgwIPV2YSA-L9h5eNbCXJkt58eFr1ektYOOF5dRTYyihrtsR4MIGnX4-1NdZptQ2lidflyvvCugGMqOyl9KjUdh2FiZf1WVvW4T4Arjsei2Pc8UaYPUfojF2p9Z4E7c80SOPqoCFUG92of1QFgKIvc_Z9oiu-3s32WLxnrrXGSR_98SvLE57BGmPxoSHs_XK2axmPlM1WFnjCEe17mbIiCs1Z4owtRT2RM6InYDmQZCb4yAfFFwdPnkY7qADgb8YSgFMAE&x-kcdn-pid=112757&pkey=AAVaJ-T9eSPO04kUZTxxt45XoYvuoKe6MVoyHSvVVcTvgsuKIW2S_gIuPiVSNAySISnxrmmbpug4pWz0F6ecXhyQbNWZFRJrvG8Evn1keJ7N_FdINE0_TShUSJ3WnRGEZYs",
+  "finished_at": 1785297535.9495869,
+  "case_json": "/Users/zhouruomiao/Documents/VBench/runs/20260729_kling_t2v/generation/t2v-0021/case.json"
+}

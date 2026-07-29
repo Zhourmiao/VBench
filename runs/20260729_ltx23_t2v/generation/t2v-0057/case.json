@@ -1,0 +1,16 @@
+{
+  "case_id": "t2v-0057",
+  "dimension": [
+    "Motion_Rationality"
+  ],
+  "prompt_input": "一个人正在打开窗户",
+  "prompt_eval_en": "A person is opening the window.",
+  "prompt_display": "一个人正在打开窗户",
+  "sample_index": 2,
+  "seed": 2100057,
+  "duration": 10,
+  "fps": 25,
+  "num_frames": 250,
+  "width": 1280,
+  "height": 720
+}

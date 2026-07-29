@@ -1,0 +1,376 @@
+[
+  {
+    "prompt_en": "A man is doing yoga.",
+    "dimension": [
+      "Human_Identity"
+    ],
+    "video_list": [
+      "videos/prepared/Human_Identity/A man is doing yoga.-0.mp4"
+    ]
+  },
+  {
+    "prompt_en": "A man is playing basketball.",
+    "dimension": [
+      "Human_Identity"
+    ],
+    "video_list": [
+      "videos/prepared/Human_Identity/A man is playing basketball.-0.mp4"
+    ]
+  },
+  {
+    "prompt_en": "A person is drinking a glass of water, then they suddenly start cleaning the windows.",
+    "dimension": [
+      "Human_Identity"
+    ],
+    "video_list": [
+      "videos/prepared/Human_Identity/A person is drinking a glass of water, then they suddenly start cleaning the windows.-0.mp4"
+    ]
+  },
+  {
+    "prompt_en": "A person is sitting at a desk, then they suddenly get up and start doing push-ups.",
+    "dimension": [
+      "Human_Identity"
+    ],
+    "video_list": [
+      "videos/prepared/Human_Identity/A person is sitting at a desk, then they suddenly get up and start doing push-ups.-0.mp4"
+    ]
+  },
+  {
+    "prompt_en": "A person is reading a magazine, then they suddenly get up and start organizing the closet.",
+    "dimension": [
+      "Human_Identity"
+    ],
+    "video_list": [
+      "videos/prepared/Human_Identity/A person is reading a magazine, then they suddenly get up and start organizing the closet.-0.mp4"
+    ]
+  },
+  {
+    "prompt_en": "A metal spoon is gently placed on the surface of a glass of water.",
+    "dimension": [
+      "Mechanics"
+    ],
+    "auxiliary_info": [
+      "Does the metal spoon float on the surface of the water? (yes or no)"
+    ],
+    "video_list": [
+      "videos/prepared/Mechanics/A metal spoon is gently placed on the surface of a glass of water.-0.mp4"
+    ]
+  },
+  {
+    "prompt_en": "A timelapse of a wet sponge being compressed between two hands, with the pressure increasing rapidly.",
+    "dimension": [
+      "Mechanics"
+    ],
+    "auxiliary_info": [
+      "Does the sponge contact with hands? (yes or no)",
+      "Does the sponge be compressed and the water be expelled out of the sponge? (yes or no)"
+    ],
+    "video_list": [
+      "videos/prepared/Mechanics/A timelapse of a wet sponge being compressed between two hands, with the pressure increasing rapidly.-0.mp4"
+    ]
+  },
+  {
+    "prompt_en": "A sharp object slowly presses into the surface of a soft balloon, with the point gradually sinking into the rubber.",
+    "dimension": [
+      "Mechanics"
+    ],
+    "auxiliary_info": [
+      "Does the sharp object contact with balloon? (yes or no)",
+      "Does the balloon pop? (yes or no)"
+    ],
+    "video_list": [
+      "videos/prepared/Mechanics/A sharp object slowly presses into the surface of a soft balloon, with the point gradually sinking into the rubber.-0.mp4"
+    ]
+  },
+  {
+    "prompt_en": "A bouncing rubber ball is rolled forcefully towards a wall, with its dynamic bounce captured as it rebounds off the surface.",
+    "dimension": [
+      "Mechanics"
+    ],
+    "auxiliary_info": [
+      "Does the ball impact the wall? (yes or no)",
+      "Does the ball bounce back? (yes or no)"
+    ],
+    "video_list": [
+      "videos/prepared/Mechanics/A bouncing rubber ball is rolled forcefully towards a wall, with its dynamic bounce captured as it rebounds off the surface.-0.mp4"
+    ]
+  },
+  {
+    "prompt_en": "A water droplet slides down the edge of a smooth sheet of aluminum, maintaining its spherical form",
+    "dimension": [
+      "Mechanics"
+    ],
+    "auxiliary_info": [
+      "Does the water droplet slides down? (yes or no)",
+      "Does the water droplet maintain a spherical shape? (yes or no)"
+    ],
+    "video_list": [
+      "videos/prepared/Mechanics/A water droplet slides down the edge of a smooth sheet of aluminum, maintaining its spherical form-0.mp4"
+    ]
+  },
+  {
+    "prompt_en": "A person is sitting on the couch, then suddenly they get up and start sweeping the floor.",
+    "dimension": [
+      "Motion_Order_Understanding"
+    ],
+    "auxiliary_info": [
+      "sitting",
+      "get up and sweeping"
+    ],
+    "video_list": [
+      "videos/prepared/Motion_Order_Understanding/A person is sitting on the couch, then suddenly they get up and start sweeping the floor.-0.mp4"
+    ]
+  },
+  {
+    "prompt_en": "A bird is perched on a branch, then it suddenly flies down to the ground.",
+    "dimension": [
+      "Motion_Order_Understanding"
+    ],
+    "auxiliary_info": [
+      "perched on a branch",
+      "flying down to the ground"
+    ],
+    "video_list": [
+      "videos/prepared/Motion_Order_Understanding/A bird is perched on a branch, then it suddenly flies down to the ground.-0.mp4"
+    ]
+  },
+  {
+    "prompt_en": "A person is writing an email, then they suddenly get up and start baking cookies.",
+    "dimension": [
+      "Motion_Order_Understanding"
+    ],
+    "auxiliary_info": [
+      "writing an email",
+      "get up and bake cookies"
+    ],
+    "video_list": [
+      "videos/prepared/Motion_Order_Understanding/A person is writing an email, then they suddenly get up and start baking cookies.-0.mp4"
+    ]
+  },
+  {
+    "prompt_en": "A dog is running through the park, then it suddenly starts jumping over logs.",
+    "dimension": [
+      "Motion_Order_Understanding"
+    ],
+    "auxiliary_info": [
+      "running through the park",
+      "jumping over logs"
+    ],
+    "video_list": [
+      "videos/prepared/Motion_Order_Understanding/A dog is running through the park, then it suddenly starts jumping over logs.-0.mp4"
+    ]
+  },
+  {
+    "prompt_en": "A cat is sitting on the windowsill, then it suddenly jumps down and starts exploring the room.",
+    "dimension": [
+      "Motion_Order_Understanding"
+    ],
+    "auxiliary_info": [
+      "sitting on the windowsill",
+      "jumps down and explore the room"
+    ],
+    "video_list": [
+      "videos/prepared/Motion_Order_Understanding/A cat is sitting on the windowsill, then it suddenly jumps down and starts exploring the room.-0.mp4"
+    ]
+  },
+  {
+    "prompt_en": "A person is slurping noodles from a steaming bowl.",
+    "dimension": [
+      "Motion_Rationality"
+    ],
+    "auxiliary_info": [
+      "Does the person appear to be slurping noodles? (yes or no)",
+      "Is the person's mouth in contact with the noodles? (yes or no)",
+      "After slurping, is the amount of noodles visibly reduced? (yes or no)",
+      "Is the bowl of noodles remaining after slurping? (yes or no)"
+    ],
+    "video_list": [
+      "videos/prepared/Motion_Rationality/A person is slurping noodles from a steaming bowl.-0.mp4"
+    ]
+  },
+  {
+    "prompt_en": "A person is pouring olive oil into a frying pan.",
+    "dimension": [
+      "Motion_Rationality"
+    ],
+    "auxiliary_info": [
+      "Does the person appear to be pouring olive oil into the frying pan? (yes or no)",
+      "Is the olive oil in contact with the frying pan? (yes or no)",
+      "Does the amount of olive oil in the frying pan visibly increase? (yes or no)",
+      "Is the oil remaining after pouring? (yes or no)"
+    ],
+    "video_list": [
+      "videos/prepared/Motion_Rationality/A person is pouring olive oil into a frying pan.-0.mp4"
+    ]
+  },
+  {
+    "prompt_en": "A person is walking up the stairs.",
+    "dimension": [
+      "Motion_Rationality"
+    ],
+    "auxiliary_info": [
+      "Does the person appear to be walking up the stairs? (yes or no)",
+      "Is the person moving upward in a consistent direction, rather than staying on the same step or moving downward? (yes or no)",
+      "Does the person’s foot make contact with each stair in a way that suggests natural upward motion? (yes or no)",
+      "Does the person maintain a stable posture and balance while walking up the stairs, without excessive leaning or instability? (yes or no)"
+    ],
+    "video_list": [
+      "videos/prepared/Motion_Rationality/A person is walking up the stairs.-0.mp4"
+    ]
+  },
+  {
+    "prompt_en": "A person is opening the window.",
+    "dimension": [
+      "Motion_Rationality"
+    ],
+    "auxiliary_info": [
+      "Is the person opening the window? (yes or no)",
+      "Is the window closed and intact before being opened? (yes or no)",
+      "Does the person’s hand make contact with the window handle or latch? (yes or no)",
+      "After opening, is the window visibly ajar or fully opened? (yes or no)"
+    ],
+    "video_list": [
+      "videos/prepared/Motion_Rationality/A person is opening the window.-0.mp4"
+    ]
+  },
+  {
+    "prompt_en": "A person is moving the chair.",
+    "dimension": [
+      "Motion_Rationality"
+    ],
+    "auxiliary_info": [
+      "Is the person moving the chair? (yes or no)",
+      "Is the chair stationary or resting in one place before being moved? (yes or no)",
+      "Does the person make physical contact with the chair while moving it? (yes or no)",
+      "After moving, is the chair visibly repositioned or placed in a different location? (yes or no)"
+    ],
+    "video_list": [
+      "videos/prepared/Motion_Rationality/A person is moving the chair.-0.mp4"
+    ]
+  },
+  {
+    "prompt_en": "The camera orbits around. Castle, the camera circles around.",
+    "dimension": [
+      "Multi-View_Consistency"
+    ],
+    "video_list": [
+      "videos/prepared/Multi-View_Consistency/The camera orbits around. Castle, the camera circles around.-0.mp4"
+    ]
+  },
+  {
+    "prompt_en": "The camera orbits around. Machu Picchu, the camera circles around.",
+    "dimension": [
+      "Multi-View_Consistency"
+    ],
+    "video_list": [
+      "videos/prepared/Multi-View_Consistency/The camera orbits around. Machu Picchu, the camera circles around.-0.mp4"
+    ]
+  },
+  {
+    "prompt_en": "The camera orbits around. Chess Piece Queen, the camera circles around.",
+    "dimension": [
+      "Multi-View_Consistency"
+    ],
+    "video_list": [
+      "videos/prepared/Multi-View_Consistency/The camera orbits around. Chess Piece Queen, the camera circles around.-0.mp4"
+    ]
+  },
+  {
+    "prompt_en": "The camera orbits around. Train, the camera circles around.",
+    "dimension": [
+      "Multi-View_Consistency"
+    ],
+    "video_list": [
+      "videos/prepared/Multi-View_Consistency/The camera orbits around. Train, the camera circles around.-0.mp4"
+    ]
+  },
+  {
+    "prompt_en": "The camera orbits around. Trex, the camera circles around.",
+    "dimension": [
+      "Multi-View_Consistency"
+    ],
+    "video_list": [
+      "videos/prepared/Multi-View_Consistency/The camera orbits around. Trex, the camera circles around.-0.mp4"
+    ]
+  },
+  {
+    "prompt_en": "The match began, and Team A quickly organized an attack, breaking through Team B's defense with fast passes. The forward accurately kicked the ball into the goal, taking a 1-0 lead. Team B did not panic; they used a long pass to quickly counterattack. The forward calmly shot past the goalkeeper, and the ball went straight into the net, making it 1-1. At this point, the game entered a stalemate. Both teams' defenses were solid, and the match became a fierce battle. In the second half, Team A had a corner kick. The high ball delivered by the player was headed in by the center-back who jumped high, putting Team A in the lead at 2-1. In the final moments of the game, Team B got a penalty kick. The forward took the shot without hesitation, sending the ball into the net to make it 2-2. Finally, in the last moments of extra time, Team A used a quick counterattack and a long-range shot from outside the box flew straight into the corner, securing the win with a 3-2 score.",
+    "dimension": [
+      "Complex_Plot"
+    ],
+    "auxiliary_info": [
+      "A player from one team quickly organized an attack, breaking through the defense of another team.",
+      "The forward from one team kicked the ball into the goal to take the lead.",
+      "A player from another team used a long pass to counterattack and equalize the score.",
+      "In the second half, one team scored from a corner kick to take the lead again.",
+      "In the final moments, a quick counterattack and long-range shot from one team secured the win."
+    ],
+    "video_list": [
+      "videos/prepared/Complex_Plot/The match began, and Team A quickly organized an attack, breaking through Team B's defense with fast passes. The forward accurately kicked the ball into the goal, taking a 1-0 lead-0.mp4"
+    ]
+  },
+  {
+    "prompt_en": "A brave young girl set off on an adventure to find five ancient artifacts. First, she crossed the desolate desert, finding the endless water bottle with the help of a giant desert turtle. Next, she went to the ancient library, solved the guardian spirit’s riddle, and obtained the book of eternity. She entered the mysterious forest, fought against a giant beast, and earned the heart of the forest. She then climbed the dangerous lightning mountains, passed the god of lightning's trials, and obtained the lightning staff. Lastly, she ventured into the deep underground caves, defeated the underworld guards, and obtained the stone of life. The girl combined all five artifacts, defeated the dark sorcerer, and saved the world.",
+    "dimension": [
+      "Complex_Plot"
+    ],
+    "auxiliary_info": [
+      "The girl found the endless water bottle in the desert with the help of the desert turtle.",
+      "The girl solved the guardian spirit’s riddle in the ancient library and obtained the book.",
+      "The girl defeated a giant beast in the mysterious forest and earned the heart of the forest.",
+      "The girl passed the trials of the god of lightning and obtained the lightning staff.",
+      "The girl defeated the underworld guards and obtained the stone of life to save the world."
+    ],
+    "video_list": [
+      "videos/prepared/Complex_Plot/A brave young girl set off on an adventure to find five ancient artifacts. First, she crossed the desolate desert, finding the endless water bottle with the help of a giant desert -0.mp4"
+    ]
+  },
+  {
+    "prompt_en": "A little girl received a mysterious gift—the ancient time key. She used the key to open a sealed door and entered the time house. On the first day, she found a room filled with books, each with a different story. On the second day, she was taken to an ancient kitchen filled with strange smells, where a kind witch taught her how to make magic cookies that could change the past. On the third day, she found a mirror where her reflection looked completely different, even unrecognizable. On the fourth day, she planted a seed in the secret garden of the time house, and miraculously, it grew into a huge tree overnight. Finally, she discovered that she had always been living in a world unaffected by time, and the time house was her true home.",
+    "dimension": [
+      "Complex_Plot"
+    ],
+    "auxiliary_info": [
+      "The little girl received the ancient time key and opened a sealed door into the time house.",
+      "On the first day, she found a room filled with books, each telling a different story.",
+      "On the second day, she visited an ancient kitchen and learned to make magic cookies from a kind witch.",
+      "On the third day, she found a mirror where her reflection looked completely different.",
+      "On the fourth day, she planted a seed in the secret garden, which grew into a huge tree overnight."
+    ],
+    "video_list": [
+      "videos/prepared/Complex_Plot/A little girl received a mysterious gift—the ancient time key. She used the key to open a sealed door and entered the time house. On the first day, she found a room filled with boo-0.mp4"
+    ]
+  },
+  {
+    "prompt_en": "There was an ancient maze that was said to grant endless wealth to whoever could successfully escape it. To uncover the mystery of his missing father, a young adventurer named Allen decided to enter the maze. On the first level, he met a mysterious cat that told him the maze had five levels, each testing one’s wisdom and courage. Allen successfully passed the first two levels, but on the third level, he encountered an illusion of himself and lost his way. After an awakening moment, he overcame the illusion and successfully passed the remaining two levels. In the end, Allen discovered that the maze’s exit didn’t lead to wealth but to the key to his family’s hidden secrets.",
+    "dimension": [
+      "Complex_Plot"
+    ],
+    "auxiliary_info": [
+      "Allen enters an ancient maze to uncover the mystery of his missing father.",
+      "A mysterious cat tells Allen the maze has five levels, each testing wisdom and courage.",
+      "Allen passes the first two levels but loses his way on the third after encountering an illusion of himself.",
+      "After an awakening moment, Allen overcomes the illusion and passes the remaining two levels.",
+      "Allen discovers the maze’s exit leads to the key to his family’s hidden secrets, not wealth."
+    ],
+    "video_list": [
+      "videos/prepared/Complex_Plot/There was an ancient maze that was said to grant endless wealth to whoever could successfully escape it. To uncover the mystery of his missing father, a young adventurer named Alle-0.mp4"
+    ]
+  },
+  {
+    "prompt_en": "In a forgotten, ancient village, all the clocks had stopped, and time seemed to stand still. The villagers were trapped in a perpetual state of idleness. A young clockmaker named Daniel decided to find the cause and repair the clock tower. He discovered that the heart of the tower’s clock had been stolen by a giant mechanical bird, which hid in an underground palace. Daniel ventured deep into the palace, fighting monsters and avoiding traps, and eventually found the bird and repaired it. By fixing the bird’s mechanism, he restored the flow of time in the village. However, Daniel realized that every time he restored time, a certain memory of the village would be lost. In the end, Daniel chose to sacrifice his own memories to restart time, giving the villagers a new beginning.",
+    "dimension": [
+      "Complex_Plot"
+    ],
+    "auxiliary_info": [
+      "Daniel, a young clockmaker, seeks to fix the clock tower in an ancient village where time has stopped.",
+      "He discovers that a giant mechanical bird has stolen the heart of the clock.",
+      "Daniel ventures into an underground palace, battling monsters and avoiding traps.",
+      "He repairs the bird and restores the flow of time to the village.",
+      "Daniel sacrifices his own memories to restart time and give the villagers a new beginning."
+    ],
+    "video_list": [
+      "videos/prepared/Complex_Plot/In a forgotten, ancient village, all the clocks had stopped, and time seemed to stand still. The villagers were trapped in a perpetual state of idleness. A young clockmaker named D-0.mp4"
+    ]
+  }
+]

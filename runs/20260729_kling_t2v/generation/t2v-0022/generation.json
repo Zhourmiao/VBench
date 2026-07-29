@@ -1,0 +1,26 @@
+{
+  "case_id": "t2v-0022",
+  "dimension": [
+    "Multi-View_Consistency"
+  ],
+  "prompt_input": "马丘比丘，相机环绕镜头",
+  "prompt_eval_en": "The camera orbits around. Machu Picchu, the camera circles around.",
+  "prompt_display": "马丘比丘，相机环绕镜头",
+  "sample_index": 0,
+  "seed": 2100022,
+  "duration": 10,
+  "fps": 25,
+  "num_frames": 250,
+  "width": 1280,
+  "height": 720,
+  "provider": "kling",
+  "mode": "t2v",
+  "model": "kling-3.0-turbo",
+  "status": "success",
+  "started_at": 1785297535.954467,
+  "output_video": "/Users/zhouruomiao/Documents/VBench/runs/20260729_kling_t2v/generation/t2v-0022/t2v-0022.mp4",
+  "task_id": "911292308896100399",
+  "video_url": "https://v2-fdl.kechuangai.com/ksc2/PKZsDYuwhePhJ2tzPK8M00JcHWo6KT7Bsxs06gzgY_eVo9nH2Qxtf05s4SQuMO75ha3jTwgIAyvKSGPYRKJ5CaeDvuPADgZ0z9uS6HeXMjnp4Fj1oCggtmYM5_QoXIZuSrZiUh37k1ZfNTtu3heWYsbqSO6zvxmXNTvHmzrjgBUW_SAwiYpyAD7Jqn8UQdCUYbmXeLWFRKnntOkCsMyulw.mp4?cacheKey=ChtzZWN1cml0eS5rbGluZy5tZXRhX2VuY3J5cHQSsAGtY94SyF2NUV0VAthZGuSiyMvap3exMxzV3O40iPtlsF6B_NdTgtuNvY1T5TkEl8uD70zBArxlVLoIcl1JJdqe-GNbrkejiS92yhl1HTIQIgELKtPV4YoVByqLRDIFWh2nNi97mR0oNEfY1FHIITqdve188jUAwuPI4g_WHEtU-nhgodX5__Ev-NVxddvus4Bdt-9pFOo4xzXfz6lshMdZRKY7fj0-8G_6jQFMBAxIhRoSK9DDR3Zts0AO39BBzVqoebvyIiAU2JsWfJzzisprGWfZGCvKZllSzKRtEmBR7gUMbiBb6CgFMAE&x-kcdn-pid=112757&pkey=AAURpoKj9Ef4Vi6F3FWBIO_fOvajNUo0Ej51BNOUWTyqUlxbpDrg-c4999HIOQO85SfmlN41D1fPkKjpD2yeJjaKB99CMQLxjdkoYayxYCKRKfsMaD7OB0h0TBLbfR_KxJE",
+  "finished_at": 1785297570.424489,
+  "case_json": "/Users/zhouruomiao/Documents/VBench/runs/20260729_kling_t2v/generation/t2v-0022/case.json"
+}

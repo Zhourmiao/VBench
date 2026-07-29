@@ -194,6 +194,40 @@ VBench-2.0/vbench2/third_party/ViTDetector/test_results.json
 VBench-2.0/vbench2/third_party/ViTDetector/log_rank0.txt
 VBench-2.0/scripts/temp.py
 
+# macOS metadata and editor temporary files
+._*
+.DS_Store
+.vscode/
+.idea/
+
+# Experiment artifacts: keep JSON/YAML metadata, ignore large or transient data
+runs/*/generation/**/*.mp4
+runs/*/generation/**/*.avi
+runs/*/generation/**/*.mov
+runs/*/generation/**/*.webm
+runs/*/generation/**/*.part
+runs/*/generation/**/*.log
+runs/*/videos/
+runs/*/evaluation/
+runs/*/cases/images/
+
+# VBench-i2v benchmark image dataset is managed outside Git
+benchmarks/vbench_i2v/images/
+
+# ComfyUI and API runtime artifacts
+comfyui_output/
+comfyui_temp/
+*.part
+*.tmp
+*.swp
+
+# Local model/cache directories
+.cache/
+hf_cache/
+huggingface_cache/
+pretrained_models/
+model_cache/
+
 
 # documentations
 README-pypi.md

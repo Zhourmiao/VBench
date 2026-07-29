@@ -1,0 +1,26 @@
+{
+  "case_id": "t2v-0018",
+  "dimension": [
+    "Motion_Rationality"
+  ],
+  "prompt_input": "一个人正在上楼梯",
+  "prompt_eval_en": "A person is walking up the stairs.",
+  "prompt_display": "一个人正在上楼梯",
+  "sample_index": 0,
+  "seed": 2100018,
+  "duration": 10,
+  "fps": 25,
+  "num_frames": 250,
+  "width": 1280,
+  "height": 720,
+  "provider": "kling",
+  "mode": "t2v",
+  "model": "kling-3.0-turbo",
+  "status": "success",
+  "started_at": 1785297193.820249,
+  "output_video": "/Users/zhouruomiao/Documents/VBench/runs/20260729_kling_t2v/generation/t2v-0018/t2v-0018.mp4",
+  "task_id": "911290873840296032",
+  "video_url": "https://v4-fdl.kechuangai.com/ksc2/LnugK4OXygEjfHZmuGuLbA95k_jlHDn0ly4m0WW5KuV2w79OKUEjVczR5nzoyIqx1ko29A2pJrUcOjOZSkpCUJ57rp95f-l3ES-0O9YSDBgs9NxNFnbf5PM0WGAfNS62ExC4GpUPs8wiX3lCzjtvB6EMIHKQzNbtzhBiiIpBD3aGJA2yWkNzZKc2nNJc1pcNt4RvC5X6GE132IYcLOn4lQ.mp4?cacheKey=ChtzZWN1cml0eS5rbGluZy5tZXRhX2VuY3J5cHQSsAExlYRCqQPL14mzxECG9o1bsZ6qVBGnbI7CYjHiIvzAWoOX_0veUEYQUauV8cd7kDktGCQdEkAP3Wcxz19KmOytHdG-LnIlKYTgY-bwpV4IWoGBlxt5COax60jQ6xyrMxq4E48Sbl1K_uEPzc1dclH_wOcaoZsdTmafIM4dWLp4Qlw4n0wwJUEgvp4bpyfvFWXDTIw3OJz-9C1d610UH7qqynBQoXGFqa7qvHHjaILblRoSsdEjH3N5CFugfV1OmSbeCusDIiCXTM7c23pJK9QubgWXEXChjiLXvSQc4HOUE1pJ1MUqtigFMAE&x-kcdn-pid=112757&pkey=AAUIY6o3sf43_hgQvNAXq-kE_6NuDbMpy4GfBwgTH8K6gmJxL5xDUh4s3DdQA5WcDIHkzSgESdSRsg1WxoUHnUuXq6gigSYQA94UZjHp7viG-B39TJRff9_KxoxLQ5R7adM",
+  "finished_at": 1785297239.582541,
+  "case_json": "/Users/zhouruomiao/Documents/VBench/runs/20260729_kling_t2v/generation/t2v-0018/case.json"
+}

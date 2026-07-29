@@ -1,0 +1,16 @@
+{
+  "case_id": "t2v-0016",
+  "dimension": [
+    "Mechanics"
+  ],
+  "prompt_input": "一把金属勺子被轻轻地放在一个盛满水的杯子上",
+  "prompt_eval_en": "A metal spoon is gently placed on the surface of a glass of water.",
+  "prompt_display": "一把金属勺子被轻轻地放在一个盛满水的杯子上",
+  "sample_index": 0,
+  "seed": 2100016,
+  "duration": 10,
+  "fps": 25,
+  "num_frames": 250,
+  "width": 1280,
+  "height": 720
+}

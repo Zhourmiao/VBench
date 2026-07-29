@@ -1,0 +1,26 @@
+{
+  "case_id": "t2v-0024",
+  "dimension": [
+    "Multi-View_Consistency"
+  ],
+  "prompt_input": "火车，相机环绕镜头",
+  "prompt_eval_en": "The camera orbits around. Train, the camera circles around.",
+  "prompt_display": "火车，相机环绕镜头",
+  "sample_index": 0,
+  "seed": 2100024,
+  "duration": 10,
+  "fps": 25,
+  "num_frames": 250,
+  "width": 1280,
+  "height": 720,
+  "provider": "kling",
+  "mode": "t2v",
+  "model": "kling-3.0-turbo",
+  "status": "success",
+  "started_at": 1785297603.547738,
+  "output_video": "/Users/zhouruomiao/Documents/VBench/runs/20260729_kling_t2v/generation/t2v-0024/t2v-0024.mp4",
+  "task_id": "911292592296824866",
+  "video_url": "https://v2-fdl.kechuangai.com/ksc2/WGQc0JiQ9nDjKWCnhvHzlo0xNVmo44mumDdRxnby3TpDGno6Fgbh1XaHR0C81oLzv4wKPjtTLZaJ4MJWbSW_1x_c8MB1mHP077GI1Tvm3uzmzopZ5nzu9LhTgsdQvcfteUy0oWX1Z4zMmsoyg3OqhIiTU9ol1_4YcIuq2vLNeSoW7WTAgcb2YV-ulHk2qWHaj93V4emtpas8ZbcD3UmWqw.mp4?cacheKey=ChtzZWN1cml0eS5rbGluZy5tZXRhX2VuY3J5cHQSsAEhUeP_5P0LtXcGE7Gx5nLcdj4kqVe_DbNfTie1xHSgHPMhB_j7ngLoUcp8QuC7Bu61C3x7v-JnHMCSTFqAx15XRfzmofOMcR1dGvxiNqrxOQlNVwwWUAwlGzjn9fOhwXvYJIYYWnhcr5OCgbzzeL9HP2_-h6qo5RmEdddQT985kjnxBkTihDuQZHlt34gdQK8B_hAGitRmTLUBGijnUpBeN-yDJhBj_pM9PADHjZ7mBRoSiK-SiyTQu2yvu8rTuMxr8vOaIiDReEddPPzxUTk9rhc8QJnNpEPwHtRi02FSka1ouMMidCgFMAE&x-kcdn-pid=112757&pkey=AAWtdaebDhh-PUgP8xftnJ82iYawoKPTf9fdauveXRpj9J1vE4nXX2jMDFsUryTxsbvMnQ0wO8iKjvaDL920SF2PTNNrHbXsQYcj4K6RLkOAF9iSGB7dIjk0RQ0iCxxOGGs",
+  "finished_at": 1785297651.145509,
+  "case_json": "/Users/zhouruomiao/Documents/VBench/runs/20260729_kling_t2v/generation/t2v-0024/case.json"
+}

@@ -1,0 +1,26 @@
+{
+  "case_id": "t2v-0019",
+  "dimension": [
+    "Motion_Rationality"
+  ],
+  "prompt_input": "一个人正在打开窗户",
+  "prompt_eval_en": "A person is opening the window.",
+  "prompt_display": "一个人正在打开窗户",
+  "sample_index": 0,
+  "seed": 2100019,
+  "duration": 10,
+  "fps": 25,
+  "num_frames": 250,
+  "width": 1280,
+  "height": 720,
+  "provider": "kling",
+  "mode": "t2v",
+  "model": "kling-3.0-turbo",
+  "status": "success",
+  "started_at": 1785297239.587811,
+  "output_video": "/Users/zhouruomiao/Documents/VBench/runs/20260729_kling_t2v/generation/t2v-0019/t2v-0019.mp4",
+  "task_id": "911291065884753965",
+  "video_url": "https://v2-fdl.kechuangai.com/ksc2/r0t8JmM1hwUu_p9Tnh26ISpeq8-GClyRJilpbciQmOjKsvZ5MFMlOE6boKved16IhZ6Wo0nP6QaPigGL32xNZqxEnQmI-6N7ON-Rbmr42GdOkxMtrAth3PlBNxCOvxr29UQNzTl28ZI-bbzbk51vvkS3XkaQus5YLGU8Wta8LwcQPJy8UHl0vDmgyjKDx2kjTehJ-K9WMsAURgcHPBFGxQ.mp4?cacheKey=ChtzZWN1cml0eS5rbGluZy5tZXRhX2VuY3J5cHQSsAFs8yoGOF2vQaNLF9htYNKZMRAT4uTNCJ6Bu87xSzVn8m4hwjGnwld5wW97IByeO7HcQQPjh0vDF0ZWqglZ-AfVEfyIkQl5YuWDmieiEkxwYzwOFIfP86Pbmzn0QZtkiJ-E8zaMyIUQ6QN1lY-sR5S3-B8HDdg_m3CePmdjjqaY70JlU9Bw8tnsHXODXvXsA1LVOZDtg2ZhfuLh3_4-WuoMscbBd_S0Q184XN92RHmdHxoSBJLSFVs3h7NB0bSL9MQcdiMhIiD5O4ygWZEKNCc_BEFMGRXTURt_w1vco9dJV5eb9QKcNygFMAE&x-kcdn-pid=112757&pkey=AAXaVbXjG-mk3lS4nHyuNmPgy_17UmNPvEsLh_ysN0zuEfIHRBulh_KWzwoL5eVecAnT1_795I13tQOh0GyF7B1NTQbprfnYxrvbEOLAGXUh46Kl1rH5rxPMyuV02pTcSJA",
+  "finished_at": 1785297325.536119,
+  "case_json": "/Users/zhouruomiao/Documents/VBench/runs/20260729_kling_t2v/generation/t2v-0019/case.json"
+}

@@ -1,0 +1,26 @@
+{
+  "case_id": "t2v-0001",
+  "dimension": [
+    "Human_Identity"
+  ],
+  "prompt_input": "一个男人正在做瑜伽",
+  "prompt_eval_en": "A man is doing yoga.",
+  "prompt_display": "一个男人正在做瑜伽",
+  "sample_index": 0,
+  "seed": 2100001,
+  "duration": 10,
+  "fps": 25,
+  "num_frames": 250,
+  "width": 1280,
+  "height": 720,
+  "provider": "kling",
+  "mode": "t2v",
+  "model": "kling-3.0-turbo",
+  "status": "success",
+  "started_at": 1785296407.5779378,
+  "output_video": "/Users/zhouruomiao/Documents/VBench/runs/20260729_kling_t2v/generation/t2v-0001/t2v-0001.mp4",
+  "task_id": "911287576257380416",
+  "video_url": "https://v4-fdl.kechuangai.com/ksc2/pFEJYa2366PhuW-Eksk2La-3jHutFYYm2JGdegWmtp74m9PT_TMzH6UHYdCNaTt4NWn01SlNEO6GkzPfscyfGUFmGG6uvodWVEV1Bz4uCzX5sJnE5MAHuZiulFlgGNsgeiL4xis5SBliB_eOO2kQitpOedUeSHP7PAffFP_g4SaW4r2CCkpeI8IGZTrUOtR82_ZltGYyYn_rMz92ue4JUw.mp4?cacheKey=ChtzZWN1cml0eS5rbGluZy5tZXRhX2VuY3J5cHQSsAEcqBdK72g3P6XVKkFAD-4X8brz0Gc_DXf2UKyUx_8hdwNRfHmzRLV14jEeDa9lToDWGjyn_tg4BlTX7-bmxsVtUnrK2YESihWy9wAwQViQxPLwaUVJuHq0xRIt2P4evkUbbKwZ6PvVfV66whjvrw_b_5lIRefaR0v9fdgkoS1bqADyUq96KDVVxAmxmqwKfkqkwG39nB-lcXN5PdooX7bhadaxMMorYX8RU__GTMi5lBoSLL46pEJbTw3u2hySdPDYoj5mIiCREvJYmYFKbMH-l5v0pbLV0T45_jGKyVmV_3yCrCWpESgFMAE&x-kcdn-pid=112757&pkey=AAUrPEvgpEutui3SySwMx5rXwa3lIKou-12qqXfrNv0MwFEvWgFqJ3JPfFCCPYH8ehcPgctIceHTAS7RYIO97rJskOPetr9y1go2R2y-ZHy3Qy3GM_ceyzrwS8-j7GySRLQ",
+  "finished_at": 1785296440.324367,
+  "case_json": "/Users/zhouruomiao/Documents/VBench/runs/20260729_kling_t2v/generation/t2v-0001/case.json"
+}

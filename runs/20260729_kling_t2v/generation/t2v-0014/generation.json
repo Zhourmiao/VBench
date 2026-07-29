@@ -1,0 +1,26 @@
+{
+  "case_id": "t2v-0014",
+  "dimension": [
+    "Motion_Order_Understanding"
+  ],
+  "prompt_input": "一只狗正在公园里奔跑，突然它开始翻越木桩",
+  "prompt_eval_en": "A dog is running through the park, then it suddenly starts jumping over logs.",
+  "prompt_display": "一只狗正在公园里奔跑，突然它开始翻越木桩",
+  "sample_index": 0,
+  "seed": 2100014,
+  "duration": 10,
+  "fps": 25,
+  "num_frames": 250,
+  "width": 1280,
+  "height": 720,
+  "provider": "kling",
+  "mode": "t2v",
+  "model": "kling-3.0-turbo",
+  "status": "success",
+  "started_at": 1785296915.086648,
+  "output_video": "/Users/zhouruomiao/Documents/VBench/runs/20260729_kling_t2v/generation/t2v-0014/t2v-0014.mp4",
+  "task_id": "911289704808083482",
+  "video_url": "https://v4-fdl.kechuangai.com/ksc2/zTlUfLhq3VBRyBWsWTLN1PLRdRDLyV84-HBo17CvuRIf4gPyf7uqsRj_CKTW89IxCL9DWNXBGpedaeUZZppy8JSH2w8ey60pfSE5GpBdwDpAWyXcPsVQlNNsKVnpIiPDDIQzUIsNUUbzIYEic1HWJw8URw7ShBhjKFecyB8tGnB7dsCja-oZpPPRKFJYilAku0oeNDSLongDC-2JRXDWBQ.mp4?cacheKey=ChtzZWN1cml0eS5rbGluZy5tZXRhX2VuY3J5cHQSsAEXlrZ92vee7Mn68YCDKlqUb2Y5zUFNDRwO8osbm_I3KI8_IRarvE8c4SQXahgnUiPubTnheaIQ56_a-Xk69MKyIe6fMsuSIhpgUDEFYER_lN6BaHGyyGLJlcbIudgz-dyxnb2vJlGFFgp1129_aMWIiPdXyvE8s7RBCSUr9_bRbEhdfnXJI3IwocFpBn5F3uqKY0UZvtbzSaoR-VUzybACzPHk-JJIw3pIObIeZOSn_hoSOFvh80_9xnI_XufDmu_AA0PdIiBf-ocszsE9tm51BricEuFsvqdACiyP0sKwcK90c46I4CgFMAE&x-kcdn-pid=112757&pkey=AAXhi3Busgak2C-nq8xBFwJJqyDyjGEq9o-o-nBCKId6vfWJQKSmzzjNvqywL0rySC_8Gaj1_jEqZ13i-wcVkQvcCe7ysNxrcLdeLyPY6DngNT1XimkPj5ksln8hKr7XcnE",
+  "finished_at": 1785296963.462848,
+  "case_json": "/Users/zhouruomiao/Documents/VBench/runs/20260729_kling_t2v/generation/t2v-0014/case.json"
+}

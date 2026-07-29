@@ -1,0 +1,16 @@
+{
+  "case_id": "t2v-0012",
+  "dimension": [
+    "Human_Identity"
+  ],
+  "prompt_input": "一个人正坐在桌子旁，突然这个人站起来开始做俯卧撑",
+  "prompt_eval_en": "A person is sitting at a desk, then they suddenly get up and start doing push-ups.",
+  "prompt_display": "一个人正坐在桌子旁，突然这个人站起来开始做俯卧撑",
+  "sample_index": 2,
+  "seed": 2100012,
+  "duration": 10,
+  "fps": 16,
+  "num_frames": 250,
+  "width": 640,
+  "height": 640
+}

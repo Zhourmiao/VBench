@@ -1,0 +1,21 @@
+name: ltx23_t2v
+template: workflows/comfyui/t2v/ltx23_t2v_api.json
+nodes:
+  - http://110.126.0.52:8181
+  - http://110.126.0.52:8182
+prompt_node: "267:266"
+prompt_input_key: value
+negative_prompt_node: "267:247"
+negative_prompt_input_key: text
+seed_nodes: ["267:216", "267:237"]
+seed_input_key: noise_seed
+width_node: "267:257"
+width_input_key: value
+height_node: "267:258"
+height_input_key: value
+fps_nodes: ["267:260"]
+fps_input_key: value
+duration_node: "267:225"
+duration_input_key: value
+duration_scale: 1
+duration_offset: 0

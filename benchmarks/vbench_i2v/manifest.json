@@ -1,0 +1,21 @@
+{
+  "dataset_id": "vbench_i2v",
+  "type": "image_to_video",
+  "source_code": "source/vbench2_beta_i2v",
+  "full_info": "metadata/vbench2_i2v_full_info.json",
+  "prompts": "prompts",
+  "images": "images",
+  "supported_dimensions": [
+    "i2v_subject",
+    "i2v_background",
+    "camera_motion",
+    "subject_consistency",
+    "background_consistency",
+    "motion_smoothness",
+    "dynamic_degree",
+    "aesthetic_quality",
+    "imaging_quality",
+    "temporal_flickering"
+  ],
+  "samples_per_image_prompt": 5
+}

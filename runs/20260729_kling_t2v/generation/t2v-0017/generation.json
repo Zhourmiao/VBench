@@ -1,0 +1,26 @@
+{
+  "case_id": "t2v-0017",
+  "dimension": [
+    "Motion_Rationality"
+  ],
+  "prompt_input": "一个人正在往煎锅里倒橄榄油",
+  "prompt_eval_en": "A person is pouring olive oil into a frying pan.",
+  "prompt_display": "一个人正在往煎锅里倒橄榄油",
+  "sample_index": 0,
+  "seed": 2100017,
+  "duration": 10,
+  "fps": 25,
+  "num_frames": 250,
+  "width": 1280,
+  "height": 720,
+  "provider": "kling",
+  "mode": "t2v",
+  "model": "kling-3.0-turbo",
+  "status": "success",
+  "started_at": 1785297160.7703612,
+  "output_video": "/Users/zhouruomiao/Documents/VBench/runs/20260729_kling_t2v/generation/t2v-0017/t2v-0017.mp4",
+  "task_id": "911290735407296562",
+  "video_url": "https://v4-fdl.kechuangai.com/ksc2/gxtBPVOZoFXAog3B1dwkGG5FA5QUkZ4AhVJQUXAsmq9YG7eSwMJ0nRJmjIF9I14tmuo51PA8ugFGCagn_HguC0lKgIyYwUlQ0B167clVrKPsJRVTXGsG9DvUCu1uUy7uZKqPRrCFlZEYCyX7UQBnDr7tH6B54ss3GYSeoaNC-oMb8JdZnQOkCOT9uSUq6EvPMVLhtvRKKqOJgFlsodbZGQ.mp4?cacheKey=ChtzZWN1cml0eS5rbGluZy5tZXRhX2VuY3J5cHQSsAFn1uHZ0g4J724hS1A4rsL4pWLqX-yobaRc0CgIaCOB2mghsSmdFcfbpnhfupA2ByFDCEqYVOnu5Z28cKysNXzqFf4YOWA6fF7PdlZO_AjncswzvK4io91XyWxwamyzv8S80aVOcUCNq1ftHXVlalX_yV2LI6kRA-5iYCWhrgG0vHUJMaWAFDbENRitlt34sVBk_lfz-Evicy0U0lTBDafWUzkbO__lpC2VIA5Yqajt-xoSu4b9SEvlSFLKC9ylAQ2baCJIIiCBgDeEsVPuA4vBDuDWVez4Q-M7-29ySEhDxzRMqMRxSigFMAE&x-kcdn-pid=112757&pkey=AAUenGeTSfH3PohlBeBSxAjF--31kWrNby2nE54iyvGce1bpeqoeq7GjIsW-DTIdVRVY84sB4D0TfTr2l3O79cXoa9fKBrUVQrBeWpI5Clf0nrZeCUrER6omXtmJuidwxlo",
+  "finished_at": 1785297193.816709,
+  "case_json": "/Users/zhouruomiao/Documents/VBench/runs/20260729_kling_t2v/generation/t2v-0017/case.json"
+}

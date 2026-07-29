@@ -1,0 +1,26 @@
+name: wan22_t2v
+template: workflows/comfyui/t2v/video_wan2_2_14B_t2v.json
+nodes:
+  - http://110.126.0.52:8181
+  - http://110.126.0.52:8182
+prompt_node: "89"
+prompt_input_key: text
+negative_prompt_node: "72"
+negative_prompt_input_key: text
+seed_nodes: ["81", "78"]
+seed_input_key: noise_seed
+width_node: "74"
+width_input_key: width
+height_node: "74"
+height_input_key: height
+fps_nodes: ["88"]
+fps_input_key: fps
+duration_node: "74"
+duration_input_key: length
+duration_scale: 25
+duration_offset: 1
+prompt_field: prompt_eval_en
+duration: 10
+width: 1280
+height: 720
+fps: 25

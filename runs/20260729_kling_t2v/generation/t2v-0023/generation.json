@@ -1,0 +1,26 @@
+{
+  "case_id": "t2v-0023",
+  "dimension": [
+    "Multi-View_Consistency"
+  ],
+  "prompt_input": "国际象棋中的皇后，相机环绕镜头",
+  "prompt_eval_en": "The camera orbits around. Chess Piece Queen, the camera circles around.",
+  "prompt_display": "国际象棋中的皇后，相机环绕镜头",
+  "sample_index": 0,
+  "seed": 2100023,
+  "duration": 10,
+  "fps": 25,
+  "num_frames": 250,
+  "width": 1280,
+  "height": 720,
+  "provider": "kling",
+  "mode": "t2v",
+  "model": "kling-3.0-turbo",
+  "status": "success",
+  "started_at": 1785297570.428997,
+  "output_video": "/Users/zhouruomiao/Documents/VBench/runs/20260729_kling_t2v/generation/t2v-0023/t2v-0023.mp4",
+  "task_id": "911292453352267823",
+  "video_url": "https://v2-fdl.kechuangai.com/ksc2/IMqk5n9R81LYUULPM2LU-sXSaEyL8gBuZYP2L-slT2JbpmXmKjMGTaIQzXoIUmvuehdii1piDmbRAWHteS6n_gf8DsV4YHwu-JCnUOZXUm-nXA-YWcis3PDznrigqFHmJpwQhNdxUqLq0i2dto1SJ1ML3s22VQkHPIoPdKF4PTvuNCDHEE9FPNOL0L1-HTfK7xckGWSEA--DBN7Fi9x7SA.mp4?cacheKey=ChtzZWN1cml0eS5rbGluZy5tZXRhX2VuY3J5cHQSsAHFVYw9JaEW39oAtJxDlQSWisgXZmHcVuBoPZbMVL6tWKZE-XE7Dwwz0KnKVfcFw1p2CP_ImkqLz-YE3dJZRhx0roaBH5Thy1R66vy6N-VbJIYSECqwnMkfCBoXUKXfV2So0CWxxFGWkoVEfKIY0WqxF8ai-9CKi6gGp31yERNQ2KPLeGoy5vIrCrRVSBfV_JDwSbA2zekKo6sVi2HylcjnfF12jxA9qLJqNqHFyXt_1BoSsdEjH3N5CFugfV1OmSbeCusDIiC1dyODeLzF9JifhFXvQX1NQzPKokKshuQmyoNuNcEBMygFMAE&x-kcdn-pid=112757&pkey=AAUAVrMJ7_SFC9SJqTWNtztD35MhGwFrrXAkMrxikMCJ9WLAl30FNdO5KmaJd5FEqDKnqGZm_k4whhJ9YxL0lUMU3cLSw0pw8qK7bTdJQSckaEl19QzMR2TVYN3WE4XM5sk",
+  "finished_at": 1785297603.544405,
+  "case_json": "/Users/zhouruomiao/Documents/VBench/runs/20260729_kling_t2v/generation/t2v-0023/case.json"
+}

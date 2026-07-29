@@ -1,0 +1,16 @@
+{
+  "case_id": "t2v-0076",
+  "dimension": [
+    "Complex_Plot"
+  ],
+  "prompt_input": "足球比赛开始，A队迅速组织进攻，通过快速传球突破了B队的防线。前锋精准地将球踢入球门，以1-0领先。B队并没有慌乱，他们利用长传快速反击。前锋冷静地射门，足球顺利入网，将比分扳为1-1。此时，比赛进入僵持阶段。双方的防守都很稳固，比赛变成了一场激烈的较量。下半场，A队获得一个角球。球员传出的高球被中后卫高高跃起头球攻入，使A队以2-1领先。在比赛的最后时刻，B队获得一个点球。前锋毫不犹豫地射门，将球送入网中，将比分扳为2-2。最终，在加时赛的最后时刻，A队利用快速反击，一记禁区外的远射直飞球门角落，以3-2锁定胜局",
+  "prompt_eval_en": "The match began, and Team A quickly organized an attack, breaking through Team B's defense with fast passes. The forward accurately kicked the ball into the goal, taking a 1-0 lead. Team B did not panic; they used a long pass to quickly counterattack. The forward calmly shot past the goalkeeper, and the ball went straight into the net, making it 1-1. At this point, the game entered a stalemate. Both teams' defenses were solid, and the match became a fierce battle. In the second half, Team A had a corner kick. The high ball delivered by the player was headed in by the center-back who jumped high, putting Team A in the lead at 2-1. In the final moments of the game, Team B got a penalty kick. The forward took the shot without hesitation, sending the ball into the net to make it 2-2. Finally, in the last moments of extra time, Team A used a quick counterattack and a long-range shot from outside the box flew straight into the corner, securing the win with a 3-2 score.",
+  "prompt_display": "足球比赛开始，A队迅速组织进攻，通过快速传球突破了B队的防线。前锋精准地将球踢入球门，以1-0领先。B队并没有慌乱，他们利用长传快速反击。前锋冷静地射门，足球顺利入网，将比分扳为1-1。此时，比赛进入僵持阶段。双方的防守都很稳固，比赛变成了一场激烈的较量。下半场，A队获得一个角球。球员传出的高球被中后卫高高跃起头球攻入，使A队以2-1领先。在比赛的最后时刻，B队获得一个点球。前锋毫不犹豫地射门，将球送入网中，将比分扳为2-2。最终，在加时赛的最后时刻，A队利用快速反击，一记禁区外的远射直飞球门角落，以3-2锁定胜局",
+  "sample_index": 0,
+  "seed": 2100076,
+  "duration": 10,
+  "fps": 25,
+  "num_frames": 250,
+  "width": 1280,
+  "height": 720
+}

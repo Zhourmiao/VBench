@@ -1,0 +1,26 @@
+{
+  "case_id": "t2v-0015",
+  "dimension": [
+    "Motion_Order_Understanding"
+  ],
+  "prompt_input": "一只猫正坐在窗台上，突然它跳了下来，开始探索房间",
+  "prompt_eval_en": "A cat is sitting on the windowsill, then it suddenly jumps down and starts exploring the room.",
+  "prompt_display": "一只猫正坐在窗台上，突然它跳了下来，开始探索房间",
+  "sample_index": 0,
+  "seed": 2100015,
+  "duration": 10,
+  "fps": 25,
+  "num_frames": 250,
+  "width": 1280,
+  "height": 720,
+  "provider": "kling",
+  "mode": "t2v",
+  "model": "kling-3.0-turbo",
+  "status": "success",
+  "started_at": 1785296963.4666061,
+  "output_video": "/Users/zhouruomiao/Documents/VBench/runs/20260729_kling_t2v/generation/t2v-0015/t2v-0015.mp4",
+  "task_id": "911289907795464225",
+  "video_url": "https://v2-fdl.kechuangai.com/ksc2/CkfoDBwKcvz-UCe8wiMKQqrmkms-8MMIoW4726xr92O2_XITAOYTG63phFPzrAfT8uOT_3XqDdz561ylKHnI_DP7-dcPiZ3fHwVuOcYoA9HFLhKs3mk4Rg22-fUC54FHwIRuiPSJ8eDQcbqkMIN-_st0MFppGavn5_wPxecTRzQaW-z5TBIkkq6AzfPbr4FRPuZfb6vOoSaoQ3NFlPFF0Q.mp4?cacheKey=ChtzZWN1cml0eS5rbGluZy5tZXRhX2VuY3J5cHQSsAFvugD-q69lFeD7RGFcneqIY_xsEaZxbtobPS4CeyHh0U3BK92rV_Zl-XnggxA9UpgrmV8CGdfXFoQ9z7hBWnsgMbq5nVu61hMxBDlHvcWR4ZIQiuzwKW6_l00QlUMzkA92kXcdv9q_wNuHhCc05W01I0bBL06mJO_Jb_uXcCz_PP_FuV0cWb68IEaUCxPzHk3hWD8Vdx2A9U9yZsWAJE0LhXTR_oqGJ-A769gH9aSElxoSi9mNAwk6ykvhH5T-Qr88Ouz0IiBIo5bOh4-8vDtWBgH4JmDYpfWOy0wtK0WGKS_0b4dpWCgFMAE&x-kcdn-pid=112757&pkey=AAXGIpgp4UvXPyo8AP0WarvuZMtUjWqGWdRQHNs8-V8IAi2ZkGGS2EBJI-QSyERd59M-A6g-4gJHiugVAJNdhdZTXZKkBsdr1z1xK_UcYOaF8NWDW_MUez1RpSGbOYe8xCA",
+  "finished_at": 1785297058.138495,
+  "case_json": "/Users/zhouruomiao/Documents/VBench/runs/20260729_kling_t2v/generation/t2v-0015/case.json"
+}

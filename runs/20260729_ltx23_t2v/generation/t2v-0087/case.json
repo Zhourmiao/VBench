@@ -1,0 +1,16 @@
+{
+  "case_id": "t2v-0087",
+  "dimension": [
+    "Complex_Plot"
+  ],
+  "prompt_input": "有一个古老的迷宫，据说任何能够成功逃脱的人都能获得无尽的财富。为了揭开失踪父亲的谜团，一位名叫艾伦的年轻冒险家决定进入迷宫。在第一层，他遇到了一只神秘的猫，猫告诉他迷宫有五层，每一层都考验一个人的智慧和勇气。艾伦成功通过了前两层，但在第三层，他遇到了自己的幻影并迷失了方向。在一次觉醒后，他克服了幻影，成功通过了剩下的两层。最终，艾伦发现迷宫的出口并没有通向财富，而是通向了他家族隐藏秘密的钥匙",
+  "prompt_eval_en": "There was an ancient maze that was said to grant endless wealth to whoever could successfully escape it. To uncover the mystery of his missing father, a young adventurer named Allen decided to enter the maze. On the first level, he met a mysterious cat that told him the maze had five levels, each testing one’s wisdom and courage. Allen successfully passed the first two levels, but on the third level, he encountered an illusion of himself and lost his way. After an awakening moment, he overcame the illusion and successfully passed the remaining two levels. In the end, Allen discovered that the maze’s exit didn’t lead to wealth but to the key to his family’s hidden secrets.",
+  "prompt_display": "有一个古老的迷宫，据说任何能够成功逃脱的人都能获得无尽的财富。为了揭开失踪父亲的谜团，一位名叫艾伦的年轻冒险家决定进入迷宫。在第一层，他遇到了一只神秘的猫，猫告诉他迷宫有五层，每一层都考验一个人的智慧和勇气。艾伦成功通过了前两层，但在第三层，他遇到了自己的幻影并迷失了方向。在一次觉醒后，他克服了幻影，成功通过了剩下的两层。最终，艾伦发现迷宫的出口并没有通向财富，而是通向了他家族隐藏秘密的钥匙",
+  "sample_index": 2,
+  "seed": 2100087,
+  "duration": 10,
+  "fps": 25,
+  "num_frames": 250,
+  "width": 1280,
+  "height": 720
+}

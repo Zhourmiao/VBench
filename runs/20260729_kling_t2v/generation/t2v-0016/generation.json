@@ -1,0 +1,26 @@
+{
+  "case_id": "t2v-0016",
+  "dimension": [
+    "Motion_Rationality"
+  ],
+  "prompt_input": "一个人正在从热气腾腾的碗里吸溜面条",
+  "prompt_eval_en": "A person is slurping noodles from a steaming bowl.",
+  "prompt_display": "一个人正在从热气腾腾的碗里吸溜面条",
+  "sample_index": 0,
+  "seed": 2100016,
+  "duration": 10,
+  "fps": 25,
+  "num_frames": 250,
+  "width": 1280,
+  "height": 720,
+  "provider": "kling",
+  "mode": "t2v",
+  "model": "kling-3.0-turbo",
+  "status": "success",
+  "started_at": 1785297058.141282,
+  "output_video": "/Users/zhouruomiao/Documents/VBench/runs/20260729_kling_t2v/generation/t2v-0016/t2v-0016.mp4",
+  "task_id": "911290304878776385",
+  "video_url": "https://v2-fdl.kechuangai.com/ksc2/AxvU_7EkexXkA5qCjK0JK4eUuZJX231QfqTWuvAqkH41IT4U_KB8ABbHYixWNNUygmNPpMLApKm1KGCdqvl6MNt8z404pCouxoNoykAXDmlnexCj7SA9CShYkiEjJ02YqOdWj7_B3CSp1LcWVfbZayCqnP-eNfeU-qisH5vNhuus0DuW5m4H2AVBMQdtaaEHJDxFr18Lc1vq64ST5MStYQ.mp4?cacheKey=ChtzZWN1cml0eS5rbGluZy5tZXRhX2VuY3J5cHQSsAFJvFQItc6cBj-U2JhJYQQTKq2U9yjLkFdbgNsfrSzD3LqgWt9oi7De13An1OnN6MHRcPLpyc_eOQlDN6n-P_DxyWPjPLP_hPIM3BSVZB93apw5a23WX9ynym9x00xW0z7mrI1fwy7_WhsE_uj4JuEjMqJIqj7VJMFOVYA1Q_BIDfI0cmdIvc4HKnpwflQz0JneqkWsMNbFhNSJrMcsoh32xCeJ1lbkpdMqExyKqigyZxoSNzwANz7xQHQ1n3QnpfpV26ryIiD7bndioa7XL9Q-pchDCleufbMzVvpt_DGJteq3nImC0ygFMAE&x-kcdn-pid=112757&pkey=AAXwVxXjGtn7JwWMzbBVn9XRqvraJMpt0ZQ_M0nbdG6wapkOSFaRmt-4Z61iUEyTXF9lv2lxMPE6y3VBAtCJORq2IIm5xiWvnzPiq4GbjBAzkoLYI9tbaveZ1NE66UKR_Q4",
+  "finished_at": 1785297160.7677598,
+  "case_json": "/Users/zhouruomiao/Documents/VBench/runs/20260729_kling_t2v/generation/t2v-0016/case.json"
+}

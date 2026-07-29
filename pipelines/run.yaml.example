@@ -1,0 +1,18 @@
+run_id: 20260722_ltx23_t2v_7x5
+benchmark: vbench2
+dataset: vbench2_t2v_selected_7x5
+workflow: ltx2_3_t2v
+videos_root: videos/prepared
+full_info: cases/selected_full_info.json
+evaluation_root: evaluation
+dimensions:
+  - Human_Anatomy
+  - Human_Identity
+  - Mechanics
+  - Motion_Order_Understanding
+  - Motion_Rationality
+  - Multi-View_Consistency
+  - Complex_Plot
+mode: vbench_standard
+load_ckpt_from_local: true
+read_frame: false

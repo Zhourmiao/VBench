@@ -1,0 +1,16 @@
+{
+  "case_id": "t2v-0089",
+  "dimension": [
+    "Complex_Plot"
+  ],
+  "prompt_input": "在一个被遗忘的古老村庄里，所有的钟都停了，时间仿佛静止不动。村民们被困在永恒的闲散状态中。一位年轻的钟表匠名叫丹尼尔，决定找出原因并修复钟楼。他发现钟楼的核心部件被一只巨大的机械鸟偷走了，而这只鸟藏在地下宫殿中。丹尼尔深入宫殿，打怪兽、避陷阱，最终找到了那只鸟并修复了它。通过修复鸟的机制，他恢复了村庄的时间流动。然而，丹尼尔意识到，每次他恢复时间，村庄的一段记忆就会消失。最终，丹尼尔选择牺牲自己的记忆来重启时间，为村民们带来一个新的开始",
+  "prompt_eval_en": "In a forgotten, ancient village, all the clocks had stopped, and time seemed to stand still. The villagers were trapped in a perpetual state of idleness. A young clockmaker named Daniel decided to find the cause and repair the clock tower. He discovered that the heart of the tower’s clock had been stolen by a giant mechanical bird, which hid in an underground palace. Daniel ventured deep into the palace, fighting monsters and avoiding traps, and eventually found the bird and repaired it. By fixing the bird’s mechanism, he restored the flow of time in the village. However, Daniel realized that every time he restored time, a certain memory of the village would be lost. In the end, Daniel chose to sacrifice his own memories to restart time, giving the villagers a new beginning.",
+  "prompt_display": "在一个被遗忘的古老村庄里，所有的钟都停了，时间仿佛静止不动。村民们被困在永恒的闲散状态中。一位年轻的钟表匠名叫丹尼尔，决定找出原因并修复钟楼。他发现钟楼的核心部件被一只巨大的机械鸟偷走了，而这只鸟藏在地下宫殿中。丹尼尔深入宫殿，打怪兽、避陷阱，最终找到了那只鸟并修复了它。通过修复鸟的机制，他恢复了村庄的时间流动。然而，丹尼尔意识到，每次他恢复时间，村庄的一段记忆就会消失。最终，丹尼尔选择牺牲自己的记忆来重启时间，为村民们带来一个新的开始",
+  "sample_index": 1,
+  "seed": 2100089,
+  "duration": 10,
+  "fps": 25,
+  "num_frames": 250,
+  "width": 1280,
+  "height": 720
+}

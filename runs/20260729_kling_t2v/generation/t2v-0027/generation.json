@@ -1,0 +1,26 @@
+{
+  "case_id": "t2v-0027",
+  "dimension": [
+    "Complex_Plot"
+  ],
+  "prompt_input": "一个勇敢的年轻女孩踏上了一次冒险之旅，寻找五件古代神器。首先，她穿越了荒凉的沙漠，在一只巨大的沙漠龟的帮助下找到了无尽水瓶。接着，她来到古老的图书馆，解开了守护灵的谜题，获得了永恒之书。她进入神秘的森林，与巨兽搏斗，赢得了森林之心。然后，她攀登危险的雷电山，通过了雷神的试炼，得到了雷电法杖。最后，她深入地下洞穴，击败了冥界守卫，获得了生命之石。女孩将五件神器结合起来，打败了黑暗巫师，拯救了世界",
+  "prompt_eval_en": "A brave young girl set off on an adventure to find five ancient artifacts. First, she crossed the desolate desert, finding the endless water bottle with the help of a giant desert turtle. Next, she went to the ancient library, solved the guardian spirit’s riddle, and obtained the book of eternity. She entered the mysterious forest, fought against a giant beast, and earned the heart of the forest. She then climbed the dangerous lightning mountains, passed the god of lightning's trials, and obtained the lightning staff. Lastly, she ventured into the deep underground caves, defeated the underworld guards, and obtained the stone of life. The girl combined all five artifacts, defeated the dark sorcerer, and saved the world.",
+  "prompt_display": "一个勇敢的年轻女孩踏上了一次冒险之旅，寻找五件古代神器。首先，她穿越了荒凉的沙漠，在一只巨大的沙漠龟的帮助下找到了无尽水瓶。接着，她来到古老的图书馆，解开了守护灵的谜题，获得了永恒之书。她进入神秘的森林，与巨兽搏斗，赢得了森林之心。然后，她攀登危险的雷电山，通过了雷神的试炼，得到了雷电法杖。最后，她深入地下洞穴，击败了冥界守卫，获得了生命之石。女孩将五件神器结合起来，打败了黑暗巫师，拯救了世界",
+  "sample_index": 0,
+  "seed": 2100027,
+  "duration": 10,
+  "fps": 25,
+  "num_frames": 250,
+  "width": 1280,
+  "height": 720,
+  "provider": "kling",
+  "mode": "t2v",
+  "model": "kling-3.0-turbo",
+  "status": "success",
+  "started_at": 1785306998.260797,
+  "output_video": "/Users/zhouruomiao/Documents/VBench/runs/20260729_kling_t2v/generation/t2v-0027/t2v-0027.mp4",
+  "task_id": "911331996470255645",
+  "video_url": "https://v4-fdl.kechuangai.com/ksc2/S5V2WTVNE2ai9FwWthQ7JScEqZN0ior41OL4XiELkQN-Fsq_fy7C2_d3QVwlI9whM9lOpRMRO3WIwjJPreGm5uc8rZdt7SMEZR13lJLXyNSUxclUfRCRHStKIFge7iwI2jIRzuLikMkEV8dAmVWez63JhoIqSnwJb8vTNoyCUsro-_yv6fx1_m78L9lba6lg_P89Udii-lPcnl8ZsOqq7Q.mp4?cacheKey=ChtzZWN1cml0eS5rbGluZy5tZXRhX2VuY3J5cHQSsAEa75gvrf_Dy_idHjPjRP6xRDt5dLPg3QJUwrr83vnBhwK1A1v2CdhdKActyNuybJG2koDS0BFJwzBpYaeGqALcmdPCbWS2frMAe4EPGSqbpYzJ-EvhNe1TyQpKZWcuhE6sbvdbtAiGHDuK7nbtEAVxpH47c5FPCJhU3E8q0ygj_esca_FjsR36_F-FDdxmfQ4EUWxeXNxh6in9pLlI7W43CDjDST3-xLDPAYg-5M3R_RoSNzwANz7xQHQ1n3QnpfpV26ryIiAr3UskmnP7w-t_UPfaTw63AZgRFBdGmYVKAqAci_jmQCgFMAE&x-kcdn-pid=112757&pkey=AAWOEPQZ4eEC-3KOfQ2ndEV4OEC9uipSAh6VvXAJSQ5q01ssoEfVLzsI_Uewgad51flMZ50xMu0AwVG7tJlOe3hvyu7GUk_4W_qKZX2AmG4QQQlZl2-LuIfNCvT-UfBFJSM",
+  "finished_at": 1785307109.932693,
+  "case_json": "/Users/zhouruomiao/Documents/VBench/runs/20260729_kling_t2v/generation/t2v-0027/case.json"
+}

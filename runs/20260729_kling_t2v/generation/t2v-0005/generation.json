@@ -1,0 +1,26 @@
+{
+  "case_id": "t2v-0005",
+  "dimension": [
+    "Human_Identity"
+  ],
+  "prompt_input": "一个人正在看杂志，突然这个人起身开始整理衣柜",
+  "prompt_eval_en": "A person is reading a magazine, then they suddenly get up and start organizing the closet.",
+  "prompt_display": "一个人正在看杂志，突然这个人起身开始整理衣柜",
+  "sample_index": 0,
+  "seed": 2100005,
+  "duration": 10,
+  "fps": 25,
+  "num_frames": 250,
+  "width": 1280,
+  "height": 720,
+  "provider": "kling",
+  "mode": "t2v",
+  "model": "kling-3.0-turbo",
+  "status": "success",
+  "started_at": 1785296577.650267,
+  "output_video": "/Users/zhouruomiao/Documents/VBench/runs/20260729_kling_t2v/generation/t2v-0005/t2v-0005.mp4",
+  "task_id": "911288289473753104",
+  "video_url": "https://v2-fdl.kechuangai.com/ksc2/ywk9nAQqE0Lfo9Pj1rZ2okgbVpzsCxfgTCZd7ToYcjex7ymkTxMA7nFOJmttnYPPd4JR6K84z0foncrgDhm1EizjHsvrVtP6GwyhO0PNFuxQkgP7dyYwughmojL70g13oUF0biW3h2X8pWzxnAekQ13FqPj4Vtb_OYgyq8DHyE8Yi--SFbBHSvMWn4HHgh2eQG8t9fX6wJ8b9WVjARDihg.mp4?cacheKey=ChtzZWN1cml0eS5rbGluZy5tZXRhX2VuY3J5cHQSsAH2R8Pe3io9c-6SXXWyFOW3rkQXH0B3WYyp3IYPx7yT0f3uK3txbPxlYBx_qXFX8kKcDDfcGRhL0VEfqyB_Hv4WYK0_Enc_Lm-NCGYC6nGd8AFue3E4dsPmbHxm0OkO1saMYIhnW6GtZmlBNyXFWP8JXEpr-lI1q1B1L4xpf53l0xWj1SPu6QBxOvroj0ZV49_0ggF0LOYRlepzLHnAGPx5vGIHuDtdwQ82DdZC5XX8WhoSHs_XK2axmPlM1WFnjCEe17mbIiC5i6K7pFFD2L7ckPBkW_a5zEYALRtpOPPQWLgC2g8_qygFMAE&x-kcdn-pid=112757&pkey=AAWpUh07njGSBNfwQZeImfoVQm4Aelz7dUJkB5noy4XLcG-Qgz-annUDOuZg-Acp8f7EhS5beuuMUImXGkO7CNVWK9t5h4WGqnxIu8oxgbrGvcxl65yWj3T0RaoXBfE7ixE",
+  "finished_at": 1785296620.463076,
+  "case_json": "/Users/zhouruomiao/Documents/VBench/runs/20260729_kling_t2v/generation/t2v-0005/case.json"
+}

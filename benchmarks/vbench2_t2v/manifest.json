@@ -1,0 +1,29 @@
+{
+  "dataset_id": "vbench2_t2v",
+  "type": "text_to_video",
+  "source_code": "source/VBench-2.0",
+  "full_info": "full_info.json",
+  "prompts": "prompts",
+  "supported_dimensions": [
+    "Human_Anatomy",
+    "Human_Identity",
+    "Human_Clothes",
+    "Diversity",
+    "Composition",
+    "Dynamic_Spatial_Relationship",
+    "Dynamic_Attribute",
+    "Motion_Order_Understanding",
+    "Human_Interaction",
+    "Complex_Landscape",
+    "Complex_Plot",
+    "Camera_Motion",
+    "Motion_Rationality",
+    "Instance_Preservation",
+    "Mechanics",
+    "Thermotics",
+    "Material",
+    "Multi-View_Consistency"
+  ],
+  "samples_per_prompt": 3,
+  "diversity_samples_per_prompt": 20
+}

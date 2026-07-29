@@ -1,0 +1,26 @@
+{
+  "case_id": "t2v-0003",
+  "dimension": [
+    "Human_Identity"
+  ],
+  "prompt_input": "一个人正在喝水，突然这个人开始擦窗户",
+  "prompt_eval_en": "A person is drinking a glass of water, then they suddenly start cleaning the windows.",
+  "prompt_display": "一个人正在喝水，突然这个人开始擦窗户",
+  "sample_index": 0,
+  "seed": 2100003,
+  "duration": 10,
+  "fps": 25,
+  "num_frames": 250,
+  "width": 1280,
+  "height": 720,
+  "provider": "kling",
+  "mode": "t2v",
+  "model": "kling-3.0-turbo",
+  "status": "success",
+  "started_at": 1785296499.863404,
+  "output_video": "/Users/zhouruomiao/Documents/VBench/runs/20260729_kling_t2v/generation/t2v-0003/t2v-0003.mp4",
+  "task_id": "911287963236438049",
+  "video_url": "https://v4-fdl.kechuangai.com/ksc2/Ec2tnipkljnpGhrkkjxIyaHmxwpEcEmHgq6RiG9bleQmjvUcUgXUgSZ-Y0jwxH_x04Wr0VZJgs_rS0GfK5hGJ6cmiBRKQKLipj-_gV-S8w8Hepf4FtoIhCoZOG2MMYoCklfvePBf48bmmibiSE_v2S55AoUGeB70mSRunUOPJ6wTjGcT4fw45DEc_nt4VpNx9HZ6dYW7tQa8cWVuHzvOFQ.mp4?cacheKey=ChtzZWN1cml0eS5rbGluZy5tZXRhX2VuY3J5cHQSsAGPW0VFBM-25VOnX-8I3z1NkZm64d94IbmD6tz-yc-pJ9rr0jjDzYv52OnwQjTJSoXesAP2x1KeUJ_QBJnBwH-2RqTt135diOQ-oiFtH-n1ZggjqjrGMVhkcm-tk5Gk6EroFLsx09ilGB7Ukx535UMKH-1oRITsLWc53flvbCR6kTCILXN96qYLA7dMyUuxGjNoJbRQ4nfrmO4cV8grKorycFs48EA6XfXH00Pk8xIVFBoSMiIwzDkRLkXJDo0Gm30rVg5KIiDj4OqkqohNVsYv7_wnUhjTzKzm6yIwqmnxxkNjRoj0vygFMAE&x-kcdn-pid=112757&pkey=AAWhWe01gbDbR-RbNmz1yeLFM210j-Mdjq-Z3uOfBMFHyD2hP1Z9yBFOUkvE0_aAvrbSfrBzeDx5OPcRpuQAJdwD9UCSKK8sj9RW_Ub3enq1pVRdHBCkhebqXqdGfOJbVGk",
+  "finished_at": 1785296533.403785,
+  "case_json": "/Users/zhouruomiao/Documents/VBench/runs/20260729_kling_t2v/generation/t2v-0003/case.json"
+}

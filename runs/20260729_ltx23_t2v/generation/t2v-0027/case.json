@@ -1,0 +1,16 @@
+{
+  "case_id": "t2v-0027",
+  "dimension": [
+    "Mechanics"
+  ],
+  "prompt_input": "一个弹力橡胶球被用力滚向墙壁，碰撞后反弹",
+  "prompt_eval_en": "A bouncing rubber ball is rolled forcefully towards a wall, with its dynamic bounce captured as it rebounds off the surface.",
+  "prompt_display": "一个弹力橡胶球被用力滚向墙壁，碰撞后反弹",
+  "sample_index": 2,
+  "seed": 2100027,
+  "duration": 10,
+  "fps": 25,
+  "num_frames": 250,
+  "width": 1280,
+  "height": 720
+}

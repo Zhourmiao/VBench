@@ -1,0 +1,26 @@
+{
+  "case_id": "t2v-0004",
+  "dimension": [
+    "Human_Identity"
+  ],
+  "prompt_input": "一个人正坐在桌子旁，突然这个人站起来开始做俯卧撑",
+  "prompt_eval_en": "A person is sitting at a desk, then they suddenly get up and start doing push-ups.",
+  "prompt_display": "一个人正坐在桌子旁，突然这个人站起来开始做俯卧撑",
+  "sample_index": 0,
+  "seed": 2100004,
+  "duration": 10,
+  "fps": 25,
+  "num_frames": 250,
+  "width": 1280,
+  "height": 720,
+  "provider": "kling",
+  "mode": "t2v",
+  "model": "kling-3.0-turbo",
+  "status": "success",
+  "started_at": 1785296533.408731,
+  "output_video": "/Users/zhouruomiao/Documents/VBench/runs/20260729_kling_t2v/generation/t2v-0004/t2v-0004.mp4",
+  "task_id": "911288103946948631",
+  "video_url": "https://v4-fdl.kechuangai.com/ksc2/P1Ex2c9tRtv-1zYdrloAGURtAFOQ0QtnervQwhAgTQrPJ9ISEuBmydBrT_XWrAJt8odPqg9tz8UBczgWe54DuxibZUy280f8xyJRA6mdd4jYYOUjoYONXUK_9ZPtMvNX_P3sKePq_o7q55ED_xvRrZud6dq-mBJizOH82GLK-s9qR-KYtfk5uCex5VASkOMX5JKzte5c9F_At_c2quW0eA.mp4?cacheKey=ChtzZWN1cml0eS5rbGluZy5tZXRhX2VuY3J5cHQSsAE7Y05PMNQznTSB3sY9js5ZuXifLav59fp69CGJmi1R9aqz5K5jGDuiwSPNNPhxZk4QJga7tE4zTZI894ChTr5kKIr_2TKx96XWSiGBp1V3qQnG-5q1fcoJwQnIpMyR-7vxqQUtvvbVCbKus4q-L8ih79vGyLJRXiGfkC7ER6tJ_aFE-ewrgnFStuq_Sqagj6trQp4aNcX8pywhVHKcitw3_dNYKLVtLSRmkAzXRmaPkhoSLL46pEJbTw3u2hySdPDYoj5mIiAhWlLtpkQv3-LATq499LVhxCZgtsNDjeCcEG0Plm1_HygFMAE&x-kcdn-pid=112757&pkey=AAXBwOYRR-tVx93cUTZZOb2sSwYGylNKAoc6Sc2Z8wUGzbVsNSO7m7zkWvpLgjDNLHVzRFFyB5dIL1lrdf81mel2MX_KaiLXduhi-4sYJOhRUtuS9mTLuDiXgVBz2AZ4yew",
+  "finished_at": 1785296577.645896,
+  "case_json": "/Users/zhouruomiao/Documents/VBench/runs/20260729_kling_t2v/generation/t2v-0004/case.json"
+}

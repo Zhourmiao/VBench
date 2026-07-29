@@ -1,0 +1,16 @@
+{
+  "case_id": "t2v-0021",
+  "dimension": [
+    "Mechanics"
+  ],
+  "prompt_input": "一个湿海绵在两只手之间被压缩的延时摄影，压力迅速增加",
+  "prompt_eval_en": "A timelapse of a wet sponge being compressed between two hands, with the pressure increasing rapidly.",
+  "prompt_display": "一个湿海绵在两只手之间被压缩的延时摄影，压力迅速增加",
+  "sample_index": 2,
+  "seed": 2100021,
+  "duration": 10,
+  "fps": 25,
+  "num_frames": 250,
+  "width": 1280,
+  "height": 720
+}

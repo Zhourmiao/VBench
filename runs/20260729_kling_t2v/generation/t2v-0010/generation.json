@@ -1,0 +1,26 @@
+{
+  "case_id": "t2v-0010",
+  "dimension": [
+    "Mechanics"
+  ],
+  "prompt_input": "一滴水沿着光滑的铝片边缘滑下，保持球形下落",
+  "prompt_eval_en": "A water droplet slides down the edge of a smooth sheet of aluminum, maintaining its spherical form",
+  "prompt_display": "一滴水沿着光滑的铝片边缘滑下，保持球形下落",
+  "sample_index": 0,
+  "seed": 2100010,
+  "duration": 10,
+  "fps": 25,
+  "num_frames": 250,
+  "width": 1280,
+  "height": 720,
+  "provider": "kling",
+  "mode": "t2v",
+  "model": "kling-3.0-turbo",
+  "status": "success",
+  "started_at": 1785296773.35493,
+  "output_video": "/Users/zhouruomiao/Documents/VBench/runs/20260729_kling_t2v/generation/t2v-0010/t2v-0010.mp4",
+  "task_id": "911289110353571897",
+  "video_url": "https://v2-fdl.kechuangai.com/ksc2/pA6r0WsIZGTl-TbQ0gxfcHUn4Y5sLyImTN6Ajqy77-0Xpbx78gMFfox9wSHerZJcA7EISkyqseEldxaSJtCcUiwEdJ_sTNjwnqQhnBwV08Cs3385G0YBYOu6xmIhLOoDkBjRF3La9OPcl6vhWzdZ_vxp6WoiDdVYNIjWuNCRfWWnyFH033AlRusDsBQm8Ve2ljAfWarPixFLYjDevsikJQ.mp4?cacheKey=ChtzZWN1cml0eS5rbGluZy5tZXRhX2VuY3J5cHQSsAHjxnFcvvixchynmYO6tRQ2YjpKFwHXHK24ObZTL84Kn5i4Ff4upMtevJciNXszZBhWcC4P4xocfmCAvxy22JSDwZ-lQkAaDFtvCdRH9cQDfQlzZPWUB90y6BE00YoBf5rVuPH2Ry_AJmuR4MH8wxbsktWk5sposbOH1ObdVHxr4gpIRWgcwk0D77G03t5BnaYl2Z0OKt1AkQ4sSTB5ugemYNjJQsCcSODTuhaDsIACVhoSqwnSbF-azU9cbKSOb8doGVG2IiC4cdBU8qARBLnnfmUdIccaTUIsjkgpYxIAX4jwtq-H6ygFMAE&x-kcdn-pid=112757&pkey=AAUOME3ArF20d2rHQ7eyvLOOgZhv9I9vn43WWaDlZXcnSSB2xUA9GoOuvALmiRYa5qxOKsit-fuGWqLhDHKHNVjKoVKMPDZmEPnTHMjp-uiRRUnwNr58fiAQ8qPFXXbAThE",
+  "finished_at": 1785296815.80352,
+  "case_json": "/Users/zhouruomiao/Documents/VBench/runs/20260729_kling_t2v/generation/t2v-0010/case.json"
+}

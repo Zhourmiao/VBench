@@ -1,0 +1,26 @@
+{
+  "case_id": "t2v-0013",
+  "dimension": [
+    "Motion_Order_Understanding"
+  ],
+  "prompt_input": "一个人正在写电子邮件，突然这个人起身开始烤饼干",
+  "prompt_eval_en": "A person is writing an email, then they suddenly get up and start baking cookies.",
+  "prompt_display": "一个人正在写电子邮件，突然这个人起身开始烤饼干",
+  "sample_index": 0,
+  "seed": 2100013,
+  "duration": 10,
+  "fps": 25,
+  "num_frames": 250,
+  "width": 1280,
+  "height": 720,
+  "provider": "kling",
+  "mode": "t2v",
+  "model": "kling-3.0-turbo",
+  "status": "success",
+  "started_at": 1785296881.48145,
+  "output_video": "/Users/zhouruomiao/Documents/VBench/runs/20260729_kling_t2v/generation/t2v-0013/t2v-0013.mp4",
+  "task_id": "911289563808026690",
+  "video_url": "https://v4-fdl.kechuangai.com/ksc2/jQI2CtIbL_jytVwWBhqflbh8Z789wBYigQgCM_2m69hlNNo8KDEK3CjkNFIicg9YzwRuvQLj4RWtQ597btbB4viS-d7KCYneB_38L6PeZN7pQHoSum-_E1huRaWYnpnMVLmLUIjR30P9DNCiF17gwq52f7knKjJvepbCLYRXplrVUdZsQm42bosfMaxFZJZ3WrQQgnjbE4ifk3nPoY0Xig.mp4?cacheKey=ChtzZWN1cml0eS5rbGluZy5tZXRhX2VuY3J5cHQSsAHhfQAhAkOq_KUsVqRv3gdLjitYohagReh4dYk5YE_W1folYA9XWd7iR9b0wJ3iu8zPwJh6A14hwoKAetDAJo7_F-XTXSDzfqBw7AUKiIWYiyb6_FX1UsUEIU8eIY7FrlJRza-zr4JioUhmj1aFMaTDF13DKryPFh6VdIZElId8bfONcyZeqLOqYd01A8FaVYXo44aPgCZGTKByDR-raGIbGKJpXm6ge8Xvp8_cPxAwRRoSEWFMYg6sFzvDzdpgVuS6Rze6IiD2JrUYTdXjRomu9-VxdaNAjjBo___Xk2T6FQW9JsvXsCgFMAE&x-kcdn-pid=112757&pkey=AAVpBFT_Tuhvsvr7kHm929yeyZaFj-r0Ml1JZvCW6mnhBf66sGUjid3DUgB0m_ceX0yDTMXcW4O7G3FF-MajEIQrbuwnROGdwBYditRHSpDASfiZVsUQ1cRgMtNuJwuK7WU",
+  "finished_at": 1785296915.0823622,
+  "case_json": "/Users/zhouruomiao/Documents/VBench/runs/20260729_kling_t2v/generation/t2v-0013/case.json"
+}

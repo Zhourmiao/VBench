@@ -1,0 +1,26 @@
+{
+  "case_id": "t2v-0002",
+  "dimension": [
+    "Human_Identity"
+  ],
+  "prompt_input": "一个男人正在打篮球",
+  "prompt_eval_en": "A man is playing basketball.",
+  "prompt_display": "一个男人正在打篮球",
+  "sample_index": 0,
+  "seed": 2100002,
+  "duration": 10,
+  "fps": 25,
+  "num_frames": 250,
+  "width": 1280,
+  "height": 720,
+  "provider": "kling",
+  "mode": "t2v",
+  "model": "kling-3.0-turbo",
+  "status": "success",
+  "started_at": 1785296464.614858,
+  "output_video": "/Users/zhouruomiao/Documents/VBench/runs/20260729_kling_t2v/generation/t2v-0002/t2v-0002.mp4",
+  "task_id": "911287815605481538",
+  "video_url": "https://v4-fdl.kechuangai.com/ksc2/0YPyjPMALieC75CsW4i8BD5u2QtoYPsmg1WCxqd-lOXz02jABAzeTpwsBSzV1UZegL6gXSo-_ntJPl3WyooQXPcJXzCwmHc0Su8kSF1wZETwsSTh6PkWvl0PBGE2OVjzacHJI2S8y4kI16k6JHOAwrHHMDaLZyDPbe_7yhGXunUUPPziBTj0jfP-N2S31UKKTA_2bNjLHQIkUSjjlXbZPg.mp4?cacheKey=ChtzZWN1cml0eS5rbGluZy5tZXRhX2VuY3J5cHQSsAEK8m9C4n_aiApCWSzEUpT5bVbndpWT9QzEerRyHIyUoKqdYranWF2E14q3aguuzMNPzWS7k_h6tVYQGut9m2zE-3Ap71C-mrJLjt0XF_RLu-4n2Gnd35m9IF8OmTfrRBk1X4Bs0XC0zmur9kdra5eQO5i6_-df0Y5WDJmmUQo8SJrUShnRWQkLw50Zwt5dgrEIXzwHTGRKYcXKFZzPLrQ_3yd_rulkUp2okdW7G2Ee4RoSBJLSFVs3h7NB0bSL9MQcdiMhIiACgWJcaY-I7VGlU4Wbeop-XVfnzewywrGKxhiLvWt4DCgFMAE&x-kcdn-pid=112757&pkey=AAUfUTFmktPTWvMcrB6hTylfEvsPkEPL35Ifv4rNIcfWEwnQjnztqJH1ON5I7vf5pe12_khO6XfPOh6dwdKC26gQdXqfs7L3eg9_PRNyKOHowegvipLWqnu-6tLz3w3_CKE",
+  "finished_at": 1785296499.860152,
+  "case_json": "/Users/zhouruomiao/Documents/VBench/runs/20260729_kling_t2v/generation/t2v-0002/case.json"
+}

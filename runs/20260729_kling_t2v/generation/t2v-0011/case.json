@@ -1,0 +1,16 @@
+{
+  "case_id": "t2v-0011",
+  "dimension": [
+    "Motion_Order_Understanding"
+  ],
+  "prompt_input": "一个人正坐在沙发上，突然这个人站起来开始扫地",
+  "prompt_eval_en": "A person is sitting on the couch, then suddenly they get up and start sweeping the floor.",
+  "prompt_display": "一个人正坐在沙发上，突然这个人站起来开始扫地",
+  "sample_index": 0,
+  "seed": 2100011,
+  "duration": 10,
+  "fps": 25,
+  "num_frames": 250,
+  "width": 1280,
+  "height": 720
+}

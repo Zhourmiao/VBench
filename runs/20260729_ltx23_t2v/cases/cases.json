@@ -1,0 +1,1442 @@
+[
+  {
+    "case_id": "t2v-0001",
+    "dimension": [
+      "Human_Identity"
+    ],
+    "prompt_input": "一个男人正在做瑜伽",
+    "prompt_eval_en": "A man is doing yoga.",
+    "prompt_display": "一个男人正在做瑜伽",
+    "sample_index": 0,
+    "seed": 2100001,
+    "duration": 10,
+    "fps": 25,
+    "num_frames": 250,
+    "width": 1280,
+    "height": 720
+  },
+  {
+    "case_id": "t2v-0002",
+    "dimension": [
+      "Human_Identity"
+    ],
+    "prompt_input": "一个男人正在做瑜伽",
+    "prompt_eval_en": "A man is doing yoga.",
+    "prompt_display": "一个男人正在做瑜伽",
+    "sample_index": 1,
+    "seed": 2100002,
+    "duration": 10,
+    "fps": 25,
+    "num_frames": 250,
+    "width": 1280,
+    "height": 720
+  },
+  {
+    "case_id": "t2v-0003",
+    "dimension": [
+      "Human_Identity"
+    ],
+    "prompt_input": "一个男人正在做瑜伽",
+    "prompt_eval_en": "A man is doing yoga.",
+    "prompt_display": "一个男人正在做瑜伽",
+    "sample_index": 2,
+    "seed": 2100003,
+    "duration": 10,
+    "fps": 25,
+    "num_frames": 250,
+    "width": 1280,
+    "height": 720
+  },
+  {
+    "case_id": "t2v-0004",
+    "dimension": [
+      "Human_Identity"
+    ],
+    "prompt_input": "一个男人正在打篮球",
+    "prompt_eval_en": "A man is playing basketball.",
+    "prompt_display": "一个男人正在打篮球",
+    "sample_index": 0,
+    "seed": 2100004,
+    "duration": 10,
+    "fps": 25,
+    "num_frames": 250,
+    "width": 1280,
+    "height": 720
+  },
+  {
+    "case_id": "t2v-0005",
+    "dimension": [
+      "Human_Identity"
+    ],
+    "prompt_input": "一个男人正在打篮球",
+    "prompt_eval_en": "A man is playing basketball.",
+    "prompt_display": "一个男人正在打篮球",
+    "sample_index": 1,
+    "seed": 2100005,
+    "duration": 10,
+    "fps": 25,
+    "num_frames": 250,
+    "width": 1280,
+    "height": 720
+  },
+  {
+    "case_id": "t2v-0006",
+    "dimension": [
+      "Human_Identity"
+    ],
+    "prompt_input": "一个男人正在打篮球",
+    "prompt_eval_en": "A man is playing basketball.",
+    "prompt_display": "一个男人正在打篮球",
+    "sample_index": 2,
+    "seed": 2100006,
+    "duration": 10,
+    "fps": 25,
+    "num_frames": 250,
+    "width": 1280,
+    "height": 720
+  },
+  {
+    "case_id": "t2v-0007",
+    "dimension": [
+      "Human_Identity"
+    ],
+    "prompt_input": "一个人正在喝水，突然这个人开始擦窗户",
+    "prompt_eval_en": "A person is drinking a glass of water, then they suddenly start cleaning the windows.",
+    "prompt_display": "一个人正在喝水，突然这个人开始擦窗户",
+    "sample_index": 0,
+    "seed": 2100007,
+    "duration": 10,
+    "fps": 25,
+    "num_frames": 250,
+    "width": 1280,
+    "height": 720
+  },
+  {
+    "case_id": "t2v-0008",
+    "dimension": [
+      "Human_Identity"
+    ],
+    "prompt_input": "一个人正在喝水，突然这个人开始擦窗户",
+    "prompt_eval_en": "A person is drinking a glass of water, then they suddenly start cleaning the windows.",
+    "prompt_display": "一个人正在喝水，突然这个人开始擦窗户",
+    "sample_index": 1,
+    "seed": 2100008,
+    "duration": 10,
+    "fps": 25,
+    "num_frames": 250,
+    "width": 1280,
+    "height": 720
+  },
+  {
+    "case_id": "t2v-0009",
+    "dimension": [
+      "Human_Identity"
+    ],
+    "prompt_input": "一个人正在喝水，突然这个人开始擦窗户",
+    "prompt_eval_en": "A person is drinking a glass of water, then they suddenly start cleaning the windows.",
+    "prompt_display": "一个人正在喝水，突然这个人开始擦窗户",
+    "sample_index": 2,
+    "seed": 2100009,
+    "duration": 10,
+    "fps": 25,
+    "num_frames": 250,
+    "width": 1280,
+    "height": 720
+  },
+  {
+    "case_id": "t2v-0010",
+    "dimension": [
+      "Human_Identity"
+    ],
+    "prompt_input": "一个人正坐在桌子旁，突然这个人站起来开始做俯卧撑",
+    "prompt_eval_en": "A person is sitting at a desk, then they suddenly get up and start doing push-ups.",
+    "prompt_display": "一个人正坐在桌子旁，突然这个人站起来开始做俯卧撑",
+    "sample_index": 0,
+    "seed": 2100010,
+    "duration": 10,
+    "fps": 25,
+    "num_frames": 250,
+    "width": 1280,
+    "height": 720
+  },
+  {
+    "case_id": "t2v-0011",
+    "dimension": [
+      "Human_Identity"
+    ],
+    "prompt_input": "一个人正坐在桌子旁，突然这个人站起来开始做俯卧撑",
+    "prompt_eval_en": "A person is sitting at a desk, then they suddenly get up and start doing push-ups.",
+    "prompt_display": "一个人正坐在桌子旁，突然这个人站起来开始做俯卧撑",
+    "sample_index": 1,
+    "seed": 2100011,
+    "duration": 10,
+    "fps": 25,
+    "num_frames": 250,
+    "width": 1280,
+    "height": 720
+  },
+  {
+    "case_id": "t2v-0012",
+    "dimension": [
+      "Human_Identity"
+    ],
+    "prompt_input": "一个人正坐在桌子旁，突然这个人站起来开始做俯卧撑",
+    "prompt_eval_en": "A person is sitting at a desk, then they suddenly get up and start doing push-ups.",
+    "prompt_display": "一个人正坐在桌子旁，突然这个人站起来开始做俯卧撑",
+    "sample_index": 2,
+    "seed": 2100012,
+    "duration": 10,
+    "fps": 25,
+    "num_frames": 250,
+    "width": 1280,
+    "height": 720
+  },
+  {
+    "case_id": "t2v-0013",
+    "dimension": [
+      "Human_Identity"
+    ],
+    "prompt_input": "一个人正在看杂志，突然这个人起身开始整理衣柜",
+    "prompt_eval_en": "A person is reading a magazine, then they suddenly get up and start organizing the closet.",
+    "prompt_display": "一个人正在看杂志，突然这个人起身开始整理衣柜",
+    "sample_index": 0,
+    "seed": 2100013,
+    "duration": 10,
+    "fps": 25,
+    "num_frames": 250,
+    "width": 1280,
+    "height": 720
+  },
+  {
+    "case_id": "t2v-0014",
+    "dimension": [
+      "Human_Identity"
+    ],
+    "prompt_input": "一个人正在看杂志，突然这个人起身开始整理衣柜",
+    "prompt_eval_en": "A person is reading a magazine, then they suddenly get up and start organizing the closet.",
+    "prompt_display": "一个人正在看杂志，突然这个人起身开始整理衣柜",
+    "sample_index": 1,
+    "seed": 2100014,
+    "duration": 10,
+    "fps": 25,
+    "num_frames": 250,
+    "width": 1280,
+    "height": 720
+  },
+  {
+    "case_id": "t2v-0015",
+    "dimension": [
+      "Human_Identity"
+    ],
+    "prompt_input": "一个人正在看杂志，突然这个人起身开始整理衣柜",
+    "prompt_eval_en": "A person is reading a magazine, then they suddenly get up and start organizing the closet.",
+    "prompt_display": "一个人正在看杂志，突然这个人起身开始整理衣柜",
+    "sample_index": 2,
+    "seed": 2100015,
+    "duration": 10,
+    "fps": 25,
+    "num_frames": 250,
+    "width": 1280,
+    "height": 720
+  },
+  {
+    "case_id": "t2v-0016",
+    "dimension": [
+      "Mechanics"
+    ],
+    "prompt_input": "一把金属勺子被轻轻地放在一个盛满水的杯子上",
+    "prompt_eval_en": "A metal spoon is gently placed on the surface of a glass of water.",
+    "prompt_display": "一把金属勺子被轻轻地放在一个盛满水的杯子上",
+    "sample_index": 0,
+    "seed": 2100016,
+    "duration": 10,
+    "fps": 25,
+    "num_frames": 250,
+    "width": 1280,
+    "height": 720
+  },
+  {
+    "case_id": "t2v-0017",
+    "dimension": [
+      "Mechanics"
+    ],
+    "prompt_input": "一把金属勺子被轻轻地放在一个盛满水的杯子上",
+    "prompt_eval_en": "A metal spoon is gently placed on the surface of a glass of water.",
+    "prompt_display": "一把金属勺子被轻轻地放在一个盛满水的杯子上",
+    "sample_index": 1,
+    "seed": 2100017,
+    "duration": 10,
+    "fps": 25,
+    "num_frames": 250,
+    "width": 1280,
+    "height": 720
+  },
+  {
+    "case_id": "t2v-0018",
+    "dimension": [
+      "Mechanics"
+    ],
+    "prompt_input": "一把金属勺子被轻轻地放在一个盛满水的杯子上",
+    "prompt_eval_en": "A metal spoon is gently placed on the surface of a glass of water.",
+    "prompt_display": "一把金属勺子被轻轻地放在一个盛满水的杯子上",
+    "sample_index": 2,
+    "seed": 2100018,
+    "duration": 10,
+    "fps": 25,
+    "num_frames": 250,
+    "width": 1280,
+    "height": 720
+  },
+  {
+    "case_id": "t2v-0019",
+    "dimension": [
+      "Mechanics"
+    ],
+    "prompt_input": "一个湿海绵在两只手之间被压缩的延时摄影，压力迅速增加",
+    "prompt_eval_en": "A timelapse of a wet sponge being compressed between two hands, with the pressure increasing rapidly.",
+    "prompt_display": "一个湿海绵在两只手之间被压缩的延时摄影，压力迅速增加",
+    "sample_index": 0,
+    "seed": 2100019,
+    "duration": 10,
+    "fps": 25,
+    "num_frames": 250,
+    "width": 1280,
+    "height": 720
+  },
+  {
+    "case_id": "t2v-0020",
+    "dimension": [
+      "Mechanics"
+    ],
+    "prompt_input": "一个湿海绵在两只手之间被压缩的延时摄影，压力迅速增加",
+    "prompt_eval_en": "A timelapse of a wet sponge being compressed between two hands, with the pressure increasing rapidly.",
+    "prompt_display": "一个湿海绵在两只手之间被压缩的延时摄影，压力迅速增加",
+    "sample_index": 1,
+    "seed": 2100020,
+    "duration": 10,
+    "fps": 25,
+    "num_frames": 250,
+    "width": 1280,
+    "height": 720
+  },
+  {
+    "case_id": "t2v-0021",
+    "dimension": [
+      "Mechanics"
+    ],
+    "prompt_input": "一个湿海绵在两只手之间被压缩的延时摄影，压力迅速增加",
+    "prompt_eval_en": "A timelapse of a wet sponge being compressed between two hands, with the pressure increasing rapidly.",
+    "prompt_display": "一个湿海绵在两只手之间被压缩的延时摄影，压力迅速增加",
+    "sample_index": 2,
+    "seed": 2100021,
+    "duration": 10,
+    "fps": 25,
+    "num_frames": 250,
+    "width": 1280,
+    "height": 720
+  },
+  {
+    "case_id": "t2v-0022",
+    "dimension": [
+      "Mechanics"
+    ],
+    "prompt_input": "一个尖锐的物体慢慢地压入一个柔软气球的表面，尖端逐渐陷入橡胶中",
+    "prompt_eval_en": "A sharp object slowly presses into the surface of a soft balloon, with the point gradually sinking into the rubber.",
+    "prompt_display": "一个尖锐的物体慢慢地压入一个柔软气球的表面，尖端逐渐陷入橡胶中",
+    "sample_index": 0,
+    "seed": 2100022,
+    "duration": 10,
+    "fps": 25,
+    "num_frames": 250,
+    "width": 1280,
+    "height": 720
+  },
+  {
+    "case_id": "t2v-0023",
+    "dimension": [
+      "Mechanics"
+    ],
+    "prompt_input": "一个尖锐的物体慢慢地压入一个柔软气球的表面，尖端逐渐陷入橡胶中",
+    "prompt_eval_en": "A sharp object slowly presses into the surface of a soft balloon, with the point gradually sinking into the rubber.",
+    "prompt_display": "一个尖锐的物体慢慢地压入一个柔软气球的表面，尖端逐渐陷入橡胶中",
+    "sample_index": 1,
+    "seed": 2100023,
+    "duration": 10,
+    "fps": 25,
+    "num_frames": 250,
+    "width": 1280,
+    "height": 720
+  },
+  {
+    "case_id": "t2v-0024",
+    "dimension": [
+      "Mechanics"
+    ],
+    "prompt_input": "一个尖锐的物体慢慢地压入一个柔软气球的表面，尖端逐渐陷入橡胶中",
+    "prompt_eval_en": "A sharp object slowly presses into the surface of a soft balloon, with the point gradually sinking into the rubber.",
+    "prompt_display": "一个尖锐的物体慢慢地压入一个柔软气球的表面，尖端逐渐陷入橡胶中",
+    "sample_index": 2,
+    "seed": 2100024,
+    "duration": 10,
+    "fps": 25,
+    "num_frames": 250,
+    "width": 1280,
+    "height": 720
+  },
+  {
+    "case_id": "t2v-0025",
+    "dimension": [
+      "Mechanics"
+    ],
+    "prompt_input": "一个弹力橡胶球被用力滚向墙壁，碰撞后反弹",
+    "prompt_eval_en": "A bouncing rubber ball is rolled forcefully towards a wall, with its dynamic bounce captured as it rebounds off the surface.",
+    "prompt_display": "一个弹力橡胶球被用力滚向墙壁，碰撞后反弹",
+    "sample_index": 0,
+    "seed": 2100025,
+    "duration": 10,
+    "fps": 25,
+    "num_frames": 250,
+    "width": 1280,
+    "height": 720
+  },
+  {
+    "case_id": "t2v-0026",
+    "dimension": [
+      "Mechanics"
+    ],
+    "prompt_input": "一个弹力橡胶球被用力滚向墙壁，碰撞后反弹",
+    "prompt_eval_en": "A bouncing rubber ball is rolled forcefully towards a wall, with its dynamic bounce captured as it rebounds off the surface.",
+    "prompt_display": "一个弹力橡胶球被用力滚向墙壁，碰撞后反弹",
+    "sample_index": 1,
+    "seed": 2100026,
+    "duration": 10,
+    "fps": 25,
+    "num_frames": 250,
+    "width": 1280,
+    "height": 720
+  },
+  {
+    "case_id": "t2v-0027",
+    "dimension": [
+      "Mechanics"
+    ],
+    "prompt_input": "一个弹力橡胶球被用力滚向墙壁，碰撞后反弹",
+    "prompt_eval_en": "A bouncing rubber ball is rolled forcefully towards a wall, with its dynamic bounce captured as it rebounds off the surface.",
+    "prompt_display": "一个弹力橡胶球被用力滚向墙壁，碰撞后反弹",
+    "sample_index": 2,
+    "seed": 2100027,
+    "duration": 10,
+    "fps": 25,
+    "num_frames": 250,
+    "width": 1280,
+    "height": 720
+  },
+  {
+    "case_id": "t2v-0028",
+    "dimension": [
+      "Mechanics"
+    ],
+    "prompt_input": "一滴水沿着光滑的铝片边缘滑下，保持球形下落",
+    "prompt_eval_en": "A water droplet slides down the edge of a smooth sheet of aluminum, maintaining its spherical form",
+    "prompt_display": "一滴水沿着光滑的铝片边缘滑下，保持球形下落",
+    "sample_index": 0,
+    "seed": 2100028,
+    "duration": 10,
+    "fps": 25,
+    "num_frames": 250,
+    "width": 1280,
+    "height": 720
+  },
+  {
+    "case_id": "t2v-0029",
+    "dimension": [
+      "Mechanics"
+    ],
+    "prompt_input": "一滴水沿着光滑的铝片边缘滑下，保持球形下落",
+    "prompt_eval_en": "A water droplet slides down the edge of a smooth sheet of aluminum, maintaining its spherical form",
+    "prompt_display": "一滴水沿着光滑的铝片边缘滑下，保持球形下落",
+    "sample_index": 1,
+    "seed": 2100029,
+    "duration": 10,
+    "fps": 25,
+    "num_frames": 250,
+    "width": 1280,
+    "height": 720
+  },
+  {
+    "case_id": "t2v-0030",
+    "dimension": [
+      "Mechanics"
+    ],
+    "prompt_input": "一滴水沿着光滑的铝片边缘滑下，保持球形下落",
+    "prompt_eval_en": "A water droplet slides down the edge of a smooth sheet of aluminum, maintaining its spherical form",
+    "prompt_display": "一滴水沿着光滑的铝片边缘滑下，保持球形下落",
+    "sample_index": 2,
+    "seed": 2100030,
+    "duration": 10,
+    "fps": 25,
+    "num_frames": 250,
+    "width": 1280,
+    "height": 720
+  },
+  {
+    "case_id": "t2v-0031",
+    "dimension": [
+      "Motion_Order_Understanding"
+    ],
+    "prompt_input": "一个人正坐在沙发上，突然这个人站起来开始扫地",
+    "prompt_eval_en": "A person is sitting on the couch, then suddenly they get up and start sweeping the floor.",
+    "prompt_display": "一个人正坐在沙发上，突然这个人站起来开始扫地",
+    "sample_index": 0,
+    "seed": 2100031,
+    "duration": 10,
+    "fps": 25,
+    "num_frames": 250,
+    "width": 1280,
+    "height": 720
+  },
+  {
+    "case_id": "t2v-0032",
+    "dimension": [
+      "Motion_Order_Understanding"
+    ],
+    "prompt_input": "一个人正坐在沙发上，突然这个人站起来开始扫地",
+    "prompt_eval_en": "A person is sitting on the couch, then suddenly they get up and start sweeping the floor.",
+    "prompt_display": "一个人正坐在沙发上，突然这个人站起来开始扫地",
+    "sample_index": 1,
+    "seed": 2100032,
+    "duration": 10,
+    "fps": 25,
+    "num_frames": 250,
+    "width": 1280,
+    "height": 720
+  },
+  {
+    "case_id": "t2v-0033",
+    "dimension": [
+      "Motion_Order_Understanding"
+    ],
+    "prompt_input": "一个人正坐在沙发上，突然这个人站起来开始扫地",
+    "prompt_eval_en": "A person is sitting on the couch, then suddenly they get up and start sweeping the floor.",
+    "prompt_display": "一个人正坐在沙发上，突然这个人站起来开始扫地",
+    "sample_index": 2,
+    "seed": 2100033,
+    "duration": 10,
+    "fps": 25,
+    "num_frames": 250,
+    "width": 1280,
+    "height": 720
+  },
+  {
+    "case_id": "t2v-0034",
+    "dimension": [
+      "Motion_Order_Understanding"
+    ],
+    "prompt_input": "一只鸟在树枝上栖息，突然它飞到了地面上",
+    "prompt_eval_en": "A bird is perched on a branch, then it suddenly flies down to the ground.",
+    "prompt_display": "一只鸟在树枝上栖息，突然它飞到了地面上",
+    "sample_index": 0,
+    "seed": 2100034,
+    "duration": 10,
+    "fps": 25,
+    "num_frames": 250,
+    "width": 1280,
+    "height": 720
+  },
+  {
+    "case_id": "t2v-0035",
+    "dimension": [
+      "Motion_Order_Understanding"
+    ],
+    "prompt_input": "一只鸟在树枝上栖息，突然它飞到了地面上",
+    "prompt_eval_en": "A bird is perched on a branch, then it suddenly flies down to the ground.",
+    "prompt_display": "一只鸟在树枝上栖息，突然它飞到了地面上",
+    "sample_index": 1,
+    "seed": 2100035,
+    "duration": 10,
+    "fps": 25,
+    "num_frames": 250,
+    "width": 1280,
+    "height": 720
+  },
+  {
+    "case_id": "t2v-0036",
+    "dimension": [
+      "Motion_Order_Understanding"
+    ],
+    "prompt_input": "一只鸟在树枝上栖息，突然它飞到了地面上",
+    "prompt_eval_en": "A bird is perched on a branch, then it suddenly flies down to the ground.",
+    "prompt_display": "一只鸟在树枝上栖息，突然它飞到了地面上",
+    "sample_index": 2,
+    "seed": 2100036,
+    "duration": 10,
+    "fps": 25,
+    "num_frames": 250,
+    "width": 1280,
+    "height": 720
+  },
+  {
+    "case_id": "t2v-0037",
+    "dimension": [
+      "Motion_Order_Understanding"
+    ],
+    "prompt_input": "一个人正在写电子邮件，突然这个人起身开始烤饼干",
+    "prompt_eval_en": "A person is writing an email, then they suddenly get up and start baking cookies.",
+    "prompt_display": "一个人正在写电子邮件，突然这个人起身开始烤饼干",
+    "sample_index": 0,
+    "seed": 2100037,
+    "duration": 10,
+    "fps": 25,
+    "num_frames": 250,
+    "width": 1280,
+    "height": 720
+  },
+  {
+    "case_id": "t2v-0038",
+    "dimension": [
+      "Motion_Order_Understanding"
+    ],
+    "prompt_input": "一个人正在写电子邮件，突然这个人起身开始烤饼干",
+    "prompt_eval_en": "A person is writing an email, then they suddenly get up and start baking cookies.",
+    "prompt_display": "一个人正在写电子邮件，突然这个人起身开始烤饼干",
+    "sample_index": 1,
+    "seed": 2100038,
+    "duration": 10,
+    "fps": 25,
+    "num_frames": 250,
+    "width": 1280,
+    "height": 720
+  },
+  {
+    "case_id": "t2v-0039",
+    "dimension": [
+      "Motion_Order_Understanding"
+    ],
+    "prompt_input": "一个人正在写电子邮件，突然这个人起身开始烤饼干",
+    "prompt_eval_en": "A person is writing an email, then they suddenly get up and start baking cookies.",
+    "prompt_display": "一个人正在写电子邮件，突然这个人起身开始烤饼干",
+    "sample_index": 2,
+    "seed": 2100039,
+    "duration": 10,
+    "fps": 25,
+    "num_frames": 250,
+    "width": 1280,
+    "height": 720
+  },
+  {
+    "case_id": "t2v-0040",
+    "dimension": [
+      "Motion_Order_Understanding"
+    ],
+    "prompt_input": "一只狗正在公园里奔跑，突然它开始翻越木桩",
+    "prompt_eval_en": "A dog is running through the park, then it suddenly starts jumping over logs.",
+    "prompt_display": "一只狗正在公园里奔跑，突然它开始翻越木桩",
+    "sample_index": 0,
+    "seed": 2100040,
+    "duration": 10,
+    "fps": 25,
+    "num_frames": 250,
+    "width": 1280,
+    "height": 720
+  },
+  {
+    "case_id": "t2v-0041",
+    "dimension": [
+      "Motion_Order_Understanding"
+    ],
+    "prompt_input": "一只狗正在公园里奔跑，突然它开始翻越木桩",
+    "prompt_eval_en": "A dog is running through the park, then it suddenly starts jumping over logs.",
+    "prompt_display": "一只狗正在公园里奔跑，突然它开始翻越木桩",
+    "sample_index": 1,
+    "seed": 2100041,
+    "duration": 10,
+    "fps": 25,
+    "num_frames": 250,
+    "width": 1280,
+    "height": 720
+  },
+  {
+    "case_id": "t2v-0042",
+    "dimension": [
+      "Motion_Order_Understanding"
+    ],
+    "prompt_input": "一只狗正在公园里奔跑，突然它开始翻越木桩",
+    "prompt_eval_en": "A dog is running through the park, then it suddenly starts jumping over logs.",
+    "prompt_display": "一只狗正在公园里奔跑，突然它开始翻越木桩",
+    "sample_index": 2,
+    "seed": 2100042,
+    "duration": 10,
+    "fps": 25,
+    "num_frames": 250,
+    "width": 1280,
+    "height": 720
+  },
+  {
+    "case_id": "t2v-0043",
+    "dimension": [
+      "Motion_Order_Understanding"
+    ],
+    "prompt_input": "一只猫正坐在窗台上，突然它跳了下来，开始探索房间",
+    "prompt_eval_en": "A cat is sitting on the windowsill, then it suddenly jumps down and starts exploring the room.",
+    "prompt_display": "一只猫正坐在窗台上，突然它跳了下来，开始探索房间",
+    "sample_index": 0,
+    "seed": 2100043,
+    "duration": 10,
+    "fps": 25,
+    "num_frames": 250,
+    "width": 1280,
+    "height": 720
+  },
+  {
+    "case_id": "t2v-0044",
+    "dimension": [
+      "Motion_Order_Understanding"
+    ],
+    "prompt_input": "一只猫正坐在窗台上，突然它跳了下来，开始探索房间",
+    "prompt_eval_en": "A cat is sitting on the windowsill, then it suddenly jumps down and starts exploring the room.",
+    "prompt_display": "一只猫正坐在窗台上，突然它跳了下来，开始探索房间",
+    "sample_index": 1,
+    "seed": 2100044,
+    "duration": 10,
+    "fps": 25,
+    "num_frames": 250,
+    "width": 1280,
+    "height": 720
+  },
+  {
+    "case_id": "t2v-0045",
+    "dimension": [
+      "Motion_Order_Understanding"
+    ],
+    "prompt_input": "一只猫正坐在窗台上，突然它跳了下来，开始探索房间",
+    "prompt_eval_en": "A cat is sitting on the windowsill, then it suddenly jumps down and starts exploring the room.",
+    "prompt_display": "一只猫正坐在窗台上，突然它跳了下来，开始探索房间",
+    "sample_index": 2,
+    "seed": 2100045,
+    "duration": 10,
+    "fps": 25,
+    "num_frames": 250,
+    "width": 1280,
+    "height": 720
+  },
+  {
+    "case_id": "t2v-0046",
+    "dimension": [
+      "Motion_Rationality"
+    ],
+    "prompt_input": "一个人正在从热气腾腾的碗里吸溜面条",
+    "prompt_eval_en": "A person is slurping noodles from a steaming bowl.",
+    "prompt_display": "一个人正在从热气腾腾的碗里吸溜面条",
+    "sample_index": 0,
+    "seed": 2100046,
+    "duration": 10,
+    "fps": 25,
+    "num_frames": 250,
+    "width": 1280,
+    "height": 720
+  },
+  {
+    "case_id": "t2v-0047",
+    "dimension": [
+      "Motion_Rationality"
+    ],
+    "prompt_input": "一个人正在从热气腾腾的碗里吸溜面条",
+    "prompt_eval_en": "A person is slurping noodles from a steaming bowl.",
+    "prompt_display": "一个人正在从热气腾腾的碗里吸溜面条",
+    "sample_index": 1,
+    "seed": 2100047,
+    "duration": 10,
+    "fps": 25,
+    "num_frames": 250,
+    "width": 1280,
+    "height": 720
+  },
+  {
+    "case_id": "t2v-0048",
+    "dimension": [
+      "Motion_Rationality"
+    ],
+    "prompt_input": "一个人正在从热气腾腾的碗里吸溜面条",
+    "prompt_eval_en": "A person is slurping noodles from a steaming bowl.",
+    "prompt_display": "一个人正在从热气腾腾的碗里吸溜面条",
+    "sample_index": 2,
+    "seed": 2100048,
+    "duration": 10,
+    "fps": 25,
+    "num_frames": 250,
+    "width": 1280,
+    "height": 720
+  },
+  {
+    "case_id": "t2v-0049",
+    "dimension": [
+      "Motion_Rationality"
+    ],
+    "prompt_input": "一个人正在往煎锅里倒橄榄油",
+    "prompt_eval_en": "A person is pouring olive oil into a frying pan.",
+    "prompt_display": "一个人正在往煎锅里倒橄榄油",
+    "sample_index": 0,
+    "seed": 2100049,
+    "duration": 10,
+    "fps": 25,
+    "num_frames": 250,
+    "width": 1280,
+    "height": 720
+  },
+  {
+    "case_id": "t2v-0050",
+    "dimension": [
+      "Motion_Rationality"
+    ],
+    "prompt_input": "一个人正在往煎锅里倒橄榄油",
+    "prompt_eval_en": "A person is pouring olive oil into a frying pan.",
+    "prompt_display": "一个人正在往煎锅里倒橄榄油",
+    "sample_index": 1,
+    "seed": 2100050,
+    "duration": 10,
+    "fps": 25,
+    "num_frames": 250,
+    "width": 1280,
+    "height": 720
+  },
+  {
+    "case_id": "t2v-0051",
+    "dimension": [
+      "Motion_Rationality"
+    ],
+    "prompt_input": "一个人正在往煎锅里倒橄榄油",
+    "prompt_eval_en": "A person is pouring olive oil into a frying pan.",
+    "prompt_display": "一个人正在往煎锅里倒橄榄油",
+    "sample_index": 2,
+    "seed": 2100051,
+    "duration": 10,
+    "fps": 25,
+    "num_frames": 250,
+    "width": 1280,
+    "height": 720
+  },
+  {
+    "case_id": "t2v-0052",
+    "dimension": [
+      "Motion_Rationality"
+    ],
+    "prompt_input": "一个人正在上楼梯",
+    "prompt_eval_en": "A person is walking up the stairs.",
+    "prompt_display": "一个人正在上楼梯",
+    "sample_index": 0,
+    "seed": 2100052,
+    "duration": 10,
+    "fps": 25,
+    "num_frames": 250,
+    "width": 1280,
+    "height": 720
+  },
+  {
+    "case_id": "t2v-0053",
+    "dimension": [
+      "Motion_Rationality"
+    ],
+    "prompt_input": "一个人正在上楼梯",
+    "prompt_eval_en": "A person is walking up the stairs.",
+    "prompt_display": "一个人正在上楼梯",
+    "sample_index": 1,
+    "seed": 2100053,
+    "duration": 10,
+    "fps": 25,
+    "num_frames": 250,
+    "width": 1280,
+    "height": 720
+  },
+  {
+    "case_id": "t2v-0054",
+    "dimension": [
+      "Motion_Rationality"
+    ],
+    "prompt_input": "一个人正在上楼梯",
+    "prompt_eval_en": "A person is walking up the stairs.",
+    "prompt_display": "一个人正在上楼梯",
+    "sample_index": 2,
+    "seed": 2100054,
+    "duration": 10,
+    "fps": 25,
+    "num_frames": 250,
+    "width": 1280,
+    "height": 720
+  },
+  {
+    "case_id": "t2v-0055",
+    "dimension": [
+      "Motion_Rationality"
+    ],
+    "prompt_input": "一个人正在打开窗户",
+    "prompt_eval_en": "A person is opening the window.",
+    "prompt_display": "一个人正在打开窗户",
+    "sample_index": 0,
+    "seed": 2100055,
+    "duration": 10,
+    "fps": 25,
+    "num_frames": 250,
+    "width": 1280,
+    "height": 720
+  },
+  {
+    "case_id": "t2v-0056",
+    "dimension": [
+      "Motion_Rationality"
+    ],
+    "prompt_input": "一个人正在打开窗户",
+    "prompt_eval_en": "A person is opening the window.",
+    "prompt_display": "一个人正在打开窗户",
+    "sample_index": 1,
+    "seed": 2100056,
+    "duration": 10,
+    "fps": 25,
+    "num_frames": 250,
+    "width": 1280,
+    "height": 720
+  },
+  {
+    "case_id": "t2v-0057",
+    "dimension": [
+      "Motion_Rationality"
+    ],
+    "prompt_input": "一个人正在打开窗户",
+    "prompt_eval_en": "A person is opening the window.",
+    "prompt_display": "一个人正在打开窗户",
+    "sample_index": 2,
+    "seed": 2100057,
+    "duration": 10,
+    "fps": 25,
+    "num_frames": 250,
+    "width": 1280,
+    "height": 720
+  },
+  {
+    "case_id": "t2v-0058",
+    "dimension": [
+      "Motion_Rationality"
+    ],
+    "prompt_input": "一个人在移动椅子",
+    "prompt_eval_en": "A person is moving the chair.",
+    "prompt_display": "一个人在移动椅子",
+    "sample_index": 0,
+    "seed": 2100058,
+    "duration": 10,
+    "fps": 25,
+    "num_frames": 250,
+    "width": 1280,
+    "height": 720
+  },
+  {
+    "case_id": "t2v-0059",
+    "dimension": [
+      "Motion_Rationality"
+    ],
+    "prompt_input": "一个人在移动椅子",
+    "prompt_eval_en": "A person is moving the chair.",
+    "prompt_display": "一个人在移动椅子",
+    "sample_index": 1,
+    "seed": 2100059,
+    "duration": 10,
+    "fps": 25,
+    "num_frames": 250,
+    "width": 1280,
+    "height": 720
+  },
+  {
+    "case_id": "t2v-0060",
+    "dimension": [
+      "Motion_Rationality"
+    ],
+    "prompt_input": "一个人在移动椅子",
+    "prompt_eval_en": "A person is moving the chair.",
+    "prompt_display": "一个人在移动椅子",
+    "sample_index": 2,
+    "seed": 2100060,
+    "duration": 10,
+    "fps": 25,
+    "num_frames": 250,
+    "width": 1280,
+    "height": 720
+  },
+  {
+    "case_id": "t2v-0061",
+    "dimension": [
+      "Multi-View_Consistency"
+    ],
+    "prompt_input": "城堡，相机环绕镜头",
+    "prompt_eval_en": "The camera orbits around. Castle, the camera circles around.",
+    "prompt_display": "城堡，相机环绕镜头",
+    "sample_index": 0,
+    "seed": 2100061,
+    "duration": 10,
+    "fps": 25,
+    "num_frames": 250,
+    "width": 1280,
+    "height": 720
+  },
+  {
+    "case_id": "t2v-0062",
+    "dimension": [
+      "Multi-View_Consistency"
+    ],
+    "prompt_input": "城堡，相机环绕镜头",
+    "prompt_eval_en": "The camera orbits around. Castle, the camera circles around.",
+    "prompt_display": "城堡，相机环绕镜头",
+    "sample_index": 1,
+    "seed": 2100062,
+    "duration": 10,
+    "fps": 25,
+    "num_frames": 250,
+    "width": 1280,
+    "height": 720
+  },
+  {
+    "case_id": "t2v-0063",
+    "dimension": [
+      "Multi-View_Consistency"
+    ],
+    "prompt_input": "城堡，相机环绕镜头",
+    "prompt_eval_en": "The camera orbits around. Castle, the camera circles around.",
+    "prompt_display": "城堡，相机环绕镜头",
+    "sample_index": 2,
+    "seed": 2100063,
+    "duration": 10,
+    "fps": 25,
+    "num_frames": 250,
+    "width": 1280,
+    "height": 720
+  },
+  {
+    "case_id": "t2v-0064",
+    "dimension": [
+      "Multi-View_Consistency"
+    ],
+    "prompt_input": "马丘比丘，相机环绕镜头",
+    "prompt_eval_en": "The camera orbits around. Machu Picchu, the camera circles around.",
+    "prompt_display": "马丘比丘，相机环绕镜头",
+    "sample_index": 0,
+    "seed": 2100064,
+    "duration": 10,
+    "fps": 25,
+    "num_frames": 250,
+    "width": 1280,
+    "height": 720
+  },
+  {
+    "case_id": "t2v-0065",
+    "dimension": [
+      "Multi-View_Consistency"
+    ],
+    "prompt_input": "马丘比丘，相机环绕镜头",
+    "prompt_eval_en": "The camera orbits around. Machu Picchu, the camera circles around.",
+    "prompt_display": "马丘比丘，相机环绕镜头",
+    "sample_index": 1,
+    "seed": 2100065,
+    "duration": 10,
+    "fps": 25,
+    "num_frames": 250,
+    "width": 1280,
+    "height": 720
+  },
+  {
+    "case_id": "t2v-0066",
+    "dimension": [
+      "Multi-View_Consistency"
+    ],
+    "prompt_input": "马丘比丘，相机环绕镜头",
+    "prompt_eval_en": "The camera orbits around. Machu Picchu, the camera circles around.",
+    "prompt_display": "马丘比丘，相机环绕镜头",
+    "sample_index": 2,
+    "seed": 2100066,
+    "duration": 10,
+    "fps": 25,
+    "num_frames": 250,
+    "width": 1280,
+    "height": 720
+  },
+  {
+    "case_id": "t2v-0067",
+    "dimension": [
+      "Multi-View_Consistency"
+    ],
+    "prompt_input": "国际象棋中的皇后，相机环绕镜头",
+    "prompt_eval_en": "The camera orbits around. Chess Piece Queen, the camera circles around.",
+    "prompt_display": "国际象棋中的皇后，相机环绕镜头",
+    "sample_index": 0,
+    "seed": 2100067,
+    "duration": 10,
+    "fps": 25,
+    "num_frames": 250,
+    "width": 1280,
+    "height": 720
+  },
+  {
+    "case_id": "t2v-0068",
+    "dimension": [
+      "Multi-View_Consistency"
+    ],
+    "prompt_input": "国际象棋中的皇后，相机环绕镜头",
+    "prompt_eval_en": "The camera orbits around. Chess Piece Queen, the camera circles around.",
+    "prompt_display": "国际象棋中的皇后，相机环绕镜头",
+    "sample_index": 1,
+    "seed": 2100068,
+    "duration": 10,
+    "fps": 25,
+    "num_frames": 250,
+    "width": 1280,
+    "height": 720
+  },
+  {
+    "case_id": "t2v-0069",
+    "dimension": [
+      "Multi-View_Consistency"
+    ],
+    "prompt_input": "国际象棋中的皇后，相机环绕镜头",
+    "prompt_eval_en": "The camera orbits around. Chess Piece Queen, the camera circles around.",
+    "prompt_display": "国际象棋中的皇后，相机环绕镜头",
+    "sample_index": 2,
+    "seed": 2100069,
+    "duration": 10,
+    "fps": 25,
+    "num_frames": 250,
+    "width": 1280,
+    "height": 720
+  },
+  {
+    "case_id": "t2v-0070",
+    "dimension": [
+      "Multi-View_Consistency"
+    ],
+    "prompt_input": "火车，相机环绕镜头",
+    "prompt_eval_en": "The camera orbits around. Train, the camera circles around.",
+    "prompt_display": "火车，相机环绕镜头",
+    "sample_index": 0,
+    "seed": 2100070,
+    "duration": 10,
+    "fps": 25,
+    "num_frames": 250,
+    "width": 1280,
+    "height": 720
+  },
+  {
+    "case_id": "t2v-0071",
+    "dimension": [
+      "Multi-View_Consistency"
+    ],
+    "prompt_input": "火车，相机环绕镜头",
+    "prompt_eval_en": "The camera orbits around. Train, the camera circles around.",
+    "prompt_display": "火车，相机环绕镜头",
+    "sample_index": 1,
+    "seed": 2100071,
+    "duration": 10,
+    "fps": 25,
+    "num_frames": 250,
+    "width": 1280,
+    "height": 720
+  },
+  {
+    "case_id": "t2v-0072",
+    "dimension": [
+      "Multi-View_Consistency"
+    ],
+    "prompt_input": "火车，相机环绕镜头",
+    "prompt_eval_en": "The camera orbits around. Train, the camera circles around.",
+    "prompt_display": "火车，相机环绕镜头",
+    "sample_index": 2,
+    "seed": 2100072,
+    "duration": 10,
+    "fps": 25,
+    "num_frames": 250,
+    "width": 1280,
+    "height": 720
+  },
+  {
+    "case_id": "t2v-0073",
+    "dimension": [
+      "Multi-View_Consistency"
+    ],
+    "prompt_input": "霸王龙，相机环绕镜头",
+    "prompt_eval_en": "The camera orbits around. Trex, the camera circles around.",
+    "prompt_display": "霸王龙，相机环绕镜头",
+    "sample_index": 0,
+    "seed": 2100073,
+    "duration": 10,
+    "fps": 25,
+    "num_frames": 250,
+    "width": 1280,
+    "height": 720
+  },
+  {
+    "case_id": "t2v-0074",
+    "dimension": [
+      "Multi-View_Consistency"
+    ],
+    "prompt_input": "霸王龙，相机环绕镜头",
+    "prompt_eval_en": "The camera orbits around. Trex, the camera circles around.",
+    "prompt_display": "霸王龙，相机环绕镜头",
+    "sample_index": 1,
+    "seed": 2100074,
+    "duration": 10,
+    "fps": 25,
+    "num_frames": 250,
+    "width": 1280,
+    "height": 720
+  },
+  {
+    "case_id": "t2v-0075",
+    "dimension": [
+      "Multi-View_Consistency"
+    ],
+    "prompt_input": "霸王龙，相机环绕镜头",
+    "prompt_eval_en": "The camera orbits around. Trex, the camera circles around.",
+    "prompt_display": "霸王龙，相机环绕镜头",
+    "sample_index": 2,
+    "seed": 2100075,
+    "duration": 10,
+    "fps": 25,
+    "num_frames": 250,
+    "width": 1280,
+    "height": 720
+  },
+  {
+    "case_id": "t2v-0076",
+    "dimension": [
+      "Complex_Plot"
+    ],
+    "prompt_input": "足球比赛开始，A队迅速组织进攻，通过快速传球突破了B队的防线。前锋精准地将球踢入球门，以1-0领先。B队并没有慌乱，他们利用长传快速反击。前锋冷静地射门，足球顺利入网，将比分扳为1-1。此时，比赛进入僵持阶段。双方的防守都很稳固，比赛变成了一场激烈的较量。下半场，A队获得一个角球。球员传出的高球被中后卫高高跃起头球攻入，使A队以2-1领先。在比赛的最后时刻，B队获得一个点球。前锋毫不犹豫地射门，将球送入网中，将比分扳为2-2。最终，在加时赛的最后时刻，A队利用快速反击，一记禁区外的远射直飞球门角落，以3-2锁定胜局",
+    "prompt_eval_en": "The match began, and Team A quickly organized an attack, breaking through Team B's defense with fast passes. The forward accurately kicked the ball into the goal, taking a 1-0 lead. Team B did not panic; they used a long pass to quickly counterattack. The forward calmly shot past the goalkeeper, and the ball went straight into the net, making it 1-1. At this point, the game entered a stalemate. Both teams' defenses were solid, and the match became a fierce battle. In the second half, Team A had a corner kick. The high ball delivered by the player was headed in by the center-back who jumped high, putting Team A in the lead at 2-1. In the final moments of the game, Team B got a penalty kick. The forward took the shot without hesitation, sending the ball into the net to make it 2-2. Finally, in the last moments of extra time, Team A used a quick counterattack and a long-range shot from outside the box flew straight into the corner, securing the win with a 3-2 score.",
+    "prompt_display": "足球比赛开始，A队迅速组织进攻，通过快速传球突破了B队的防线。前锋精准地将球踢入球门，以1-0领先。B队并没有慌乱，他们利用长传快速反击。前锋冷静地射门，足球顺利入网，将比分扳为1-1。此时，比赛进入僵持阶段。双方的防守都很稳固，比赛变成了一场激烈的较量。下半场，A队获得一个角球。球员传出的高球被中后卫高高跃起头球攻入，使A队以2-1领先。在比赛的最后时刻，B队获得一个点球。前锋毫不犹豫地射门，将球送入网中，将比分扳为2-2。最终，在加时赛的最后时刻，A队利用快速反击，一记禁区外的远射直飞球门角落，以3-2锁定胜局",
+    "sample_index": 0,
+    "seed": 2100076,
+    "duration": 10,
+    "fps": 25,
+    "num_frames": 250,
+    "width": 1280,
+    "height": 720
+  },
+  {
+    "case_id": "t2v-0077",
+    "dimension": [
+      "Complex_Plot"
+    ],
+    "prompt_input": "足球比赛开始，A队迅速组织进攻，通过快速传球突破了B队的防线。前锋精准地将球踢入球门，以1-0领先。B队并没有慌乱，他们利用长传快速反击。前锋冷静地射门，足球顺利入网，将比分扳为1-1。此时，比赛进入僵持阶段。双方的防守都很稳固，比赛变成了一场激烈的较量。下半场，A队获得一个角球。球员传出的高球被中后卫高高跃起头球攻入，使A队以2-1领先。在比赛的最后时刻，B队获得一个点球。前锋毫不犹豫地射门，将球送入网中，将比分扳为2-2。最终，在加时赛的最后时刻，A队利用快速反击，一记禁区外的远射直飞球门角落，以3-2锁定胜局",
+    "prompt_eval_en": "The match began, and Team A quickly organized an attack, breaking through Team B's defense with fast passes. The forward accurately kicked the ball into the goal, taking a 1-0 lead. Team B did not panic; they used a long pass to quickly counterattack. The forward calmly shot past the goalkeeper, and the ball went straight into the net, making it 1-1. At this point, the game entered a stalemate. Both teams' defenses were solid, and the match became a fierce battle. In the second half, Team A had a corner kick. The high ball delivered by the player was headed in by the center-back who jumped high, putting Team A in the lead at 2-1. In the final moments of the game, Team B got a penalty kick. The forward took the shot without hesitation, sending the ball into the net to make it 2-2. Finally, in the last moments of extra time, Team A used a quick counterattack and a long-range shot from outside the box flew straight into the corner, securing the win with a 3-2 score.",
+    "prompt_display": "足球比赛开始，A队迅速组织进攻，通过快速传球突破了B队的防线。前锋精准地将球踢入球门，以1-0领先。B队并没有慌乱，他们利用长传快速反击。前锋冷静地射门，足球顺利入网，将比分扳为1-1。此时，比赛进入僵持阶段。双方的防守都很稳固，比赛变成了一场激烈的较量。下半场，A队获得一个角球。球员传出的高球被中后卫高高跃起头球攻入，使A队以2-1领先。在比赛的最后时刻，B队获得一个点球。前锋毫不犹豫地射门，将球送入网中，将比分扳为2-2。最终，在加时赛的最后时刻，A队利用快速反击，一记禁区外的远射直飞球门角落，以3-2锁定胜局",
+    "sample_index": 1,
+    "seed": 2100077,
+    "duration": 10,
+    "fps": 25,
+    "num_frames": 250,
+    "width": 1280,
+    "height": 720
+  },
+  {
+    "case_id": "t2v-0078",
+    "dimension": [
+      "Complex_Plot"
+    ],
+    "prompt_input": "足球比赛开始，A队迅速组织进攻，通过快速传球突破了B队的防线。前锋精准地将球踢入球门，以1-0领先。B队并没有慌乱，他们利用长传快速反击。前锋冷静地射门，足球顺利入网，将比分扳为1-1。此时，比赛进入僵持阶段。双方的防守都很稳固，比赛变成了一场激烈的较量。下半场，A队获得一个角球。球员传出的高球被中后卫高高跃起头球攻入，使A队以2-1领先。在比赛的最后时刻，B队获得一个点球。前锋毫不犹豫地射门，将球送入网中，将比分扳为2-2。最终，在加时赛的最后时刻，A队利用快速反击，一记禁区外的远射直飞球门角落，以3-2锁定胜局",
+    "prompt_eval_en": "The match began, and Team A quickly organized an attack, breaking through Team B's defense with fast passes. The forward accurately kicked the ball into the goal, taking a 1-0 lead. Team B did not panic; they used a long pass to quickly counterattack. The forward calmly shot past the goalkeeper, and the ball went straight into the net, making it 1-1. At this point, the game entered a stalemate. Both teams' defenses were solid, and the match became a fierce battle. In the second half, Team A had a corner kick. The high ball delivered by the player was headed in by the center-back who jumped high, putting Team A in the lead at 2-1. In the final moments of the game, Team B got a penalty kick. The forward took the shot without hesitation, sending the ball into the net to make it 2-2. Finally, in the last moments of extra time, Team A used a quick counterattack and a long-range shot from outside the box flew straight into the corner, securing the win with a 3-2 score.",
+    "prompt_display": "足球比赛开始，A队迅速组织进攻，通过快速传球突破了B队的防线。前锋精准地将球踢入球门，以1-0领先。B队并没有慌乱，他们利用长传快速反击。前锋冷静地射门，足球顺利入网，将比分扳为1-1。此时，比赛进入僵持阶段。双方的防守都很稳固，比赛变成了一场激烈的较量。下半场，A队获得一个角球。球员传出的高球被中后卫高高跃起头球攻入，使A队以2-1领先。在比赛的最后时刻，B队获得一个点球。前锋毫不犹豫地射门，将球送入网中，将比分扳为2-2。最终，在加时赛的最后时刻，A队利用快速反击，一记禁区外的远射直飞球门角落，以3-2锁定胜局",
+    "sample_index": 2,
+    "seed": 2100078,
+    "duration": 10,
+    "fps": 25,
+    "num_frames": 250,
+    "width": 1280,
+    "height": 720
+  },
+  {
+    "case_id": "t2v-0079",
+    "dimension": [
+      "Complex_Plot"
+    ],
+    "prompt_input": "一个勇敢的年轻女孩踏上了一次冒险之旅，寻找五件古代神器。首先，她穿越了荒凉的沙漠，在一只巨大的沙漠龟的帮助下找到了无尽水瓶。接着，她来到古老的图书馆，解开了守护灵的谜题，获得了永恒之书。她进入神秘的森林，与巨兽搏斗，赢得了森林之心。然后，她攀登危险的雷电山，通过了雷神的试炼，得到了雷电法杖。最后，她深入地下洞穴，击败了冥界守卫，获得了生命之石。女孩将五件神器结合起来，打败了黑暗巫师，拯救了世界",
+    "prompt_eval_en": "A brave young girl set off on an adventure to find five ancient artifacts. First, she crossed the desolate desert, finding the endless water bottle with the help of a giant desert turtle. Next, she went to the ancient library, solved the guardian spirit’s riddle, and obtained the book of eternity. She entered the mysterious forest, fought against a giant beast, and earned the heart of the forest. She then climbed the dangerous lightning mountains, passed the god of lightning's trials, and obtained the lightning staff. Lastly, she ventured into the deep underground caves, defeated the underworld guards, and obtained the stone of life. The girl combined all five artifacts, defeated the dark sorcerer, and saved the world.",
+    "prompt_display": "一个勇敢的年轻女孩踏上了一次冒险之旅，寻找五件古代神器。首先，她穿越了荒凉的沙漠，在一只巨大的沙漠龟的帮助下找到了无尽水瓶。接着，她来到古老的图书馆，解开了守护灵的谜题，获得了永恒之书。她进入神秘的森林，与巨兽搏斗，赢得了森林之心。然后，她攀登危险的雷电山，通过了雷神的试炼，得到了雷电法杖。最后，她深入地下洞穴，击败了冥界守卫，获得了生命之石。女孩将五件神器结合起来，打败了黑暗巫师，拯救了世界",
+    "sample_index": 0,
+    "seed": 2100079,
+    "duration": 10,
+    "fps": 25,
+    "num_frames": 250,
+    "width": 1280,
+    "height": 720
+  },
+  {
+    "case_id": "t2v-0080",
+    "dimension": [
+      "Complex_Plot"
+    ],
+    "prompt_input": "一个勇敢的年轻女孩踏上了一次冒险之旅，寻找五件古代神器。首先，她穿越了荒凉的沙漠，在一只巨大的沙漠龟的帮助下找到了无尽水瓶。接着，她来到古老的图书馆，解开了守护灵的谜题，获得了永恒之书。她进入神秘的森林，与巨兽搏斗，赢得了森林之心。然后，她攀登危险的雷电山，通过了雷神的试炼，得到了雷电法杖。最后，她深入地下洞穴，击败了冥界守卫，获得了生命之石。女孩将五件神器结合起来，打败了黑暗巫师，拯救了世界",
+    "prompt_eval_en": "A brave young girl set off on an adventure to find five ancient artifacts. First, she crossed the desolate desert, finding the endless water bottle with the help of a giant desert turtle. Next, she went to the ancient library, solved the guardian spirit’s riddle, and obtained the book of eternity. She entered the mysterious forest, fought against a giant beast, and earned the heart of the forest. She then climbed the dangerous lightning mountains, passed the god of lightning's trials, and obtained the lightning staff. Lastly, she ventured into the deep underground caves, defeated the underworld guards, and obtained the stone of life. The girl combined all five artifacts, defeated the dark sorcerer, and saved the world.",
+    "prompt_display": "一个勇敢的年轻女孩踏上了一次冒险之旅，寻找五件古代神器。首先，她穿越了荒凉的沙漠，在一只巨大的沙漠龟的帮助下找到了无尽水瓶。接着，她来到古老的图书馆，解开了守护灵的谜题，获得了永恒之书。她进入神秘的森林，与巨兽搏斗，赢得了森林之心。然后，她攀登危险的雷电山，通过了雷神的试炼，得到了雷电法杖。最后，她深入地下洞穴，击败了冥界守卫，获得了生命之石。女孩将五件神器结合起来，打败了黑暗巫师，拯救了世界",
+    "sample_index": 1,
+    "seed": 2100080,
+    "duration": 10,
+    "fps": 25,
+    "num_frames": 250,
+    "width": 1280,
+    "height": 720
+  },
+  {
+    "case_id": "t2v-0081",
+    "dimension": [
+      "Complex_Plot"
+    ],
+    "prompt_input": "一个勇敢的年轻女孩踏上了一次冒险之旅，寻找五件古代神器。首先，她穿越了荒凉的沙漠，在一只巨大的沙漠龟的帮助下找到了无尽水瓶。接着，她来到古老的图书馆，解开了守护灵的谜题，获得了永恒之书。她进入神秘的森林，与巨兽搏斗，赢得了森林之心。然后，她攀登危险的雷电山，通过了雷神的试炼，得到了雷电法杖。最后，她深入地下洞穴，击败了冥界守卫，获得了生命之石。女孩将五件神器结合起来，打败了黑暗巫师，拯救了世界",
+    "prompt_eval_en": "A brave young girl set off on an adventure to find five ancient artifacts. First, she crossed the desolate desert, finding the endless water bottle with the help of a giant desert turtle. Next, she went to the ancient library, solved the guardian spirit’s riddle, and obtained the book of eternity. She entered the mysterious forest, fought against a giant beast, and earned the heart of the forest. She then climbed the dangerous lightning mountains, passed the god of lightning's trials, and obtained the lightning staff. Lastly, she ventured into the deep underground caves, defeated the underworld guards, and obtained the stone of life. The girl combined all five artifacts, defeated the dark sorcerer, and saved the world.",
+    "prompt_display": "一个勇敢的年轻女孩踏上了一次冒险之旅，寻找五件古代神器。首先，她穿越了荒凉的沙漠，在一只巨大的沙漠龟的帮助下找到了无尽水瓶。接着，她来到古老的图书馆，解开了守护灵的谜题，获得了永恒之书。她进入神秘的森林，与巨兽搏斗，赢得了森林之心。然后，她攀登危险的雷电山，通过了雷神的试炼，得到了雷电法杖。最后，她深入地下洞穴，击败了冥界守卫，获得了生命之石。女孩将五件神器结合起来，打败了黑暗巫师，拯救了世界",
+    "sample_index": 2,
+    "seed": 2100081,
+    "duration": 10,
+    "fps": 25,
+    "num_frames": 250,
+    "width": 1280,
+    "height": 720
+  },
+  {
+    "case_id": "t2v-0082",
+    "dimension": [
+      "Complex_Plot"
+    ],
+    "prompt_input": "一个小女孩收到了一份神秘的礼物——古老的时间钥匙。她用这把钥匙打开了一扇封闭的门，进入了时间屋。第一天，她发现了一个房间，里面满是书，每本书都有不同的故事。第二天，她被带到一个充满奇异气味的古老厨房，一位善良的女巫教她制作可以改变过去的魔法饼干。第三天，她发现了一面镜子，镜中的自己看起来完全不同，甚至无法辨认。第四天，她在时间屋的秘密花园里种下了一颗种子，奇迹般地，它在一夜之间长成了一棵大树。最后，她发现自己一直生活在一个不受时间影响的世界里，而时间屋才是她真正的家",
+    "prompt_eval_en": "A little girl received a mysterious gift—the ancient time key. She used the key to open a sealed door and entered the time house. On the first day, she found a room filled with books, each with a different story. On the second day, she was taken to an ancient kitchen filled with strange smells, where a kind witch taught her how to make magic cookies that could change the past. On the third day, she found a mirror where her reflection looked completely different, even unrecognizable. On the fourth day, she planted a seed in the secret garden of the time house, and miraculously, it grew into a huge tree overnight. Finally, she discovered that she had always been living in a world unaffected by time, and the time house was her true home.",
+    "prompt_display": "一个小女孩收到了一份神秘的礼物——古老的时间钥匙。她用这把钥匙打开了一扇封闭的门，进入了时间屋。第一天，她发现了一个房间，里面满是书，每本书都有不同的故事。第二天，她被带到一个充满奇异气味的古老厨房，一位善良的女巫教她制作可以改变过去的魔法饼干。第三天，她发现了一面镜子，镜中的自己看起来完全不同，甚至无法辨认。第四天，她在时间屋的秘密花园里种下了一颗种子，奇迹般地，它在一夜之间长成了一棵大树。最后，她发现自己一直生活在一个不受时间影响的世界里，而时间屋才是她真正的家",
+    "sample_index": 0,
+    "seed": 2100082,
+    "duration": 10,
+    "fps": 25,
+    "num_frames": 250,
+    "width": 1280,
+    "height": 720
+  },
+  {
+    "case_id": "t2v-0083",
+    "dimension": [
+      "Complex_Plot"
+    ],
+    "prompt_input": "一个小女孩收到了一份神秘的礼物——古老的时间钥匙。她用这把钥匙打开了一扇封闭的门，进入了时间屋。第一天，她发现了一个房间，里面满是书，每本书都有不同的故事。第二天，她被带到一个充满奇异气味的古老厨房，一位善良的女巫教她制作可以改变过去的魔法饼干。第三天，她发现了一面镜子，镜中的自己看起来完全不同，甚至无法辨认。第四天，她在时间屋的秘密花园里种下了一颗种子，奇迹般地，它在一夜之间长成了一棵大树。最后，她发现自己一直生活在一个不受时间影响的世界里，而时间屋才是她真正的家",
+    "prompt_eval_en": "A little girl received a mysterious gift—the ancient time key. She used the key to open a sealed door and entered the time house. On the first day, she found a room filled with books, each with a different story. On the second day, she was taken to an ancient kitchen filled with strange smells, where a kind witch taught her how to make magic cookies that could change the past. On the third day, she found a mirror where her reflection looked completely different, even unrecognizable. On the fourth day, she planted a seed in the secret garden of the time house, and miraculously, it grew into a huge tree overnight. Finally, she discovered that she had always been living in a world unaffected by time, and the time house was her true home.",
+    "prompt_display": "一个小女孩收到了一份神秘的礼物——古老的时间钥匙。她用这把钥匙打开了一扇封闭的门，进入了时间屋。第一天，她发现了一个房间，里面满是书，每本书都有不同的故事。第二天，她被带到一个充满奇异气味的古老厨房，一位善良的女巫教她制作可以改变过去的魔法饼干。第三天，她发现了一面镜子，镜中的自己看起来完全不同，甚至无法辨认。第四天，她在时间屋的秘密花园里种下了一颗种子，奇迹般地，它在一夜之间长成了一棵大树。最后，她发现自己一直生活在一个不受时间影响的世界里，而时间屋才是她真正的家",
+    "sample_index": 1,
+    "seed": 2100083,
+    "duration": 10,
+    "fps": 25,
+    "num_frames": 250,
+    "width": 1280,
+    "height": 720
+  },
+  {
+    "case_id": "t2v-0084",
+    "dimension": [
+      "Complex_Plot"
+    ],
+    "prompt_input": "一个小女孩收到了一份神秘的礼物——古老的时间钥匙。她用这把钥匙打开了一扇封闭的门，进入了时间屋。第一天，她发现了一个房间，里面满是书，每本书都有不同的故事。第二天，她被带到一个充满奇异气味的古老厨房，一位善良的女巫教她制作可以改变过去的魔法饼干。第三天，她发现了一面镜子，镜中的自己看起来完全不同，甚至无法辨认。第四天，她在时间屋的秘密花园里种下了一颗种子，奇迹般地，它在一夜之间长成了一棵大树。最后，她发现自己一直生活在一个不受时间影响的世界里，而时间屋才是她真正的家",
+    "prompt_eval_en": "A little girl received a mysterious gift—the ancient time key. She used the key to open a sealed door and entered the time house. On the first day, she found a room filled with books, each with a different story. On the second day, she was taken to an ancient kitchen filled with strange smells, where a kind witch taught her how to make magic cookies that could change the past. On the third day, she found a mirror where her reflection looked completely different, even unrecognizable. On the fourth day, she planted a seed in the secret garden of the time house, and miraculously, it grew into a huge tree overnight. Finally, she discovered that she had always been living in a world unaffected by time, and the time house was her true home.",
+    "prompt_display": "一个小女孩收到了一份神秘的礼物——古老的时间钥匙。她用这把钥匙打开了一扇封闭的门，进入了时间屋。第一天，她发现了一个房间，里面满是书，每本书都有不同的故事。第二天，她被带到一个充满奇异气味的古老厨房，一位善良的女巫教她制作可以改变过去的魔法饼干。第三天，她发现了一面镜子，镜中的自己看起来完全不同，甚至无法辨认。第四天，她在时间屋的秘密花园里种下了一颗种子，奇迹般地，它在一夜之间长成了一棵大树。最后，她发现自己一直生活在一个不受时间影响的世界里，而时间屋才是她真正的家",
+    "sample_index": 2,
+    "seed": 2100084,
+    "duration": 10,
+    "fps": 25,
+    "num_frames": 250,
+    "width": 1280,
+    "height": 720
+  },
+  {
+    "case_id": "t2v-0085",
+    "dimension": [
+      "Complex_Plot"
+    ],
+    "prompt_input": "有一个古老的迷宫，据说任何能够成功逃脱的人都能获得无尽的财富。为了揭开失踪父亲的谜团，一位名叫艾伦的年轻冒险家决定进入迷宫。在第一层，他遇到了一只神秘的猫，猫告诉他迷宫有五层，每一层都考验一个人的智慧和勇气。艾伦成功通过了前两层，但在第三层，他遇到了自己的幻影并迷失了方向。在一次觉醒后，他克服了幻影，成功通过了剩下的两层。最终，艾伦发现迷宫的出口并没有通向财富，而是通向了他家族隐藏秘密的钥匙",
+    "prompt_eval_en": "There was an ancient maze that was said to grant endless wealth to whoever could successfully escape it. To uncover the mystery of his missing father, a young adventurer named Allen decided to enter the maze. On the first level, he met a mysterious cat that told him the maze had five levels, each testing one’s wisdom and courage. Allen successfully passed the first two levels, but on the third level, he encountered an illusion of himself and lost his way. After an awakening moment, he overcame the illusion and successfully passed the remaining two levels. In the end, Allen discovered that the maze’s exit didn’t lead to wealth but to the key to his family’s hidden secrets.",
+    "prompt_display": "有一个古老的迷宫，据说任何能够成功逃脱的人都能获得无尽的财富。为了揭开失踪父亲的谜团，一位名叫艾伦的年轻冒险家决定进入迷宫。在第一层，他遇到了一只神秘的猫，猫告诉他迷宫有五层，每一层都考验一个人的智慧和勇气。艾伦成功通过了前两层，但在第三层，他遇到了自己的幻影并迷失了方向。在一次觉醒后，他克服了幻影，成功通过了剩下的两层。最终，艾伦发现迷宫的出口并没有通向财富，而是通向了他家族隐藏秘密的钥匙",
+    "sample_index": 0,
+    "seed": 2100085,
+    "duration": 10,
+    "fps": 25,
+    "num_frames": 250,
+    "width": 1280,
+    "height": 720
+  },
+  {
+    "case_id": "t2v-0086",
+    "dimension": [
+      "Complex_Plot"
+    ],
+    "prompt_input": "有一个古老的迷宫，据说任何能够成功逃脱的人都能获得无尽的财富。为了揭开失踪父亲的谜团，一位名叫艾伦的年轻冒险家决定进入迷宫。在第一层，他遇到了一只神秘的猫，猫告诉他迷宫有五层，每一层都考验一个人的智慧和勇气。艾伦成功通过了前两层，但在第三层，他遇到了自己的幻影并迷失了方向。在一次觉醒后，他克服了幻影，成功通过了剩下的两层。最终，艾伦发现迷宫的出口并没有通向财富，而是通向了他家族隐藏秘密的钥匙",
+    "prompt_eval_en": "There was an ancient maze that was said to grant endless wealth to whoever could successfully escape it. To uncover the mystery of his missing father, a young adventurer named Allen decided to enter the maze. On the first level, he met a mysterious cat that told him the maze had five levels, each testing one’s wisdom and courage. Allen successfully passed the first two levels, but on the third level, he encountered an illusion of himself and lost his way. After an awakening moment, he overcame the illusion and successfully passed the remaining two levels. In the end, Allen discovered that the maze’s exit didn’t lead to wealth but to the key to his family’s hidden secrets.",
+    "prompt_display": "有一个古老的迷宫，据说任何能够成功逃脱的人都能获得无尽的财富。为了揭开失踪父亲的谜团，一位名叫艾伦的年轻冒险家决定进入迷宫。在第一层，他遇到了一只神秘的猫，猫告诉他迷宫有五层，每一层都考验一个人的智慧和勇气。艾伦成功通过了前两层，但在第三层，他遇到了自己的幻影并迷失了方向。在一次觉醒后，他克服了幻影，成功通过了剩下的两层。最终，艾伦发现迷宫的出口并没有通向财富，而是通向了他家族隐藏秘密的钥匙",
+    "sample_index": 1,
+    "seed": 2100086,
+    "duration": 10,
+    "fps": 25,
+    "num_frames": 250,
+    "width": 1280,
+    "height": 720
+  },
+  {
+    "case_id": "t2v-0087",
+    "dimension": [
+      "Complex_Plot"
+    ],
+    "prompt_input": "有一个古老的迷宫，据说任何能够成功逃脱的人都能获得无尽的财富。为了揭开失踪父亲的谜团，一位名叫艾伦的年轻冒险家决定进入迷宫。在第一层，他遇到了一只神秘的猫，猫告诉他迷宫有五层，每一层都考验一个人的智慧和勇气。艾伦成功通过了前两层，但在第三层，他遇到了自己的幻影并迷失了方向。在一次觉醒后，他克服了幻影，成功通过了剩下的两层。最终，艾伦发现迷宫的出口并没有通向财富，而是通向了他家族隐藏秘密的钥匙",
+    "prompt_eval_en": "There was an ancient maze that was said to grant endless wealth to whoever could successfully escape it. To uncover the mystery of his missing father, a young adventurer named Allen decided to enter the maze. On the first level, he met a mysterious cat that told him the maze had five levels, each testing one’s wisdom and courage. Allen successfully passed the first two levels, but on the third level, he encountered an illusion of himself and lost his way. After an awakening moment, he overcame the illusion and successfully passed the remaining two levels. In the end, Allen discovered that the maze’s exit didn’t lead to wealth but to the key to his family’s hidden secrets.",
+    "prompt_display": "有一个古老的迷宫，据说任何能够成功逃脱的人都能获得无尽的财富。为了揭开失踪父亲的谜团，一位名叫艾伦的年轻冒险家决定进入迷宫。在第一层，他遇到了一只神秘的猫，猫告诉他迷宫有五层，每一层都考验一个人的智慧和勇气。艾伦成功通过了前两层，但在第三层，他遇到了自己的幻影并迷失了方向。在一次觉醒后，他克服了幻影，成功通过了剩下的两层。最终，艾伦发现迷宫的出口并没有通向财富，而是通向了他家族隐藏秘密的钥匙",
+    "sample_index": 2,
+    "seed": 2100087,
+    "duration": 10,
+    "fps": 25,
+    "num_frames": 250,
+    "width": 1280,
+    "height": 720
+  },
+  {
+    "case_id": "t2v-0088",
+    "dimension": [
+      "Complex_Plot"
+    ],
+    "prompt_input": "在一个被遗忘的古老村庄里，所有的钟都停了，时间仿佛静止不动。村民们被困在永恒的闲散状态中。一位年轻的钟表匠名叫丹尼尔，决定找出原因并修复钟楼。他发现钟楼的核心部件被一只巨大的机械鸟偷走了，而这只鸟藏在地下宫殿中。丹尼尔深入宫殿，打怪兽、避陷阱，最终找到了那只鸟并修复了它。通过修复鸟的机制，他恢复了村庄的时间流动。然而，丹尼尔意识到，每次他恢复时间，村庄的一段记忆就会消失。最终，丹尼尔选择牺牲自己的记忆来重启时间，为村民们带来一个新的开始",
+    "prompt_eval_en": "In a forgotten, ancient village, all the clocks had stopped, and time seemed to stand still. The villagers were trapped in a perpetual state of idleness. A young clockmaker named Daniel decided to find the cause and repair the clock tower. He discovered that the heart of the tower’s clock had been stolen by a giant mechanical bird, which hid in an underground palace. Daniel ventured deep into the palace, fighting monsters and avoiding traps, and eventually found the bird and repaired it. By fixing the bird’s mechanism, he restored the flow of time in the village. However, Daniel realized that every time he restored time, a certain memory of the village would be lost. In the end, Daniel chose to sacrifice his own memories to restart time, giving the villagers a new beginning.",
+    "prompt_display": "在一个被遗忘的古老村庄里，所有的钟都停了，时间仿佛静止不动。村民们被困在永恒的闲散状态中。一位年轻的钟表匠名叫丹尼尔，决定找出原因并修复钟楼。他发现钟楼的核心部件被一只巨大的机械鸟偷走了，而这只鸟藏在地下宫殿中。丹尼尔深入宫殿，打怪兽、避陷阱，最终找到了那只鸟并修复了它。通过修复鸟的机制，他恢复了村庄的时间流动。然而，丹尼尔意识到，每次他恢复时间，村庄的一段记忆就会消失。最终，丹尼尔选择牺牲自己的记忆来重启时间，为村民们带来一个新的开始",
+    "sample_index": 0,
+    "seed": 2100088,
+    "duration": 10,
+    "fps": 25,
+    "num_frames": 250,
+    "width": 1280,
+    "height": 720
+  },
+  {
+    "case_id": "t2v-0089",
+    "dimension": [
+      "Complex_Plot"
+    ],
+    "prompt_input": "在一个被遗忘的古老村庄里，所有的钟都停了，时间仿佛静止不动。村民们被困在永恒的闲散状态中。一位年轻的钟表匠名叫丹尼尔，决定找出原因并修复钟楼。他发现钟楼的核心部件被一只巨大的机械鸟偷走了，而这只鸟藏在地下宫殿中。丹尼尔深入宫殿，打怪兽、避陷阱，最终找到了那只鸟并修复了它。通过修复鸟的机制，他恢复了村庄的时间流动。然而，丹尼尔意识到，每次他恢复时间，村庄的一段记忆就会消失。最终，丹尼尔选择牺牲自己的记忆来重启时间，为村民们带来一个新的开始",
+    "prompt_eval_en": "In a forgotten, ancient village, all the clocks had stopped, and time seemed to stand still. The villagers were trapped in a perpetual state of idleness. A young clockmaker named Daniel decided to find the cause and repair the clock tower. He discovered that the heart of the tower’s clock had been stolen by a giant mechanical bird, which hid in an underground palace. Daniel ventured deep into the palace, fighting monsters and avoiding traps, and eventually found the bird and repaired it. By fixing the bird’s mechanism, he restored the flow of time in the village. However, Daniel realized that every time he restored time, a certain memory of the village would be lost. In the end, Daniel chose to sacrifice his own memories to restart time, giving the villagers a new beginning.",
+    "prompt_display": "在一个被遗忘的古老村庄里，所有的钟都停了，时间仿佛静止不动。村民们被困在永恒的闲散状态中。一位年轻的钟表匠名叫丹尼尔，决定找出原因并修复钟楼。他发现钟楼的核心部件被一只巨大的机械鸟偷走了，而这只鸟藏在地下宫殿中。丹尼尔深入宫殿，打怪兽、避陷阱，最终找到了那只鸟并修复了它。通过修复鸟的机制，他恢复了村庄的时间流动。然而，丹尼尔意识到，每次他恢复时间，村庄的一段记忆就会消失。最终，丹尼尔选择牺牲自己的记忆来重启时间，为村民们带来一个新的开始",
+    "sample_index": 1,
+    "seed": 2100089,
+    "duration": 10,
+    "fps": 25,
+    "num_frames": 250,
+    "width": 1280,
+    "height": 720
+  },
+  {
+    "case_id": "t2v-0090",
+    "dimension": [
+      "Complex_Plot"
+    ],
+    "prompt_input": "在一个被遗忘的古老村庄里，所有的钟都停了，时间仿佛静止不动。村民们被困在永恒的闲散状态中。一位年轻的钟表匠名叫丹尼尔，决定找出原因并修复钟楼。他发现钟楼的核心部件被一只巨大的机械鸟偷走了，而这只鸟藏在地下宫殿中。丹尼尔深入宫殿，打怪兽、避陷阱，最终找到了那只鸟并修复了它。通过修复鸟的机制，他恢复了村庄的时间流动。然而，丹尼尔意识到，每次他恢复时间，村庄的一段记忆就会消失。最终，丹尼尔选择牺牲自己的记忆来重启时间，为村民们带来一个新的开始",
+    "prompt_eval_en": "In a forgotten, ancient village, all the clocks had stopped, and time seemed to stand still. The villagers were trapped in a perpetual state of idleness. A young clockmaker named Daniel decided to find the cause and repair the clock tower. He discovered that the heart of the tower’s clock had been stolen by a giant mechanical bird, which hid in an underground palace. Daniel ventured deep into the palace, fighting monsters and avoiding traps, and eventually found the bird and repaired it. By fixing the bird’s mechanism, he restored the flow of time in the village. However, Daniel realized that every time he restored time, a certain memory of the village would be lost. In the end, Daniel chose to sacrifice his own memories to restart time, giving the villagers a new beginning.",
+    "prompt_display": "在一个被遗忘的古老村庄里，所有的钟都停了，时间仿佛静止不动。村民们被困在永恒的闲散状态中。一位年轻的钟表匠名叫丹尼尔，决定找出原因并修复钟楼。他发现钟楼的核心部件被一只巨大的机械鸟偷走了，而这只鸟藏在地下宫殿中。丹尼尔深入宫殿，打怪兽、避陷阱，最终找到了那只鸟并修复了它。通过修复鸟的机制，他恢复了村庄的时间流动。然而，丹尼尔意识到，每次他恢复时间，村庄的一段记忆就会消失。最终，丹尼尔选择牺牲自己的记忆来重启时间，为村民们带来一个新的开始",
+    "sample_index": 2,
+    "seed": 2100090,
+    "duration": 10,
+    "fps": 25,
+    "num_frames": 250,
+    "width": 1280,
+    "height": 720
+  }
+]

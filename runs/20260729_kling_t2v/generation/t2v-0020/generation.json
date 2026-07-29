@@ -1,0 +1,26 @@
+{
+  "case_id": "t2v-0020",
+  "dimension": [
+    "Motion_Rationality"
+  ],
+  "prompt_input": "一个人在移动椅子",
+  "prompt_eval_en": "A person is moving the chair.",
+  "prompt_display": "一个人在移动椅子",
+  "sample_index": 0,
+  "seed": 2100020,
+  "duration": 10,
+  "fps": 25,
+  "num_frames": 250,
+  "width": 1280,
+  "height": 720,
+  "provider": "kling",
+  "mode": "t2v",
+  "model": "kling-3.0-turbo",
+  "status": "success",
+  "started_at": 1785297325.538563,
+  "output_video": "/Users/zhouruomiao/Documents/VBench/runs/20260729_kling_t2v/generation/t2v-0020/t2v-0020.mp4",
+  "task_id": "911291426271932477",
+  "video_url": "https://v2-fdl.kechuangai.com/ksc2/eQI5et5Nx2J4TbkWMxrYnpZHIdpj00GFpFkSAI5Rb2W64BXffrjJxFM-TMUmRlC5seuCqHZDhIZ_l32YR77azOEyL9UsIVeqvvVaT0W3w11spfSg1wyc395Je_EMFFXdWkoDIi3jmdiCWc5rZkmCXSgoFUnq0oTuuzHPQua_ajqeJoWANk0byBf-6eEjwpiI-PokC4WCd3smRP0oeKsiow.mp4?cacheKey=ChtzZWN1cml0eS5rbGluZy5tZXRhX2VuY3J5cHQSsAFPeHNNyUOae5cSKUUWi7wqOWI2RkAwGCk8vidHyyPEnr_rjZcq0Gk7Tn8btjc0WgA8eEhj2H92zEP1giLq3EuVLGeEHeTW1gxWbivhJMZD-We81YFkmZ6B3U8mjUej4OhjdniRBu_aI-8mUiO_yP38PC1zS0AC4kvY-kI89cIKbtAiDPyXopI0RnXM_TTlFV5C690lBgmIUn-gBYNawB1xobMeRiDE30JytS6jwcBTuBoS49Uq9aOrf5yDPqUQkY5LD-iDIiAVHsC0Mi4HGcYztx51UwSZav7hB8YVUHXzMKHjfbzA3igFMAE&x-kcdn-pid=112757&pkey=AAW_l_Z89HRkCJudybD7pAc1u9Bky_8JSLQ5bPOe_2v1pgoVEEBf3YZGTgKfGMDKKhIBBW6uECNPLSbQulDjPD0-4C-t_nJRTRNHIPL3xp9S7KVnha6YixZl9s-LN2IEuoA",
+  "finished_at": 1785297440.672405,
+  "case_json": "/Users/zhouruomiao/Documents/VBench/runs/20260729_kling_t2v/generation/t2v-0020/case.json"
+}

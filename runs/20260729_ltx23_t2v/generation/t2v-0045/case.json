@@ -1,0 +1,16 @@
+{
+  "case_id": "t2v-0045",
+  "dimension": [
+    "Motion_Order_Understanding"
+  ],
+  "prompt_input": "一只猫正坐在窗台上，突然它跳了下来，开始探索房间",
+  "prompt_eval_en": "A cat is sitting on the windowsill, then it suddenly jumps down and starts exploring the room.",
+  "prompt_display": "一只猫正坐在窗台上，突然它跳了下来，开始探索房间",
+  "sample_index": 2,
+  "seed": 2100045,
+  "duration": 10,
+  "fps": 25,
+  "num_frames": 250,
+  "width": 1280,
+  "height": 720
+}

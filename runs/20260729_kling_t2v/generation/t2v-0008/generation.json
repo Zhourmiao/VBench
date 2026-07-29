@@ -1,0 +1,26 @@
+{
+  "case_id": "t2v-0008",
+  "dimension": [
+    "Mechanics"
+  ],
+  "prompt_input": "一个尖锐的物体慢慢地压入一个柔软气球的表面，尖端逐渐陷入橡胶中",
+  "prompt_eval_en": "A sharp object slowly presses into the surface of a soft balloon, with the point gradually sinking into the rubber.",
+  "prompt_display": "一个尖锐的物体慢慢地压入一个柔软气球的表面，尖端逐渐陷入橡胶中",
+  "sample_index": 0,
+  "seed": 2100008,
+  "duration": 10,
+  "fps": 25,
+  "num_frames": 250,
+  "width": 1280,
+  "height": 720,
+  "provider": "kling",
+  "mode": "t2v",
+  "model": "kling-3.0-turbo",
+  "status": "success",
+  "started_at": 1785296699.0056489,
+  "output_video": "/Users/zhouruomiao/Documents/VBench/runs/20260729_kling_t2v/generation/t2v-0008/t2v-0008.mp4",
+  "task_id": "911288798494343234",
+  "video_url": "https://v2-fdl.kechuangai.com/ksc2/U-_lxC7iDnU6mwSqr-MEMzWWguJACqQ1sntAFTgQvL8B5fTmu7ajPjvuHEeRAAvOFU9MxAwdSqyZGBvmFfCAdaYSXeoSgww6EXlqHvHJp16ySM4BckzHlCBFw0T2ZwomsttHME-FGcTw41mhCQKVhMyF4ZgbFv6gSqFeMj6QGjpTR9Wi-bWpmB-XUQ7IgSa1QIlibQCjbIh8u-zD6DZtyA.mp4?cacheKey=ChtzZWN1cml0eS5rbGluZy5tZXRhX2VuY3J5cHQSsAF-qz-4VY0Rj3-Y6FXP7qZ_WnETajxusCN3bUSyHmBEQBR4NS7D9QOj8BnEp7yryTF6obJNkjeXxStQNmjpqWDdW4p5TonxAGP-Z4F-LKxHx6_oGe5TlZmPVLvSmKrgXGkzjVO9DT0loUA3Nx8l162gEuumPtLrS4WyCxnZqvu14XW50JKcgPqgtLCgU_6H_W3vmD3ek3WevWXfyD_iSvwcXaVGDUE7QCDCMnIH79FPcBoSf6vJMx190TgGD4GP2nZFxCPDIiBFBW2db-OURuZfTc3m4mP-ZHMJ9Kfd-6CzZRuiMAvXJigFMAE&x-kcdn-pid=112757&pkey=AAVs6fKO_u0nn4E0J-rwt-GWCgrOT0dXbWvYsISOoQyEqqTcTfTi8lFsFgLghsS1gl9El_JIG9AUmB1hKg8nz-dw7CYgNAhO1Zfv_9cCeS9ETCAQfZRoTCVbA84fydBqFjI",
+  "finished_at": 1785296741.3105621,
+  "case_json": "/Users/zhouruomiao/Documents/VBench/runs/20260729_kling_t2v/generation/t2v-0008/case.json"
+}

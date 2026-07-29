@@ -1,0 +1,26 @@
+{
+  "case_id": "t2v-0007",
+  "dimension": [
+    "Mechanics"
+  ],
+  "prompt_input": "一个湿海绵在两只手之间被压缩的延时摄影，压力迅速增加",
+  "prompt_eval_en": "A timelapse of a wet sponge being compressed between two hands, with the pressure increasing rapidly.",
+  "prompt_display": "一个湿海绵在两只手之间被压缩的延时摄影，压力迅速增加",
+  "sample_index": 0,
+  "seed": 2100007,
+  "duration": 10,
+  "fps": 25,
+  "num_frames": 250,
+  "width": 1280,
+  "height": 720,
+  "provider": "kling",
+  "mode": "t2v",
+  "model": "kling-3.0-turbo",
+  "status": "success",
+  "started_at": 1785296653.5411031,
+  "output_video": "/Users/zhouruomiao/Documents/VBench/runs/20260729_kling_t2v/generation/t2v-0007/t2v-0007.mp4",
+  "task_id": "911288607779340356",
+  "video_url": "https://v4-fdl.kechuangai.com/ksc2/T9Qi1DXFuKmY_rJgwBsKbBLjYTStJ3wXCBfSczKWTCSnS811LBDplGnlV1BR5JGSY0Y_eDQar3DVRPKM-1a-NSw6ek7jF1y2V8YR0jTV-1SJr7soOaNA771LUsF754LrD5oqc4iDJzMu-onLI82K3DnHlOVu8CYSHPE3bBABDCYMSktCsm_jh3zvd84K_CeWuPdshezEgwSgqp0qaKAEUg.mp4?cacheKey=ChtzZWN1cml0eS5rbGluZy5tZXRhX2VuY3J5cHQSsAEMsh6cED8TwU7dyUMUisuDhMAPwZ9LIrgkaVB19iDbTyXt6zrxCn5Cnv6NxKO9mRvoDdYu8WeWeFv7zoU7d9hQMa98AQ109PMYR3eBqnB2uT4MlvAeKUFdW5T4spUXFtlHHBRPCgpW_6rgJ_getcoYmvfUKI8wmtIvuWoPZjgY6CkYJy24eP6Y9FOVVxAP-GqwixeqMuRfWM5r1FhnG7qNFzwhOdEy9SirV7mJ25WBKhoSxr5HFveMLWFoQV2A7PEyKM8BIiCWZE-y3OEryPsg_BLpn95al8q-Zav1POQqYEzrx4JydigFMAE&x-kcdn-pid=112757&pkey=AAUInFxfDMpUCBhMQuBybH_ybCzr5zk5rRuydv81fQJ3QwT05CPq1o_rKIxsqW7E0aFO_WroGsxZ4-nhQRV7tNN5Br4xCP84IOMBcl-GPk0jKaV5AxhZVx8zTnKtIHLEjdU",
+  "finished_at": 1785296698.9984949,
+  "case_json": "/Users/zhouruomiao/Documents/VBench/runs/20260729_kling_t2v/generation/t2v-0007/case.json"
+}

@@ -1,0 +1,16 @@
+{
+  "case_id": "t2v-0008",
+  "dimension": [
+    "Human_Identity"
+  ],
+  "prompt_input": "一个人正在喝水，突然这个人开始擦窗户",
+  "prompt_eval_en": "A person is drinking a glass of water, then they suddenly start cleaning the windows.",
+  "prompt_display": "一个人正在喝水，突然这个人开始擦窗户",
+  "sample_index": 1,
+  "seed": 2100008,
+  "duration": 10,
+  "fps": 16,
+  "num_frames": 250,
+  "width": 640,
+  "height": 640
+}

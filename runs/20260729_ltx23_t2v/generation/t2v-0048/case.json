@@ -1,0 +1,16 @@
+{
+  "case_id": "t2v-0048",
+  "dimension": [
+    "Motion_Rationality"
+  ],
+  "prompt_input": "一个人正在从热气腾腾的碗里吸溜面条",
+  "prompt_eval_en": "A person is slurping noodles from a steaming bowl.",
+  "prompt_display": "一个人正在从热气腾腾的碗里吸溜面条",
+  "sample_index": 2,
+  "seed": 2100048,
+  "duration": 10,
+  "fps": 25,
+  "num_frames": 250,
+  "width": 1280,
+  "height": 720
+}

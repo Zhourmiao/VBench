@@ -1,0 +1,16 @@
+{
+  "case_id": "t2v-0053",
+  "dimension": [
+    "Motion_Rationality"
+  ],
+  "prompt_input": "一个人正在上楼梯",
+  "prompt_eval_en": "A person is walking up the stairs.",
+  "prompt_display": "一个人正在上楼梯",
+  "sample_index": 1,
+  "seed": 2100053,
+  "duration": 10,
+  "fps": 25,
+  "num_frames": 250,
+  "width": 1280,
+  "height": 720
+}

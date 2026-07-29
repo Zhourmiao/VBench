@@ -1,0 +1,16 @@
+{
+  "case_id": "t2v-0023",
+  "dimension": [
+    "Mechanics"
+  ],
+  "prompt_input": "一个尖锐的物体慢慢地压入一个柔软气球的表面，尖端逐渐陷入橡胶中",
+  "prompt_eval_en": "A sharp object slowly presses into the surface of a soft balloon, with the point gradually sinking into the rubber.",
+  "prompt_display": "一个尖锐的物体慢慢地压入一个柔软气球的表面，尖端逐渐陷入橡胶中",
+  "sample_index": 1,
+  "seed": 2100023,
+  "duration": 10,
+  "fps": 25,
+  "num_frames": 250,
+  "width": 1280,
+  "height": 720
+}

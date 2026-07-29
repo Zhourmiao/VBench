@@ -1,0 +1,26 @@
+{
+  "case_id": "t2v-0011",
+  "dimension": [
+    "Motion_Order_Understanding"
+  ],
+  "prompt_input": "一个人正坐在沙发上，突然这个人站起来开始扫地",
+  "prompt_eval_en": "A person is sitting on the couch, then suddenly they get up and start sweeping the floor.",
+  "prompt_display": "一个人正坐在沙发上，突然这个人站起来开始扫地",
+  "sample_index": 0,
+  "seed": 2100011,
+  "duration": 10,
+  "fps": 25,
+  "num_frames": 250,
+  "width": 1280,
+  "height": 720,
+  "provider": "kling",
+  "mode": "t2v",
+  "model": "kling-3.0-turbo",
+  "status": "success",
+  "started_at": 1785296815.806664,
+  "output_video": "/Users/zhouruomiao/Documents/VBench/runs/20260729_kling_t2v/generation/t2v-0011/t2v-0011.mp4",
+  "task_id": "911289288322093140",
+  "video_url": "https://v2-fdl.kechuangai.com/ksc2/ia5TTCr4Su5MWH_v7ZJN_1htCCNvRA261iuKf69vDnD0DEfSyisWL_rTIS9R1UTmcd0WdGMtsQZS0yfm6ahe_tnqTtXCQo9aQhn4nBc0a_fyede7Q0tm5xEdhHdwCp0jG-mdBTabZp8rUsv9EiSErfT8XK3nCorkmS_sXiuCIYS1KTNUGvqXK9_AKUMJZbcAAyJ9RjbJlK16Z_3Q2RAoxA.mp4?cacheKey=ChtzZWN1cml0eS5rbGluZy5tZXRhX2VuY3J5cHQSsAHmPpvScnV9MrAhPJUIcTdZUgfdjrpfWTFixXffXE2oGND8XkcvS7Kw6uFqEscwyja6c3yh5SBwpkiJGgYsi_S72xCAJEvmWWterIfWZVWUJAp3j5y6AdKtEVvnACTqz6WG8nP-CeWIBTtFKLoTrA7o4v38lJHi0oo9flD_0jXG3vhGqbueShWI1AwXFF7BuFbfgEDr0_czGPSbsj9fFoSaXs5swggsCejx_oxwBJULUxoSiK-SiyTQu2yvu8rTuMxr8vOaIiCM7x3T71ZCxMhyExU-IMB9uzJ2Vm0Gs26s9GVywZ6CASgFMAE&x-kcdn-pid=112757&pkey=AAUFTdhraJavmHJ2suMrUIogWJZ36AqGOPL4zspaPFZvrdeU6X7fFue33EwIYFJtKsILC_vLnQfuKrUau4cuAQeJeh3BShOiOvN0roVW7SK4JCWyJRQyjeEtFe0Eaqd8LHs",
+  "finished_at": 1785296847.981772,
+  "case_json": "/Users/zhouruomiao/Documents/VBench/runs/20260729_kling_t2v/generation/t2v-0011/case.json"
+}

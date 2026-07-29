@@ -1,0 +1,26 @@
+{
+  "case_id": "t2v-0012",
+  "dimension": [
+    "Motion_Order_Understanding"
+  ],
+  "prompt_input": "一只鸟在树枝上栖息，突然它飞到了地面上",
+  "prompt_eval_en": "A bird is perched on a branch, then it suddenly flies down to the ground.",
+  "prompt_display": "一只鸟在树枝上栖息，突然它飞到了地面上",
+  "sample_index": 0,
+  "seed": 2100012,
+  "duration": 10,
+  "fps": 25,
+  "num_frames": 250,
+  "width": 1280,
+  "height": 720,
+  "provider": "kling",
+  "mode": "t2v",
+  "model": "kling-3.0-turbo",
+  "status": "success",
+  "started_at": 1785296847.985675,
+  "output_video": "/Users/zhouruomiao/Documents/VBench/runs/20260729_kling_t2v/generation/t2v-0012/t2v-0012.mp4",
+  "task_id": "911289423307370546",
+  "video_url": "https://v2-fdl.kechuangai.com/ksc2/i5h6iuvqghYl4XYRy6GXej41Q5s6iORQMvA1nIy9sJkiqtQ4A1_LSWopyGvxwVzOc0WmzIm7PpYrUbrJLADbQES6bFPMr9gnH_pIqKcZL9UWmTE7bwm358AQRipAOweOQ-dsY9ZYo-C7RcwLvJ5k8uzl306e3AOFBkAtpxf7yxi-xpx9JTNYiASJN_Oj_uchzng5nxU8vPIKnIEy41uOYw.mp4?cacheKey=ChtzZWN1cml0eS5rbGluZy5tZXRhX2VuY3J5cHQSsAEW-gkRS0O2YCW8vlk5ODacgfNW02IT-nRPOhqFcjiXjlTPbxDfSWjMpYOKh38KFLJQn2poDkFKqL--9Ud3Jx86Z-Js0Pjumb9EiX46s6a2xqSE8zkjKtgyjWnbxtKTUWftBrdM8FuVzaJ7WGK3Db_FVDwXy7qnmENL9HzG9muUu1wbWblAyRE1u-did5Q9q9gpXiaumIuzh8ZvadktJLVHXEXlyWCLnQ2wRstOG5GKlxoSEWFMYg6sFzvDzdpgVuS6Rze6IiBePeDhQxG3XYReHcq7wVv5cqOZcVftNn0WOLR4UjRLCigFMAE&x-kcdn-pid=112757&pkey=AAVxNMu5Hn93B2CaBqPH1Z-609xZI6W-9ffWXjHBIo0tLp4pcmauQ7P_h-oZKFwIecDy5cvLUK2FdgfXU38nHynJqV2_-gKWE4zZOB99HeFrJRNdeUlCn8idOumNkXVbwgM",
+  "finished_at": 1785296881.477917,
+  "case_json": "/Users/zhouruomiao/Documents/VBench/runs/20260729_kling_t2v/generation/t2v-0012/case.json"
+}

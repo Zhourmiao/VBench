@@ -1,0 +1,16 @@
+{
+  "case_id": "t2v-0080",
+  "dimension": [
+    "Complex_Plot"
+  ],
+  "prompt_input": "一个勇敢的年轻女孩踏上了一次冒险之旅，寻找五件古代神器。首先，她穿越了荒凉的沙漠，在一只巨大的沙漠龟的帮助下找到了无尽水瓶。接着，她来到古老的图书馆，解开了守护灵的谜题，获得了永恒之书。她进入神秘的森林，与巨兽搏斗，赢得了森林之心。然后，她攀登危险的雷电山，通过了雷神的试炼，得到了雷电法杖。最后，她深入地下洞穴，击败了冥界守卫，获得了生命之石。女孩将五件神器结合起来，打败了黑暗巫师，拯救了世界",
+  "prompt_eval_en": "A brave young girl set off on an adventure to find five ancient artifacts. First, she crossed the desolate desert, finding the endless water bottle with the help of a giant desert turtle. Next, she went to the ancient library, solved the guardian spirit’s riddle, and obtained the book of eternity. She entered the mysterious forest, fought against a giant beast, and earned the heart of the forest. She then climbed the dangerous lightning mountains, passed the god of lightning's trials, and obtained the lightning staff. Lastly, she ventured into the deep underground caves, defeated the underworld guards, and obtained the stone of life. The girl combined all five artifacts, defeated the dark sorcerer, and saved the world.",
+  "prompt_display": "一个勇敢的年轻女孩踏上了一次冒险之旅，寻找五件古代神器。首先，她穿越了荒凉的沙漠，在一只巨大的沙漠龟的帮助下找到了无尽水瓶。接着，她来到古老的图书馆，解开了守护灵的谜题，获得了永恒之书。她进入神秘的森林，与巨兽搏斗，赢得了森林之心。然后，她攀登危险的雷电山，通过了雷神的试炼，得到了雷电法杖。最后，她深入地下洞穴，击败了冥界守卫，获得了生命之石。女孩将五件神器结合起来，打败了黑暗巫师，拯救了世界",
+  "sample_index": 1,
+  "seed": 2100080,
+  "duration": 10,
+  "fps": 25,
+  "num_frames": 250,
+  "width": 1280,
+  "height": 720
+}

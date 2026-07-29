@@ -1,0 +1,26 @@
+{
+  "case_id": "t2v-0006",
+  "dimension": [
+    "Mechanics"
+  ],
+  "prompt_input": "一把金属勺子被轻轻地放在一个盛满水的杯子上",
+  "prompt_eval_en": "A metal spoon is gently placed on the surface of a glass of water.",
+  "prompt_display": "一把金属勺子被轻轻地放在一个盛满水的杯子上",
+  "sample_index": 0,
+  "seed": 2100006,
+  "duration": 10,
+  "fps": 25,
+  "num_frames": 250,
+  "width": 1280,
+  "height": 720,
+  "provider": "kling",
+  "mode": "t2v",
+  "model": "kling-3.0-turbo",
+  "status": "success",
+  "started_at": 1785296620.4645278,
+  "output_video": "/Users/zhouruomiao/Documents/VBench/runs/20260729_kling_t2v/generation/t2v-0006/t2v-0006.mp4",
+  "task_id": "911288469048680520",
+  "video_url": "https://v4-fdl.kechuangai.com/ksc2/S7sLMh1zsw0OyGvVRuRsVzImP54NXezs6ZpdO3k1dx79v3Ym4ptp7qSIkrjADRH-IB5zOVm6t-1hojoALCabwk4kenc0BkLkPy7BCm_ik3MD8ko4oMeWIUb93lVqLU6dfSBiDftYYDC4Gt80eodH9A9u4WSUTS3-oKy4PfXYuAxi2sN7DVIMYBNhfvQREopKu0QKE2MeIyIpsVy7F7ynaw.mp4?cacheKey=ChtzZWN1cml0eS5rbGluZy5tZXRhX2VuY3J5cHQSsAG1-5tTCnbq67vLZUi78nKqI8UR0rEI02H2I9CLGE2h0TKx5JtrDhCPGz_8eybWlc6gGiMlvgnWQLZxoHKCBBHRKy7JlCamTdDboFLZisU3yXYnG_ZgrWfqXjHQAxkpkrlZyXTLCd7j03hFFugIjRdmN2iG1AO9a7H8rPsg47VM9GVEJY6ShaHpd3QWlrpAqqTlTCXfaxXotegNZ8gqPi-pARGtCYKohlx5G10pxMmwYBoSYF8ADrg3uvuiuzhTSVrQUvw0IiB4cvY5chhC3zXwG57ootLkeTSFZu2z15WRU60ptwYhiCgFMAE&x-kcdn-pid=112757&pkey=AAUHOHWOsWvKZkExhIRwRDz3VNWUxURX3hCu6bZEK0NtQqhZLGlmab8JlKZ-wPWvJQAC5MTGWTVJLSSMj2cK_Yph5HbHLedwetHHDwDhjZ85949duS8tET2V2K8EphzLPg8",
+  "finished_at": 1785296653.5376241,
+  "case_json": "/Users/zhouruomiao/Documents/VBench/runs/20260729_kling_t2v/generation/t2v-0006/case.json"
+}

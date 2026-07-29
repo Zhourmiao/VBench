@@ -1,0 +1,16 @@
+{
+  "case_id": "t2v-0001",
+  "dimension": [
+    "Human_Identity"
+  ],
+  "prompt_input": "一个男人正在做瑜伽",
+  "prompt_eval_en": "A man is doing yoga.",
+  "prompt_display": "一个男人正在做瑜伽",
+  "sample_index": 0,
+  "seed": 2100001,
+  "duration": 10,
+  "fps": 25,
+  "num_frames": 250,
+  "width": 1280,
+  "height": 720
+}

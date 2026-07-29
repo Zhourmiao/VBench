@@ -1,0 +1,97 @@
+[
+  {
+    "case_id": "i2v-0001",
+    "file_stem": "the otter is standing in the water",
+    "dimension": [
+      "i2v_subject",
+      "subject_consistency",
+      "motion_smoothness",
+      "dynamic_degree",
+      "aesthetic_quality",
+      "imaging_quality",
+      "temporal_flickering"
+    ],
+    "image": "vbench2_beta_i2v/data/crop/16-9/the otter is standing in the water.jpg",
+    "prompt_text": "the otter is standing in the water",
+    "duration": 5,
+    "fps": 25,
+    "width": 1280,
+    "height": 720
+  },
+  {
+    "case_id": "i2v-0002",
+    "file_stem": "a frog sitting on top of water lily leaves",
+    "dimension": [
+      "i2v_subject",
+      "subject_consistency",
+      "motion_smoothness",
+      "dynamic_degree",
+      "aesthetic_quality",
+      "imaging_quality",
+      "temporal_flickering"
+    ],
+    "image": "vbench2_beta_i2v/data/crop/16-9/a frog sitting on top of water lily leaves.jpg",
+    "prompt_text": "a frog sitting on top of water lily leaves",
+    "duration": 5,
+    "fps": 25,
+    "width": 1280,
+    "height": 720
+  },
+  {
+    "case_id": "i2v-0003",
+    "file_stem": "a brown bear in the water with a fish in its mouth",
+    "dimension": [
+      "i2v_subject",
+      "subject_consistency",
+      "motion_smoothness",
+      "dynamic_degree",
+      "aesthetic_quality",
+      "imaging_quality",
+      "temporal_flickering"
+    ],
+    "image": "vbench2_beta_i2v/data/crop/16-9/a brown bear in the water with a fish in its mouth.jpg",
+    "prompt_text": "a brown bear in the water with a fish in its mouth",
+    "duration": 5,
+    "fps": 25,
+    "width": 1280,
+    "height": 720
+  },
+  {
+    "case_id": "i2v-0004",
+    "file_stem": "a dog carrying a soccer ball in its mouth",
+    "dimension": [
+      "i2v_subject",
+      "subject_consistency",
+      "motion_smoothness",
+      "dynamic_degree",
+      "aesthetic_quality",
+      "imaging_quality",
+      "temporal_flickering"
+    ],
+    "image": "vbench2_beta_i2v/data/crop/16-9/a dog carrying a soccer ball in its mouth.jpg",
+    "prompt_text": "a dog carrying a soccer ball in its mouth",
+    "duration": 5,
+    "fps": 25,
+    "width": 1280,
+    "height": 720
+  },
+  {
+    "case_id": "i2v-0005",
+    "file_stem": "an eagle is flying over a mountain with trees in the background",
+    "dimension": [
+      "i2v_subject",
+      "subject_consistency",
+      "motion_smoothness",
+      "dynamic_degree",
+      "aesthetic_quality",
+      "imaging_quality",
+      "temporal_flickering"
+    ],
+    "image": "vbench2_beta_i2v/data/crop/16-9/an eagle is flying over a mountain with trees in the background.jpg",
+    "prompt_text": "an eagle is flying over a mountain with trees in the background",
+    "duration": 5,
+    "fps": 25,
+    "width": 1280,
+    "height": 720
+  }
+]
