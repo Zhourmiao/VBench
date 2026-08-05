@@ -3,3 +3,5 @@ A person is pouring olive oil into a frying pan.
 A person is walking up the stairs.
 A person is opening the window.
 A person is moving the chair.
+A person is eating spaghetti with a fork.
+A person is biting into an apple.

@@ -50,7 +50,7 @@ def LLaVA_Video(prompt_dict_ls, model, tokenizer, image_processor, device):
         num_judge1 = prompt_dict['auxiliary_info']['judge'][1]
         
         for video_path in video_paths:
-            max_frames_num = 64
+            max_frames_num = 32
             video,frame_time,video_time = load_video(video_path, max_frames_num, 1, force_sample=True)
             video = image_processor.preprocess(video, return_tensors="pt")["pixel_values"].cuda().bfloat16()
             video = [video]

@@ -63,6 +63,22 @@ I2V 不要求将视频复制到 `prepared/<指标名>`。不同指标读取同�
 | `dynamic_degree` | RAFT | `/root/.cache/vbench/raft_model/models/raft-things.pth` |
 | `camera_motion` | CoTracker2 | `/root/.cache/vbench/torch/hub/checkpoints/cotracker2.pth` |
 
+## 视频-only 指标复用
+
+以下指标只读取视频帧，不依赖 I2V 输入图片：
+
+```text
+subject_consistency
+background_consistency
+aesthetic_quality
+imaging_quality
+temporal_flickering
+motion_smoothness
+dynamic_degree
+```
+
+因此它们也可以复用于 T2V 视频。T2V 统一调度器会通过 `pipelines/run_video_only_evaluation.py` 调用原 VBench 实现，并从 `video_only_videos_path` 读取视频；`i2v_subject` 和 `i2v_background` 仍然必须提供输入图片。
+
 ## 四、`i2v_subject`：I2V 主体保持
 
 比较输入图片中的主体与生成视频中的主体是否一致。

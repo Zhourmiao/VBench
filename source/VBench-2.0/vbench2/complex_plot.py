@@ -101,7 +101,11 @@ def LLaVA_Video(prompt_dict_ls, llava_model, llava_tokenizer, image_processor, q
                 "video_path": video_path,
             }
             
-            max_frames_num = 64
+            # 64 frames creates a very long multimodal sequence and leaves
+            # too little memory for the Qwen judge on a 44 GiB GPU. Sixteen
+            # uniformly sampled frames are sufficient for this smoke/full
+            # evaluation path and match the other LLaVA-based dimensions.
+            max_frames_num = 32
             video,frame_time,video_time = load_video(video_path, max_frames_num, 1, force_sample=True)
             video = image_processor.preprocess(video, return_tensors="pt")["pixel_values"].to(device).bfloat16()
             video = [video]
@@ -123,11 +127,18 @@ def LLaVA_Video(prompt_dict_ls, llava_model, llava_tokenizer, image_processor, q
                 modalities= ["video"],
                 do_sample=False,
                 temperature=0,
-                max_new_tokens=4096,
+                max_new_tokens=1024,
             )
             answer_llava = llava_tokenizer.batch_decode(cont, skip_special_tokens=True)[0].strip()
+            # Keep ``video`` alive in case the output format requires a
+            # second LLaVA description below.
+            del cont, input_ids
             score=0
             if '1. ' not in answer_llava:
+                # Release the sampled video before the Qwen judge runs.
+                video = None
+                if torch.cuda.is_available():
+                    torch.cuda.empty_cache()
                 for q, item in enumerate(ground_truth_text):
                     prompt1 = item.strip()
                     prompt = f"""
@@ -155,15 +166,23 @@ def LLaVA_Video(prompt_dict_ls, llava_model, llava_tokenizer, image_processor, q
                         modalities= ["video"],
                         do_sample=False,
                         temperature=0,
-                        max_new_tokens=4096,
+                        max_new_tokens=1024,
                     )
                     answer_llava = llava_tokenizer.batch_decode(cont, skip_special_tokens=True)[0].strip()
+                    del cont, input_ids
+                    video = None
+                    if torch.cuda.is_available():
+                        torch.cuda.empty_cache()
                     prompt = f"""
                         video_caption: {answer_llava}
                         template: {template}
                         """
                     response = judge(prompt, sys_prompt_sum, qwen_tokenizer, qwen_model)
                     prompt_list = split_by_numbered_list(response)
+                if len(prompt_list) <= length:
+                    video = None
+                    if torch.cuda.is_available():
+                        torch.cuda.empty_cache()
                 for q, item in enumerate(prompt_list):
                     prompt1 = ground_truth_text[q]
                     prompt2 = item.strip()

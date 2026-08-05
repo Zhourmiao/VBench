@@ -1,11 +1,11 @@
 # VBench-2.0 Selected English Prompt Dataset
 
-This folder contains the English counterparts of the 35 prompts selected in
+This folder contains the English counterparts of the 77 prompts selected in
 `../selected_7x5` for VBench-2.0 T2V evaluation.
 
-- 7 evaluation dimensions
-- 5 prompts per dimension
-- 35 prompts in total
+- 11 evaluation dimensions
+- 7 prompts per dimension
+- 77 prompts in total
 - Prompt order is aligned with the original selected Chinese dataset
 
 The prompts are mapped line by line from the official VBench-2.0 English

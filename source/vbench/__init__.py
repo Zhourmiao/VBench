@@ -57,15 +57,16 @@ class VBench(object):
                 if len(prompt_list) == 1:
                     cur_full_info_list[0]["prompt_en"] = prompt_list[0]
             else:
-                video_names = os.listdir(videos_path)
+                video_names = sorted(
+                    path.relative_to(videos_path).as_posix()
+                    for path in Path(videos_path).rglob("*")
+                    if path.is_file() and path.suffix.lower() in ['.mp4', '.gif']
+                )
 
                 cur_full_info_list = []
 
                 if custom_image_folder is None:
                     for filename in video_names:
-                        postfix = Path(os.path.join(videos_path, filename)).suffix
-                        if postfix.lower() not in ['.mp4', '.gif',]: #  '.jpg', '.png'
-                            continue
                         cur_full_info_list.append({
                             "prompt_en": get_prompt_from_filename(filename), 
                             "dimension": dimension_list, 
@@ -73,9 +74,6 @@ class VBench(object):
                         })
                 else:
                     for filename in video_names:
-                        postfix = Path(os.path.join(videos_path, filename)).suffix
-                        if postfix.lower() not in ['.mp4', '.gif']: #  '.jpg', '.png'
-                            continue
                         cur_full_info_list.append({
                             "prompt_en": get_prompt_from_filename(filename), 
                             "dimension": dimension_list, 

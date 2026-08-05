@@ -426,7 +426,16 @@ def init_submodules(dimension_list, local=False, read_frame=False):
 
 def save_json(data, path, indent=4):
     with open(path, 'w', encoding='utf-8') as f:
-        json.dump(data, f, indent=indent)
+        def json_default(value):
+            # NumPy scalar values (for example numpy.bool_) are not handled
+            # by the standard JSON encoder.
+            if hasattr(value, "item"):
+                return value.item()
+            if isinstance(value, Path):
+                return str(value)
+            raise TypeError(f"Object of type {type(value).__name__} is not JSON serializable")
+
+        json.dump(data, f, indent=indent, default=json_default)
 
 def load_json(path):
     """

@@ -210,9 +210,15 @@ runs/*/generation/**/*.log
 runs/*/videos/
 runs/*/evaluation/
 runs/*/cases/images/
+runs/20260804_minimax_h3_t2v
+runs/20260729_kling_t2v
+runs/20260729_pangu_t2v
+runs/20260729_wan22_t2v
+runs/20260729_ltx23_t2v/generation
 
 # VBench-i2v benchmark image dataset is managed outside Git
 benchmarks/vbench_i2v/images/
+benchmarks/vbench_i2v.tar.gz
 
 # ComfyUI and API runtime artifacts
 comfyui_output/

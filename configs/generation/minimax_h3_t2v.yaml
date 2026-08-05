@@ -1,0 +1,11 @@
+name: minimax_h3_t2v
+# 请将官方 MiniMax H3 T2V 工作流导出为 ComfyUI API 格式后填写此路径。
+template: workflows/comfyui/t2v/minimax_h3_t2v_api.json
+prompt_field: prompt_eval_en
+duration: 5
+width: 1280
+height: 720
+fps: 24
+concurrency: 1
+duration_scale: 1
+duration_offset: 0

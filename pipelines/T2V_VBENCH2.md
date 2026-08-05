@@ -4,7 +4,7 @@
 
 ## 1. 构建精选 prompt cases
 
-默认读取仓库中的 `benchmarks/vbench2_t2v/prompts/selected_7x5`，生成 7 个维度、每个 prompt 3 个样本：
+默认读取仓库中的 `benchmarks/vbench2_t2v/prompts/selected_7x5`，生成 11 个维度、每个 prompt 3 个样本：
 
 ```bash
 cd /Users/zhouruomiao/Documents/VBench
@@ -91,6 +91,16 @@ python pipelines/generate_t2v_batch.py \
 ```
 
 `--resume` 按最终视频文件判断完成状态；无法恢复客户端断线时 ComfyUI 内部已经提交但尚未下载的单个任务，因此这类任务可能会被重新提交。
+
+如果需要在已有 run 中增加 prompt 或评测维度，先追加 cases 并保持旧 case ID：
+
+```bash
+python pipelines/build_t2v_cases.py \
+  --output-dir runs/<run_id>/cases \
+  --append
+```
+
+然后再使用上面的 `generate_t2v_batch.py --resume`。追加模式按维度、英文 prompt 和 sample index 匹配已有 case，旧视频不会因新增 prompt 而重新编号。
 
 默认使用 case JSON 中的 `prompt_input`。如果要使用英文 prompt 字段（例如 `prompt_eval_en`），增加 `--prompt-field prompt_eval_en`：
 

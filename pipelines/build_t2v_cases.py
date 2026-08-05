@@ -5,6 +5,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import re
 from pathlib import Path
 from typing import Any
 
@@ -12,6 +13,10 @@ from typing import Any
 DEFAULT_DIMENSIONS = [
     "Human_Anatomy",
     "Human_Identity",
+    "Composition",
+    "Human_Interaction",
+    "Dynamic_Spatial_Relationship",
+    "Complex_Landscape",
     "Mechanics",
     "Motion_Order_Understanding",
     "Motion_Rationality",
@@ -104,6 +109,111 @@ def build_cases(args: argparse.Namespace) -> tuple[list[dict[str, Any]], list[di
     return cases, eval_items
 
 
+def case_key(case: dict[str, Any]) -> tuple[str, str, int]:
+    dimensions = case.get("dimension")
+    prompt = case.get("prompt_eval_en")
+    sample_index = case.get("sample_index")
+    if not isinstance(dimensions, list) or not dimensions or not isinstance(dimensions[0], str):
+        raise ValueError(f"case 缺少有效 dimension: {case}")
+    if not isinstance(prompt, str) or not prompt:
+        raise ValueError(f"case 缺少有效 prompt_eval_en: {case}")
+    if not isinstance(sample_index, int):
+        raise ValueError(f"case 缺少有效 sample_index: {case}")
+    return dimensions[0], prompt, sample_index
+
+
+def merge_cases_for_append(
+    existing_path: Path,
+    generated_cases: list[dict[str, Any]],
+    seed_base: int,
+) -> tuple[list[dict[str, Any]], int]:
+    """Preserve existing case IDs and append only new dimension/prompt/sample keys."""
+    existing = json.loads(existing_path.read_text(encoding="utf-8"))
+    if not isinstance(existing, list):
+        raise ValueError(f"已有 cases.json 必须是数组: {existing_path}")
+
+    by_key: dict[tuple[str, str, int], dict[str, Any]] = {}
+    max_case_number = 0
+    for case in existing:
+        key = case_key(case)
+        if key in by_key:
+            raise ValueError(f"已有 cases.json 存在重复 case: {key}")
+        by_key[key] = case
+        match = re.fullmatch(r"t2v-(\d+)", str(case.get("case_id", "")))
+        if match:
+            max_case_number = max(max_case_number, int(match.group(1)))
+
+    merged = list(existing)
+    added = 0
+    for case in generated_cases:
+        key = case_key(case)
+        if key in by_key:
+            continue
+        max_case_number += 1
+        new_case = dict(case)
+        new_case["case_id"] = f"t2v-{max_case_number:04d}"
+        new_case["seed"] = seed_base + max_case_number
+        merged.append(new_case)
+        by_key[key] = new_case
+        added += 1
+    return merged, added
+
+
+def update_run_config_dimensions(config_path: Path, dimensions: list[str]) -> None:
+    """Update only the top-level dimensions list of an existing YAML config."""
+    if not config_path.exists():
+        return
+    lines = config_path.read_text(encoding="utf-8").splitlines()
+    for index, line in enumerate(lines):
+        if line.strip() != "dimensions:":
+            continue
+        end = index + 1
+        while end < len(lines) and re.match(r"^\s+-\s+", lines[end]):
+            end += 1
+        replacement = ["dimensions:", *[f"  - {dimension}" for dimension in dimensions]]
+        lines[index:end] = replacement
+        config_path.write_text("\n".join(lines) + "\n", encoding="utf-8")
+        return
+
+
+def write_run_config(output_dir: Path, dimensions: list[str]) -> Path:
+    """Create the minimal T2V dispatcher config once per run."""
+    run_dir = output_dir.resolve().parent
+    config_path = run_dir / "config" / "run.yaml"
+    if config_path.exists():
+        return config_path
+    config_path.parent.mkdir(parents=True, exist_ok=True)
+    lines = [
+        f"run_id: {run_dir.name}",
+        "benchmark: vbench2",
+        "dataset: vbench2_t2v",
+        "workflow: configurable_comfyui_t2v",
+        "videos_root: videos/prepared",
+        "full_info: cases/selected_full_info.json",
+        "evaluation_root: evaluation",
+        "dimensions:",
+    ]
+    lines.extend(f"  - {dimension}" for dimension in dimensions)
+    lines.extend([
+        "video_only_dimensions:",
+        "  - subject_consistency",
+        "  - background_consistency",
+        "  - aesthetic_quality",
+        "  - imaging_quality",
+        "  - temporal_flickering",
+        "  - motion_smoothness",
+        "  - dynamic_degree",
+        "video_only_videos_path: videos/prepared",
+        "mode: vbench_standard",
+        "load_ckpt_from_local: true",
+        "read_frame: false",
+        "stop_on_error: false",
+        "",
+    ])
+    config_path.write_text("\n".join(lines), encoding="utf-8")
+    return config_path
+
+
 def parse_args() -> argparse.Namespace:
     benchmark_root = DEFAULT_BENCHMARK_ROOT
     parser = argparse.ArgumentParser(description=__doc__)
@@ -113,6 +223,11 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--full-info", type=Path, default=benchmark_root / "full_info.json")
     parser.add_argument("--manifest", type=Path, default=benchmark_root / "manifest.json")
     parser.add_argument("--output-dir", type=Path, required=True)
+    parser.add_argument(
+        "--append",
+        action="store_true",
+        help="保留已有 cases 的 case_id，只追加新的维度/prompt/sample",
+    )
     parser.add_argument("--video-root", type=Path, default=Path("videos"))
     parser.add_argument("--dimensions", nargs="+")
     parser.add_argument("--all-dimensions", action="store_true", help="使用 manifest 中的全部官方维度")
@@ -159,9 +274,22 @@ def main() -> None:
         raise ValueError("视频参数必须为正数")
     cases, eval_items = build_cases(args)
     args.output_dir.mkdir(parents=True, exist_ok=True)
-    (args.output_dir / "cases.json").write_text(json.dumps(cases, ensure_ascii=False, indent=2), encoding="utf-8")
+    cases_path = args.output_dir / "cases.json"
+    if args.append:
+        if not cases_path.is_file():
+            raise FileNotFoundError(f"--append 要求已有 cases.json: {cases_path}")
+        cases, added = merge_cases_for_append(cases_path, cases, args.seed_base)
+    else:
+        added = len(cases)
+    cases_path.write_text(json.dumps(cases, ensure_ascii=False, indent=2), encoding="utf-8")
     (args.output_dir / "selected_full_info.json").write_text(json.dumps(eval_items, ensure_ascii=False, indent=2), encoding="utf-8")
-    print(f"已生成 {len(cases)} 个 cases、{len(eval_items)} 个 prompt metadata")
+    config_path = write_run_config(args.output_dir, args.dimensions)
+    if args.append:
+        update_run_config_dimensions(config_path, args.dimensions)
+        print(f"已保留 {len(cases) - added} 个旧 cases，追加 {added} 个新 cases")
+    else:
+        print(f"已生成 {len(cases)} 个 cases、{len(eval_items)} 个 prompt metadata")
+    print(f"运行配置：{config_path}")
 
 
 if __name__ == "__main__":

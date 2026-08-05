@@ -119,7 +119,7 @@ def llava_video(
 
         for video_path in video_paths:
             # Reduced from 64 to limit peak VRAM usage on a 44 GB GPU.
-            max_frames_num = 16
+            max_frames_num = 32
             video, frame_time, video_time = load_video(
                 video_path,
                 max_frames_num=max_frames_num,

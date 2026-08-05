@@ -1,0 +1,17 @@
+{
+  "dimension_scores": {},
+  "available_dimension_mean": null,
+  "dimension_count": 0,
+  "vbench2_dimension_scores": {},
+  "vbench2_available_dimension_mean": null,
+  "video_only_scores": {},
+  "video_only_mean": null,
+  "group_scores": {
+    "creativity": null,
+    "commonsense": null,
+    "controllability": null,
+    "human_fidelity": null,
+    "physics": null
+  },
+  "official_vbench2_mean": null
+}

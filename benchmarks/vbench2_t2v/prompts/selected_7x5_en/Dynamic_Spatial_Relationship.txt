@@ -1,0 +1,7 @@
+A dog is on the left of a table, then the dog runs to the front of the table.
+A dog is on the left of a sofa, then the dog runs to the front of the sofa.
+A dog is on the right of a table, then the dog runs to the left of the table.
+A dog is on the right of a sofa, then the dog runs to the front of the sofa.
+A dog is on the right of a rock, then the dog runs to the left of the rock.
+A dog is behind a chair, then the dog runs to the right of the chair.
+A cat is on the left of a chair, then the cat runs to the front of the chair.

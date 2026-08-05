@@ -4,7 +4,7 @@
 
 ## 生成 VBench-2.0 T2V cases
 
-使用 benchmark 当前目录中的精选 7 个维度：
+使用 benchmark 当前目录中的精选 11 个维度：
 
 ```bash
 python pipelines/build_t2v_cases.py \
@@ -60,7 +60,20 @@ python3 pipelines/build_t2v_cases.py \
 ```text
 $RUN_DIR/cases/cases.json
 $RUN_DIR/cases/selected_full_info.json
+$RUN_DIR/config/run.yaml
 ```
+
+`build_t2v_cases.py` 会在 run 目录缺少配置时自动创建 `config/run.yaml`；如果配置已经存在，则不会覆盖已有配置。
+
+已有 run 追加 prompt 时使用 `--append`。脚本会按“维度 + 英文 prompt + sample_index”复用旧 case，保持旧 `case_id` 不变，只为新增 prompt 追加新的 case；已有配置中的维度列表也会同步更新：
+
+```bash
+python pipelines/build_t2v_cases.py \
+  --output-dir runs/<run_id>/cases \
+  --append
+```
+
+随后使用生成脚本的 `--resume`，旧视频会跳过，只生成新增 case。
 
 ### 3. 检查 ComfyUI 节点
 
@@ -269,6 +282,71 @@ python pipelines/aggregate_scores.py \
   --run-dir runs/20260722_ltx23_t2v_7x5
 ```
 
+T2V 也可以复用 I2V/VBench 中不需要输入图片的 7 个视频-only 指标：
+
+```yaml
+video_only_dimensions:
+  - subject_consistency
+  - background_consistency
+  - aesthetic_quality
+  - imaging_quality
+  - temporal_flickering
+  - motion_smoothness
+  - dynamic_degree
+video_only_videos_path: videos/prepared
+```
+
+它们从 `video_only_videos_path` 读取同一批视频，不读取输入图片。`build_t2v_cases.py` 新创建的 run 配置会自动写入这 7 个维度；旧 run 可手动补充上述配置后使用统一入口运行。
+
+### 统一 T2V/I2V 一键评测
+
+服务器容器中可以使用统一脚本，根据 `config/run.yaml` 的 `benchmark` 自动选择 T2V 或 I2V 流程，完成离线环境设置、manifest 生成、权重检查和批量评测：
+
+```bash
+bash scripts/run_evaluation.sh /workspace/runs/<run_id>
+```
+
+若要从 `evaluation/dispatch_results.partial.json` 继续未完成的维度：
+
+```bash
+bash scripts/run_evaluation.sh /workspace/runs/<run_id> --resume
+```
+
+`benchmark: vbench2` 时，统一入口执行配置中的全部 VBench-2.0 维度，并默认追加 7 个不需要输入图片的 VBench-i2v 视频指标。`benchmark: vbench_i2v` 时，统一入口只接受需要输入图片的 `i2v_subject` 和 `i2v_background`，并要求配置 `custom_image_folder`；`camera_motion` 仍需专用标签，不会被自动加入。
+
+旧的 `scripts/run_t2v_evaluation.sh` 仍然保留，但现在只是兼容别名，也会根据配置自动处理 I2V。
+
+脚本会自动设置 `HF_HUB_OFFLINE=1`、`TRANSFORMERS_OFFLINE=1`、`HF_DATASETS_OFFLINE=1`，并使用以下本地缓存：
+
+```text
+HF_HOME=/root/.cache/huggingface
+VBENCH2_CACHE_DIR=/root/.cache/vbench2
+VBENCH_CACHE_DIR=/root/.cache/vbench
+TORCH_HOME=/root/.cache/vbench2/torch
+VBENCH2_TORCH_HOME=/root/.cache/vbench2/torch
+VBENCH_TORCH_HOME=/root/.cache/vbench/torch
+```
+
+统一环境脚本为 [scripts/vbench_env.sh](../scripts/vbench_env.sh)。它会覆盖当前 Shell 中残留的旧路径；如确实需要更换根目录，可设置 `VBENCH_CACHE_ROOT`，如：
+
+```bash
+VBENCH_CACHE_ROOT=/data/models bash scripts/run_t2v_evaluation.sh /workspace/runs/<run_id>
+```
+
+权重目录约定如下：
+
+```text
+/root/.cache/huggingface/                 # LLaVA 依赖的 SigLIP 等 HF 模型
+/root/.cache/vbench2/lmms-lab/            # T2V LLaVA-Video
+/root/.cache/vbench2/Qwen/                # T2V Qwen
+/root/.cache/vbench2/arcface/             # T2V ArcFace
+/root/.cache/vbench2/torch/               # T2V RetinaFace、CoTracker 等 Torch 权重
+/root/.cache/vbench/                      # I2V 专用模型
+/root/.cache/vbench/torch/                # I2V Torch 权重
+```
+
+因此运行前必须完成模型下载；缺失权重时脚本会在正式评测前停止，不会临时访问 Hugging Face。
+
 ## VBench-i2v
 
 配置示例：
@@ -281,16 +359,10 @@ resolution: 16-9
 dimensions:
   - i2v_subject
   - i2v_background
-  - camera_motion
+custom_image_folder: cases/images
 ```
 
-若使用自定义图片输入，增加：
-
-```yaml
-custom_image_folder: images
-```
-
-统一入口会调用 `run_i2v_evaluation.py`，再由适配器调用 `vbench2_beta_i2v.VBenchI2V.evaluate()`。
+统一入口会调用 `run_i2v_evaluation.py`，再由适配器调用 `vbench2_beta_i2v.VBenchI2V.evaluate()`。不需要输入图片的 7 个指标不应配置在 I2V run 中，应配置到 T2V 的 `video_only_dimensions`。
 
 I2V 批量生成中断后，可使用同一个输出目录恢复：
 

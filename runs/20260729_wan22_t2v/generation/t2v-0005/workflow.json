@@ -34,9 +34,9 @@
   },
   "74": {
     "inputs": {
-      "width": 640,
-      "height": 640,
-      "length": 161,
+      "width": 1280,
+      "height": 720,
+      "length": 251,
       "batch_size": 1
     },
     "class_type": "EmptyHunyuanLatentVideo",
@@ -217,7 +217,7 @@
   },
   "88": {
     "inputs": {
-      "fps": 16,
+      "fps": 25,
       "images": [
         "87",
         0

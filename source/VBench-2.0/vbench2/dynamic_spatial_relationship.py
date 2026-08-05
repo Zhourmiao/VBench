@@ -47,7 +47,7 @@ def LLaVA_Video(prompt_dict_ls, model, tokenizer, image_processor, device):
         video_paths = prompt_dict['video_list']
         for video_path in video_paths:
         
-            max_frames_num = 64
+            max_frames_num = 32
             video,frame_time,video_time = load_video(video_path, max_frames_num, 1, force_sample=True)
             video = image_processor.preprocess(video, return_tensors="pt")["pixel_values"].cuda().bfloat16()
             conv_template = "qwen_1_5"  # Make sure you use correct chat template for different models

@@ -124,7 +124,7 @@ def LLaVA_Video(prompt_dict_ls, llava_model, llava_tokenizer, image_processor, q
             new_item = {
                 "video_path": video_path,
             }
-            max_frames_num = 64
+            max_frames_num = 32
             video,frame_time,video_time = load_video(video_path, max_frames_num, 1, force_sample=True)
             video = image_processor.preprocess(video, return_tensors="pt")["pixel_values"].cuda().bfloat16()
             video = [video]

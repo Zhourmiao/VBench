@@ -1,9 +1,9 @@
 {
-  "started_at": "2026-07-29T02:58:48.016605+00:00",
-  "finished_at": "2026-07-29T06:13:17.222610+00:00",
-  "elapsed_sec": 11669.21,
-  "case_count": 90,
-  "success_count": 90,
-  "skipped_count": 0,
+  "started_at": "2026-08-03T02:44:17.311009+00:00",
+  "finished_at": "2026-08-03T05:24:09.084768+00:00",
+  "elapsed_sec": 9591.77,
+  "case_count": 192,
+  "success_count": 192,
+  "skipped_count": 90,
   "error_count": 0
 }

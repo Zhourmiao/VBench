@@ -25,6 +25,7 @@ T2V_PROFILES: dict[str, list[dict[str, Any]]] = {
     ],
     "arcface": [
         {"name": "ArcFace checkpoint", "kind": "file", "path": "arcface/resnet18_110.pth", "min_bytes": 1024},
+        {"name": "RetinaFace checkpoint", "kind": "file", "path": "torch/checkpoints/retinaface_resnet50_2020-07-20-f168fae3c.zip", "min_bytes": 1024},
         {"name": "retinaface Python package", "kind": "module", "module": "retinaface"},
     ],
     "multi_view": [
@@ -69,10 +70,38 @@ I2V_PROFILES: dict[str, list[dict[str, Any]]] = {
 T2V_DIMENSIONS = {
     "Motion_Rationality": ("llava",),
     "Mechanics": ("llava",),
+    "Human_Clothes": ("llava",),
+    "Composition": ("llava",),
+    "Dynamic_Spatial_Relationship": ("llava",),
+    "Dynamic_Attribute": ("llava",),
+    "Thermotics": ("llava",),
+    "Material": ("llava",),
     "Motion_Order_Understanding": ("llava", "qwen"),
+    "Human_Interaction": ("llava", "qwen"),
+    "Complex_Landscape": ("llava", "qwen"),
     "Complex_Plot": ("llava", "qwen"),
     "Human_Identity": ("arcface",),
     "Multi-View_Consistency": ("multi_view",),
+    "Camera_Motion": ("multi_view",),
+    "Instance_Preservation": (),
+    # These dimensions reuse the original VBench video-only implementations.
+    "subject_consistency": ("dino",),
+    "background_consistency": ("clip_b",),
+    "aesthetic_quality": ("clip_l_aesthetic",),
+    "imaging_quality": ("musiq",),
+    "temporal_flickering": (),
+    "motion_smoothness": ("amt",),
+    "dynamic_degree": ("raft",),
+}
+
+VIDEO_ONLY_DIMENSIONS = {
+    "subject_consistency",
+    "background_consistency",
+    "aesthetic_quality",
+    "imaging_quality",
+    "temporal_flickering",
+    "motion_smoothness",
+    "dynamic_degree",
 }
 
 I2V_DIMENSIONS = {
@@ -145,7 +174,12 @@ def main() -> None:
     benchmark = args.benchmark or config.get("benchmark")
     if benchmark not in ("vbench2", "vbench_i2v"):
         raise ValueError("benchmark 必须是 vbench2 或 vbench_i2v")
-    dimensions = args.dimensions or config.get("dimensions")
+    dimensions = list(args.dimensions or config.get("dimensions") or [])
+    if benchmark == "vbench2":
+        dimensions.extend(
+            dimension for dimension in config.get("video_only_dimensions", VIDEO_ONLY_DIMENSIONS)
+            if dimension not in dimensions
+        )
     if not dimensions:
         raise ValueError("请通过 --dimensions 指定要检查的维度")
     profiles = T2V_DIMENSIONS if benchmark == "vbench2" else I2V_DIMENSIONS
@@ -171,10 +205,19 @@ def main() -> None:
 
     records = []
     for dimension in dimensions:
+        # Video-only dimensions are implemented by the original VBench
+        # package and store their weights under the I2V/VBench cache root,
+        # even when they are dispatched from a T2V run.
+        if benchmark == "vbench2" and dimension in VIDEO_ONLY_DIMENSIONS:
+            dimension_profiles = I2V_PROFILES
+            dimension_root = Path(os.environ.get("VBENCH_CACHE_DIR", str(cache.parent / "vbench"))).expanduser().resolve()
+        else:
+            dimension_profiles = T2V_PROFILES if benchmark == "vbench2" else I2V_PROFILES
+            dimension_root = root
         for profile_name in profiles[dimension]:
-            for item in (T2V_PROFILES if benchmark == "vbench2" else I2V_PROFILES)[profile_name]:
+            for item in dimension_profiles[profile_name]:
                 # SigLIP is stored in the Hugging Face cache, not beside VBench files.
-                item_root = hf_home if item["kind"] == "glob" and hf_home else root
+                item_root = hf_home if item["kind"] == "glob" and hf_home else dimension_root
                 records.append({"dimension": dimension, "profile": profile_name, **check_item(item, item_root, repo_root)})
 
     missing = [record for record in records if record["status"] != "ok"]

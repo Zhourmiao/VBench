@@ -10,10 +10,3 @@ resolution: 16-9
 dimensions:
     - i2v_subject
     - i2v_background
-    - subject_consistency
-    - background_consistency
-    - aesthetic_quality
-    - imaging_quality
-    - temporal_flickering
-    - motion_smoothness
-    - dynamic_degree

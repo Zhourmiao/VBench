@@ -12,6 +12,19 @@ from pathlib import Path
 from typing import Any
 
 ROOT = Path(__file__).resolve().parents[1]
+VIDEO_ONLY_DIMENSIONS = (
+    "subject_consistency",
+    "background_consistency",
+    "aesthetic_quality",
+    "imaging_quality",
+    "temporal_flickering",
+    "motion_smoothness",
+    "dynamic_degree",
+)
+I2V_IMAGE_DIMENSIONS = {
+    "i2v_subject",
+    "i2v_background",
+}
 
 
 def load_config(path: Path) -> dict[str, Any]:
@@ -87,24 +100,53 @@ def run_vbench2(run_dir: Path, config: dict[str, Any], log_path: Path, resume: b
     partial_path = output_root / "dispatch_results.partial.json"
     results = load_partial(partial_path, resume)
     completed_dimensions = {item["dimension"] for item in results if item.get("returncode") == 0}
-    for dimension in config["dimensions"]:
+    dimensions = list(config["dimensions"])
+    video_only_dimensions = config.get("video_only_dimensions", VIDEO_ONLY_DIMENSIONS)
+    for dimension in video_only_dimensions:
+        if dimension not in VIDEO_ONLY_DIMENSIONS:
+            raise ValueError(f"不是支持的视频-only维度: {dimension}")
+        if dimension not in dimensions:
+            dimensions.append(dimension)
+
+    default_source = dimensions[0] if config["dimensions"] else None
+    video_only_videos_path = config.get("video_only_videos_path")
+    if video_only_videos_path:
+        video_only_root = (run_dir / video_only_videos_path).resolve()
+    elif default_source:
+        video_only_root = (videos_root / default_source).resolve()
+    else:
+        raise ValueError("至少需要一个普通 T2V 维度，或配置 video_only_videos_path")
+
+    for dimension in dimensions:
         if dimension in completed_dimensions:
             print(f"跳过已完成指标（resume）：{dimension}")
             continue
-        command = [
-            sys.executable, "-u", str(ROOT / "source/VBench-2.0/evaluate.py"),
-            "--videos_path", str(videos_root / dimension),
-            "--full_json_dir", str(full_info),
-            "--output_path", str(output_root / dimension),
-            "--dimension", dimension,
-            "--mode", config.get("mode", "vbench_standard"),
-        ]
-        if config.get("load_ckpt_from_local") is not None:
-            command += ["--load_ckpt_from_local", str(config["load_ckpt_from_local"])]
-        if config.get("read_frame") is not None:
-            command += ["--read_frame", str(config["read_frame"])]
-        if config.get("skip_missing_videos", False):
-            command.append("--skip_missing_videos")
+        if dimension in VIDEO_ONLY_DIMENSIONS:
+            command = [
+                sys.executable, "-u", str(ROOT / "pipelines/run_video_only_evaluation.py"),
+                "--videos-path", str(video_only_root),
+                "--output-path", str(output_root / dimension),
+                "--dimension", dimension,
+            ]
+            if config.get("load_ckpt_from_local", False):
+                command.append("--local")
+            if config.get("read_frame", False):
+                command.append("--read-frame")
+        else:
+            command = [
+                sys.executable, "-u", str(ROOT / "source/VBench-2.0/evaluate.py"),
+                "--videos_path", str(videos_root / dimension),
+                "--full_json_dir", str(full_info),
+                "--output_path", str(output_root / dimension),
+                "--dimension", dimension,
+                "--mode", config.get("mode", "vbench_standard"),
+            ]
+            if config.get("load_ckpt_from_local") is not None:
+                command += ["--load_ckpt_from_local", str(config["load_ckpt_from_local"])]
+            if config.get("read_frame") is not None:
+                command += ["--read_frame", str(config["read_frame"])]
+            if config.get("skip_missing_videos", False):
+                command.append("--skip_missing_videos")
         result = run_command(command, ROOT / "source/VBench-2.0", log_path)
         results.append({"dimension": dimension, **result})
         save_partial(partial_path, results)
@@ -114,6 +156,17 @@ def run_vbench2(run_dir: Path, config: dict[str, Any], log_path: Path, resume: b
 
 
 def run_i2v(run_dir: Path, config: dict[str, Any], log_path: Path, resume: bool) -> list[dict[str, Any]]:
+    dimensions = list(config["dimensions"])
+    unsupported = [dimension for dimension in dimensions if dimension not in I2V_IMAGE_DIMENSIONS]
+    if unsupported:
+        raise ValueError(
+            "I2V 统一入口只调度需要输入图片的维度 "
+            f"{sorted(I2V_IMAGE_DIMENSIONS)}；以下维度应放到 T2V 的 video_only_dimensions："
+            f" {unsupported}"
+        )
+    if not config.get("custom_image_folder"):
+        raise ValueError("I2V 的 i2v_subject/i2v_background 评测必须配置 custom_image_folder")
+
     videos_path = (run_dir / config["videos_path"]).resolve()
     output_root = (run_dir / config.get("evaluation_root", "evaluation")).resolve()
     raw_info = Path(config["full_info"])
@@ -122,7 +175,7 @@ def run_i2v(run_dir: Path, config: dict[str, Any], log_path: Path, resume: bool)
     partial_path = output_root / "dispatch_results.partial.json"
     results = load_partial(partial_path, resume)
     completed_dimensions = {item["dimension"] for item in results if item.get("returncode") == 0}
-    for dimension in config["dimensions"]:
+    for dimension in dimensions:
         if dimension in completed_dimensions:
             print(f"跳过已完成指标（resume）：{dimension}")
             continue
