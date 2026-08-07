@@ -1,0 +1,1404 @@
+[
+  {
+    "prompt_en": "A man is running.",
+    "dimension": [
+      "Human_Anatomy"
+    ],
+    "vbench_quality_dimensions": [
+      "imaging_quality",
+      "motion_smoothness",
+      "temporal_flickering",
+      "subject_consistency",
+      "background_consistency",
+      "dynamic_degree"
+    ],
+    "video_list": [
+      "videos/Human_Anatomy/A man is running.-0.mp4",
+      "videos/Human_Anatomy/A man is running.-1.mp4",
+      "videos/Human_Anatomy/A man is running.-2.mp4"
+    ]
+  },
+  {
+    "prompt_en": "A man is doing gymnastics.",
+    "dimension": [
+      "Human_Anatomy"
+    ],
+    "vbench_quality_dimensions": [
+      "imaging_quality",
+      "motion_smoothness",
+      "temporal_flickering",
+      "subject_consistency",
+      "background_consistency",
+      "dynamic_degree"
+    ],
+    "video_list": [
+      "videos/Human_Anatomy/A man is doing gymnastics.-0.mp4",
+      "videos/Human_Anatomy/A man is doing gymnastics.-1.mp4",
+      "videos/Human_Anatomy/A man is doing gymnastics.-2.mp4"
+    ]
+  },
+  {
+    "prompt_en": "A man is walking.",
+    "dimension": [
+      "Human_Anatomy"
+    ],
+    "vbench_quality_dimensions": [
+      "imaging_quality",
+      "motion_smoothness",
+      "temporal_flickering",
+      "subject_consistency",
+      "background_consistency",
+      "dynamic_degree"
+    ],
+    "video_list": [
+      "videos/Human_Anatomy/A man is walking.-0.mp4",
+      "videos/Human_Anatomy/A man is walking.-1.mp4",
+      "videos/Human_Anatomy/A man is walking.-2.mp4"
+    ]
+  },
+  {
+    "prompt_en": "A woman is running.",
+    "dimension": [
+      "Human_Anatomy"
+    ],
+    "vbench_quality_dimensions": [
+      "imaging_quality",
+      "motion_smoothness",
+      "temporal_flickering",
+      "subject_consistency",
+      "background_consistency",
+      "dynamic_degree"
+    ],
+    "video_list": [
+      "videos/Human_Anatomy/A woman is running.-0.mp4",
+      "videos/Human_Anatomy/A woman is running.-1.mp4",
+      "videos/Human_Anatomy/A woman is running.-2.mp4"
+    ]
+  },
+  {
+    "prompt_en": "people are walking.",
+    "dimension": [
+      "Human_Anatomy"
+    ],
+    "vbench_quality_dimensions": [
+      "imaging_quality",
+      "motion_smoothness",
+      "temporal_flickering",
+      "subject_consistency",
+      "background_consistency",
+      "dynamic_degree"
+    ],
+    "video_list": [
+      "videos/Human_Anatomy/people are walking.-0.mp4",
+      "videos/Human_Anatomy/people are walking.-1.mp4",
+      "videos/Human_Anatomy/people are walking.-2.mp4"
+    ]
+  },
+  {
+    "prompt_en": "A man is doing yoga.",
+    "dimension": [
+      "Human_Identity"
+    ],
+    "vbench_quality_dimensions": [
+      "imaging_quality",
+      "motion_smoothness",
+      "temporal_flickering",
+      "subject_consistency",
+      "background_consistency"
+    ],
+    "video_list": [
+      "videos/Human_Identity/A man is doing yoga.-0.mp4",
+      "videos/Human_Identity/A man is doing yoga.-1.mp4",
+      "videos/Human_Identity/A man is doing yoga.-2.mp4"
+    ]
+  },
+  {
+    "prompt_en": "A man is playing basketball.",
+    "dimension": [
+      "Human_Identity"
+    ],
+    "vbench_quality_dimensions": [
+      "imaging_quality",
+      "motion_smoothness",
+      "temporal_flickering",
+      "subject_consistency",
+      "background_consistency",
+      "dynamic_degree"
+    ],
+    "video_list": [
+      "videos/Human_Identity/A man is playing basketball.-0.mp4",
+      "videos/Human_Identity/A man is playing basketball.-1.mp4",
+      "videos/Human_Identity/A man is playing basketball.-2.mp4"
+    ]
+  },
+  {
+    "prompt_en": "A person is reading a book, then they suddenly start folding laundry.",
+    "dimension": [
+      "Human_Identity"
+    ],
+    "vbench_quality_dimensions": [
+      "imaging_quality",
+      "motion_smoothness",
+      "temporal_flickering",
+      "subject_consistency",
+      "background_consistency"
+    ],
+    "video_list": [
+      "videos/Human_Identity/A person is reading a book, then they suddenly start folding laundry.-0.mp4",
+      "videos/Human_Identity/A person is reading a book, then they suddenly start folding laundry.-1.mp4",
+      "videos/Human_Identity/A person is reading a book, then they suddenly start folding laundry.-2.mp4"
+    ]
+  },
+  {
+    "prompt_en": "A person is sitting at a desk, then they suddenly get up and start doing push-ups.",
+    "dimension": [
+      "Human_Identity"
+    ],
+    "vbench_quality_dimensions": [
+      "imaging_quality",
+      "motion_smoothness",
+      "temporal_flickering",
+      "subject_consistency",
+      "background_consistency",
+      "dynamic_degree"
+    ],
+    "video_list": [
+      "videos/Human_Identity/A person is sitting at a desk, then they suddenly get up and start doing push-ups.-0.mp4",
+      "videos/Human_Identity/A person is sitting at a desk, then they suddenly get up and start doing push-ups.-1.mp4",
+      "videos/Human_Identity/A person is sitting at a desk, then they suddenly get up and start doing push-ups.-2.mp4"
+    ]
+  },
+  {
+    "prompt_en": "A person is reading a magazine, then they suddenly get up and start organizing the closet.",
+    "dimension": [
+      "Human_Identity"
+    ],
+    "vbench_quality_dimensions": [
+      "imaging_quality",
+      "motion_smoothness",
+      "temporal_flickering",
+      "subject_consistency",
+      "background_consistency"
+    ],
+    "video_list": [
+      "videos/Human_Identity/A person is reading a magazine, then they suddenly get up and start organizing the closet.-0.mp4",
+      "videos/Human_Identity/A person is reading a magazine, then they suddenly get up and start organizing the closet.-1.mp4",
+      "videos/Human_Identity/A person is reading a magazine, then they suddenly get up and start organizing the closet.-2.mp4"
+    ]
+  },
+  {
+    "prompt_en": "A lion with the wings of an eagle, soaring through the sky with majestic ease.",
+    "dimension": [
+      "Composition"
+    ],
+    "vbench_quality_dimensions": [
+      "aesthetic_quality",
+      "imaging_quality",
+      "motion_smoothness",
+      "temporal_flickering",
+      "subject_consistency",
+      "dynamic_degree"
+    ],
+    "auxiliary_info": {
+      "question": [
+        "The wings of an eagle",
+        "A lion"
+      ],
+      "judge": [
+        true,
+        false
+      ]
+    },
+    "video_list": [
+      "videos/Composition/A lion with the wings of an eagle, soaring through the sky with majestic ease.-0.mp4",
+      "videos/Composition/A lion with the wings of an eagle, soaring through the sky with majestic ease.-1.mp4",
+      "videos/Composition/A lion with the wings of an eagle, soaring through the sky with majestic ease.-2.mp4"
+    ]
+  },
+  {
+    "prompt_en": "A giraffe with the scales of a fish, able to glide smoothly through the water.",
+    "dimension": [
+      "Composition"
+    ],
+    "vbench_quality_dimensions": [
+      "aesthetic_quality",
+      "imaging_quality",
+      "motion_smoothness",
+      "temporal_flickering",
+      "subject_consistency",
+      "dynamic_degree"
+    ],
+    "auxiliary_info": {
+      "question": [
+        "Fish scales",
+        "A giraffe"
+      ],
+      "judge": [
+        true,
+        false
+      ]
+    },
+    "video_list": [
+      "videos/Composition/A giraffe with the scales of a fish, able to glide smoothly through the water.-0.mp4",
+      "videos/Composition/A giraffe with the scales of a fish, able to glide smoothly through the water.-1.mp4",
+      "videos/Composition/A giraffe with the scales of a fish, able to glide smoothly through the water.-2.mp4"
+    ]
+  },
+  {
+    "prompt_en": "A wolf with the body of a horse, galloping across a vast plains with wild abandon.",
+    "dimension": [
+      "Composition"
+    ],
+    "vbench_quality_dimensions": [
+      "aesthetic_quality",
+      "imaging_quality",
+      "motion_smoothness",
+      "temporal_flickering",
+      "subject_consistency",
+      "dynamic_degree"
+    ],
+    "auxiliary_info": {
+      "question": [
+        "The body of the horse",
+        "A wolf"
+      ],
+      "judge": [
+        true,
+        false
+      ]
+    },
+    "video_list": [
+      "videos/Composition/A wolf with the body of a horse, galloping across a vast plains with wild abandon.-0.mp4",
+      "videos/Composition/A wolf with the body of a horse, galloping across a vast plains with wild abandon.-1.mp4",
+      "videos/Composition/A wolf with the body of a horse, galloping across a vast plains with wild abandon.-2.mp4"
+    ]
+  },
+  {
+    "prompt_en": "A bear with the antlers of a deer, roaming the forest with a regal presence.",
+    "dimension": [
+      "Composition"
+    ],
+    "vbench_quality_dimensions": [
+      "aesthetic_quality",
+      "imaging_quality",
+      "motion_smoothness",
+      "temporal_flickering",
+      "subject_consistency"
+    ],
+    "auxiliary_info": {
+      "question": [
+        "The deer's antlers",
+        "A bear"
+      ],
+      "judge": [
+        true,
+        false
+      ]
+    },
+    "video_list": [
+      "videos/Composition/A bear with the antlers of a deer, roaming the forest with a regal presence.-0.mp4",
+      "videos/Composition/A bear with the antlers of a deer, roaming the forest with a regal presence.-1.mp4",
+      "videos/Composition/A bear with the antlers of a deer, roaming the forest with a regal presence.-2.mp4"
+    ]
+  },
+  {
+    "prompt_en": "A cheetah with the shell of a tortoise, moving quickly but with a protective outer layer.",
+    "dimension": [
+      "Composition"
+    ],
+    "vbench_quality_dimensions": [
+      "aesthetic_quality",
+      "imaging_quality",
+      "motion_smoothness",
+      "temporal_flickering",
+      "subject_consistency",
+      "dynamic_degree"
+    ],
+    "auxiliary_info": {
+      "question": [
+        "The shell of the turtle",
+        "A cheetah"
+      ],
+      "judge": [
+        true,
+        false
+      ]
+    },
+    "video_list": [
+      "videos/Composition/A cheetah with the shell of a tortoise, moving quickly but with a protective outer layer.-0.mp4",
+      "videos/Composition/A cheetah with the shell of a tortoise, moving quickly but with a protective outer layer.-1.mp4",
+      "videos/Composition/A cheetah with the shell of a tortoise, moving quickly but with a protective outer layer.-2.mp4"
+    ]
+  },
+  {
+    "prompt_en": "One person places a chair for another to sit in.",
+    "dimension": [
+      "Human_Interaction"
+    ],
+    "vbench_quality_dimensions": [
+      "imaging_quality",
+      "motion_smoothness",
+      "temporal_flickering",
+      "subject_consistency",
+      "background_consistency"
+    ],
+    "video_list": [
+      "videos/Human_Interaction/One person places a chair for another to sit in.-0.mp4",
+      "videos/Human_Interaction/One person places a chair for another to sit in.-1.mp4",
+      "videos/Human_Interaction/One person places a chair for another to sit in.-2.mp4"
+    ]
+  },
+  {
+    "prompt_en": "One person passes a ball to another.",
+    "dimension": [
+      "Human_Interaction"
+    ],
+    "vbench_quality_dimensions": [
+      "imaging_quality",
+      "motion_smoothness",
+      "temporal_flickering",
+      "subject_consistency",
+      "background_consistency"
+    ],
+    "video_list": [
+      "videos/Human_Interaction/One person passes a ball to another.-0.mp4",
+      "videos/Human_Interaction/One person passes a ball to another.-1.mp4",
+      "videos/Human_Interaction/One person passes a ball to another.-2.mp4"
+    ]
+  },
+  {
+    "prompt_en": "Two people shake hands.",
+    "dimension": [
+      "Human_Interaction"
+    ],
+    "vbench_quality_dimensions": [
+      "imaging_quality",
+      "motion_smoothness",
+      "temporal_flickering",
+      "subject_consistency",
+      "background_consistency"
+    ],
+    "video_list": [
+      "videos/Human_Interaction/Two people shake hands.-0.mp4",
+      "videos/Human_Interaction/Two people shake hands.-1.mp4",
+      "videos/Human_Interaction/Two people shake hands.-2.mp4"
+    ]
+  },
+  {
+    "prompt_en": "One person ties the shoelaces of another person.",
+    "dimension": [
+      "Human_Interaction"
+    ],
+    "vbench_quality_dimensions": [
+      "imaging_quality",
+      "motion_smoothness",
+      "temporal_flickering",
+      "subject_consistency",
+      "background_consistency"
+    ],
+    "video_list": [
+      "videos/Human_Interaction/One person ties the shoelaces of another person.-0.mp4",
+      "videos/Human_Interaction/One person ties the shoelaces of another person.-1.mp4",
+      "videos/Human_Interaction/One person ties the shoelaces of another person.-2.mp4"
+    ]
+  },
+  {
+    "prompt_en": "One person opens the door for another person.",
+    "dimension": [
+      "Human_Interaction"
+    ],
+    "vbench_quality_dimensions": [
+      "imaging_quality",
+      "motion_smoothness",
+      "temporal_flickering",
+      "subject_consistency",
+      "background_consistency"
+    ],
+    "video_list": [
+      "videos/Human_Interaction/One person opens the door for another person.-0.mp4",
+      "videos/Human_Interaction/One person opens the door for another person.-1.mp4",
+      "videos/Human_Interaction/One person opens the door for another person.-2.mp4"
+    ]
+  },
+  {
+    "prompt_en": "Two people exchange a book.",
+    "dimension": [
+      "Human_Interaction"
+    ],
+    "vbench_quality_dimensions": [
+      "imaging_quality",
+      "motion_smoothness",
+      "temporal_flickering",
+      "subject_consistency",
+      "background_consistency"
+    ],
+    "video_list": [
+      "videos/Human_Interaction/Two people exchange a book.-0.mp4",
+      "videos/Human_Interaction/Two people exchange a book.-1.mp4",
+      "videos/Human_Interaction/Two people exchange a book.-2.mp4"
+    ]
+  },
+  {
+    "prompt_en": "One person puts a coat on another person.",
+    "dimension": [
+      "Human_Interaction"
+    ],
+    "vbench_quality_dimensions": [
+      "imaging_quality",
+      "motion_smoothness",
+      "temporal_flickering",
+      "subject_consistency",
+      "background_consistency"
+    ],
+    "video_list": [
+      "videos/Human_Interaction/One person puts a coat on another person.-0.mp4",
+      "videos/Human_Interaction/One person puts a coat on another person.-1.mp4",
+      "videos/Human_Interaction/One person puts a coat on another person.-2.mp4"
+    ]
+  },
+  {
+    "prompt_en": "A dog is on the left of a table, then the dog runs to the front of the table.",
+    "dimension": [
+      "Dynamic_Spatial_Relationship"
+    ],
+    "vbench_quality_dimensions": [
+      "imaging_quality",
+      "motion_smoothness",
+      "temporal_flickering",
+      "subject_consistency",
+      "background_consistency",
+      "dynamic_degree"
+    ],
+    "auxiliary_info": [
+      "Is the dog on the left of the table? (yes or no)",
+      "Is the dog on the front of the table? (yes or no)"
+    ],
+    "video_list": [
+      "videos/Dynamic_Spatial_Relationship/A dog is on the left of a table, then the dog runs to the front of the table.-0.mp4",
+      "videos/Dynamic_Spatial_Relationship/A dog is on the left of a table, then the dog runs to the front of the table.-1.mp4",
+      "videos/Dynamic_Spatial_Relationship/A dog is on the left of a table, then the dog runs to the front of the table.-2.mp4"
+    ]
+  },
+  {
+    "prompt_en": "A dog is on the left of a sofa, then the dog runs to the front of the sofa.",
+    "dimension": [
+      "Dynamic_Spatial_Relationship"
+    ],
+    "vbench_quality_dimensions": [
+      "imaging_quality",
+      "motion_smoothness",
+      "temporal_flickering",
+      "subject_consistency",
+      "background_consistency",
+      "dynamic_degree"
+    ],
+    "auxiliary_info": [
+      "Is the dog on the left of the sofa? (yes or no)",
+      "Is the dog on the front of the sofa? (yes or no)"
+    ],
+    "video_list": [
+      "videos/Dynamic_Spatial_Relationship/A dog is on the left of a sofa, then the dog runs to the front of the sofa.-0.mp4",
+      "videos/Dynamic_Spatial_Relationship/A dog is on the left of a sofa, then the dog runs to the front of the sofa.-1.mp4",
+      "videos/Dynamic_Spatial_Relationship/A dog is on the left of a sofa, then the dog runs to the front of the sofa.-2.mp4"
+    ]
+  },
+  {
+    "prompt_en": "A dog is on the right of a sofa, then the dog runs to the front of the sofa.",
+    "dimension": [
+      "Dynamic_Spatial_Relationship"
+    ],
+    "vbench_quality_dimensions": [
+      "imaging_quality",
+      "motion_smoothness",
+      "temporal_flickering",
+      "subject_consistency",
+      "background_consistency",
+      "dynamic_degree"
+    ],
+    "auxiliary_info": [
+      "Is the dog on the right of the sofa? (yes or no)",
+      "Is the dog on the front of the sofa? (yes or no)"
+    ],
+    "video_list": [
+      "videos/Dynamic_Spatial_Relationship/A dog is on the right of a sofa, then the dog runs to the front of the sofa.-0.mp4",
+      "videos/Dynamic_Spatial_Relationship/A dog is on the right of a sofa, then the dog runs to the front of the sofa.-1.mp4",
+      "videos/Dynamic_Spatial_Relationship/A dog is on the right of a sofa, then the dog runs to the front of the sofa.-2.mp4"
+    ]
+  },
+  {
+    "prompt_en": "A dog is on the right of a rock, then the dog runs to the left of the rock.",
+    "dimension": [
+      "Dynamic_Spatial_Relationship"
+    ],
+    "vbench_quality_dimensions": [
+      "imaging_quality",
+      "motion_smoothness",
+      "temporal_flickering",
+      "subject_consistency",
+      "background_consistency",
+      "dynamic_degree"
+    ],
+    "auxiliary_info": [
+      "Is the dog on the right of the rock? (yes or no)",
+      "Is the dog on the left of the rock? (yes or no)"
+    ],
+    "video_list": [
+      "videos/Dynamic_Spatial_Relationship/A dog is on the right of a rock, then the dog runs to the left of the rock.-0.mp4",
+      "videos/Dynamic_Spatial_Relationship/A dog is on the right of a rock, then the dog runs to the left of the rock.-1.mp4",
+      "videos/Dynamic_Spatial_Relationship/A dog is on the right of a rock, then the dog runs to the left of the rock.-2.mp4"
+    ]
+  },
+  {
+    "prompt_en": "A dog is behind a chair, then the dog runs to the right of the chair.",
+    "dimension": [
+      "Dynamic_Spatial_Relationship"
+    ],
+    "vbench_quality_dimensions": [
+      "imaging_quality",
+      "motion_smoothness",
+      "temporal_flickering",
+      "subject_consistency",
+      "background_consistency",
+      "dynamic_degree"
+    ],
+    "auxiliary_info": [
+      "Is the dog behind the chair? (yes or no)",
+      "Is the dog on the right of the chair? (yes or no)"
+    ],
+    "video_list": [
+      "videos/Dynamic_Spatial_Relationship/A dog is behind a chair, then the dog runs to the right of the chair.-0.mp4",
+      "videos/Dynamic_Spatial_Relationship/A dog is behind a chair, then the dog runs to the right of the chair.-1.mp4",
+      "videos/Dynamic_Spatial_Relationship/A dog is behind a chair, then the dog runs to the right of the chair.-2.mp4"
+    ]
+  },
+  {
+    "prompt_en": "The camera starts at the top of the forest, where thick morning mist drifts between the treetops, with sunlight filtering through the leaves and casting dappled spots of light, the air fresh and moist. As the camera slowly moves downward, dewdrops glisten on the leaves, a gentle breeze rustling the leaves, making a soft, soothing sound. The camera moves along a woodland path, occasionally capturing a squirrel leaping between trees, its agile figure darting across the branches. The shot continues, eventually arriving at a tranquil lake. The surface of the water is like a mirror, reflecting the towering trees and distant mountains. In the distance, a heron takes off from the lakeshore, breaking the stillness of the water, ripples forming as the bird skims the surface. The camera follows its flight and gradually pulls back, showing the entire serene beauty of the lake.",
+    "dimension": [
+      "Complex_Landscape"
+    ],
+    "vbench_quality_dimensions": [
+      "aesthetic_quality",
+      "imaging_quality",
+      "motion_smoothness",
+      "temporal_flickering",
+      "dynamic_degree"
+    ],
+    "auxiliary_info": [
+      "The camera starts at the top of the forest, where thick morning mist drifts between the treetops, with sunlight filtering through the leaves and casting dappled spots of light, the air fresh and moist.",
+      "As the camera slowly moves downward, dewdrops glisten on the leaves, a gentle breeze rustling the leaves, making a soft, soothing sound.",
+      "The camera moves along a woodland path, occasionally capturing a squirrel leaping between trees, its agile figure darting across the branches.",
+      "The shot continues, eventually arriving at a tranquil lake. The surface of the water is like a mirror, reflecting the towering trees and distant mountains.",
+      "In the distance, a heron takes off from the lakeshore, breaking the stillness of the water, ripples forming as the bird skims the surface. The camera follows its flight and gradually pulls back, showing the entire serene beauty of the lake."
+    ],
+    "video_list": [
+      "videos/Complex_Landscape/The camera starts at the top of the forest, where thick morning mist drifts between the treetops, with sunlight filtering through the leaves and casting dappled spots of light, the-0.mp4",
+      "videos/Complex_Landscape/The camera starts at the top of the forest, where thick morning mist drifts between the treetops, with sunlight filtering through the leaves and casting dappled spots of light, the-1.mp4",
+      "videos/Complex_Landscape/The camera starts at the top of the forest, where thick morning mist drifts between the treetops, with sunlight filtering through the leaves and casting dappled spots of light, the-2.mp4"
+    ]
+  },
+  {
+    "prompt_en": "The scene opens in the vast desert, with the camera angled low over the sand, fine grains drifting in the gentle breeze, the undulating dunes in the distance bathed in a faint orange glow. As the camera moves forward, the outlines of the dunes become clearer, and the early morning sky begins to glow with warm hues, transitioning the desert from deep brown to golden yellow. The scene cuts to the top of a dune, where the camera follows a caravan of camels making their way across the endless desert, their bells jingling softly in the wind. The first rays of the sun break through the gaps between the dunes, casting golden light on the sand, as the desert comes to life, glowing in the morning's embrace. Finally, the camera pulls back, revealing the vast expanse of the desert merging with the horizon, the sun climbing higher, illuminating the entire landscape in a mystical, warm glow.",
+    "dimension": [
+      "Complex_Landscape"
+    ],
+    "vbench_quality_dimensions": [
+      "aesthetic_quality",
+      "imaging_quality",
+      "motion_smoothness",
+      "temporal_flickering",
+      "dynamic_degree"
+    ],
+    "auxiliary_info": [
+      "The scene opens in the vast desert, with the camera angled low over the sand, fine grains drifting in the gentle breeze, the undulating dunes in the distance bathed in a faint orange glow.",
+      "As the camera moves forward, the outlines of the dunes become clearer, and the early morning sky begins to glow with warm hues, transitioning the desert from deep brown to golden yellow.",
+      "The scene cuts to the top of a dune, where the camera follows a caravan of camels making their way across the endless desert, their bells jingling softly in the wind.",
+      "The first rays of the sun break through the gaps between the dunes, casting golden light on the sand, as the desert comes to life, glowing in the morning's embrace.",
+      "Finally, the camera pulls back, revealing the vast expanse of the desert merging with the horizon, the sun climbing higher, illuminating the entire landscape in a mystical, warm glow."
+    ],
+    "video_list": [
+      "videos/Complex_Landscape/The scene opens in the vast desert, with the camera angled low over the sand, fine grains drifting in the gentle breeze, the undulating dunes in the distance bathed in a faint oran-0.mp4",
+      "videos/Complex_Landscape/The scene opens in the vast desert, with the camera angled low over the sand, fine grains drifting in the gentle breeze, the undulating dunes in the distance bathed in a faint oran-1.mp4",
+      "videos/Complex_Landscape/The scene opens in the vast desert, with the camera angled low over the sand, fine grains drifting in the gentle breeze, the undulating dunes in the distance bathed in a faint oran-2.mp4"
+    ]
+  },
+  {
+    "prompt_en": "The camera begins in a vast grassland, where the lush green grass sways gently in the breeze, the air fresh, and the soft rustling of the leaves fills the space. As the camera moves forward, the grass turns from a vibrant green to golden hues, sunlight pouring over the land, the textures of the grass becoming more pronounced in the play of light and shadow. In the distance, a herd of cattle grazes peacefully. Their figures become clearer as the camera moves closer, occasionally lifting their heads and gazing into the distance. The scene shifts to a lakeshore, where the lake reflects the sky, grasslands, and distant mountains, the water clear and calm, with gentle ripples created by the breeze. Finally, the camera pulls back, following the herd as they move off into the distance, the vastness of the grassland merging with the expansive sky, creating a feeling of peaceful openness.",
+    "dimension": [
+      "Complex_Landscape"
+    ],
+    "vbench_quality_dimensions": [
+      "aesthetic_quality",
+      "imaging_quality",
+      "motion_smoothness",
+      "temporal_flickering",
+      "dynamic_degree"
+    ],
+    "auxiliary_info": [
+      "The camera begins in a vast grassland, where the lush green grass sways gently in the breeze, the air fresh, and the soft rustling of the leaves fills the space.",
+      "As the camera moves forward, the grass turns from a vibrant green to golden hues, sunlight pouring over the land, the textures of the grass becoming more pronounced in the play of light and shadow.",
+      "In the distance, a herd of cattle grazes peacefully. Their figures become clearer as the camera moves closer, occasionally lifting their heads and gazing into the distance.",
+      "The scene shifts to a lakeshore, where the lake reflects the sky, grasslands, and distant mountains, the water clear and calm, with gentle ripples created by the breeze.",
+      "Finally, the camera pulls back, following the herd as they move off into the distance, the vastness of the grassland merging with the expansive sky, creating a feeling of peaceful openness."
+    ],
+    "video_list": [
+      "videos/Complex_Landscape/The camera begins in a vast grassland, where the lush green grass sways gently in the breeze, the air fresh, and the soft rustling of the leaves fills the space. As the camera move-0.mp4",
+      "videos/Complex_Landscape/The camera begins in a vast grassland, where the lush green grass sways gently in the breeze, the air fresh, and the soft rustling of the leaves fills the space. As the camera move-1.mp4",
+      "videos/Complex_Landscape/The camera begins in a vast grassland, where the lush green grass sways gently in the breeze, the air fresh, and the soft rustling of the leaves fills the space. As the camera move-2.mp4"
+    ]
+  },
+  {
+    "prompt_en": "The camera starts at a tranquil coastline, where the waves gently crash against the rocks, the salty sea breeze fills the air, and the atmosphere feels fresh and alive. As the camera moves forward, the surface of the water glistens with golden light from the setting sun, the sound of the waves becoming more distinct as the tide retreats, revealing a moist sandy shore. The scene shifts to the beach, where a few seagulls peck at the sand, occasionally flying up and breaking the stillness of the sky. The sun slowly sinks below the horizon, painting the sky in vibrant shades of orange and red, as the golden light on the water fades, and the waves begin to intensify. Finally, the camera pulls back, and the entire coastline fades into twilight, with the sea and sky blending together in a serene, solitary embrace.",
+    "dimension": [
+      "Complex_Landscape"
+    ],
+    "vbench_quality_dimensions": [
+      "aesthetic_quality",
+      "imaging_quality",
+      "motion_smoothness",
+      "temporal_flickering",
+      "dynamic_degree"
+    ],
+    "auxiliary_info": [
+      "The camera starts at a tranquil coastline, where the waves gently crash against the rocks, the salty sea breeze fills the air, and the atmosphere feels fresh and alive.",
+      "As the camera moves forward, the surface of the water glistens with golden light from the setting sun, the sound of the waves becoming more distinct as the tide retreats, revealing a moist sandy shore.",
+      "The scene shifts to the beach, where a few seagulls peck at the sand, occasionally flying up and breaking the stillness of the sky.",
+      "The sun slowly sinks below the horizon, painting the sky in vibrant shades of orange and red, as the golden light on the water fades, and the waves begin to intensify.",
+      "Finally, the camera pulls back, and the entire coastline fades into twilight, with the sea and sky blending together in a serene, solitary embrace."
+    ],
+    "video_list": [
+      "videos/Complex_Landscape/The camera starts at a tranquil coastline, where the waves gently crash against the rocks, the salty sea breeze fills the air, and the atmosphere feels fresh and alive. As the came-0.mp4",
+      "videos/Complex_Landscape/The camera starts at a tranquil coastline, where the waves gently crash against the rocks, the salty sea breeze fills the air, and the atmosphere feels fresh and alive. As the came-1.mp4",
+      "videos/Complex_Landscape/The camera starts at a tranquil coastline, where the waves gently crash against the rocks, the salty sea breeze fills the air, and the atmosphere feels fresh and alive. As the came-2.mp4"
+    ]
+  },
+  {
+    "prompt_en": "The camera moves through the vast expanse of the universe, where stars twinkle against the dark backdrop, the Milky Way arcing like a silver river across the sky. Nebulae slowly rotate in the distance, emitting an ethereal glow. The camera continues forward, entering a massive galaxy where stars and planets interlace. As the camera draws closer, a vast nebula unfolds, its clouds swirling in silent space, shades of purple and deep blue resembling a cosmic storm. Further in, a planet slowly spins in the void, its surface covered in molten volcanoes and frozen ice plains. A comet streaks across the sky, its brilliant tail illuminating the darkness. Finally, the camera pulls back, revealing the endless expanse of the universe, with galaxies suspended in the vast void between them.",
+    "dimension": [
+      "Complex_Landscape"
+    ],
+    "vbench_quality_dimensions": [
+      "aesthetic_quality",
+      "imaging_quality",
+      "motion_smoothness",
+      "temporal_flickering",
+      "dynamic_degree"
+    ],
+    "auxiliary_info": [
+      "The camera moves through the vast expanse of the universe, where stars twinkle against the dark backdrop.",
+      "The Milky Way arcing like a silver river across the sky.",
+      "Nebulae slowly rotate in the distance, emitting an ethereal glow.",
+      "A massive nebula unfolds, its clouds swirling in silent space, shades of purple and deep blue resembling a cosmic storm.",
+      "A planet slowly spins in the void, its surface covered in molten volcanoes and frozen ice plains. A comet streaks across the sky, its brilliant tail illuminating the darkness."
+    ],
+    "video_list": [
+      "videos/Complex_Landscape/The camera moves through the vast expanse of the universe, where stars twinkle against the dark backdrop, the Milky Way arcing like a silver river across the sky. Nebulae slowly ro-0.mp4",
+      "videos/Complex_Landscape/The camera moves through the vast expanse of the universe, where stars twinkle against the dark backdrop, the Milky Way arcing like a silver river across the sky. Nebulae slowly ro-1.mp4",
+      "videos/Complex_Landscape/The camera moves through the vast expanse of the universe, where stars twinkle against the dark backdrop, the Milky Way arcing like a silver river across the sky. Nebulae slowly ro-2.mp4"
+    ]
+  },
+  {
+    "prompt_en": "The camera starts with an aerial view of a vibrant sea of flowers, with multicolored tulips, cherry blossoms, wisteria, and daisies interwoven, creating a beautiful tapestry. The breeze rustles the petals, and the air is filled with the fresh scent of flowers. The camera moves to a woodland path, where towering trees stretch upwards, their new leaves just budding in the springtime. A few small birds flit from branch to branch, their cheerful calls echoing through the forest. Continuing forward, the scene shifts to a serene pond, its surface like glass, reflecting the surrounding trees and sky. A few dragonflies skim across the water, occasionally flying into the frame and landing on the lush grass nearby. The camera tilts upwards, revealing sunlight filtering through the treetops, casting warm rays on the forest floor, where the shadows of the trees dance across the earth.",
+    "dimension": [
+      "Complex_Landscape"
+    ],
+    "vbench_quality_dimensions": [
+      "aesthetic_quality",
+      "imaging_quality",
+      "motion_smoothness",
+      "temporal_flickering",
+      "dynamic_degree"
+    ],
+    "auxiliary_info": [
+      "The camera starts with an aerial view of a vibrant sea of flowers, with multicolored tulips, cherry blossoms, wisteria, and daisies interwoven, creating a beautiful tapestry.",
+      "The breeze rustles the petals, and the air is filled with the fresh scent of flowers.",
+      "The camera moves to a woodland path, where towering trees stretch upwards, their new leaves just budding in the springtime.",
+      "A few small birds flit from branch to branch, their cheerful calls echoing through the forest.",
+      "The camera shifts to a serene pond, its surface like glass, reflecting the surrounding trees and sky, while dragonflies skim the surface."
+    ],
+    "video_list": [
+      "videos/Complex_Landscape/The camera starts with an aerial view of a vibrant sea of flowers, with multicolored tulips, cherry blossoms, wisteria, and daisies interwoven, creating a beautiful tapestry. The b-0.mp4",
+      "videos/Complex_Landscape/The camera starts with an aerial view of a vibrant sea of flowers, with multicolored tulips, cherry blossoms, wisteria, and daisies interwoven, creating a beautiful tapestry. The b-1.mp4",
+      "videos/Complex_Landscape/The camera starts with an aerial view of a vibrant sea of flowers, with multicolored tulips, cherry blossoms, wisteria, and daisies interwoven, creating a beautiful tapestry. The b-2.mp4"
+    ]
+  },
+  {
+    "prompt_en": "The camera enters a golden autumn forest, where the leaves have turned brilliant shades from gold to orange-red. A few leaves drift down with the wind. Sunlight filters through the gaps in the trees, casting dappled spots of light on the forest floor. The scene shifts to a field outside the forest, where ripe rice stalks sway in the breeze, their golden heads bowing under the weight of the grain. A few wild rabbits dart between the rows, occasionally pausing to nibble on the grass. The camera moves again to a winding stream, its water crystal clear, with a few fallen leaves floating gently on the surface. A soft breeze ripples the water, creating subtle waves. Continuing onward, the scene shifts to a hillside, where the distant mountain range is bathed in the warm light of autumn, and a village can be seen nestled at the foot of the mountains, with smoke curling from chimneys.",
+    "dimension": [
+      "Complex_Landscape"
+    ],
+    "vbench_quality_dimensions": [
+      "aesthetic_quality",
+      "imaging_quality",
+      "motion_smoothness",
+      "temporal_flickering",
+      "dynamic_degree"
+    ],
+    "auxiliary_info": [
+      "The camera enters a golden autumn forest, where the leaves have turned brilliant shades from gold to orange-red.",
+      "A few leaves drift down with the wind, and sunlight filters through the gaps in the trees, casting dappled spots of light on the forest floor.",
+      "The scene shifts to a field outside the forest, where ripe rice stalks sway in the breeze, their golden heads bowing under the weight of the grain.",
+      "A few wild rabbits dart between the rows, occasionally pausing to nibble on the grass.",
+      "The camera shifts to a winding stream, its water crystal clear, with a few fallen leaves floating gently on the surface, creating subtle waves."
+    ],
+    "video_list": [
+      "videos/Complex_Landscape/The camera enters a golden autumn forest, where the leaves have turned brilliant shades from gold to orange-red. A few leaves drift down with the wind. Sunlight filters through the-0.mp4",
+      "videos/Complex_Landscape/The camera enters a golden autumn forest, where the leaves have turned brilliant shades from gold to orange-red. A few leaves drift down with the wind. Sunlight filters through the-1.mp4",
+      "videos/Complex_Landscape/The camera enters a golden autumn forest, where the leaves have turned brilliant shades from gold to orange-red. A few leaves drift down with the wind. Sunlight filters through the-2.mp4"
+    ]
+  },
+  {
+    "prompt_en": "A metal spoon is gently placed on the surface of a glass of water.",
+    "dimension": [
+      "Mechanics"
+    ],
+    "vbench_quality_dimensions": [
+      "imaging_quality",
+      "motion_smoothness",
+      "temporal_flickering",
+      "subject_consistency",
+      "background_consistency"
+    ],
+    "auxiliary_info": [
+      "Does the metal spoon float on the surface of the water? (yes or no)"
+    ],
+    "video_list": [
+      "videos/Mechanics/A metal spoon is gently placed on the surface of a glass of water.-0.mp4",
+      "videos/Mechanics/A metal spoon is gently placed on the surface of a glass of water.-1.mp4",
+      "videos/Mechanics/A metal spoon is gently placed on the surface of a glass of water.-2.mp4"
+    ]
+  },
+  {
+    "prompt_en": "A timelapse of a wet sponge being compressed between two hands, with the pressure increasing rapidly.",
+    "dimension": [
+      "Mechanics"
+    ],
+    "vbench_quality_dimensions": [
+      "imaging_quality",
+      "motion_smoothness",
+      "temporal_flickering",
+      "subject_consistency",
+      "background_consistency"
+    ],
+    "auxiliary_info": [
+      "Does the sponge contact with hands? (yes or no)",
+      "Does the sponge be compressed and the water be expelled out of the sponge? (yes or no)"
+    ],
+    "video_list": [
+      "videos/Mechanics/A timelapse of a wet sponge being compressed between two hands, with the pressure increasing rapidly.-0.mp4",
+      "videos/Mechanics/A timelapse of a wet sponge being compressed between two hands, with the pressure increasing rapidly.-1.mp4",
+      "videos/Mechanics/A timelapse of a wet sponge being compressed between two hands, with the pressure increasing rapidly.-2.mp4"
+    ]
+  },
+  {
+    "prompt_en": "A sharp object slowly presses into the surface of a soft balloon, with the point gradually sinking into the rubber.",
+    "dimension": [
+      "Mechanics"
+    ],
+    "vbench_quality_dimensions": [
+      "imaging_quality",
+      "motion_smoothness",
+      "temporal_flickering",
+      "subject_consistency",
+      "background_consistency"
+    ],
+    "auxiliary_info": [
+      "Does the sharp object contact with balloon? (yes or no)",
+      "Does the balloon pop? (yes or no)"
+    ],
+    "video_list": [
+      "videos/Mechanics/A sharp object slowly presses into the surface of a soft balloon, with the point gradually sinking into the rubber.-0.mp4",
+      "videos/Mechanics/A sharp object slowly presses into the surface of a soft balloon, with the point gradually sinking into the rubber.-1.mp4",
+      "videos/Mechanics/A sharp object slowly presses into the surface of a soft balloon, with the point gradually sinking into the rubber.-2.mp4"
+    ]
+  },
+  {
+    "prompt_en": "A bouncing rubber ball is rolled forcefully towards a wall, with its dynamic bounce captured as it rebounds off the surface.",
+    "dimension": [
+      "Mechanics"
+    ],
+    "vbench_quality_dimensions": [
+      "imaging_quality",
+      "motion_smoothness",
+      "temporal_flickering",
+      "subject_consistency",
+      "background_consistency",
+      "dynamic_degree"
+    ],
+    "auxiliary_info": [
+      "Does the ball impact the wall? (yes or no)",
+      "Does the ball bounce back? (yes or no)"
+    ],
+    "video_list": [
+      "videos/Mechanics/A bouncing rubber ball is rolled forcefully towards a wall, with its dynamic bounce captured as it rebounds off the surface.-0.mp4",
+      "videos/Mechanics/A bouncing rubber ball is rolled forcefully towards a wall, with its dynamic bounce captured as it rebounds off the surface.-1.mp4",
+      "videos/Mechanics/A bouncing rubber ball is rolled forcefully towards a wall, with its dynamic bounce captured as it rebounds off the surface.-2.mp4"
+    ]
+  },
+  {
+    "prompt_en": "A water droplet slides down the edge of a smooth sheet of aluminum, maintaining its spherical form",
+    "dimension": [
+      "Mechanics"
+    ],
+    "vbench_quality_dimensions": [
+      "imaging_quality",
+      "motion_smoothness",
+      "temporal_flickering",
+      "subject_consistency",
+      "background_consistency"
+    ],
+    "auxiliary_info": [
+      "Does the water droplet slides down? (yes or no)",
+      "Does the water droplet maintain a spherical shape? (yes or no)"
+    ],
+    "video_list": [
+      "videos/Mechanics/A water droplet slides down the edge of a smooth sheet of aluminum, maintaining its spherical form-0.mp4",
+      "videos/Mechanics/A water droplet slides down the edge of a smooth sheet of aluminum, maintaining its spherical form-1.mp4",
+      "videos/Mechanics/A water droplet slides down the edge of a smooth sheet of aluminum, maintaining its spherical form-2.mp4"
+    ]
+  },
+  {
+    "prompt_en": "A bottle of water is opened in the space station, and the water starts to float out in irregular shapes.",
+    "dimension": [
+      "Mechanics"
+    ],
+    "vbench_quality_dimensions": [
+      "imaging_quality",
+      "motion_smoothness",
+      "temporal_flickering",
+      "subject_consistency",
+      "background_consistency",
+      "dynamic_degree"
+    ],
+    "auxiliary_info": [
+      "Is the background of the video a space station? (yes or no)",
+      "Does the water form floating blobs and spread in all directions? (yes or no)"
+    ],
+    "video_list": [
+      "videos/Mechanics/A bottle of water is opened in the space station, and the water starts to float out in irregular shapes.-0.mp4",
+      "videos/Mechanics/A bottle of water is opened in the space station, and the water starts to float out in irregular shapes.-1.mp4",
+      "videos/Mechanics/A bottle of water is opened in the space station, and the water starts to float out in irregular shapes.-2.mp4"
+    ]
+  },
+  {
+    "prompt_en": "A container of whipped cream is opened in the space station, and the foam slowly expands in all directions.",
+    "dimension": [
+      "Mechanics"
+    ],
+    "vbench_quality_dimensions": [
+      "imaging_quality",
+      "motion_smoothness",
+      "temporal_flickering",
+      "subject_consistency",
+      "background_consistency",
+      "dynamic_degree"
+    ],
+    "auxiliary_info": [
+      "Is the background of the video a space station? (yes or no)",
+      "Does the whipped cream form floating blobs and spread in all directions? (yes or no)"
+    ],
+    "video_list": [
+      "videos/Mechanics/A container of whipped cream is opened in the space station, and the foam slowly expands in all directions.-0.mp4",
+      "videos/Mechanics/A container of whipped cream is opened in the space station, and the foam slowly expands in all directions.-1.mp4",
+      "videos/Mechanics/A container of whipped cream is opened in the space station, and the foam slowly expands in all directions.-2.mp4"
+    ]
+  },
+  {
+    "prompt_en": "A person is sitting on the couch, then suddenly they get up and start sweeping the floor.",
+    "dimension": [
+      "Motion_Order_Understanding"
+    ],
+    "vbench_quality_dimensions": [
+      "imaging_quality",
+      "motion_smoothness",
+      "temporal_flickering",
+      "subject_consistency",
+      "background_consistency",
+      "dynamic_degree"
+    ],
+    "auxiliary_info": [
+      "sitting",
+      "get up and sweeping"
+    ],
+    "video_list": [
+      "videos/Motion_Order_Understanding/A person is sitting on the couch, then suddenly they get up and start sweeping the floor.-0.mp4",
+      "videos/Motion_Order_Understanding/A person is sitting on the couch, then suddenly they get up and start sweeping the floor.-1.mp4",
+      "videos/Motion_Order_Understanding/A person is sitting on the couch, then suddenly they get up and start sweeping the floor.-2.mp4"
+    ]
+  },
+  {
+    "prompt_en": "A bird is perched on a branch, then it suddenly flies down to the ground.",
+    "dimension": [
+      "Motion_Order_Understanding"
+    ],
+    "vbench_quality_dimensions": [
+      "imaging_quality",
+      "motion_smoothness",
+      "temporal_flickering",
+      "subject_consistency",
+      "background_consistency",
+      "dynamic_degree"
+    ],
+    "auxiliary_info": [
+      "perched on a branch",
+      "flying down to the ground"
+    ],
+    "video_list": [
+      "videos/Motion_Order_Understanding/A bird is perched on a branch, then it suddenly flies down to the ground.-0.mp4",
+      "videos/Motion_Order_Understanding/A bird is perched on a branch, then it suddenly flies down to the ground.-1.mp4",
+      "videos/Motion_Order_Understanding/A bird is perched on a branch, then it suddenly flies down to the ground.-2.mp4"
+    ]
+  },
+  {
+    "prompt_en": "A person is writing an email, then they suddenly get up and start baking cookies.",
+    "dimension": [
+      "Motion_Order_Understanding"
+    ],
+    "vbench_quality_dimensions": [
+      "imaging_quality",
+      "motion_smoothness",
+      "temporal_flickering",
+      "subject_consistency",
+      "background_consistency",
+      "dynamic_degree"
+    ],
+    "auxiliary_info": [
+      "writing an email",
+      "get up and bake cookies"
+    ],
+    "video_list": [
+      "videos/Motion_Order_Understanding/A person is writing an email, then they suddenly get up and start baking cookies.-0.mp4",
+      "videos/Motion_Order_Understanding/A person is writing an email, then they suddenly get up and start baking cookies.-1.mp4",
+      "videos/Motion_Order_Understanding/A person is writing an email, then they suddenly get up and start baking cookies.-2.mp4"
+    ]
+  },
+  {
+    "prompt_en": "A dog is running through the park, then it suddenly starts jumping over logs.",
+    "dimension": [
+      "Motion_Order_Understanding"
+    ],
+    "vbench_quality_dimensions": [
+      "imaging_quality",
+      "motion_smoothness",
+      "temporal_flickering",
+      "subject_consistency",
+      "background_consistency",
+      "dynamic_degree"
+    ],
+    "auxiliary_info": [
+      "running through the park",
+      "jumping over logs"
+    ],
+    "video_list": [
+      "videos/Motion_Order_Understanding/A dog is running through the park, then it suddenly starts jumping over logs.-0.mp4",
+      "videos/Motion_Order_Understanding/A dog is running through the park, then it suddenly starts jumping over logs.-1.mp4",
+      "videos/Motion_Order_Understanding/A dog is running through the park, then it suddenly starts jumping over logs.-2.mp4"
+    ]
+  },
+  {
+    "prompt_en": "A cat is sitting on the windowsill, then it suddenly jumps down and starts exploring the room.",
+    "dimension": [
+      "Motion_Order_Understanding"
+    ],
+    "vbench_quality_dimensions": [
+      "imaging_quality",
+      "motion_smoothness",
+      "temporal_flickering",
+      "subject_consistency",
+      "background_consistency",
+      "dynamic_degree"
+    ],
+    "auxiliary_info": [
+      "sitting on the windowsill",
+      "jumps down and explore the room"
+    ],
+    "video_list": [
+      "videos/Motion_Order_Understanding/A cat is sitting on the windowsill, then it suddenly jumps down and starts exploring the room.-0.mp4",
+      "videos/Motion_Order_Understanding/A cat is sitting on the windowsill, then it suddenly jumps down and starts exploring the room.-1.mp4",
+      "videos/Motion_Order_Understanding/A cat is sitting on the windowsill, then it suddenly jumps down and starts exploring the room.-2.mp4"
+    ]
+  },
+  {
+    "prompt_en": "A horse is trotting in the field, then it suddenly starts drinking from a stream.",
+    "dimension": [
+      "Motion_Order_Understanding"
+    ],
+    "vbench_quality_dimensions": [
+      "imaging_quality",
+      "motion_smoothness",
+      "temporal_flickering",
+      "subject_consistency",
+      "background_consistency",
+      "dynamic_degree"
+    ],
+    "auxiliary_info": [
+      "trotting in the field",
+      "drinking from a stream"
+    ],
+    "video_list": [
+      "videos/Motion_Order_Understanding/A horse is trotting in the field, then it suddenly starts drinking from a stream.-0.mp4",
+      "videos/Motion_Order_Understanding/A horse is trotting in the field, then it suddenly starts drinking from a stream.-1.mp4",
+      "videos/Motion_Order_Understanding/A horse is trotting in the field, then it suddenly starts drinking from a stream.-2.mp4"
+    ]
+  },
+  {
+    "prompt_en": "A person is drinking a glass of water, then they suddenly start cleaning the windows.",
+    "dimension": [
+      "Motion_Order_Understanding"
+    ],
+    "vbench_quality_dimensions": [
+      "imaging_quality",
+      "motion_smoothness",
+      "temporal_flickering",
+      "subject_consistency",
+      "background_consistency",
+      "dynamic_degree"
+    ],
+    "auxiliary_info": [
+      "drinking a glass of water",
+      "cleaning the windows"
+    ],
+    "video_list": [
+      "videos/Motion_Order_Understanding/A person is drinking a glass of water, then they suddenly start cleaning the windows.-0.mp4",
+      "videos/Motion_Order_Understanding/A person is drinking a glass of water, then they suddenly start cleaning the windows.-1.mp4",
+      "videos/Motion_Order_Understanding/A person is drinking a glass of water, then they suddenly start cleaning the windows.-2.mp4"
+    ]
+  },
+  {
+    "prompt_en": "A person is slurping noodles from a steaming bowl.",
+    "dimension": [
+      "Motion_Rationality"
+    ],
+    "vbench_quality_dimensions": [
+      "imaging_quality",
+      "motion_smoothness",
+      "temporal_flickering",
+      "subject_consistency",
+      "background_consistency"
+    ],
+    "auxiliary_info": [
+      "Does the person appear to be slurping noodles? (yes or no)",
+      "Is the person's mouth in contact with the noodles? (yes or no)",
+      "After slurping, is the amount of noodles visibly reduced? (yes or no)",
+      "Is the bowl of noodles remaining after slurping? (yes or no)"
+    ],
+    "video_list": [
+      "videos/Motion_Rationality/A person is slurping noodles from a steaming bowl.-0.mp4",
+      "videos/Motion_Rationality/A person is slurping noodles from a steaming bowl.-1.mp4",
+      "videos/Motion_Rationality/A person is slurping noodles from a steaming bowl.-2.mp4"
+    ]
+  },
+  {
+    "prompt_en": "A person is pouring olive oil into a frying pan.",
+    "dimension": [
+      "Motion_Rationality"
+    ],
+    "vbench_quality_dimensions": [
+      "imaging_quality",
+      "motion_smoothness",
+      "temporal_flickering",
+      "subject_consistency",
+      "background_consistency"
+    ],
+    "auxiliary_info": [
+      "Does the person appear to be pouring olive oil into the frying pan? (yes or no)",
+      "Is the olive oil in contact with the frying pan? (yes or no)",
+      "Does the amount of olive oil in the frying pan visibly increase? (yes or no)",
+      "Is the oil remaining after pouring? (yes or no)"
+    ],
+    "video_list": [
+      "videos/Motion_Rationality/A person is pouring olive oil into a frying pan.-0.mp4",
+      "videos/Motion_Rationality/A person is pouring olive oil into a frying pan.-1.mp4",
+      "videos/Motion_Rationality/A person is pouring olive oil into a frying pan.-2.mp4"
+    ]
+  },
+  {
+    "prompt_en": "A person is walking up the stairs.",
+    "dimension": [
+      "Motion_Rationality"
+    ],
+    "vbench_quality_dimensions": [
+      "imaging_quality",
+      "motion_smoothness",
+      "temporal_flickering",
+      "subject_consistency",
+      "background_consistency",
+      "dynamic_degree"
+    ],
+    "auxiliary_info": [
+      "Does the person appear to be walking up the stairs? (yes or no)",
+      "Is the person moving upward in a consistent direction, rather than staying on the same step or moving downward? (yes or no)",
+      "Does the person’s foot make contact with each stair in a way that suggests natural upward motion? (yes or no)",
+      "Does the person maintain a stable posture and balance while walking up the stairs, without excessive leaning or instability? (yes or no)"
+    ],
+    "video_list": [
+      "videos/Motion_Rationality/A person is walking up the stairs.-0.mp4",
+      "videos/Motion_Rationality/A person is walking up the stairs.-1.mp4",
+      "videos/Motion_Rationality/A person is walking up the stairs.-2.mp4"
+    ]
+  },
+  {
+    "prompt_en": "A person is opening the window.",
+    "dimension": [
+      "Motion_Rationality"
+    ],
+    "vbench_quality_dimensions": [
+      "imaging_quality",
+      "motion_smoothness",
+      "temporal_flickering",
+      "subject_consistency",
+      "background_consistency"
+    ],
+    "auxiliary_info": [
+      "Is the person opening the window? (yes or no)",
+      "Is the window closed and intact before being opened? (yes or no)",
+      "Does the person’s hand make contact with the window handle or latch? (yes or no)",
+      "After opening, is the window visibly ajar or fully opened? (yes or no)"
+    ],
+    "video_list": [
+      "videos/Motion_Rationality/A person is opening the window.-0.mp4",
+      "videos/Motion_Rationality/A person is opening the window.-1.mp4",
+      "videos/Motion_Rationality/A person is opening the window.-2.mp4"
+    ]
+  },
+  {
+    "prompt_en": "A person is moving the chair.",
+    "dimension": [
+      "Motion_Rationality"
+    ],
+    "vbench_quality_dimensions": [
+      "imaging_quality",
+      "motion_smoothness",
+      "temporal_flickering",
+      "subject_consistency",
+      "background_consistency",
+      "dynamic_degree"
+    ],
+    "auxiliary_info": [
+      "Is the person moving the chair? (yes or no)",
+      "Is the chair stationary or resting in one place before being moved? (yes or no)",
+      "Does the person make physical contact with the chair while moving it? (yes or no)",
+      "After moving, is the chair visibly repositioned or placed in a different location? (yes or no)"
+    ],
+    "video_list": [
+      "videos/Motion_Rationality/A person is moving the chair.-0.mp4",
+      "videos/Motion_Rationality/A person is moving the chair.-1.mp4",
+      "videos/Motion_Rationality/A person is moving the chair.-2.mp4"
+    ]
+  },
+  {
+    "prompt_en": "The camera orbits around. Castle, the camera circles around.",
+    "dimension": [
+      "Multi-View_Consistency"
+    ],
+    "vbench_quality_dimensions": [
+      "aesthetic_quality",
+      "imaging_quality",
+      "motion_smoothness",
+      "temporal_flickering",
+      "subject_consistency"
+    ],
+    "video_list": [
+      "videos/Multi-View_Consistency/The camera orbits around. Castle, the camera circles around.-0.mp4",
+      "videos/Multi-View_Consistency/The camera orbits around. Castle, the camera circles around.-1.mp4",
+      "videos/Multi-View_Consistency/The camera orbits around. Castle, the camera circles around.-2.mp4"
+    ]
+  },
+  {
+    "prompt_en": "The camera orbits around. Machu Picchu, the camera circles around.",
+    "dimension": [
+      "Multi-View_Consistency"
+    ],
+    "vbench_quality_dimensions": [
+      "aesthetic_quality",
+      "imaging_quality",
+      "motion_smoothness",
+      "temporal_flickering",
+      "subject_consistency"
+    ],
+    "video_list": [
+      "videos/Multi-View_Consistency/The camera orbits around. Machu Picchu, the camera circles around.-0.mp4",
+      "videos/Multi-View_Consistency/The camera orbits around. Machu Picchu, the camera circles around.-1.mp4",
+      "videos/Multi-View_Consistency/The camera orbits around. Machu Picchu, the camera circles around.-2.mp4"
+    ]
+  },
+  {
+    "prompt_en": "The camera orbits around. Chess Piece Queen, the camera circles around.",
+    "dimension": [
+      "Multi-View_Consistency"
+    ],
+    "vbench_quality_dimensions": [
+      "imaging_quality",
+      "motion_smoothness",
+      "temporal_flickering",
+      "subject_consistency"
+    ],
+    "video_list": [
+      "videos/Multi-View_Consistency/The camera orbits around. Chess Piece Queen, the camera circles around.-0.mp4",
+      "videos/Multi-View_Consistency/The camera orbits around. Chess Piece Queen, the camera circles around.-1.mp4",
+      "videos/Multi-View_Consistency/The camera orbits around. Chess Piece Queen, the camera circles around.-2.mp4"
+    ]
+  },
+  {
+    "prompt_en": "The camera orbits around. Train, the camera circles around.",
+    "dimension": [
+      "Multi-View_Consistency"
+    ],
+    "vbench_quality_dimensions": [
+      "imaging_quality",
+      "motion_smoothness",
+      "temporal_flickering",
+      "subject_consistency"
+    ],
+    "video_list": [
+      "videos/Multi-View_Consistency/The camera orbits around. Train, the camera circles around.-0.mp4",
+      "videos/Multi-View_Consistency/The camera orbits around. Train, the camera circles around.-1.mp4",
+      "videos/Multi-View_Consistency/The camera orbits around. Train, the camera circles around.-2.mp4"
+    ]
+  },
+  {
+    "prompt_en": "The camera orbits around. Trex, the camera circles around.",
+    "dimension": [
+      "Multi-View_Consistency"
+    ],
+    "vbench_quality_dimensions": [
+      "imaging_quality",
+      "motion_smoothness",
+      "temporal_flickering",
+      "subject_consistency"
+    ],
+    "video_list": [
+      "videos/Multi-View_Consistency/The camera orbits around. Trex, the camera circles around.-0.mp4",
+      "videos/Multi-View_Consistency/The camera orbits around. Trex, the camera circles around.-1.mp4",
+      "videos/Multi-View_Consistency/The camera orbits around. Trex, the camera circles around.-2.mp4"
+    ]
+  },
+  {
+    "prompt_en": "The match began, and Team A quickly organized an attack, breaking through Team B's defense with fast passes. The forward accurately kicked the ball into the goal, taking a 1-0 lead. Team B did not panic; they used a long pass to quickly counterattack. The forward calmly shot past the goalkeeper, and the ball went straight into the net, making it 1-1. At this point, the game entered a stalemate. Both teams' defenses were solid, and the match became a fierce battle. In the second half, Team A had a corner kick. The high ball delivered by the player was headed in by the center-back who jumped high, putting Team A in the lead at 2-1. In the final moments of the game, Team B got a penalty kick. The forward took the shot without hesitation, sending the ball into the net to make it 2-2. Finally, in the last moments of extra time, Team A used a quick counterattack and a long-range shot from outside the box flew straight into the corner, securing the win with a 3-2 score.",
+    "dimension": [
+      "Complex_Plot"
+    ],
+    "vbench_quality_dimensions": [
+      "aesthetic_quality",
+      "imaging_quality",
+      "motion_smoothness",
+      "temporal_flickering",
+      "dynamic_degree"
+    ],
+    "auxiliary_info": [
+      "A player from one team quickly organized an attack, breaking through the defense of another team.",
+      "The forward from one team kicked the ball into the goal to take the lead.",
+      "A player from another team used a long pass to counterattack and equalize the score.",
+      "In the second half, one team scored from a corner kick to take the lead again.",
+      "In the final moments, a quick counterattack and long-range shot from one team secured the win."
+    ],
+    "video_list": [
+      "videos/Complex_Plot/The match began, and Team A quickly organized an attack, breaking through Team B's defense with fast passes. The forward accurately kicked the ball into the goal, taking a 1-0 lead-0.mp4",
+      "videos/Complex_Plot/The match began, and Team A quickly organized an attack, breaking through Team B's defense with fast passes. The forward accurately kicked the ball into the goal, taking a 1-0 lead-1.mp4",
+      "videos/Complex_Plot/The match began, and Team A quickly organized an attack, breaking through Team B's defense with fast passes. The forward accurately kicked the ball into the goal, taking a 1-0 lead-2.mp4"
+    ]
+  },
+  {
+    "prompt_en": "A brave young girl set off on an adventure to find five ancient artifacts. First, she crossed the desolate desert, finding the endless water bottle with the help of a giant desert turtle. Next, she went to the ancient library, solved the guardian spirit’s riddle, and obtained the book of eternity. She entered the mysterious forest, fought against a giant beast, and earned the heart of the forest. She then climbed the dangerous lightning mountains, passed the god of lightning's trials, and obtained the lightning staff. Lastly, she ventured into the deep underground caves, defeated the underworld guards, and obtained the stone of life. The girl combined all five artifacts, defeated the dark sorcerer, and saved the world.",
+    "dimension": [
+      "Complex_Plot"
+    ],
+    "vbench_quality_dimensions": [
+      "aesthetic_quality",
+      "imaging_quality",
+      "motion_smoothness",
+      "temporal_flickering",
+      "dynamic_degree",
+      "subject_consistency"
+    ],
+    "auxiliary_info": [
+      "The girl found the endless water bottle in the desert with the help of the desert turtle.",
+      "The girl solved the guardian spirit’s riddle in the ancient library and obtained the book.",
+      "The girl defeated a giant beast in the mysterious forest and earned the heart of the forest.",
+      "The girl passed the trials of the god of lightning and obtained the lightning staff.",
+      "The girl defeated the underworld guards and obtained the stone of life to save the world."
+    ],
+    "video_list": [
+      "videos/Complex_Plot/A brave young girl set off on an adventure to find five ancient artifacts. First, she crossed the desolate desert, finding the endless water bottle with the help of a giant desert -0.mp4",
+      "videos/Complex_Plot/A brave young girl set off on an adventure to find five ancient artifacts. First, she crossed the desolate desert, finding the endless water bottle with the help of a giant desert -1.mp4",
+      "videos/Complex_Plot/A brave young girl set off on an adventure to find five ancient artifacts. First, she crossed the desolate desert, finding the endless water bottle with the help of a giant desert -2.mp4"
+    ]
+  },
+  {
+    "prompt_en": "A little girl received a mysterious gift—the ancient time key. She used the key to open a sealed door and entered the time house. On the first day, she found a room filled with books, each with a different story. On the second day, she was taken to an ancient kitchen filled with strange smells, where a kind witch taught her how to make magic cookies that could change the past. On the third day, she found a mirror where her reflection looked completely different, even unrecognizable. On the fourth day, she planted a seed in the secret garden of the time house, and miraculously, it grew into a huge tree overnight. Finally, she discovered that she had always been living in a world unaffected by time, and the time house was her true home.",
+    "dimension": [
+      "Complex_Plot"
+    ],
+    "vbench_quality_dimensions": [
+      "aesthetic_quality",
+      "imaging_quality",
+      "motion_smoothness",
+      "temporal_flickering",
+      "dynamic_degree",
+      "subject_consistency"
+    ],
+    "auxiliary_info": [
+      "The little girl received the ancient time key and opened a sealed door into the time house.",
+      "On the first day, she found a room filled with books, each telling a different story.",
+      "On the second day, she visited an ancient kitchen and learned to make magic cookies from a kind witch.",
+      "On the third day, she found a mirror where her reflection looked completely different.",
+      "On the fourth day, she planted a seed in the secret garden, which grew into a huge tree overnight."
+    ],
+    "video_list": [
+      "videos/Complex_Plot/A little girl received a mysterious gift—the ancient time key. She used the key to open a sealed door and entered the time house. On the first day, she found a room filled with boo-0.mp4",
+      "videos/Complex_Plot/A little girl received a mysterious gift—the ancient time key. She used the key to open a sealed door and entered the time house. On the first day, she found a room filled with boo-1.mp4",
+      "videos/Complex_Plot/A little girl received a mysterious gift—the ancient time key. She used the key to open a sealed door and entered the time house. On the first day, she found a room filled with boo-2.mp4"
+    ]
+  },
+  {
+    "prompt_en": "There was an ancient maze that was said to grant endless wealth to whoever could successfully escape it. To uncover the mystery of his missing father, a young adventurer named Allen decided to enter the maze. On the first level, he met a mysterious cat that told him the maze had five levels, each testing one’s wisdom and courage. Allen successfully passed the first two levels, but on the third level, he encountered an illusion of himself and lost his way. After an awakening moment, he overcame the illusion and successfully passed the remaining two levels. In the end, Allen discovered that the maze’s exit didn’t lead to wealth but to the key to his family’s hidden secrets.",
+    "dimension": [
+      "Complex_Plot"
+    ],
+    "vbench_quality_dimensions": [
+      "aesthetic_quality",
+      "imaging_quality",
+      "motion_smoothness",
+      "temporal_flickering",
+      "dynamic_degree",
+      "subject_consistency"
+    ],
+    "auxiliary_info": [
+      "Allen enters an ancient maze to uncover the mystery of his missing father.",
+      "A mysterious cat tells Allen the maze has five levels, each testing wisdom and courage.",
+      "Allen passes the first two levels but loses his way on the third after encountering an illusion of himself.",
+      "After an awakening moment, Allen overcomes the illusion and passes the remaining two levels.",
+      "Allen discovers the maze’s exit leads to the key to his family’s hidden secrets, not wealth."
+    ],
+    "video_list": [
+      "videos/Complex_Plot/There was an ancient maze that was said to grant endless wealth to whoever could successfully escape it. To uncover the mystery of his missing father, a young adventurer named Alle-0.mp4",
+      "videos/Complex_Plot/There was an ancient maze that was said to grant endless wealth to whoever could successfully escape it. To uncover the mystery of his missing father, a young adventurer named Alle-1.mp4",
+      "videos/Complex_Plot/There was an ancient maze that was said to grant endless wealth to whoever could successfully escape it. To uncover the mystery of his missing father, a young adventurer named Alle-2.mp4"
+    ]
+  },
+  {
+    "prompt_en": "In a forgotten, ancient village, all the clocks had stopped, and time seemed to stand still. The villagers were trapped in a perpetual state of idleness. A young clockmaker named Daniel decided to find the cause and repair the clock tower. He discovered that the heart of the tower’s clock had been stolen by a giant mechanical bird, which hid in an underground palace. Daniel ventured deep into the palace, fighting monsters and avoiding traps, and eventually found the bird and repaired it. By fixing the bird’s mechanism, he restored the flow of time in the village. However, Daniel realized that every time he restored time, a certain memory of the village would be lost. In the end, Daniel chose to sacrifice his own memories to restart time, giving the villagers a new beginning.",
+    "dimension": [
+      "Complex_Plot"
+    ],
+    "vbench_quality_dimensions": [
+      "aesthetic_quality",
+      "imaging_quality",
+      "motion_smoothness",
+      "temporal_flickering",
+      "dynamic_degree",
+      "subject_consistency"
+    ],
+    "auxiliary_info": [
+      "Daniel, a young clockmaker, seeks to fix the clock tower in an ancient village where time has stopped.",
+      "He discovers that a giant mechanical bird has stolen the heart of the clock.",
+      "Daniel ventures into an underground palace, battling monsters and avoiding traps.",
+      "He repairs the bird and restores the flow of time to the village.",
+      "Daniel sacrifices his own memories to restart time and give the villagers a new beginning."
+    ],
+    "video_list": [
+      "videos/Complex_Plot/In a forgotten, ancient village, all the clocks had stopped, and time seemed to stand still. The villagers were trapped in a perpetual state of idleness. A young clockmaker named D-0.mp4",
+      "videos/Complex_Plot/In a forgotten, ancient village, all the clocks had stopped, and time seemed to stand still. The villagers were trapped in a perpetual state of idleness. A young clockmaker named D-1.mp4",
+      "videos/Complex_Plot/In a forgotten, ancient village, all the clocks had stopped, and time seemed to stand still. The villagers were trapped in a perpetual state of idleness. A young clockmaker named D-2.mp4"
+    ]
+  }
+]

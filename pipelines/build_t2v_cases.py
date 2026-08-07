@@ -176,7 +176,7 @@ def update_run_config_dimensions(config_path: Path, dimensions: list[str]) -> No
         return
 
 
-def write_run_config(output_dir: Path, dimensions: list[str]) -> Path:
+def write_run_config(output_dir: Path, dimensions: list[str], with_quality_info: bool = False) -> Path:
     """Create the minimal T2V dispatcher config once per run."""
     run_dir = output_dir.resolve().parent
     config_path = run_dir / "config" / "run.yaml"
@@ -188,11 +188,15 @@ def write_run_config(output_dir: Path, dimensions: list[str]) -> Path:
         "benchmark: vbench2",
         "dataset: vbench2_t2v",
         "workflow: configurable_comfyui_t2v",
-        "videos_root: videos/prepared",
+        "videos_root: videos/vbench2",
         "full_info: cases/selected_full_info.json",
+    ]
+    if with_quality_info:
+        lines.append("quality_info: cases/vbench_quality_dimensions.json")
+    lines.extend([
         "evaluation_root: evaluation",
         "dimensions:",
-    ]
+    ])
     lines.extend(f"  - {dimension}" for dimension in dimensions)
     lines.extend([
         "video_only_dimensions:",
@@ -203,7 +207,11 @@ def write_run_config(output_dir: Path, dimensions: list[str]) -> Path:
         "  - temporal_flickering",
         "  - motion_smoothness",
         "  - dynamic_degree",
-        "video_only_videos_path: videos/prepared",
+        "video_only_videos_path: videos/vbench1" if with_quality_info else "video_only_videos_path: videos/vbench2",
+    ])
+    if with_quality_info:
+        lines.append("video_only_videos_by_dimension: true")
+    lines.extend([
         "mode: vbench_standard",
         "load_ckpt_from_local: true",
         "read_frame: false",
@@ -221,6 +229,11 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--prompt-root", type=Path, default=benchmark_root / "prompts/prompt")
     parser.add_argument("--chinese-root", type=Path, default=benchmark_root / "prompts/prompt_ch/VBench2_ch_prompt")
     parser.add_argument("--full-info", type=Path, default=benchmark_root / "full_info.json")
+    parser.add_argument(
+        "--quality-info",
+        type=Path,
+        help="包含 vbench_quality_dimensions 的 metadata；会复制到 run/cases/",
+    )
     parser.add_argument("--manifest", type=Path, default=benchmark_root / "manifest.json")
     parser.add_argument("--output-dir", type=Path, required=True)
     parser.add_argument(
@@ -282,8 +295,28 @@ def main() -> None:
     else:
         added = len(cases)
     cases_path.write_text(json.dumps(cases, ensure_ascii=False, indent=2), encoding="utf-8")
-    (args.output_dir / "selected_full_info.json").write_text(json.dumps(eval_items, ensure_ascii=False, indent=2), encoding="utf-8")
-    config_path = write_run_config(args.output_dir, args.dimensions)
+    (args.output_dir / "selected_full_info.json").write_text(
+        json.dumps(eval_items, ensure_ascii=False, indent=2), encoding="utf-8"
+    )
+    if args.quality_info:
+        quality_info = load_info(args.quality_info.resolve())
+        quality_by_prompt = {item.get("prompt_en"): item for item in quality_info}
+        selected_quality_info: list[dict[str, Any]] = []
+        for item in eval_items:
+            prompt = item["prompt_en"]
+            quality_item = quality_by_prompt.get(prompt)
+            if quality_item is None:
+                raise ValueError(f"quality metadata 找不到 prompt: {prompt}")
+            dimensions = quality_item.get("vbench_quality_dimensions")
+            if not isinstance(dimensions, list) or not all(isinstance(value, str) for value in dimensions):
+                raise ValueError(f"quality metadata 缺少有效 vbench_quality_dimensions: {prompt}")
+            local_item = dict(quality_item)
+            local_item["video_list"] = item["video_list"]
+            selected_quality_info.append(local_item)
+        (args.output_dir / "vbench_quality_dimensions.json").write_text(
+            json.dumps(selected_quality_info, ensure_ascii=False, indent=2), encoding="utf-8"
+        )
+    config_path = write_run_config(args.output_dir, args.dimensions, bool(args.quality_info))
     if args.append:
         update_run_config_dimensions(config_path, args.dimensions)
         print(f"已保留 {len(cases) - added} 个旧 cases，追加 {added} 个新 cases")

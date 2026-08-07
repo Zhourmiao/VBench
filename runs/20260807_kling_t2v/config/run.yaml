@@ -1,0 +1,33 @@
+run_id: 20260807_kling_t2v
+benchmark: vbench2
+dataset: vbench2_t2v
+workflow: configurable_comfyui_t2v
+videos_root: videos/prepared
+full_info: cases/selected_full_info.json
+quality_info: cases/vbench_quality_dimensions.json
+evaluation_root: evaluation
+dimensions:
+  - Human_Identity
+  - Composition
+  - Human_Interaction
+  - Dynamic_Spatial_Relationship
+  - Complex_Landscape
+  - Mechanics
+  - Motion_Order_Understanding
+  - Motion_Rationality
+  - Multi-View_Consistency
+  - Complex_Plot
+video_only_dimensions:
+  - subject_consistency
+  - background_consistency
+  - aesthetic_quality
+  - imaging_quality
+  - temporal_flickering
+  - motion_smoothness
+  - dynamic_degree
+quality_videos_root: videos/quality_prepared
+video_only_videos_path: videos/quality_prepared
+mode: vbench_standard
+load_ckpt_from_local: true
+read_frame: false
+stop_on_error: false

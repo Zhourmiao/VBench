@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "runs/20260729_t2v_comparison_report.md",
-                "mode": "source",
+                "file": "runs/Text-to-Video 生成模型实验评测报告.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "20260729_t2v_comparison_report"
+              "title": "Text-to-Video 生成模型实验评测报告"
             }
           }
         ]
@@ -83,7 +83,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "323abfcd19024899",
@@ -190,19 +191,20 @@
   },
   "active": "b445d679c36fa547",
   "lastOpenFiles": [
-    "docs/MINIMAX_H3_VBENCH.md",
+    "runs/20260729_kling_t2v/videos/prepare_report.json",
+    "runs/20260729_kling_t2v/videos/vbench1/temporal_flickering/people are walking.-0.mp4",
+    "runs/20260729_kling_t2v/videos/vbench1/temporal_flickering/Two people shake hands.-0.mp4",
+    "runs/20260729_kling_t2v/videos/vbench1/temporal_flickering/Two people exchange a book.-0.mp4",
+    "runs/20260729_kling_t2v/videos/vbench1/temporal_flickering/There was an ancient maze that was said to grant endless wealth to whoever could successfully escape it. To uncover the mystery of his missing father, a young adventurer named Alle-0.mp4",
+    "runs/20260729_kling_t2v/videos/vbench1/temporal_flickering/The scene opens in the vast desert, with the camera angled low over the sand, fine grains drifting in the gentle breeze, the undulating dunes in the distance bathed in a faint oran-0.mp4",
+    "runs/20260729_kling_t2v/videos/vbench1/temporal_flickering/The match began, and Team A quickly organized an attack, breaking through Team B's defense with fast passes. The forward accurately kicked the ball into the goal, taking a 1-0 lead-0.mp4",
+    "runs/20260729_kling_t2v/videos/vbench1/temporal_flickering/The camera starts with an aerial view of a vibrant sea of flowers, with multicolored tulips, cherry blossoms, wisteria, and daisies interwoven, creating a beautiful tapestry. The b-0.mp4",
+    "runs/20260729_kling_t2v/videos/vbench1/temporal_flickering/The camera starts at the top of the forest, where thick morning mist drifts between the treetops, with sunlight filtering through the leaves and casting dappled spots of light, the-0.mp4",
+    "runs/20260729_kling_t2v/videos/vbench1/temporal_flickering/The camera starts at a tranquil coastline, where the waves gently crash against the rocks, the salty sea breeze fills the air, and the atmosphere feels fresh and alive. As the came-0.mp4",
+    "runs/20260729_kling_t2v/videos/vbench1/temporal_flickering/The camera orbits around. Trex, the camera circles around.-0.mp4",
     "docs/WORK_CONTEXT.md",
-    "video_out.mp4",
-    "runs/20260729_ltx23_t2v/summary/dimension_scores.json",
-    "runs/20260729_ltx23_t2v/summary",
-    "runs/20260729_kling_t2v/summary/dimension_scores.json",
-    "runs/20260729_kling_t2v/summary",
-    "runs/20260729_pangu_t2v/summary/dimension_scores.json",
-    "runs/20260729_pangu_t2v/summary",
-    "runs/20260729_pangu_t2v",
-    "runs/20260804_minimax_h3_t2v/generation/t2v-0004/case.json",
-    "runs/20260804_minimax_h3_t2v/generation/t2v-0004",
-    "runs/20260729_t2v_comparison_report.md",
+    "runs/Text-to-Video 生成模型实验评测报告.md",
+    "docs/MINIMAX_H3_VBENCH.md",
     "pipelines/T2V_VBENCH2.md"
   ]
 }

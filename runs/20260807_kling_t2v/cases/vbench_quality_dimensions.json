@@ -4,6 +4,14 @@
     "dimension": [
       "Human_Anatomy"
     ],
+    "vbench_quality_dimensions": [
+      "imaging_quality",
+      "motion_smoothness",
+      "temporal_flickering",
+      "subject_consistency",
+      "background_consistency",
+      "dynamic_degree"
+    ],
     "video_list": [
       "videos/Human_Anatomy/A man is running.-0.mp4"
     ]
@@ -12,6 +20,14 @@
     "prompt_en": "A man is doing gymnastics.",
     "dimension": [
       "Human_Anatomy"
+    ],
+    "vbench_quality_dimensions": [
+      "imaging_quality",
+      "motion_smoothness",
+      "temporal_flickering",
+      "subject_consistency",
+      "background_consistency",
+      "dynamic_degree"
     ],
     "video_list": [
       "videos/Human_Anatomy/A man is doing gymnastics.-0.mp4"
@@ -22,6 +38,14 @@
     "dimension": [
       "Human_Anatomy"
     ],
+    "vbench_quality_dimensions": [
+      "imaging_quality",
+      "motion_smoothness",
+      "temporal_flickering",
+      "subject_consistency",
+      "background_consistency",
+      "dynamic_degree"
+    ],
     "video_list": [
       "videos/Human_Anatomy/A man is walking.-0.mp4"
     ]
@@ -30,6 +54,14 @@
     "prompt_en": "A woman is running.",
     "dimension": [
       "Human_Anatomy"
+    ],
+    "vbench_quality_dimensions": [
+      "imaging_quality",
+      "motion_smoothness",
+      "temporal_flickering",
+      "subject_consistency",
+      "background_consistency",
+      "dynamic_degree"
     ],
     "video_list": [
       "videos/Human_Anatomy/A woman is running.-0.mp4"
@@ -40,6 +72,14 @@
     "dimension": [
       "Human_Anatomy"
     ],
+    "vbench_quality_dimensions": [
+      "imaging_quality",
+      "motion_smoothness",
+      "temporal_flickering",
+      "subject_consistency",
+      "background_consistency",
+      "dynamic_degree"
+    ],
     "video_list": [
       "videos/Human_Anatomy/people are walking.-0.mp4"
     ]
@@ -48,6 +88,13 @@
     "prompt_en": "A man is doing yoga.",
     "dimension": [
       "Human_Identity"
+    ],
+    "vbench_quality_dimensions": [
+      "imaging_quality",
+      "motion_smoothness",
+      "temporal_flickering",
+      "subject_consistency",
+      "background_consistency"
     ],
     "video_list": [
       "videos/Human_Identity/A man is doing yoga.-0.mp4"
@@ -58,6 +105,14 @@
     "dimension": [
       "Human_Identity"
     ],
+    "vbench_quality_dimensions": [
+      "imaging_quality",
+      "motion_smoothness",
+      "temporal_flickering",
+      "subject_consistency",
+      "background_consistency",
+      "dynamic_degree"
+    ],
     "video_list": [
       "videos/Human_Identity/A man is playing basketball.-0.mp4"
     ]
@@ -66,6 +121,13 @@
     "prompt_en": "A person is reading a book, then they suddenly start folding laundry.",
     "dimension": [
       "Human_Identity"
+    ],
+    "vbench_quality_dimensions": [
+      "imaging_quality",
+      "motion_smoothness",
+      "temporal_flickering",
+      "subject_consistency",
+      "background_consistency"
     ],
     "video_list": [
       "videos/Human_Identity/A person is reading a book, then they suddenly start folding laundry.-0.mp4"
@@ -76,6 +138,14 @@
     "dimension": [
       "Human_Identity"
     ],
+    "vbench_quality_dimensions": [
+      "imaging_quality",
+      "motion_smoothness",
+      "temporal_flickering",
+      "subject_consistency",
+      "background_consistency",
+      "dynamic_degree"
+    ],
     "video_list": [
       "videos/Human_Identity/A person is sitting at a desk, then they suddenly get up and start doing push-ups.-0.mp4"
     ]
@@ -85,6 +155,13 @@
     "dimension": [
       "Human_Identity"
     ],
+    "vbench_quality_dimensions": [
+      "imaging_quality",
+      "motion_smoothness",
+      "temporal_flickering",
+      "subject_consistency",
+      "background_consistency"
+    ],
     "video_list": [
       "videos/Human_Identity/A person is reading a magazine, then they suddenly get up and start organizing the closet.-0.mp4"
     ]
@@ -93,6 +170,14 @@
     "prompt_en": "A lion with the wings of an eagle, soaring through the sky with majestic ease.",
     "dimension": [
       "Composition"
+    ],
+    "vbench_quality_dimensions": [
+      "aesthetic_quality",
+      "imaging_quality",
+      "motion_smoothness",
+      "temporal_flickering",
+      "subject_consistency",
+      "dynamic_degree"
     ],
     "auxiliary_info": {
       "question": [
@@ -113,6 +198,14 @@
     "dimension": [
       "Composition"
     ],
+    "vbench_quality_dimensions": [
+      "aesthetic_quality",
+      "imaging_quality",
+      "motion_smoothness",
+      "temporal_flickering",
+      "subject_consistency",
+      "dynamic_degree"
+    ],
     "auxiliary_info": {
       "question": [
         "Fish scales",
@@ -131,6 +224,14 @@
     "prompt_en": "A wolf with the body of a horse, galloping across a vast plains with wild abandon.",
     "dimension": [
       "Composition"
+    ],
+    "vbench_quality_dimensions": [
+      "aesthetic_quality",
+      "imaging_quality",
+      "motion_smoothness",
+      "temporal_flickering",
+      "subject_consistency",
+      "dynamic_degree"
     ],
     "auxiliary_info": {
       "question": [
@@ -151,6 +252,13 @@
     "dimension": [
       "Composition"
     ],
+    "vbench_quality_dimensions": [
+      "aesthetic_quality",
+      "imaging_quality",
+      "motion_smoothness",
+      "temporal_flickering",
+      "subject_consistency"
+    ],
     "auxiliary_info": {
       "question": [
         "The deer's antlers",
@@ -169,6 +277,14 @@
     "prompt_en": "A cheetah with the shell of a tortoise, moving quickly but with a protective outer layer.",
     "dimension": [
       "Composition"
+    ],
+    "vbench_quality_dimensions": [
+      "aesthetic_quality",
+      "imaging_quality",
+      "motion_smoothness",
+      "temporal_flickering",
+      "subject_consistency",
+      "dynamic_degree"
     ],
     "auxiliary_info": {
       "question": [
@@ -189,6 +305,13 @@
     "dimension": [
       "Human_Interaction"
     ],
+    "vbench_quality_dimensions": [
+      "imaging_quality",
+      "motion_smoothness",
+      "temporal_flickering",
+      "subject_consistency",
+      "background_consistency"
+    ],
     "video_list": [
       "videos/Human_Interaction/One person places a chair for another to sit in.-0.mp4"
     ]
@@ -197,6 +320,13 @@
     "prompt_en": "One person passes a ball to another.",
     "dimension": [
       "Human_Interaction"
+    ],
+    "vbench_quality_dimensions": [
+      "imaging_quality",
+      "motion_smoothness",
+      "temporal_flickering",
+      "subject_consistency",
+      "background_consistency"
     ],
     "video_list": [
       "videos/Human_Interaction/One person passes a ball to another.-0.mp4"
@@ -207,6 +337,13 @@
     "dimension": [
       "Human_Interaction"
     ],
+    "vbench_quality_dimensions": [
+      "imaging_quality",
+      "motion_smoothness",
+      "temporal_flickering",
+      "subject_consistency",
+      "background_consistency"
+    ],
     "video_list": [
       "videos/Human_Interaction/Two people shake hands.-0.mp4"
     ]
@@ -215,6 +352,13 @@
     "prompt_en": "One person ties the shoelaces of another person.",
     "dimension": [
       "Human_Interaction"
+    ],
+    "vbench_quality_dimensions": [
+      "imaging_quality",
+      "motion_smoothness",
+      "temporal_flickering",
+      "subject_consistency",
+      "background_consistency"
     ],
     "video_list": [
       "videos/Human_Interaction/One person ties the shoelaces of another person.-0.mp4"
@@ -225,6 +369,13 @@
     "dimension": [
       "Human_Interaction"
     ],
+    "vbench_quality_dimensions": [
+      "imaging_quality",
+      "motion_smoothness",
+      "temporal_flickering",
+      "subject_consistency",
+      "background_consistency"
+    ],
     "video_list": [
       "videos/Human_Interaction/One person opens the door for another person.-0.mp4"
     ]
@@ -233,6 +384,13 @@
     "prompt_en": "Two people exchange a book.",
     "dimension": [
       "Human_Interaction"
+    ],
+    "vbench_quality_dimensions": [
+      "imaging_quality",
+      "motion_smoothness",
+      "temporal_flickering",
+      "subject_consistency",
+      "background_consistency"
     ],
     "video_list": [
       "videos/Human_Interaction/Two people exchange a book.-0.mp4"
@@ -243,6 +401,13 @@
     "dimension": [
       "Human_Interaction"
     ],
+    "vbench_quality_dimensions": [
+      "imaging_quality",
+      "motion_smoothness",
+      "temporal_flickering",
+      "subject_consistency",
+      "background_consistency"
+    ],
     "video_list": [
       "videos/Human_Interaction/One person puts a coat on another person.-0.mp4"
     ]
@@ -251,6 +416,14 @@
     "prompt_en": "A dog is on the left of a table, then the dog runs to the front of the table.",
     "dimension": [
       "Dynamic_Spatial_Relationship"
+    ],
+    "vbench_quality_dimensions": [
+      "imaging_quality",
+      "motion_smoothness",
+      "temporal_flickering",
+      "subject_consistency",
+      "background_consistency",
+      "dynamic_degree"
     ],
     "auxiliary_info": [
       "Is the dog on the left of the table? (yes or no)",
@@ -265,6 +438,14 @@
     "dimension": [
       "Dynamic_Spatial_Relationship"
     ],
+    "vbench_quality_dimensions": [
+      "imaging_quality",
+      "motion_smoothness",
+      "temporal_flickering",
+      "subject_consistency",
+      "background_consistency",
+      "dynamic_degree"
+    ],
     "auxiliary_info": [
       "Is the dog on the left of the sofa? (yes or no)",
       "Is the dog on the front of the sofa? (yes or no)"
@@ -277,6 +458,14 @@
     "prompt_en": "A dog is on the right of a sofa, then the dog runs to the front of the sofa.",
     "dimension": [
       "Dynamic_Spatial_Relationship"
+    ],
+    "vbench_quality_dimensions": [
+      "imaging_quality",
+      "motion_smoothness",
+      "temporal_flickering",
+      "subject_consistency",
+      "background_consistency",
+      "dynamic_degree"
     ],
     "auxiliary_info": [
       "Is the dog on the right of the sofa? (yes or no)",
@@ -291,6 +480,14 @@
     "dimension": [
       "Dynamic_Spatial_Relationship"
     ],
+    "vbench_quality_dimensions": [
+      "imaging_quality",
+      "motion_smoothness",
+      "temporal_flickering",
+      "subject_consistency",
+      "background_consistency",
+      "dynamic_degree"
+    ],
     "auxiliary_info": [
       "Is the dog on the right of the rock? (yes or no)",
       "Is the dog on the left of the rock? (yes or no)"
@@ -304,6 +501,14 @@
     "dimension": [
       "Dynamic_Spatial_Relationship"
     ],
+    "vbench_quality_dimensions": [
+      "imaging_quality",
+      "motion_smoothness",
+      "temporal_flickering",
+      "subject_consistency",
+      "background_consistency",
+      "dynamic_degree"
+    ],
     "auxiliary_info": [
       "Is the dog behind the chair? (yes or no)",
       "Is the dog on the right of the chair? (yes or no)"
@@ -316,6 +521,13 @@
     "prompt_en": "The camera starts at the top of the forest, where thick morning mist drifts between the treetops, with sunlight filtering through the leaves and casting dappled spots of light, the air fresh and moist. As the camera slowly moves downward, dewdrops glisten on the leaves, a gentle breeze rustling the leaves, making a soft, soothing sound. The camera moves along a woodland path, occasionally capturing a squirrel leaping between trees, its agile figure darting across the branches. The shot continues, eventually arriving at a tranquil lake. The surface of the water is like a mirror, reflecting the towering trees and distant mountains. In the distance, a heron takes off from the lakeshore, breaking the stillness of the water, ripples forming as the bird skims the surface. The camera follows its flight and gradually pulls back, showing the entire serene beauty of the lake.",
     "dimension": [
       "Complex_Landscape"
+    ],
+    "vbench_quality_dimensions": [
+      "aesthetic_quality",
+      "imaging_quality",
+      "motion_smoothness",
+      "temporal_flickering",
+      "dynamic_degree"
     ],
     "auxiliary_info": [
       "The camera starts at the top of the forest, where thick morning mist drifts between the treetops, with sunlight filtering through the leaves and casting dappled spots of light, the air fresh and moist.",
@@ -333,6 +545,13 @@
     "dimension": [
       "Complex_Landscape"
     ],
+    "vbench_quality_dimensions": [
+      "aesthetic_quality",
+      "imaging_quality",
+      "motion_smoothness",
+      "temporal_flickering",
+      "dynamic_degree"
+    ],
     "auxiliary_info": [
       "The scene opens in the vast desert, with the camera angled low over the sand, fine grains drifting in the gentle breeze, the undulating dunes in the distance bathed in a faint orange glow.",
       "As the camera moves forward, the outlines of the dunes become clearer, and the early morning sky begins to glow with warm hues, transitioning the desert from deep brown to golden yellow.",
@@ -348,6 +567,13 @@
     "prompt_en": "The camera begins in a vast grassland, where the lush green grass sways gently in the breeze, the air fresh, and the soft rustling of the leaves fills the space. As the camera moves forward, the grass turns from a vibrant green to golden hues, sunlight pouring over the land, the textures of the grass becoming more pronounced in the play of light and shadow. In the distance, a herd of cattle grazes peacefully. Their figures become clearer as the camera moves closer, occasionally lifting their heads and gazing into the distance. The scene shifts to a lakeshore, where the lake reflects the sky, grasslands, and distant mountains, the water clear and calm, with gentle ripples created by the breeze. Finally, the camera pulls back, following the herd as they move off into the distance, the vastness of the grassland merging with the expansive sky, creating a feeling of peaceful openness.",
     "dimension": [
       "Complex_Landscape"
+    ],
+    "vbench_quality_dimensions": [
+      "aesthetic_quality",
+      "imaging_quality",
+      "motion_smoothness",
+      "temporal_flickering",
+      "dynamic_degree"
     ],
     "auxiliary_info": [
       "The camera begins in a vast grassland, where the lush green grass sways gently in the breeze, the air fresh, and the soft rustling of the leaves fills the space.",
@@ -365,6 +591,13 @@
     "dimension": [
       "Complex_Landscape"
     ],
+    "vbench_quality_dimensions": [
+      "aesthetic_quality",
+      "imaging_quality",
+      "motion_smoothness",
+      "temporal_flickering",
+      "dynamic_degree"
+    ],
     "auxiliary_info": [
       "The camera starts at a tranquil coastline, where the waves gently crash against the rocks, the salty sea breeze fills the air, and the atmosphere feels fresh and alive.",
       "As the camera moves forward, the surface of the water glistens with golden light from the setting sun, the sound of the waves becoming more distinct as the tide retreats, revealing a moist sandy shore.",
@@ -380,6 +613,13 @@
     "prompt_en": "The camera moves through the vast expanse of the universe, where stars twinkle against the dark backdrop, the Milky Way arcing like a silver river across the sky. Nebulae slowly rotate in the distance, emitting an ethereal glow. The camera continues forward, entering a massive galaxy where stars and planets interlace. As the camera draws closer, a vast nebula unfolds, its clouds swirling in silent space, shades of purple and deep blue resembling a cosmic storm. Further in, a planet slowly spins in the void, its surface covered in molten volcanoes and frozen ice plains. A comet streaks across the sky, its brilliant tail illuminating the darkness. Finally, the camera pulls back, revealing the endless expanse of the universe, with galaxies suspended in the vast void between them.",
     "dimension": [
       "Complex_Landscape"
+    ],
+    "vbench_quality_dimensions": [
+      "aesthetic_quality",
+      "imaging_quality",
+      "motion_smoothness",
+      "temporal_flickering",
+      "dynamic_degree"
     ],
     "auxiliary_info": [
       "The camera moves through the vast expanse of the universe, where stars twinkle against the dark backdrop.",
@@ -397,6 +637,13 @@
     "dimension": [
       "Complex_Landscape"
     ],
+    "vbench_quality_dimensions": [
+      "aesthetic_quality",
+      "imaging_quality",
+      "motion_smoothness",
+      "temporal_flickering",
+      "dynamic_degree"
+    ],
     "auxiliary_info": [
       "The camera starts with an aerial view of a vibrant sea of flowers, with multicolored tulips, cherry blossoms, wisteria, and daisies interwoven, creating a beautiful tapestry.",
       "The breeze rustles the petals, and the air is filled with the fresh scent of flowers.",
@@ -412,6 +659,13 @@
     "prompt_en": "The camera enters a golden autumn forest, where the leaves have turned brilliant shades from gold to orange-red. A few leaves drift down with the wind. Sunlight filters through the gaps in the trees, casting dappled spots of light on the forest floor. The scene shifts to a field outside the forest, where ripe rice stalks sway in the breeze, their golden heads bowing under the weight of the grain. A few wild rabbits dart between the rows, occasionally pausing to nibble on the grass. The camera moves again to a winding stream, its water crystal clear, with a few fallen leaves floating gently on the surface. A soft breeze ripples the water, creating subtle waves. Continuing onward, the scene shifts to a hillside, where the distant mountain range is bathed in the warm light of autumn, and a village can be seen nestled at the foot of the mountains, with smoke curling from chimneys.",
     "dimension": [
       "Complex_Landscape"
+    ],
+    "vbench_quality_dimensions": [
+      "aesthetic_quality",
+      "imaging_quality",
+      "motion_smoothness",
+      "temporal_flickering",
+      "dynamic_degree"
     ],
     "auxiliary_info": [
       "The camera enters a golden autumn forest, where the leaves have turned brilliant shades from gold to orange-red.",
@@ -429,6 +683,13 @@
     "dimension": [
       "Mechanics"
     ],
+    "vbench_quality_dimensions": [
+      "imaging_quality",
+      "motion_smoothness",
+      "temporal_flickering",
+      "subject_consistency",
+      "background_consistency"
+    ],
     "auxiliary_info": [
       "Does the metal spoon float on the surface of the water? (yes or no)"
     ],
@@ -440,6 +701,13 @@
     "prompt_en": "A timelapse of a wet sponge being compressed between two hands, with the pressure increasing rapidly.",
     "dimension": [
       "Mechanics"
+    ],
+    "vbench_quality_dimensions": [
+      "imaging_quality",
+      "motion_smoothness",
+      "temporal_flickering",
+      "subject_consistency",
+      "background_consistency"
     ],
     "auxiliary_info": [
       "Does the sponge contact with hands? (yes or no)",
@@ -454,6 +722,13 @@
     "dimension": [
       "Mechanics"
     ],
+    "vbench_quality_dimensions": [
+      "imaging_quality",
+      "motion_smoothness",
+      "temporal_flickering",
+      "subject_consistency",
+      "background_consistency"
+    ],
     "auxiliary_info": [
       "Does the sharp object contact with balloon? (yes or no)",
       "Does the balloon pop? (yes or no)"
@@ -466,6 +741,14 @@
     "prompt_en": "A bouncing rubber ball is rolled forcefully towards a wall, with its dynamic bounce captured as it rebounds off the surface.",
     "dimension": [
       "Mechanics"
+    ],
+    "vbench_quality_dimensions": [
+      "imaging_quality",
+      "motion_smoothness",
+      "temporal_flickering",
+      "subject_consistency",
+      "background_consistency",
+      "dynamic_degree"
     ],
     "auxiliary_info": [
       "Does the ball impact the wall? (yes or no)",
@@ -480,6 +763,13 @@
     "dimension": [
       "Mechanics"
     ],
+    "vbench_quality_dimensions": [
+      "imaging_quality",
+      "motion_smoothness",
+      "temporal_flickering",
+      "subject_consistency",
+      "background_consistency"
+    ],
     "auxiliary_info": [
       "Does the water droplet slides down? (yes or no)",
       "Does the water droplet maintain a spherical shape? (yes or no)"
@@ -492,6 +782,14 @@
     "prompt_en": "A bottle of water is opened in the space station, and the water starts to float out in irregular shapes.",
     "dimension": [
       "Mechanics"
+    ],
+    "vbench_quality_dimensions": [
+      "imaging_quality",
+      "motion_smoothness",
+      "temporal_flickering",
+      "subject_consistency",
+      "background_consistency",
+      "dynamic_degree"
     ],
     "auxiliary_info": [
       "Is the background of the video a space station? (yes or no)",
@@ -506,6 +804,14 @@
     "dimension": [
       "Mechanics"
     ],
+    "vbench_quality_dimensions": [
+      "imaging_quality",
+      "motion_smoothness",
+      "temporal_flickering",
+      "subject_consistency",
+      "background_consistency",
+      "dynamic_degree"
+    ],
     "auxiliary_info": [
       "Is the background of the video a space station? (yes or no)",
       "Does the whipped cream form floating blobs and spread in all directions? (yes or no)"
@@ -518,6 +824,14 @@
     "prompt_en": "A person is sitting on the couch, then suddenly they get up and start sweeping the floor.",
     "dimension": [
       "Motion_Order_Understanding"
+    ],
+    "vbench_quality_dimensions": [
+      "imaging_quality",
+      "motion_smoothness",
+      "temporal_flickering",
+      "subject_consistency",
+      "background_consistency",
+      "dynamic_degree"
     ],
     "auxiliary_info": [
       "sitting",
@@ -532,6 +846,14 @@
     "dimension": [
       "Motion_Order_Understanding"
     ],
+    "vbench_quality_dimensions": [
+      "imaging_quality",
+      "motion_smoothness",
+      "temporal_flickering",
+      "subject_consistency",
+      "background_consistency",
+      "dynamic_degree"
+    ],
     "auxiliary_info": [
       "perched on a branch",
       "flying down to the ground"
@@ -544,6 +866,14 @@
     "prompt_en": "A person is writing an email, then they suddenly get up and start baking cookies.",
     "dimension": [
       "Motion_Order_Understanding"
+    ],
+    "vbench_quality_dimensions": [
+      "imaging_quality",
+      "motion_smoothness",
+      "temporal_flickering",
+      "subject_consistency",
+      "background_consistency",
+      "dynamic_degree"
     ],
     "auxiliary_info": [
       "writing an email",
@@ -558,6 +888,14 @@
     "dimension": [
       "Motion_Order_Understanding"
     ],
+    "vbench_quality_dimensions": [
+      "imaging_quality",
+      "motion_smoothness",
+      "temporal_flickering",
+      "subject_consistency",
+      "background_consistency",
+      "dynamic_degree"
+    ],
     "auxiliary_info": [
       "running through the park",
       "jumping over logs"
@@ -570,6 +908,14 @@
     "prompt_en": "A cat is sitting on the windowsill, then it suddenly jumps down and starts exploring the room.",
     "dimension": [
       "Motion_Order_Understanding"
+    ],
+    "vbench_quality_dimensions": [
+      "imaging_quality",
+      "motion_smoothness",
+      "temporal_flickering",
+      "subject_consistency",
+      "background_consistency",
+      "dynamic_degree"
     ],
     "auxiliary_info": [
       "sitting on the windowsill",
@@ -584,6 +930,14 @@
     "dimension": [
       "Motion_Order_Understanding"
     ],
+    "vbench_quality_dimensions": [
+      "imaging_quality",
+      "motion_smoothness",
+      "temporal_flickering",
+      "subject_consistency",
+      "background_consistency",
+      "dynamic_degree"
+    ],
     "auxiliary_info": [
       "trotting in the field",
       "drinking from a stream"
@@ -597,6 +951,14 @@
     "dimension": [
       "Motion_Order_Understanding"
     ],
+    "vbench_quality_dimensions": [
+      "imaging_quality",
+      "motion_smoothness",
+      "temporal_flickering",
+      "subject_consistency",
+      "background_consistency",
+      "dynamic_degree"
+    ],
     "auxiliary_info": [
       "drinking a glass of water",
       "cleaning the windows"
@@ -609,6 +971,13 @@
     "prompt_en": "A person is slurping noodles from a steaming bowl.",
     "dimension": [
       "Motion_Rationality"
+    ],
+    "vbench_quality_dimensions": [
+      "imaging_quality",
+      "motion_smoothness",
+      "temporal_flickering",
+      "subject_consistency",
+      "background_consistency"
     ],
     "auxiliary_info": [
       "Does the person appear to be slurping noodles? (yes or no)",
@@ -625,6 +994,13 @@
     "dimension": [
       "Motion_Rationality"
     ],
+    "vbench_quality_dimensions": [
+      "imaging_quality",
+      "motion_smoothness",
+      "temporal_flickering",
+      "subject_consistency",
+      "background_consistency"
+    ],
     "auxiliary_info": [
       "Does the person appear to be pouring olive oil into the frying pan? (yes or no)",
       "Is the olive oil in contact with the frying pan? (yes or no)",
@@ -639,6 +1015,14 @@
     "prompt_en": "A person is walking up the stairs.",
     "dimension": [
       "Motion_Rationality"
+    ],
+    "vbench_quality_dimensions": [
+      "imaging_quality",
+      "motion_smoothness",
+      "temporal_flickering",
+      "subject_consistency",
+      "background_consistency",
+      "dynamic_degree"
     ],
     "auxiliary_info": [
       "Does the person appear to be walking up the stairs? (yes or no)",
@@ -655,6 +1039,13 @@
     "dimension": [
       "Motion_Rationality"
     ],
+    "vbench_quality_dimensions": [
+      "imaging_quality",
+      "motion_smoothness",
+      "temporal_flickering",
+      "subject_consistency",
+      "background_consistency"
+    ],
     "auxiliary_info": [
       "Is the person opening the window? (yes or no)",
       "Is the window closed and intact before being opened? (yes or no)",
@@ -669,6 +1060,14 @@
     "prompt_en": "A person is moving the chair.",
     "dimension": [
       "Motion_Rationality"
+    ],
+    "vbench_quality_dimensions": [
+      "imaging_quality",
+      "motion_smoothness",
+      "temporal_flickering",
+      "subject_consistency",
+      "background_consistency",
+      "dynamic_degree"
     ],
     "auxiliary_info": [
       "Is the person moving the chair? (yes or no)",
@@ -685,6 +1084,13 @@
     "dimension": [
       "Multi-View_Consistency"
     ],
+    "vbench_quality_dimensions": [
+      "aesthetic_quality",
+      "imaging_quality",
+      "motion_smoothness",
+      "temporal_flickering",
+      "subject_consistency"
+    ],
     "video_list": [
       "videos/Multi-View_Consistency/The camera orbits around. Castle, the camera circles around.-0.mp4"
     ]
@@ -693,6 +1099,13 @@
     "prompt_en": "The camera orbits around. Machu Picchu, the camera circles around.",
     "dimension": [
       "Multi-View_Consistency"
+    ],
+    "vbench_quality_dimensions": [
+      "aesthetic_quality",
+      "imaging_quality",
+      "motion_smoothness",
+      "temporal_flickering",
+      "subject_consistency"
     ],
     "video_list": [
       "videos/Multi-View_Consistency/The camera orbits around. Machu Picchu, the camera circles around.-0.mp4"
@@ -703,6 +1116,12 @@
     "dimension": [
       "Multi-View_Consistency"
     ],
+    "vbench_quality_dimensions": [
+      "imaging_quality",
+      "motion_smoothness",
+      "temporal_flickering",
+      "subject_consistency"
+    ],
     "video_list": [
       "videos/Multi-View_Consistency/The camera orbits around. Chess Piece Queen, the camera circles around.-0.mp4"
     ]
@@ -711,6 +1130,12 @@
     "prompt_en": "The camera orbits around. Train, the camera circles around.",
     "dimension": [
       "Multi-View_Consistency"
+    ],
+    "vbench_quality_dimensions": [
+      "imaging_quality",
+      "motion_smoothness",
+      "temporal_flickering",
+      "subject_consistency"
     ],
     "video_list": [
       "videos/Multi-View_Consistency/The camera orbits around. Train, the camera circles around.-0.mp4"
@@ -721,6 +1146,12 @@
     "dimension": [
       "Multi-View_Consistency"
     ],
+    "vbench_quality_dimensions": [
+      "imaging_quality",
+      "motion_smoothness",
+      "temporal_flickering",
+      "subject_consistency"
+    ],
     "video_list": [
       "videos/Multi-View_Consistency/The camera orbits around. Trex, the camera circles around.-0.mp4"
     ]
@@ -729,6 +1160,13 @@
     "prompt_en": "The match began, and Team A quickly organized an attack, breaking through Team B's defense with fast passes. The forward accurately kicked the ball into the goal, taking a 1-0 lead. Team B did not panic; they used a long pass to quickly counterattack. The forward calmly shot past the goalkeeper, and the ball went straight into the net, making it 1-1. At this point, the game entered a stalemate. Both teams' defenses were solid, and the match became a fierce battle. In the second half, Team A had a corner kick. The high ball delivered by the player was headed in by the center-back who jumped high, putting Team A in the lead at 2-1. In the final moments of the game, Team B got a penalty kick. The forward took the shot without hesitation, sending the ball into the net to make it 2-2. Finally, in the last moments of extra time, Team A used a quick counterattack and a long-range shot from outside the box flew straight into the corner, securing the win with a 3-2 score.",
     "dimension": [
       "Complex_Plot"
+    ],
+    "vbench_quality_dimensions": [
+      "aesthetic_quality",
+      "imaging_quality",
+      "motion_smoothness",
+      "temporal_flickering",
+      "dynamic_degree"
     ],
     "auxiliary_info": [
       "A player from one team quickly organized an attack, breaking through the defense of another team.",
@@ -746,6 +1184,14 @@
     "dimension": [
       "Complex_Plot"
     ],
+    "vbench_quality_dimensions": [
+      "aesthetic_quality",
+      "imaging_quality",
+      "motion_smoothness",
+      "temporal_flickering",
+      "dynamic_degree",
+      "subject_consistency"
+    ],
     "auxiliary_info": [
       "The girl found the endless water bottle in the desert with the help of the desert turtle.",
       "The girl solved the guardian spirit’s riddle in the ancient library and obtained the book.",
@@ -761,6 +1207,14 @@
     "prompt_en": "A little girl received a mysterious gift—the ancient time key. She used the key to open a sealed door and entered the time house. On the first day, she found a room filled with books, each with a different story. On the second day, she was taken to an ancient kitchen filled with strange smells, where a kind witch taught her how to make magic cookies that could change the past. On the third day, she found a mirror where her reflection looked completely different, even unrecognizable. On the fourth day, she planted a seed in the secret garden of the time house, and miraculously, it grew into a huge tree overnight. Finally, she discovered that she had always been living in a world unaffected by time, and the time house was her true home.",
     "dimension": [
       "Complex_Plot"
+    ],
+    "vbench_quality_dimensions": [
+      "aesthetic_quality",
+      "imaging_quality",
+      "motion_smoothness",
+      "temporal_flickering",
+      "dynamic_degree",
+      "subject_consistency"
     ],
     "auxiliary_info": [
       "The little girl received the ancient time key and opened a sealed door into the time house.",
@@ -778,6 +1232,14 @@
     "dimension": [
       "Complex_Plot"
     ],
+    "vbench_quality_dimensions": [
+      "aesthetic_quality",
+      "imaging_quality",
+      "motion_smoothness",
+      "temporal_flickering",
+      "dynamic_degree",
+      "subject_consistency"
+    ],
     "auxiliary_info": [
       "Allen enters an ancient maze to uncover the mystery of his missing father.",
       "A mysterious cat tells Allen the maze has five levels, each testing wisdom and courage.",
@@ -793,6 +1255,14 @@
     "prompt_en": "In a forgotten, ancient village, all the clocks had stopped, and time seemed to stand still. The villagers were trapped in a perpetual state of idleness. A young clockmaker named Daniel decided to find the cause and repair the clock tower. He discovered that the heart of the tower’s clock had been stolen by a giant mechanical bird, which hid in an underground palace. Daniel ventured deep into the palace, fighting monsters and avoiding traps, and eventually found the bird and repaired it. By fixing the bird’s mechanism, he restored the flow of time in the village. However, Daniel realized that every time he restored time, a certain memory of the village would be lost. In the end, Daniel chose to sacrifice his own memories to restart time, giving the villagers a new beginning.",
     "dimension": [
       "Complex_Plot"
+    ],
+    "vbench_quality_dimensions": [
+      "aesthetic_quality",
+      "imaging_quality",
+      "motion_smoothness",
+      "temporal_flickering",
+      "dynamic_degree",
+      "subject_consistency"
     ],
     "auxiliary_info": [
       "Daniel, a young clockmaker, seeks to fix the clock tower in an ancient village where time has stopped.",

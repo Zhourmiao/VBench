@@ -1,0 +1,350 @@
+[
+  {
+    "prompt_en": "a close up of a blue and orange liquid",
+    "dimension": [
+      "i2v_background",
+      "background_consistency",
+      "aesthetic_quality",
+      "imaging_quality",
+      "temporal_flickering"
+    ],
+    "image_type": "abstract",
+    "image_name": "a close up of a blue and orange liquid.jpg"
+  },
+  {
+    "prompt_en": "A black and white abstract video featuring mesmerizing bubbles",
+    "dimension": [
+      "i2v_background",
+      "background_consistency",
+      "aesthetic_quality",
+      "imaging_quality",
+      "temporal_flickering"
+    ],
+    "image_type": "abstract",
+    "image_name": "A black and white abstract video featuring mesmerizing bubbles.jpg"
+  },
+  {
+    "prompt_en": "a blue and white smoke is swirly in the dark",
+    "dimension": [
+      "i2v_background",
+      "background_consistency",
+      "aesthetic_quality",
+      "imaging_quality",
+      "temporal_flickering"
+    ],
+    "image_type": "abstract",
+    "image_name": "a blue and white smoke is swirly in the dark.jpg"
+  },
+  {
+    "prompt_en": "a close-up view of a sea fan in the water",
+    "dimension": [
+      "i2v_background",
+      "background_consistency",
+      "aesthetic_quality",
+      "imaging_quality",
+      "temporal_flickering"
+    ],
+    "image_type": "abstract",
+    "image_name": "a close-up view of a sea fan in the water.jpg"
+  },
+  {
+    "prompt_en": "a visually captivating abstract video, rich in color, set against a dramatic black background",
+    "dimension": [
+      "i2v_background",
+      "background_consistency",
+      "aesthetic_quality",
+      "imaging_quality",
+      "temporal_flickering"
+    ],
+    "image_type": "abstract",
+    "image_name": "a visually captivating abstract video, rich in color, set against a dramatic black background.jpg"
+  },
+  {
+    "prompt_en": "a purple and yellow abstract painting with a black background",
+    "dimension": [
+      "i2v_background",
+      "background_consistency",
+      "aesthetic_quality",
+      "imaging_quality",
+      "temporal_flickering"
+    ],
+    "image_type": "abstract",
+    "image_name": "a purple and yellow abstract painting with a black background.jpg"
+  },
+  {
+    "prompt_en": "a dynamic video of a blurry neon light in the dark, radiating captivating colors",
+    "dimension": [
+      "i2v_background",
+      "background_consistency",
+      "aesthetic_quality",
+      "imaging_quality",
+      "temporal_flickering"
+    ],
+    "image_type": "abstract",
+    "image_name": "a dynamic video of a blurry neon light in the dark, radiating captivating colors.jpg"
+  },
+  {
+    "prompt_en": "a view of a star trail in the night sky",
+    "dimension": [
+      "i2v_background",
+      "background_consistency",
+      "aesthetic_quality",
+      "imaging_quality",
+      "temporal_flickering"
+    ],
+    "image_type": "abstract",
+    "image_name": "a view of a star trail in the night sky.jpg"
+  },
+  {
+    "prompt_en": "an aerial view of a small town on the edge of the ocean",
+    "dimension": [
+      "i2v_background",
+      "background_consistency",
+      "aesthetic_quality",
+      "imaging_quality",
+      "temporal_flickering"
+    ],
+    "image_type": "architecture",
+    "image_name": "an aerial view of a small town on the edge of the ocean.jpg"
+  },
+  {
+    "prompt_en": "Colorful buildings on the seaside cliffs",
+    "dimension": [
+      "i2v_background",
+      "background_consistency",
+      "aesthetic_quality",
+      "imaging_quality",
+      "temporal_flickering"
+    ],
+    "image_type": "architecture",
+    "image_name": "Colorful buildings on the seaside cliffs.jpg"
+  },
+  {
+    "prompt_en": "a bunch of houses that are on a hillside",
+    "dimension": [
+      "i2v_background",
+      "background_consistency",
+      "aesthetic_quality",
+      "imaging_quality",
+      "temporal_flickering"
+    ],
+    "image_type": "architecture",
+    "image_name": "a bunch of houses that are on a hillside.jpg"
+  },
+  {
+    "prompt_en": "a building that is sitting on the side of a pond",
+    "dimension": [
+      "i2v_background",
+      "background_consistency",
+      "aesthetic_quality",
+      "imaging_quality",
+      "temporal_flickering"
+    ],
+    "image_type": "architecture",
+    "image_name": "a building that is sitting on the side of a pond.jpg"
+  },
+  {
+    "prompt_en": "an aerial view of a busy city with a bridge in the background",
+    "dimension": [
+      "i2v_background",
+      "background_consistency",
+      "aesthetic_quality",
+      "imaging_quality",
+      "temporal_flickering"
+    ],
+    "image_type": "architecture",
+    "image_name": "an aerial view of a busy city with a bridge in the background.jpg"
+  },
+  {
+    "prompt_en": "a bridge that is over a body of water",
+    "dimension": [
+      "i2v_background",
+      "background_consistency",
+      "aesthetic_quality",
+      "imaging_quality",
+      "temporal_flickering"
+    ],
+    "image_type": "architecture",
+    "image_name": "a bridge that is over a body of water.jpg"
+  },
+  {
+    "prompt_en": "a pile of wood sitting next to a log house",
+    "dimension": [
+      "i2v_background",
+      "background_consistency",
+      "aesthetic_quality",
+      "imaging_quality",
+      "temporal_flickering"
+    ],
+    "image_type": "architecture",
+    "image_name": "a pile of wood sitting next to a log house.jpg"
+  },
+  {
+    "prompt_en": "a brown bear in the water with a fish in its mouth",
+    "dimension": [
+      "i2v_subject",
+      "subject_consistency",
+      "motion_smoothness",
+      "dynamic_degree",
+      "aesthetic_quality",
+      "imaging_quality",
+      "temporal_flickering"
+    ],
+    "image_type": "animal",
+    "image_name": "a brown bear in the water with a fish in its mouth.jpg"
+  },
+  {
+    "prompt_en": "a close-up of a hippopotamus eating grass in a field",
+    "dimension": [
+      "i2v_subject",
+      "subject_consistency",
+      "motion_smoothness",
+      "dynamic_degree",
+      "aesthetic_quality",
+      "imaging_quality",
+      "temporal_flickering"
+    ],
+    "image_type": "animal",
+    "image_name": "a close-up of a hippopotamus eating grass in a field.jpg"
+  },
+  {
+    "prompt_en": "a sea turtle swimming in the ocean under the water",
+    "dimension": [
+      "i2v_subject",
+      "subject_consistency",
+      "motion_smoothness",
+      "dynamic_degree",
+      "aesthetic_quality",
+      "imaging_quality",
+      "temporal_flickering"
+    ],
+    "image_type": "animal",
+    "image_name": "a sea turtle swimming in the ocean under the water.jpg"
+  },
+  {
+    "prompt_en": "two bees are flying over a lavender plant",
+    "dimension": [
+      "i2v_subject",
+      "subject_consistency",
+      "motion_smoothness",
+      "dynamic_degree",
+      "aesthetic_quality",
+      "imaging_quality",
+      "temporal_flickering"
+    ],
+    "image_type": "animal",
+    "image_name": "two bees are flying over a lavender plant.jpg"
+  },
+  {
+    "prompt_en": "the otter is standing in the water",
+    "dimension": [
+      "i2v_subject",
+      "subject_consistency",
+      "motion_smoothness",
+      "dynamic_degree",
+      "aesthetic_quality",
+      "imaging_quality",
+      "temporal_flickering"
+    ],
+    "image_type": "animal",
+    "image_name": "the otter is standing in the water.jpg"
+  },
+  {
+    "prompt_en": "a dog carrying a soccer ball in its mouth",
+    "dimension": [
+      "i2v_subject",
+      "subject_consistency",
+      "motion_smoothness",
+      "dynamic_degree",
+      "aesthetic_quality",
+      "imaging_quality",
+      "temporal_flickering"
+    ],
+    "image_type": "animal",
+    "image_name": "a dog carrying a soccer ball in its mouth.jpg"
+  },
+  {
+    "prompt_en": "an eagle is flying over a mountain with trees in the background",
+    "dimension": [
+      "i2v_subject",
+      "subject_consistency",
+      "motion_smoothness",
+      "dynamic_degree",
+      "aesthetic_quality",
+      "imaging_quality",
+      "temporal_flickering"
+    ],
+    "image_type": "animal",
+    "image_name": "an eagle is flying over a mountain with trees in the background.jpg"
+  },
+  {
+    "prompt_en": "a couple of horses are running in the dirt",
+    "dimension": [
+      "i2v_subject",
+      "subject_consistency",
+      "motion_smoothness",
+      "dynamic_degree",
+      "aesthetic_quality",
+      "imaging_quality",
+      "temporal_flickering"
+    ],
+    "image_type": "animal",
+    "image_name": "a couple of horses are running in the dirt.jpg"
+  },
+  {
+    "prompt_en": "a highland cow with long horns standing in a field",
+    "dimension": [
+      "i2v_subject",
+      "subject_consistency",
+      "motion_smoothness",
+      "dynamic_degree",
+      "aesthetic_quality",
+      "imaging_quality",
+      "temporal_flickering"
+    ],
+    "image_type": "animal",
+    "image_name": "a highland cow with long horns standing in a field.jpg"
+  },
+  {
+    "prompt_en": "a monkey is holding a banana in its mouth",
+    "dimension": [
+      "i2v_subject",
+      "subject_consistency",
+      "motion_smoothness",
+      "dynamic_degree",
+      "aesthetic_quality",
+      "imaging_quality",
+      "temporal_flickering"
+    ],
+    "image_type": "animal",
+    "image_name": "a monkey is holding a banana in its mouth.jpg"
+  },
+  {
+    "prompt_en": "a large rhino grazing in the grass near a bush",
+    "dimension": [
+      "i2v_subject",
+      "subject_consistency",
+      "motion_smoothness",
+      "dynamic_degree",
+      "aesthetic_quality",
+      "imaging_quality",
+      "temporal_flickering"
+    ],
+    "image_type": "animal",
+    "image_name": "a large rhino grazing in the grass near a bush.jpg"
+  },
+  {
+    "prompt_en": "a butterfly sits on top of a purple flower",
+    "dimension": [
+      "i2v_subject",
+      "subject_consistency",
+      "motion_smoothness",
+      "dynamic_degree",
+      "aesthetic_quality",
+      "imaging_quality",
+      "temporal_flickering"
+    ],
+    "image_type": "animal",
+    "image_name": "a butterfly sits on top of a purple flower.jpg"
+  }
+]

@@ -1,5 +1,3 @@
-# Text-to-Video 生成模型实验评测报告
-
 ## 1. 实验背景
 
 本实验采用 VBench 2.0 语义理解类指标，并复用 VBench/I2V 中不依赖输入图片的 7 个视频质量指标，对 Kling、Pangu 和 LTX-2.3 三个 Text-to-Video（T2V）模型进行评测。
@@ -27,7 +25,7 @@ imaging_quality、motion_smoothness、subject_consistency、
 temporal_flickering
 ```
 
-当前运行目录中的 case 规模为：Kling 64 条，LTX-2.3 192 条（包含多次采样记录）；Pangu 的汇总结果以本报告所列命令输出为准。Kling 每条 Prompt 生成一个样本，Pangu 和 LTX-2.3 使用多个固定随机种子，以降低单次采样随机性影响。
+当前运行目录中的 case 规模为：Kling 64 条，LTX-2.3 192 条（包含多次采样记录）；Pangu  192 条（包含多次采样记录）。Kling 每条 Prompt 生成一个样本，Pangu 和 LTX-2.3 使用多个固定随机种子，以降低单次采样随机性影响。
 
 ## 3. 评测方法
 
@@ -98,26 +96,26 @@ python pipelines/aggregate_scores.py --run-dir runs/20260729_ltx23_t2v
 
 以下维度不向模型提出四个 `yes/no` 问题，而是直接对视频帧或相邻帧计算连续质量分数。分数越高表示对应质量越好。
 
-| 维度 | 具体评测方式 | 单视频分数/判定 | 主要组件 |
-|---|---|---|---|
-| `aesthetic_quality` | 对视频帧提取 CLIP ViT-L/14 特征，用 LAION aesthetic predictor 预测美学分数。 | 帧分数平均后归一化到 0–1，再对视频求平均。 | CLIP ViT-L/14 + LAION aesthetic predictor |
-| `background_consistency` | 用 CLIP ViT-B/32 比较当前帧与前一帧、第一帧的背景/整体特征相似度。 | 对非负余弦相似度求平均；越高表示背景越稳定。 | CLIP ViT-B/32 |
-| `dynamic_degree` | 用 RAFT 计算相邻帧光流，统计运动幅度较大的区域和帧。 | 根据光流幅度归一化得到连续分数；只衡量运动多少，不判断动作是否合理。 | RAFT |
-| `imaging_quality` | 用 MUSIQ-SPAQ 对视频帧进行技术画质评价，关注清晰度、噪声、压缩和失真。 | 帧质量分数平均后除以 100，归一化到 0–1。 | MUSIQ-SPAQ |
-| `motion_smoothness` | 用 AMT-S 评估相邻帧运动/插帧质量，检查运动是否连续平滑。 | 对帧级结果求平均；越高表示卡顿和不连续越少。 | AMT-S |
-| `subject_consistency` | 用 DINO 提取每帧主体特征，同时与第一帧和前一帧比较。 | 当前帧分数为两种相似度的平均值，再对视频帧求平均。 | DINO ViT-B/16 |
-| `temporal_flickering` | 用 OpenCV 计算相邻帧的平均绝对误差（MAE）。 | `视频分数 = (255 - 相邻帧 MAE 均值) / 255`；越高表示闪烁和突变越少。 | OpenCV |
+| 维度                       | 具体评测方式                                                      | 单视频分数/判定                                       | 主要组件                                      |
+| ------------------------ | ----------------------------------------------------------- | ---------------------------------------------- | ----------------------------------------- |
+| `aesthetic_quality`      | 对视频帧提取 CLIP ViT-L/14 特征，用 LAION aesthetic predictor 预测美学分数。 | 帧分数平均后归一化到 0–1，再对视频求平均。                        | CLIP ViT-L/14 + LAION aesthetic predictor |
+| `background_consistency` | 用 CLIP ViT-B/32 比较当前帧与前一帧、第一帧的背景/整体特征相似度。                   | 对非负余弦相似度求平均；越高表示背景越稳定。                         | CLIP ViT-B/32                             |
+| `dynamic_degree`         | 用 RAFT 计算相邻帧光流，统计运动幅度较大的区域和帧。                               | 根据光流幅度归一化得到连续分数；只衡量运动多少，不判断动作是否合理。             | RAFT                                      |
+| `imaging_quality`        | 用 MUSIQ-SPAQ 对视频帧进行技术画质评价，关注清晰度、噪声、压缩和失真。                   | 帧质量分数平均后除以 100，归一化到 0–1。                       | MUSIQ-SPAQ                                |
+| `motion_smoothness`      | 用 AMT-S 评估相邻帧运动/插帧质量，检查运动是否连续平滑。                            | 对帧级结果求平均；越高表示卡顿和不连续越少。                         | AMT-S                                     |
+| `subject_consistency`    | 用 DINO 提取每帧主体特征，同时与第一帧和前一帧比较。                               | 当前帧分数为两种相似度的平均值，再对视频帧求平均。                      | DINO ViT-B/16                             |
+| `temporal_flickering`    | 用 OpenCV 计算相邻帧的平均绝对误差（MAE）。                                 | `视频分数 = (255 - 相邻帧 MAE 均值) / 255`；越高表示闪烁和突变越少。 | OpenCV                                    |
 
 ## 5. 最新评测结果
 
 ### 5.1 综合得分
 
-| 汇总项 | Pangu | Kling | LTX-2.3 |
-|---|---:|---:|---:|
-| VBench 2.0 已评测维度平均分 | 0.5036 | **0.6131** | 0.4367 |
-| 视频-only 七维平均分 | 0.8497 | 0.8414 | **0.8726** |
-| 所有可用指标平均分 | 0.6461 | **0.7071** | 0.6162 |
-| `official_vbench2_mean` | 0.6128 | **0.6782** | 0.5458 |
+| 汇总项                     |  Pangu |      Kling |    LTX-2.3 |
+| ----------------------- | -----: | ---------: | ---------: |
+| VBench 2.0 已评测维度平均分     | 0.5036 | **0.6131** |     0.4367 |
+| 视频-only 七维平均分           | 0.8171 | **0.8412** |     0.8357 |
+| 所有可用指标平均分               | 0.6327 | **0.7070** |     0.6010 |
+| `official_vbench2_mean` | 0.6128 | **0.6782** |     0.5458 |
 
 按所有可用指标平均分排名：
 
@@ -129,25 +127,25 @@ Kling > Pangu > LTX-2.3
 
 ### 5.2 各维度得分
 
-| 指标 | Pangu | Kling | LTX-2.3 |
-|---|---:|---:|---:|
-| `Complex_Landscape` | 0.2190 | 0.2286 | **0.2381** |
-| `Complex_Plot` | 0.2133 | **0.4000** | 0.1067 |
-| `Composition` | **0.8667** | 0.8000 | **0.8667** |
-| `Dynamic_Spatial_Relationship` | **0.4667** | 0.4000 | 0.2667 |
-| `Human_Identity` | **0.8409** | 0.6396 | 0.7147 |
-| `Human_Interaction` | 0.5714 | **0.8571** | 0.5714 |
-| `Mechanics` | 0.7059 | **0.8333** | 0.7500 |
-| `Motion_Order_Understanding` | 0.3333 | **0.4286** | 0.1905 |
-| `Motion_Rationality` | 0.4667 | **0.6000** | 0.3333 |
-| `Multi-View_Consistency` | 0.3516 | **0.9442** | 0.3291 |
-| `aesthetic_quality` | 0.5692 | 0.5419 | **0.5598** |
-| `background_consistency` | **0.9578** | 0.9121 | 0.9326 |
-| `dynamic_degree` | 0.7667 | **1.0000** | **1.0000** |
-| `imaging_quality` | 0.7132 | 0.6159 | **0.7135** |
-| `motion_smoothness` | **0.9951** | 0.9853 | 0.9941 |
-| `subject_consistency` | **0.9587** | 0.8770 | 0.9259 |
-| `temporal_flickering` | **0.9875** | 0.9574 | 0.9825 |
+| 指标                             |      Pangu |      Kling |    LTX-2.3 |
+| ------------------------------ | ---------: | ---------: | ---------: |
+| `Complex_Landscape`            |     0.2190 |     0.2286 | **0.2381** |
+| `Complex_Plot`                 |     0.2133 | **0.4000** |     0.1067 |
+| `Composition`                  | **0.8667** |     0.8000 | **0.8667** |
+| `Dynamic_Spatial_Relationship` | **0.4667** |     0.4000 |     0.2667 |
+| `Human_Identity`               | **0.8409** |     0.6396 |     0.7147 |
+| `Human_Interaction`            |     0.5714 | **0.8571** |     0.5714 |
+| `Mechanics`                    |     0.7059 | **0.8333** |     0.7500 |
+| `Motion_Order_Understanding`   |     0.3333 | **0.4286** |     0.1905 |
+| `Motion_Rationality`           |     0.4667 | **0.6000** |     0.3333 |
+| `Multi-View_Consistency`       |     0.3516 | **0.9442** |     0.3291 |
+| `aesthetic_quality`            | **0.5607** |     0.5255 |     0.5447 |
+| `background_consistency`       | **0.9530** |     0.9146 |     0.9435 |
+| `dynamic_degree`               |     0.6008 | **0.9688** |     0.7917 |
+| `imaging_quality`              | **0.6964** |     0.6685 |     0.6853 |
+| `motion_smoothness`            | **0.9944** |     0.9885 |     0.9901 |
+| `subject_consistency`          | **0.9285** |     0.8525 |     0.9175 |
+| `temporal_flickering`          | **0.9859** |     0.9699 |     0.9768 |
 
 ### 5.3 分组得分
 
@@ -165,40 +163,38 @@ Kling > Pangu > LTX-2.3
 
 ### 6.1 Kling
 
-Kling 的所有可用指标平均分和 `official_vbench2_mean` 均为三者最高。主要优势包括：
+Kling 的所有可用指标平均分、视频-only 七维平均分和 `official_vbench2_mean` 均为三者最高。主要优势包括：
 
 - `Multi-View_Consistency`：0.9442；
 - `Human_Interaction`：0.8571；
 - `Mechanics`：0.8333；
-- `dynamic_degree`：1.0000；
+- `dynamic_degree`：0.9688；
 - `Complex_Plot`：0.4000。
 
-Kling 在视角变化、人物交互、物理动作和动态表现方面优势明显。相对不足是 `subject_consistency`（0.8770）、`temporal_flickering`（0.9574）和 `imaging_quality`（0.6159）低于另外两个模型。
+Kling 在视角变化、人物交互、物理动作和动态表现方面优势明显。相对不足是 `subject_consistency`（0.8525）、`temporal_flickering`（0.9699）和 `imaging_quality`（0.6685）低于至少一个对比模型。
 
 ### 6.2 Pangu
 
 Pangu 在人物与主体稳定性方面表现最好：
 
 - `Human_Identity`：0.8409；
-- `subject_consistency`：0.9587；
-- `background_consistency`：0.9578；
-- `motion_smoothness`：0.9951；
-- `temporal_flickering`：0.9875。
+- `subject_consistency`：0.9285；
+- `background_consistency`：0.9530；
+- `motion_smoothness`：0.9944；
+- `temporal_flickering`：0.9859。
 
-Pangu 更适合人物身份、主体外观和背景连续性要求较高的任务，并在 `Dynamic_Spatial_Relationship`（0.4667）上领先于 Kling 和 LTX-2.3。相对不足是 `Complex_Plot`（0.2133）、`Multi-View_Consistency`（0.3516）和 `dynamic_degree`（0.7667）。
+Pangu 更适合人物身份、主体外观和背景连续性要求较高的任务，并在 `Human_Identity`（0.8409）、`background_consistency`（0.9530）、`subject_consistency`（0.9285）、`motion_smoothness`（0.9944）和 `temporal_flickering`（0.9859）上领先。相对不足是 `Complex_Plot`（0.2133）、`Multi-View_Consistency`（0.3516）和 `dynamic_degree`（0.6008）。
 
 ### 6.3 LTX-2.3
 
-LTX-2.3 的视频-only 七维平均分最高（0.8726），并在以下指标上取得最高或并列最高：
+LTX-2.3 的视频-only 七维平均分为 0.8357，排名第二，并在以下指标上取得最高或并列最高：
 
 - `Complex_Landscape`：0.2381；
-- `imaging_quality`：0.7135；
-- `dynamic_degree`：1.0000；
 - `Composition`：0.8667（与 Pangu 并列）。
 
-其 `aesthetic_quality` 为 0.5598，低于 Pangu 的 0.5692，但仍高于 Kling 的 0.5419。
+其 `aesthetic_quality` 为 0.5447，高于 Kling 的 0.5255，但低于 Pangu 的 0.5607。
 
-这表明 LTX-2.3 在画面质量、构图和视频整体视觉表现方面较强。其主要短板是 `Complex_Plot`（0.1067）、`Motion_Order_Understanding`（0.1905）和 `Motion_Rationality`（0.3333）。
+这表明 LTX-2.3 在复杂场景、构图和美学质量方面较强，但视频-only 综合分略低于 Kling。其主要短板是 `Complex_Plot`（0.1067）、`Motion_Order_Understanding`（0.1905）和 `Motion_Rationality`（0.3333）。
 
 ## 7. 结论
 
@@ -206,31 +202,6 @@ LTX-2.3 的视频-only 七维平均分最高（0.8726），并在以下指标上
 
 - **Kling**：综合能力最强，在复杂情节、人物交互、物理规律、多视角一致性和动态表现方面领先；
 - **Pangu**：人物身份、主体一致性、背景稳定性和时序稳定性突出；
-- **LTX-2.3**：视频-only 质量平均分最高，在画面、构图和视觉质量方面具有优势，但复杂语义和动作顺序规划相对较弱。
+- **LTX-2.3**：视频-only 质量平均分排名第二，在复杂场景和构图方面具有优势，但复杂情节和动作顺序规划相对较弱。
 
 总体来看，T2V 模型仍存在“语义规划能力”和“视频视觉质量”之间的能力分化。后续优化应重点关注复杂文本理解、动作顺序规划、多视角一致性和主体长期保持能力。
-
-## 8. 评测范围与限制
-
-1. 本轮汇总包含 10 个 VBench 2.0 语义维度和 7 个视频-only 维度，三个模型的 `dimension_count` 均为 17。
-2. `official_vbench2_mean` 受当前已评测维度覆盖范围限制，不能直接解释为完整官方 VBench 2.0 总分。
-3. Kling 每条 Prompt 只生成一个样本，Pangu 和 LTX-2.3 使用多个固定随机种子，不同模型的随机性覆盖程度不同。
-4. 本报告比较的是当前 Prompt 集合、生成参数、模型版本和评测环境下的结果，不能脱离实验配置推断模型的绝对能力。
-
-## 9. 数据来源
-
-对应实验目录：
-
-```text
-runs/20260729_pangu_t2v
-runs/20260729_kling_t2v
-runs/20260729_ltx23_t2v
-```
-
-结果汇总命令：
-
-```bash
-python pipelines/aggregate_scores.py --run-dir runs/20260729_pangu_t2v
-python pipelines/aggregate_scores.py --run-dir runs/20260729_kling_t2v
-python pipelines/aggregate_scores.py --run-dir runs/20260729_ltx23_t2v
-```

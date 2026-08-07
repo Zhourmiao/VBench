@@ -110,7 +110,15 @@ def run_vbench2(run_dir: Path, config: dict[str, Any], log_path: Path, resume: b
 
     default_source = dimensions[0] if config["dimensions"] else None
     video_only_videos_path = config.get("video_only_videos_path")
-    if video_only_videos_path:
+    local_quality_info = run_dir / "cases/vbench_quality_dimensions.json"
+    has_partitioned_quality_videos = bool(
+        config.get("video_only_videos_by_dimension", False)
+        or config.get("quality_info")
+        or local_quality_info.is_file()
+    )
+    if has_partitioned_quality_videos and not config.get("quality_videos_root") and local_quality_info.is_file():
+        video_only_root = (run_dir / "videos/vbench1").resolve()
+    elif video_only_videos_path:
         video_only_root = (run_dir / video_only_videos_path).resolve()
     elif default_source:
         video_only_root = (videos_root / default_source).resolve()
@@ -122,9 +130,12 @@ def run_vbench2(run_dir: Path, config: dict[str, Any], log_path: Path, resume: b
             print(f"跳过已完成指标（resume）：{dimension}")
             continue
         if dimension in VIDEO_ONLY_DIMENSIONS:
+            dimension_video_root = video_only_root
+            if has_partitioned_quality_videos:
+                dimension_video_root = video_only_root / dimension
             command = [
                 sys.executable, "-u", str(ROOT / "pipelines/run_video_only_evaluation.py"),
-                "--videos-path", str(video_only_root),
+                "--videos-path", str(dimension_video_root),
                 "--output-path", str(output_root / dimension),
                 "--dimension", dimension,
             ]

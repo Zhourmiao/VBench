@@ -51,6 +51,77 @@ print(config.get("benchmark", ""))
 PY
 )"
 
+QUALITY_INFO="$($PYTHON_BIN - "$CONFIG_PATH" <<'PY'
+import json
+import sys
+from pathlib import Path
+
+path = Path(sys.argv[1])
+if path.suffix.lower() == ".json":
+    config = json.loads(path.read_text(encoding="utf-8"))
+else:
+    import yaml
+    config = yaml.safe_load(path.read_text(encoding="utf-8")) or {}
+value = config.get("quality_info", "")
+if value:
+    candidate = Path(value)
+    if not candidate.is_absolute():
+        candidate = path.parent.parent / candidate
+else:
+    candidate = path.parent.parent / "cases/vbench_quality_dimensions.json"
+if candidate.is_file():
+    print(candidate.resolve())
+PY
+)"
+
+QUALITY_VIDEO_ROOT="$($PYTHON_BIN - "$CONFIG_PATH" <<'PY'
+import json
+import sys
+from pathlib import Path
+
+path = Path(sys.argv[1])
+if path.suffix.lower() == ".json":
+    config = json.loads(path.read_text(encoding="utf-8"))
+else:
+    import yaml
+    config = yaml.safe_load(path.read_text(encoding="utf-8")) or {}
+quality_info = config.get("quality_info", "")
+if not quality_info and (path.parent.parent / "cases/vbench_quality_dimensions.json").is_file():
+    quality_info = "cases/vbench_quality_dimensions.json"
+value = config.get("quality_videos_root", "")
+if not value and quality_info:
+    value = "videos/vbench1"
+if not value:
+    value = config.get("video_only_videos_path", "")
+if value:
+    candidate = Path(value)
+    if not candidate.is_absolute():
+        candidate = path.parent.parent / candidate
+    print(candidate.resolve())
+elif (path.parent.parent / "cases/vbench_quality_dimensions.json").is_file():
+    print((path.parent.parent / "videos/vbench1").resolve())
+PY
+)"
+
+VBENCH2_VIDEO_ROOT="$($PYTHON_BIN - "$CONFIG_PATH" <<'PY'
+import json
+import sys
+from pathlib import Path
+
+path = Path(sys.argv[1])
+if path.suffix.lower() == ".json":
+    config = json.loads(path.read_text(encoding="utf-8"))
+else:
+    import yaml
+    config = yaml.safe_load(path.read_text(encoding="utf-8")) or {}
+value = config.get("videos_root", "videos/vbench2")
+candidate = Path(value)
+if not candidate.is_absolute():
+    candidate = path.parent.parent / candidate
+print(candidate.resolve())
+PY
+)"
+
 case "$BENCHMARK" in
   vbench2)
     export TORCH_HOME="$VBENCH2_TORCH_HOME"
@@ -58,10 +129,23 @@ case "$BENCHMARK" in
     "$PYTHON_BIN" -u pipelines/build_generation_manifest.py \
       --run-dir "$RUN_DIR" --benchmark vbench2 --hash --force
     echo "[2/4] 整理 T2V 视频"
-    "$PYTHON_BIN" -u pipelines/prepare_videos.py \
-      --cases "$RUN_DIR/cases/cases.json" \
-      --generated-root "$RUN_DIR/generation" \
-      --video-root "$RUN_DIR/videos/prepared"
+    if [[ -n "$QUALITY_INFO" || -n "$QUALITY_VIDEO_ROOT" ]]; then
+      if [[ -z "$QUALITY_INFO" || -z "$QUALITY_VIDEO_ROOT" ]]; then
+        echo "quality_info 和 quality_videos_root 必须同时配置" >&2
+        exit 1
+      fi
+      "$PYTHON_BIN" -u pipelines/prepare_videos.py \
+        --cases "$RUN_DIR/cases/cases.json" \
+        --generated-root "$RUN_DIR/generation" \
+        --video-root "$VBENCH2_VIDEO_ROOT" \
+        --quality-info "$QUALITY_INFO" \
+        --quality-video-root "$QUALITY_VIDEO_ROOT"
+    else
+      "$PYTHON_BIN" -u pipelines/prepare_videos.py \
+        --cases "$RUN_DIR/cases/cases.json" \
+        --generated-root "$RUN_DIR/generation" \
+        --video-root "$VBENCH2_VIDEO_ROOT"
+    fi
     ;;
   vbench_i2v)
     export TORCH_HOME="$VBENCH_TORCH_HOME"
