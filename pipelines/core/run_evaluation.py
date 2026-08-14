@@ -11,7 +11,7 @@ import sys
 from pathlib import Path
 from typing import Any
 
-ROOT = Path(__file__).resolve().parents[1]
+ROOT = Path(__file__).resolve().parents[2]
 VIDEO_ONLY_DIMENSIONS = (
     "subject_consistency",
     "background_consistency",
@@ -134,7 +134,7 @@ def run_vbench2(run_dir: Path, config: dict[str, Any], log_path: Path, resume: b
             if has_partitioned_quality_videos:
                 dimension_video_root = video_only_root / dimension
             command = [
-                sys.executable, "-u", str(ROOT / "pipelines/run_video_only_evaluation.py"),
+                sys.executable, "-u", str(ROOT / "pipelines/core/run_video_only_evaluation.py"),
                 "--videos-path", str(dimension_video_root),
                 "--output-path", str(output_root / dimension),
                 "--dimension", dimension,
@@ -182,7 +182,7 @@ def run_i2v(run_dir: Path, config: dict[str, Any], log_path: Path, resume: bool)
     output_root = (run_dir / config.get("evaluation_root", "evaluation")).resolve()
     raw_info = Path(config["full_info"])
     full_info = raw_info if raw_info.is_absolute() else (ROOT / raw_info).resolve()
-    wrapper = ROOT / "pipelines/run_i2v_evaluation.py"
+    wrapper = ROOT / "pipelines/core/run_i2v_evaluation.py"
     partial_path = output_root / "dispatch_results.partial.json"
     results = load_partial(partial_path, resume)
     completed_dimensions = {item["dimension"] for item in results if item.get("returncode") == 0}

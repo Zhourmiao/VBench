@@ -192,7 +192,7 @@ def main() -> None:
         env_name = "VBENCH2_CACHE_DIR" if benchmark == "vbench2" else "VBENCH_CACHE_DIR"
         cache = Path(os.environ.get(env_name, "/root/.cache/vbench2" if benchmark == "vbench2" else "/root/.cache/vbench"))
     cache = cache.expanduser().resolve()
-    repo_root = Path(__file__).resolve().parents[1]
+    repo_root = Path(__file__).resolve().parents[2]
     if benchmark == "vbench2":
         # The T2V model loader resolves this HF model from HF_HOME's cache.
         hf_home = Path(os.environ.get("HF_HOME", str(cache / "huggingface"))).expanduser()

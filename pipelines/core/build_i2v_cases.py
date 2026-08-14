@@ -9,7 +9,7 @@ from pathlib import Path
 from typing import Any
 
 
-REPO_ROOT = Path(__file__).resolve().parents[1]
+REPO_ROOT = Path(__file__).resolve().parents[2]
 DEFAULT_PROMPTS = REPO_ROOT / "benchmarks/vbench_i2v/prompts/all_unique_prompts.txt"
 DEFAULT_FULL_INFO = REPO_ROOT / "benchmarks/vbench_i2v/metadata/vbench2_i2v_full_info.json"
 DEFAULT_IMAGE_ROOT = REPO_ROOT / "benchmarks/vbench_i2v/images/16-9"

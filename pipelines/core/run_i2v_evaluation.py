@@ -7,9 +7,9 @@ import argparse
 import sys
 from pathlib import Path
 
-# The wrapper is launched as a file from ``pipelines/``. Add the canonical
+# The wrapper is launched as a file from ``pipelines/core/``. Add the canonical
 # source roots explicitly so it does not depend on the caller's PYTHONPATH.
-ROOT = Path(__file__).resolve().parents[1]
+ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT / "source"))
 sys.path.insert(0, str(ROOT / "source/VBench"))
 

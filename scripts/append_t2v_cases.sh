@@ -18,7 +18,7 @@ PYTHON_BIN="${PYTHON_BIN:-python3}"
 
 cd "$REPO_ROOT"
 
-"$PYTHON_BIN" -u pipelines/build_t2v_cases.py \
+"$PYTHON_BIN" -u pipelines/core/build_t2v_cases.py \
   --output-dir "$RUN_DIR/cases" \
   --append \
   --samples-per-prompt 1 \

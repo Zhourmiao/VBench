@@ -19,7 +19,7 @@ DEFAULT_NODES = [
     "http://110.126.0.52:8183",
     "http://110.126.0.52:8184",
 ]
-REPO_ROOT = Path(__file__).resolve().parents[1]
+REPO_ROOT = Path(__file__).resolve().parents[2]
 
 
 def parse_args() -> argparse.Namespace:
@@ -67,7 +67,7 @@ def run_one(case: dict[str, Any], index: int, node: str, args: argparse.Namespac
         image_path = resolve_image_path(case["image"], args.cases)
         command = [
             sys.executable,
-            str(Path(__file__).with_name("generate_i2v_single.py")),
+            str(Path(__file__).resolve().parents[1] / "tools/generate_i2v_single.py"),
             "--template",
             str(args.template),
             "--nodes",

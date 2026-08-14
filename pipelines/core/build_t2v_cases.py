@@ -23,7 +23,7 @@ DEFAULT_DIMENSIONS = [
     "Multi-View_Consistency",
     "Complex_Plot",
 ]
-REPO_ROOT = Path(__file__).resolve().parents[1]
+REPO_ROOT = Path(__file__).resolve().parents[2]
 DEFAULT_BENCHMARK_ROOT = REPO_ROOT / "benchmarks/vbench2_t2v"
 
 

@@ -72,10 +72,10 @@ def main() -> int:
     prompt_key = next(key for key in ("prompt", "text", "prompt_text") if key in inputs)
     print(f"识别 MiniMax H3 节点: {node_id}; prompt 输入: {prompt_key}")
 
-    repo_root = Path(__file__).resolve().parents[1]
+    repo_root = Path(__file__).resolve().parents[2]
     command = [
         sys.executable,
-        str(repo_root / "pipelines/generate_t2v_batch.py"),
+        str(repo_root / "pipelines/core/generate_t2v_batch.py"),
         "--cases", str(args.cases.resolve()),
         "--template", str(workflow_path),
         "--output-dir", str(args.output_dir.resolve()),

@@ -1,8 +1,8 @@
 ## 1. 实验背景
 
-本实验采用 VBench 2.0 语义理解类指标，并复用 VBench/I2V 中不依赖输入图片的 7 个视频质量指标，对 Kling、Pangu 和 LTX-2.3 三个 Text-to-Video（T2V）模型进行评测。
+本实验采用 VBench 2.0 语义理解类指标，并复用 VBench/I2V 中不依赖输入图片的 7 个视频质量指标，对 Kling、Pangu、LTX-2.3 和 Minimax H3 四个 Text-to-Video（T2V）模型进行评测。
 
-分数范围为 0 到 1，分数越高表示对应能力越强。本轮三个模型均覆盖 17 个汇总指标。
+分数范围为 0 到 1，分数越高表示对应能力越强。本报告的统一结果表覆盖 17 个汇总指标；其中 Minimax H3 本轮覆盖全部指标，其余模型对未重新评测的维度沿用原值。
 
 ## 2. 数据集与评测范围
 
@@ -12,7 +12,7 @@
 - `prompt_eval_en`：英文评测 Prompt；
 - `prompt` / `effective_parameters.prompt`：实际提交给生成模型的 Prompt。
 
-本轮汇总包含以下 10 个 VBench 2.0 语义维度和 7 个视频-only 质量维度：
+本报告汇总以下 10 个 VBench 2.0 语义维度和 7 个视频-only 质量维度。对于本轮未重新评测的维度，沿用报告中的原有值；Minimax H3 本轮新增并覆盖了全部 17 个维度：
 
 ```text
 VBench 2.0：Complex_Landscape、Complex_Plot、Composition、
@@ -49,6 +49,7 @@ VBench 2.0 语义指标评测
 python pipelines/aggregate_scores.py --run-dir runs/20260729_pangu_t2v
 python pipelines/aggregate_scores.py --run-dir runs/20260729_kling_t2v
 python pipelines/aggregate_scores.py --run-dir runs/20260729_ltx23_t2v
+python pipelines/aggregate_scores.py --run-dir runs/minimax_h3_t2v
 ```
 
 ## 4. 各评测维度的具体评测方式
@@ -110,52 +111,52 @@ python pipelines/aggregate_scores.py --run-dir runs/20260729_ltx23_t2v
 
 ### 5.1 综合得分
 
-| 汇总项                     |  Pangu |      Kling |    LTX-2.3 |
-| ----------------------- | -----: | ---------: | ---------: |
-| VBench 2.0 已评测维度平均分     | 0.5036 | **0.6131** |     0.4367 |
-| 视频-only 七维平均分           | 0.8171 | **0.8412** |     0.8357 |
-| 所有可用指标平均分               | 0.6327 | **0.7070** |     0.6010 |
-| `official_vbench2_mean` | 0.6128 | **0.6782** |     0.5458 |
+| 汇总项                     |  Pangu |      Kling |    LTX-2.3 | Minimax H3 |
+| ----------------------- | -----: | ---------: | ---------: | ---------: |
+| VBench 2.0 已评测维度平均分     | 0.5036 | **0.6131** |     0.4367 | 0.4290 |
+| 视频-only 七维平均分           | 0.8340 | **0.8533** |     0.8362 | 0.8479 |
+| 所有可用指标平均分               | 0.6396 | **0.7120** |     0.6012 | 0.6015 |
+| `official_vbench2_mean` | 0.6128 | **0.6782** |     0.5458 | 0.5348 |
 
 按所有可用指标平均分排名：
 
 ```text
-Kling > Pangu > LTX-2.3
+Kling > Pangu > Minimax H3 > LTX-2.3
 ```
 
 “所有可用指标平均分”不应视为完整官方 VBench 2.0 总分。
 
 ### 5.2 各维度得分
 
-| 指标                             |      Pangu |      Kling |    LTX-2.3 |
-| ------------------------------ | ---------: | ---------: | ---------: |
-| `Complex_Landscape`            |     0.2190 |     0.2286 | **0.2381** |
-| `Complex_Plot`                 |     0.2133 | **0.4000** |     0.1067 |
-| `Composition`                  | **0.8667** |     0.8000 | **0.8667** |
-| `Dynamic_Spatial_Relationship` | **0.4667** |     0.4000 |     0.2667 |
-| `Human_Identity`               | **0.8409** |     0.6396 |     0.7147 |
-| `Human_Interaction`            |     0.5714 | **0.8571** |     0.5714 |
-| `Mechanics`                    |     0.7059 | **0.8333** |     0.7500 |
-| `Motion_Order_Understanding`   |     0.3333 | **0.4286** |     0.1905 |
-| `Motion_Rationality`           |     0.4667 | **0.6000** |     0.3333 |
-| `Multi-View_Consistency`       |     0.3516 | **0.9442** |     0.3291 |
-| `aesthetic_quality`            | **0.5607** |     0.5255 |     0.5447 |
-| `background_consistency`       | **0.9530** |     0.9146 |     0.9435 |
-| `dynamic_degree`               |     0.6008 | **0.9688** |     0.7917 |
-| `imaging_quality`              | **0.6964** |     0.6685 |     0.6853 |
-| `motion_smoothness`            | **0.9944** |     0.9885 |     0.9901 |
-| `subject_consistency`          | **0.9285** |     0.8525 |     0.9175 |
-| `temporal_flickering`          | **0.9859** |     0.9699 |     0.9768 |
+| 指标                             |      Pangu |      Kling |    LTX-2.3 | Minimax H3 |
+| ------------------------------ | ---------: | ---------: | ---------: | ---------: |
+| `Complex_Landscape`            |     0.2190 |     0.2286 | **0.2381** |     0.1810 |
+| `Complex_Plot`                 |     0.2133 | **0.4000** |     0.1067 |     0.1333 |
+| `Composition`                  | **0.8667** |     0.8000 | **0.8667** |     0.7333 |
+| `Dynamic_Spatial_Relationship` | **0.4667** |     0.4000 |     0.2667 |     0.4000 |
+| `Human_Identity`               | **0.8409** |     0.6396 |     0.7147 |     0.5250 |
+| `Human_Interaction`            |     0.5714 | **0.8571** |     0.5714 |     0.4286 |
+| `Mechanics`                    |     0.7059 | **0.8333** |     0.7500 |     0.7692 |
+| `Motion_Order_Understanding`   |     0.3333 | **0.4286** |     0.1905 |     0.1905 |
+| `Motion_Rationality`           |     0.4667 | **0.6000** |     0.3333 |     0.6000 |
+| `Multi-View_Consistency`       |     0.3516 | **0.9442** |     0.3291 |     0.3291 |
+| `aesthetic_quality`            | **0.5868** |     0.5734 |     0.5614 |     0.5879 |
+| `background_consistency`       | **0.9511** |     0.9175 |     0.9462 |     0.9304 |
+| `dynamic_degree`               |     0.7000 | **1.0000** |     0.7667 |     0.9500 |
+| `imaging_quality`              | **0.6910** |     0.6687 |     0.6855 |     0.6239 |
+| `motion_smoothness`            | **0.9942** |     0.9885 |     0.9900 |     0.9879 |
+| `subject_consistency`          | **0.9299** |     0.8554 |     0.9268 |     0.8854 |
+| `temporal_flickering`          | **0.9851** |     0.9697 |     0.9766 |     0.9701 |
 
 ### 5.3 分组得分
 
-| 分组 | Pangu | Kling | LTX-2.3 |
-|---|---:|---:|---:|
-| creativity | 0.8667 | 0.8000 | **0.8667** |
-| commonsense | 0.4667 | **0.6000** | 0.3333 |
-| controllability | 0.3608 | **0.4629** | 0.2747 |
-| human_fidelity | **0.8409** | 0.6396 | 0.7147 |
-| physics | 0.5288 | **0.8888** | 0.5395 |
+| 分组 | Pangu | Kling | LTX-2.3 | Minimax H3 |
+|---|---:|---:|---:|---:|
+| creativity | 0.8667 | 0.8000 | **0.8667** | 0.7333 |
+| commonsense | 0.4667 | **0.6000** | 0.3333 | 0.6000 |
+| controllability | 0.3608 | **0.4629** | 0.2747 | 0.2667 |
+| human_fidelity | **0.8409** | 0.6396 | 0.7147 | 0.5250 |
+| physics | 0.5288 | **0.8888** | 0.5395 | 0.5492 |
 
 以上分组分数仅基于本轮已评测维度计算。`official_vbench2_mean` 来自当前汇总器对可用官方维度的计算，不能替代完整官方 VBench 2.0 总分。
 
@@ -163,45 +164,58 @@ Kling > Pangu > LTX-2.3
 
 ### 6.1 Kling
 
-Kling 的所有可用指标平均分、视频-only 七维平均分和 `official_vbench2_mean` 均为三者最高。主要优势包括：
+Kling 的所有可用指标平均分和视频-only 七维平均分均为四者最高；其 `official_vbench2_mean` 也高于本表其他模型。主要优势包括：
 
 - `Multi-View_Consistency`：0.9442；
 - `Human_Interaction`：0.8571；
 - `Mechanics`：0.8333；
-- `dynamic_degree`：0.9688；
+- `dynamic_degree`：1.0000；
 - `Complex_Plot`：0.4000。
 
-Kling 在视角变化、人物交互、物理动作和动态表现方面优势明显。相对不足是 `subject_consistency`（0.8525）、`temporal_flickering`（0.9699）和 `imaging_quality`（0.6685）低于至少一个对比模型。
+Kling 在视角变化、人物交互、物理动作和动态表现方面优势明显。相对不足是 `subject_consistency`（0.8554）、`temporal_flickering`（0.9697）和 `imaging_quality`（0.6687）低于至少一个对比模型。
 
 ### 6.2 Pangu
 
 Pangu 在人物与主体稳定性方面表现最好：
 
 - `Human_Identity`：0.8409；
-- `subject_consistency`：0.9285；
-- `background_consistency`：0.9530；
-- `motion_smoothness`：0.9944；
-- `temporal_flickering`：0.9859。
+- `subject_consistency`：0.9299；
+- `background_consistency`：0.9511；
+- `motion_smoothness`：0.9942；
+- `temporal_flickering`：0.9851。
 
-Pangu 更适合人物身份、主体外观和背景连续性要求较高的任务，并在 `Human_Identity`（0.8409）、`background_consistency`（0.9530）、`subject_consistency`（0.9285）、`motion_smoothness`（0.9944）和 `temporal_flickering`（0.9859）上领先。相对不足是 `Complex_Plot`（0.2133）、`Multi-View_Consistency`（0.3516）和 `dynamic_degree`（0.6008）。
+Pangu 更适合人物身份、主体外观和背景连续性要求较高的任务，并在 `Human_Identity`（0.8409）、`subject_consistency`（0.9299）、`motion_smoothness`（0.9942）和 `temporal_flickering`（0.9851）上领先。相对不足是 `Complex_Plot`（0.2133）、`Multi-View_Consistency`（0.3516）和 `dynamic_degree`（0.7000）。
 
 ### 6.3 LTX-2.3
 
-LTX-2.3 的视频-only 七维平均分为 0.8357，排名第二，并在以下指标上取得最高或并列最高：
+LTX-2.3 的视频-only 七维平均分为 0.8362，在四个模型中排名第三，并在以下指标上取得最高或并列最高：
 
 - `Complex_Landscape`：0.2381；
 - `Composition`：0.8667（与 Pangu 并列）。
 
-其 `aesthetic_quality` 为 0.5447，高于 Kling 的 0.5255，但低于 Pangu 的 0.5607。
+其 `aesthetic_quality` 为 0.5614，低于 Pangu 的 0.5868、Minimax H3 的 0.5879 和 Kling 的 0.5734。
 
-这表明 LTX-2.3 在复杂场景、构图和美学质量方面较强，但视频-only 综合分略低于 Kling。其主要短板是 `Complex_Plot`（0.1067）、`Motion_Order_Understanding`（0.1905）和 `Motion_Rationality`（0.3333）。
+这表明 LTX-2.3 在复杂场景和构图方面较强，但视频-only 综合分低于 Kling、Minimax H3 和 Pangu。其主要短板是 `Complex_Plot`（0.1067）、`Motion_Order_Understanding`（0.1905）和 `Motion_Rationality`（0.3333）。
+
+### 6.4 Minimax H3
+
+Minimax H3 的本轮所有可用指标平均分为 0.6015，视频-only 七维平均分为 0.8479，略低于 Kling，但高于 Pangu 和 LTX-2.3。其主要优势包括：
+
+- `dynamic_degree`：0.9500；
+- `motion_smoothness`：0.9879；
+- `temporal_flickering`：0.9701；
+- `Mechanics`：0.7692；
+- `Motion_Rationality`：0.6000。
+
+Minimax H3 的 `Composition`（0.7333）、`Human_Identity`（0.5250）、`Human_Interaction`（0.4286）和 `Motion_Order_Understanding`（0.1905）仍有提升空间。
 
 ## 7. 结论
 
-最新结果显示，三个模型仍呈现清晰的能力侧重：
+最新结果显示，四个模型仍呈现清晰的能力侧重：
 
 - **Kling**：综合能力最强，在复杂情节、人物交互、物理规律、多视角一致性和动态表现方面领先；
 - **Pangu**：人物身份、主体一致性、背景稳定性和时序稳定性突出；
-- **LTX-2.3**：视频-only 质量平均分排名第二，在复杂场景和构图方面具有优势，但复杂情节和动作顺序规划相对较弱。
+- **LTX-2.3**：视频-only 质量平均分排名第三，在复杂场景和构图方面具有优势，但复杂情节和动作顺序规划相对较弱。
+- **Minimax H3**：视频-only 质量平均分为 0.8479，动态程度和物理/动作合理性表现较好，但人物身份、人物交互和动作顺序理解相对较弱。
 
 总体来看，T2V 模型仍存在“语义规划能力”和“视频视觉质量”之间的能力分化。后续优化应重点关注复杂文本理解、动作顺序规划、多视角一致性和主体长期保持能力。

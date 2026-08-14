@@ -2,7 +2,7 @@
 set -Eeuo pipefail
 
 # Download the public VBench/VBench-2.0 evaluation weights.
-# The directory layout matches scripts/vbench_env.sh and pipelines/check_models.py.
+# The directory layout matches scripts/vbench_env.sh and pipelines/core/check_models.py.
 # Override VBENCH_CACHE_ROOT and HF_HOME when the target server uses another disk.
 
 CACHE_ROOT="${VBENCH_CACHE_ROOT:-${HOME:-/root}/.cache}"
@@ -216,5 +216,5 @@ case "$scope" in
 esac
 
 log "下载完成。建议执行模型检查:"
-printf '  VBENCH_CACHE_DIR=%q python pipelines/check_models.py --benchmark vbench_i2v --dimensions i2v_subject i2v_background background_consistency aesthetic_quality imaging_quality motion_smoothness dynamic_degree camera_motion\n' "$VBENCH_CACHE"
-printf '  VBENCH2_CACHE_DIR=%q HF_HOME=%q python pipelines/check_models.py --benchmark vbench2 --dimensions Motion_Rationality Human_Identity Multi-View_Consistency\n' "$VBENCH2_CACHE" "$HF_HOME"
+printf '  VBENCH_CACHE_DIR=%q python pipelines/core/check_models.py --benchmark vbench_i2v --dimensions i2v_subject i2v_background background_consistency aesthetic_quality imaging_quality motion_smoothness dynamic_degree camera_motion\n' "$VBENCH_CACHE"
+printf '  VBENCH2_CACHE_DIR=%q HF_HOME=%q python pipelines/core/check_models.py --benchmark vbench2 --dimensions Motion_Rationality Human_Identity Multi-View_Consistency\n' "$VBENCH2_CACHE" "$HF_HOME"

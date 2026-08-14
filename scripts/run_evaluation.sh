@@ -126,7 +126,7 @@ case "$BENCHMARK" in
   vbench2)
     export TORCH_HOME="$VBENCH2_TORCH_HOME"
     echo "[1/4] 生成 T2V generation manifest"
-    "$PYTHON_BIN" -u pipelines/build_generation_manifest.py \
+    "$PYTHON_BIN" -u pipelines/tools/build_generation_manifest.py \
       --run-dir "$RUN_DIR" --benchmark vbench2 --hash --force
     echo "[2/4] 整理 T2V 视频"
     if [[ -n "$QUALITY_INFO" || -n "$QUALITY_VIDEO_ROOT" ]]; then
@@ -134,14 +134,14 @@ case "$BENCHMARK" in
         echo "quality_info 和 quality_videos_root 必须同时配置" >&2
         exit 1
       fi
-      "$PYTHON_BIN" -u pipelines/prepare_videos.py \
+      "$PYTHON_BIN" -u pipelines/core/prepare_videos.py \
         --cases "$RUN_DIR/cases/cases.json" \
         --generated-root "$RUN_DIR/generation" \
         --video-root "$VBENCH2_VIDEO_ROOT" \
         --quality-info "$QUALITY_INFO" \
         --quality-video-root "$QUALITY_VIDEO_ROOT"
     else
-      "$PYTHON_BIN" -u pipelines/prepare_videos.py \
+      "$PYTHON_BIN" -u pipelines/core/prepare_videos.py \
         --cases "$RUN_DIR/cases/cases.json" \
         --generated-root "$RUN_DIR/generation" \
         --video-root "$VBENCH2_VIDEO_ROOT"
@@ -150,7 +150,7 @@ case "$BENCHMARK" in
   vbench_i2v)
     export TORCH_HOME="$VBENCH_TORCH_HOME"
     echo "[1/4] 生成 I2V generation manifest"
-    "$PYTHON_BIN" -u pipelines/build_generation_manifest.py \
+    "$PYTHON_BIN" -u pipelines/tools/build_generation_manifest.py \
       --run-dir "$RUN_DIR" --benchmark vbench_i2v --hash --force
     echo "[2/4] I2V 使用配置中的公共视频目录和输入图片目录"
     ;;
@@ -161,13 +161,13 @@ case "$BENCHMARK" in
 esac
 
 echo "[3/4] 检查模型、权重和 Python 依赖"
-"$PYTHON_BIN" -u pipelines/check_models.py --run-dir "$RUN_DIR"
+"$PYTHON_BIN" -u pipelines/core/check_models.py --run-dir "$RUN_DIR"
 
 echo "[4/4] 启动统一评测调度器"
 if [[ "$RESUME_FLAG" == "--resume" ]]; then
-  "$PYTHON_BIN" -u pipelines/run_evaluation.py --run-dir "$RUN_DIR" --resume
+  "$PYTHON_BIN" -u pipelines/core/run_evaluation.py --run-dir "$RUN_DIR" --resume
 else
-  "$PYTHON_BIN" -u pipelines/run_evaluation.py --run-dir "$RUN_DIR"
+  "$PYTHON_BIN" -u pipelines/core/run_evaluation.py --run-dir "$RUN_DIR"
 fi
 
 echo "评测流程完成：$RUN_DIR/evaluation"

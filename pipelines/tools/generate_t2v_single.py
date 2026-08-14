@@ -6,10 +6,12 @@ from __future__ import annotations
 import argparse
 import json
 import time
+import sys
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 
+sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "core"))
 from t2v_common import DEFAULT_NODES, download_output, poll_job, submit_workflow, write_json
 
 

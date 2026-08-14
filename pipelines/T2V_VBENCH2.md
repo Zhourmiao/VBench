@@ -8,7 +8,7 @@
 
 ```bash
 cd /Users/zhouruomiao/Documents/VBench
-python pipelines/build_t2v_cases.py \
+python pipelines/core/build_t2v_cases.py \
   --output-dir runs/20260722_ltx23_t2v_7x5/cases
 ```
 
@@ -25,7 +25,7 @@ runs/20260722_ltx23_t2v_7x5/cases/selected_full_info.json
 
 ```bash
 cd /Users/zhouruomiao/Documents/VBench
-python pipelines/generate_t2v_single.py \
+python pipelines/tools/generate_t2v_single.py \
   --prompt "一个男人正在跑步" \
   --seed 2100001 \
   --template /path/to/your_t2v_workflow.json \
@@ -51,7 +51,7 @@ FPS:         267:260
 ## 3. 批量生成
 
 ```bash
-python pipelines/generate_t2v_batch.py \
+python pipelines/core/generate_t2v_batch.py \
   --cases runs/20260722_ltx23_t2v_7x5/cases/cases.json \
   --template workflows/comfyui/t2v/video_ltx2_3_t2v.json \
   --nodes \
@@ -66,7 +66,7 @@ python pipelines/generate_t2v_batch.py \
 批量覆盖视频时长（不修改原始 `cases.json`）：
 
 ```bash
-python pipelines/generate_t2v_batch.py \
+python pipelines/core/generate_t2v_batch.py \
   --cases runs/20260722_ltx23_t2v_7x5/cases/cases.json \
   --template workflows/comfyui/t2v/video_ltx2_3_t2v.json \
   --nodes http://110.126.0.52:8183 http://110.126.0.52:8184 \
@@ -82,7 +82,7 @@ python pipelines/generate_t2v_batch.py \
 如果批量过程中客户端网络中断，可以使用相同的 `--output-dir` 加上 `--resume` 重新运行：已有非空 `{case_id}.mp4` 的 case 会自动跳过，其他 case 会重新提交。可通过 `--retries N` 设置失败后的额外重试次数，例如：
 
 ```bash
-python pipelines/generate_t2v_batch.py \
+python pipelines/core/generate_t2v_batch.py \
   --cases runs/20260722_ltx23_t2v_7x5/cases/cases.json \
   --template workflows/comfyui/t2v/video_ltx2_3_t2v.json \
   --output-dir runs/20260722_ltx23_t2v_7x5/generation \
@@ -95,7 +95,7 @@ python pipelines/generate_t2v_batch.py \
 如果需要在已有 run 中增加 prompt 或评测维度，先追加 cases 并保持旧 case ID：
 
 ```bash
-python pipelines/build_t2v_cases.py \
+python pipelines/core/build_t2v_cases.py \
   --output-dir runs/<run_id>/cases \
   --append
 ```
@@ -105,7 +105,7 @@ python pipelines/build_t2v_cases.py \
 默认使用 case JSON 中的 `prompt_input`。如果要使用英文 prompt 字段（例如 `prompt_eval_en`），增加 `--prompt-field prompt_eval_en`：
 
 ```bash
-python pipelines/generate_t2v_batch.py \
+python pipelines/core/generate_t2v_batch.py \
   --cases runs/20260722_ltx23_t2v_7x5/cases/cases.json \
   --template workflows/comfyui/t2v/video_ltx2_3_t2v.json \
   --output-dir runs/20260722_ltx23_t2v_7x5/generation \
@@ -117,7 +117,7 @@ python pipelines/generate_t2v_batch.py \
 ## 4. 整理为 VBench-2.0 视频目录
 
 ```bash
-python pipelines/prepare_videos.py \
+python pipelines/core/prepare_videos.py \
   --cases runs/20260722_ltx23_t2v_7x5/cases/cases.json \
   --generated-root runs/20260722_ltx23_t2v_7x5/generation \
   --video-root runs/20260722_ltx23_t2v_7x5/videos/prepared
@@ -137,7 +137,7 @@ VBench-2.0 的标准模式按维度读取视频目录，因此精选集应逐维
 
 ```bash
 cd /Users/zhouruomiao/Documents/VBench
-python pipelines/run_evaluation.py \
+python pipelines/core/run_evaluation.py \
   --run-dir runs/20260722_ltx23_t2v_7x5
 ```
 

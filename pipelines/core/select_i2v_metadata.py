@@ -25,7 +25,7 @@ DEFAULT_DIMENSIONS = (
             "imaging_quality",
             "temporal_flickering"
 )
-REPO_ROOT = Path(__file__).resolve().parents[1]
+REPO_ROOT = Path(__file__).resolve().parents[2]
 DEFAULT_INPUT = REPO_ROOT / "benchmarks/vbench_i2v/metadata/vbench2_i2v_full_info.json"
 DEFAULT_OUTPUT = REPO_ROOT / "benchmarks/vbench_i2v/metadata/15_full_info.json"
 

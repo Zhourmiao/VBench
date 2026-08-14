@@ -16,7 +16,7 @@ from typing import Any
 from t2v_common import DEFAULT_NODES, write_json
 
 
-REPO_ROOT = Path(__file__).resolve().parents[1]
+REPO_ROOT = Path(__file__).resolve().parents[2]
 
 CONFIG_FIELDS = (
     "template", "nodes", "concurrency", "prompt_node", "prompt_input_key",
@@ -122,7 +122,7 @@ def run_one(case: dict[str, Any], index: int, node: str, args: argparse.Namespac
         write_json(case_path, case)
         command = [
             sys.executable,
-            str(Path(__file__).with_name("generate_t2v_single.py")),
+            str(Path(__file__).resolve().parents[1] / "tools/generate_t2v_single.py"),
             "--case", str(case_path),
             "--template", str(args.template),
             "--nodes", node,

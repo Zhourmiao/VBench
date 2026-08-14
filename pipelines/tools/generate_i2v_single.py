@@ -24,7 +24,7 @@ DEFAULT_NODES = [
     "http://110.126.0.52:8183",
     "http://110.126.0.52:8184",
 ]
-REPO_ROOT = Path(__file__).resolve().parents[1]
+REPO_ROOT = Path(__file__).resolve().parents[2]
 DEFAULT_TEMPLATE = REPO_ROOT / "workflows/comfyui/i2v/Opt3_balanced_i2v075_lora060.json"
 
 
